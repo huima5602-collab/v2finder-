@@ -51,6 +51,9 @@ npm run check
 - 禁止修改 `E:\Github project\v2finder-master`。
 - 前端网站不要读取本地 E 盘文件，必须读取公网 `manifest.json`。
 - 单个订阅源失败不能导致整个任务失败。
+- GitHub Actions 默认抓取全部源，测试全部解析出的节点，TCP 测试并发为 400。
+- 无法识别国家或不属于 10 个配置国家/地区的节点进入 `UNKNOWN` 集合。
+- `MAX_PER_COUNTRY=0` 表示每个国家/地区不限制保存数量。
 - 完全没有生成可用节点时，脚本返回失败，方便 GitHub Actions 暴露问题。
 
 ## 已知问题

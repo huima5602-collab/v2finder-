@@ -34,7 +34,7 @@ npm run update
 
 ## GitHub Actions publishing
 
-`.github/workflows/update.yml` runs every day at Beijing 08:00 and can also be triggered manually. The workflow generates `dist` and commits it back to the repository.
+`.github/workflows/update.yml` runs every day at Beijing 08:00 and can also be triggered manually. The workflow fetches all configured sources, tests all parsed nodes with up to 400 concurrent TCP checks, generates `dist`, and commits it back to the repository.
 
 Public links use jsDelivr CDN:
 
@@ -53,6 +53,8 @@ https://cdn.jsdelivr.net/gh/huima5602-collab/v2finder-@main/dist/manifest.json
 ## Lovable 对接
 
 Lovable 网站只读取 `manifest.json`，不要读取本机 E 盘路径，也不要在前端运行爬虫。
+
+`UNKNOWN` is generated for nodes whose country cannot be recognized or whose country is outside the 10 configured countries/regions.
 
 ## 免责声明
 

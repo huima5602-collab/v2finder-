@@ -9,7 +9,7 @@ import { promisify } from "node:util";
 const ROOT = process.cwd();
 const DIST_DIR = path.join(ROOT, "dist");
 const SUBSCRIBE_DIR = path.join(DIST_DIR, "subscribe");
-const MAX_PER_COUNTRY = Number(process.env.MAX_PER_COUNTRY || 100);
+const MAX_PER_COUNTRY = Number(process.env.MAX_PER_COUNTRY || 0);
 const FETCH_TIMEOUT_MS = Number(process.env.FETCH_TIMEOUT_MS || 20000);
 const TEST_TIMEOUT_MS = Number(process.env.TEST_TIMEOUT_MS || 4000);
 const FETCH_CONCURRENCY = Number(process.env.FETCH_CONCURRENCY || 8);
@@ -18,13 +18,34 @@ const BASE_URL = (process.env.BASE_URL || "").replace(/\/$/, "");
 const MAX_TEST_NODES = Number(process.env.MAX_TEST_NODES || 0);
 const execFileAsync = promisify(execFile);
 
-let sources = JSON.parse(fs.readFileSync(path.join(ROOT, "config", "sources.json"), "utf8"));
+let sources = buildSources(JSON.parse(fs.readFileSync(path.join(ROOT, "config", "sources.json"), "utf8")));
 if (process.env.SOURCE_LIMIT) {
   sources = sources.slice(0, Number(process.env.SOURCE_LIMIT));
 }
 const countries = JSON.parse(fs.readFileSync(path.join(ROOT, "config", "countries.json"), "utf8"));
+const unknownCountry = {
+  code: "UNKNOWN",
+  name: "未知",
+  englishName: "Unknown",
+  flag: "❔",
+  aliases: []
+};
 const countryByCode = new Map(countries.map((country) => [country.code, country]));
 const flagToCountry = new Map(countries.map((country) => [country.flag, country.code]));
+
+function buildSources(staticSources) {
+  const beijingNow = new Date(Date.now() + 8 * 60 * 60 * 1000);
+  const yyyy = beijingNow.getUTCFullYear();
+  const mm = String(beijingNow.getUTCMonth() + 1).padStart(2, "0");
+  const dd = String(beijingNow.getUTCDate()).padStart(2, "0");
+  const yyyymmdd = `${yyyy}${mm}${dd}`;
+  const yyyySlashMmSlashDd = `${yyyy}/${mm}/${dd}`;
+  return [...new Set([
+    `https://clashgithub.com/wp-content/uploads/rss/${yyyymmdd}.txt`,
+    `https://freenode.yoyapai.com/${yyyySlashMmSlashDd}-yoyapai.com-ssrv2ray-vpn-mianfeijiedian.txt`,
+    ...staticSources
+  ])];
+}
 
 function normalizeBase64(input) {
   const compact = input.replace(/\s+/g, "");
@@ -246,7 +267,7 @@ async function lookupCountryByHost(host) {
     if (!response.ok) return null;
     const data = await response.json();
     if (data?.status !== "success" || !data.countryCode) return null;
-    return countryByCode.has(data.countryCode) ? data.countryCode : null;
+    return data.countryCode || null;
   } catch {
     return null;
   }
@@ -434,20 +455,21 @@ async function main() {
   const reachableNodes = testedNodes.filter((node) => node.reachable);
   console.log(`Reachable nodes: ${reachableNodes.length}`);
 
-  const classified = new Map(countries.map((country) => [country.code, []]));
+  const outputCountries = [...countries, unknownCountry];
+  const classified = new Map(outputCountries.map((country) => [country.code, []]));
   await runLimited(reachableNodes, 50, async (node) => {
     const textCountry = detectCountryByText(node.remark);
     const country = textCountry || await lookupCountryByHost(node.host);
-    if (!country || !classified.has(country)) return;
-    if (classified.get(country).length >= MAX_PER_COUNTRY) return;
-    classified.get(country).push({ ...node, country });
+    const bucket = country && classified.has(country) ? country : "UNKNOWN";
+    if (MAX_PER_COUNTRY > 0 && classified.get(bucket).length >= MAX_PER_COUNTRY) return;
+    classified.get(bucket).push({ ...node, country: bucket });
   });
 
   const updatedAt = new Date().toISOString();
   const manifestCountries = [];
   let totalNodes = 0;
 
-  for (const country of countries) {
+  for (const country of outputCountries) {
     const nodes = classified.get(country.code) || [];
     if (!nodes.length) continue;
     totalNodes += nodes.length;

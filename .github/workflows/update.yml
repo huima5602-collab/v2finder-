@@ -37,12 +37,10 @@ jobs:
         run: npm run update
         env:
           BASE_URL: https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/dist
-          MAX_PER_COUNTRY: "100"
-          SOURCE_LIMIT: "8"
-          MAX_TEST_NODES: "1500"
+          MAX_PER_COUNTRY: "0"
           FETCH_TIMEOUT_MS: "12000"
           TEST_TIMEOUT_MS: "2500"
-          TEST_CONCURRENCY: "240"
+          TEST_CONCURRENCY: "400"
 
       - name: Check generated output
         run: npm run check
