@@ -1,6 +1,9 @@
 name: Update subscriptions
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     # Beijing 08:00 = UTC 00:00
