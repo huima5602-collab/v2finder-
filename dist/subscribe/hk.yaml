@@ -1,0 +1,54 @@
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+proxies:
+  - name: "HK"
+    type: "trojan"
+    server: "45.38.42.245"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hhcm.hhxaf.cc.cd"
+  - name: "🇭🇰香港 @zyzzzoao"
+    type: "vless"
+    server: "43.198.153.243"
+    port: 443
+    udp: true
+    uuid: "9cd358d7-7888-4c03-a431-c0de9a2090d2"
+    network: "tcp"
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "46.8.226.197"
+    port: 8443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "🇭🇰_HK_中国香港"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: "47.244.120.197"
+proxy-groups:
+  - name: "Proxy Select"
+    type: "select"
+    proxies:
+      - "HK"
+      - "🇭🇰香港 @zyzzzoao"
+      - "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+      - "🇭🇰_HK_中国香港"
+rules:
+  - "MATCH,Proxy Select"
