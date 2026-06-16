@@ -1,0 +1,37 @@
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+proxies:
+  - name: "🇹🇼TW-185.189.160.105-0176"
+    type: "ss"
+    server: "185.189.160.105"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇹🇼TW-85.237.207.189-4376"
+    type: "trojan"
+    server: "85.237.207.189"
+    port: 443
+    udp: true
+    password: "3ac6a6ca99f74941b1eaf892818e2ddb"
+    tls: true
+    servername: "85.237.207.189"
+  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+proxy-groups:
+  - name: "Proxy Select"
+    type: "select"
+    proxies:
+      - "🇹🇼TW-185.189.160.105-0176"
+      - "🇹🇼TW-85.237.207.189-4376"
+      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+rules:
+  - "MATCH,Proxy Select"
