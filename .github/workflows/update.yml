@@ -36,7 +36,7 @@ jobs:
       - name: Generate subscription files
         run: npm run update
         env:
-          BASE_URL: https://raw.githubusercontent.com/${{ github.repository }}/main/dist
+          BASE_URL: https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/dist
           MAX_PER_COUNTRY: "100"
           SOURCE_LIMIT: "8"
           MAX_TEST_NODES: "1500"
