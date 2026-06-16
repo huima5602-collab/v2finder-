@@ -29,18 +29,11 @@ proxies:
       path: "/"
       headers:
         Host: "tjsp.hhxaf.cc.cd"
-  - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "168.138.165.174"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
       - "SG"
       - "SG"
-      - "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
 rules:
   - "MATCH,Proxy Select"

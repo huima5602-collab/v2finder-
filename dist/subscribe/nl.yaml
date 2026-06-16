@@ -79,7 +79,7 @@ proxies:
     password: "8r<[9'l6hAO#8ZQi"
   - name: "荷兰+V2CROSS.COM"
     type: "vless"
-    server: "185.229.191.170"
+    server: "185.229.191.10"
     port: 8443
     udp: true
     uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
@@ -165,13 +165,6 @@ proxies:
     uuid: "534cbbe2-cc36-4f2d-8fb0-90410e7148c9"
     tls: true
     servername: "yahoo.com"
-  - name: "🇳🇱NL-193.29.139.204-0122"
-    type: "ss"
-    server: "193.29.139.204"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
@@ -196,6 +189,5 @@ proxy-groups:
       - "🇳🇱NL_7|1.5MB/s"
       - "🇳🇱NL_8|2.7MB/s"
       - "NL_speednode_0005"
-      - "🇳🇱NL-193.29.139.204-0122"
 rules:
   - "MATCH,Proxy Select"

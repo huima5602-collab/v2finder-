@@ -460,26 +460,57 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "美国+V2CROSS.COM"
-    type: "vless"
-    server: "152.53.45.123"
+  - name: "美国+华盛顿Cogent通信公司"
+    type: "trojan"
+    server: "38.54.13.189"
     port: 443
     udp: true
-    uuid: "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249"
+    password: "lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi"
+    tls: true
+    servername: "38.54.13.189"
+    network: "tcp"
+  - name: "美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司"
+    type: "trojan"
+    server: "130.94.94.15"
+    port: 443
+    udp: true
+    password: "tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR"
+    tls: true
+    servername: "130.94.94.15"
     network: "tcp"
   - name: "美国+CloudFlare节点"
     type: "trojan"
-    server: "104.20.6.134"
+    server: "172.64.152.23"
     port: 443
     udp: true
     password: "humanity"
     tls: true
-    servername: "www.calmloud.com"
+    servername: "www.calmlunch.com"
     network: "ws"
     ws-opts:
       path: "/assignment"
       headers:
-        Host: "www.calmloud.com"
+        Host: "www.calmlunch.com"
+  - name: "美国+V2CROSS.COM"
+    type: "ss"
+    server: "149.28.255.6"
+    port: 816
+    cipher: "chacha20-ietf-poly1305"
+    password: "GyZ5Xo0ht41vYmW3H4"
+    udp: true
+  - name: "美国+CloudFlare节点"
+    type: "trojan"
+    server: "104.16.174.36"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.ignitelimit.com"
   - name: "美国4|@ripaojiedian"
     type: "vmess"
     server: "82.198.246.250"
@@ -694,6 +725,9 @@ proxy-groups:
       - "🇺🇸_US_美国"
       - "🇺🇸_US_美国"
       - "🇺🇸_US_美国"
+      - "美国+华盛顿Cogent通信公司"
+      - "美国+科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司"
+      - "美国+CloudFlare节点"
       - "美国+V2CROSS.COM"
       - "美国+CloudFlare节点"
       - "美国4|@ripaojiedian"
