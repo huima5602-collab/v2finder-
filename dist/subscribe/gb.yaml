@@ -11,6 +11,14 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "英國"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "英國節點"
     type: "vmess"
     server: "82.198.246.214"
@@ -22,6 +30,38 @@ proxies:
   - name: "英國節點"
     type: "vmess"
     server: "82.198.246.214"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "英國節點"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "英國節點"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "英國節點"
+    type: "vmess"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "英國"
+    type: "vmess"
+    server: "82.198.246.250"
     port: 180
     uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
     alterId: 0
@@ -556,8 +596,13 @@ proxy-groups:
     type: "select"
     proxies:
       - "英國節點"
+      - "英國"
       - "英國節點"
       - "英國節點"
+      - "英國節點"
+      - "英國節點"
+      - "英國節點"
+      - "英國"
       - "英國節點"
       - "英國節點"
       - "英國"
