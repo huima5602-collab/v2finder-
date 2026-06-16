@@ -32,16 +32,16 @@ $env:BASE_URL="https://你的用户名.github.io/v2-subscription-publisher"
 npm run update
 ```
 
-## GitHub Pages
+## GitHub Actions publishing
 
-`.github/workflows/update.yml` 会在北京时间每天 08:00 运行，也支持手动触发。工作流会生成 `dist` 并发布到 GitHub Pages。
+`.github/workflows/update.yml` runs every day at Beijing 08:00 and can also be triggered manually. The workflow generates `dist` and commits it back to the repository.
 
-发布后固定链接类似：
+Public links use GitHub Raw:
 
 ```text
-https://你的用户名.github.io/v2-subscription-publisher/manifest.json
-https://你的用户名.github.io/v2-subscription-publisher/subscribe/us.txt
-https://你的用户名.github.io/v2-subscription-publisher/subscribe/us.yaml
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/manifest.json
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/subscribe/us.txt
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/subscribe/us.yaml
 ```
 
 ## Lovable 对接
