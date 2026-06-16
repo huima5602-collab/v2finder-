@@ -36,18 +36,18 @@ npm run update
 
 `.github/workflows/update.yml` runs every day at Beijing 08:00 and can also be triggered manually. The workflow fetches all configured sources, tests all parsed nodes with up to 400 concurrent TCP checks, generates `dist`, and commits it back to the repository.
 
-Public links use jsDelivr CDN:
+Public links use GitHub Raw:
 
 ```text
-https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/dist/manifest.json
-https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/dist/subscribe/us.txt
-https://cdn.jsdelivr.net/gh/<owner>/<repo>@main/dist/subscribe/us.yaml
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/manifest.json
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/subscribe/us.txt
+https://raw.githubusercontent.com/<owner>/<repo>/main/dist/subscribe/us.yaml
 ```
 
 For this repository:
 
 ```text
-https://cdn.jsdelivr.net/gh/huima5602-collab/v2finder-@main/dist/manifest.json
+https://raw.githubusercontent.com/huima5602-collab/v2finder-/main/dist/manifest.json
 ```
 
 ## Lovable 对接
