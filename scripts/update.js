@@ -15,6 +15,7 @@ const TEST_TIMEOUT_MS = Number(process.env.TEST_TIMEOUT_MS || 4000);
 const FETCH_CONCURRENCY = Number(process.env.FETCH_CONCURRENCY || 8);
 const TEST_CONCURRENCY = Number(process.env.TEST_CONCURRENCY || 120);
 const BASE_URL = (process.env.BASE_URL || "").replace(/\/$/, "");
+const MAX_TEST_NODES = Number(process.env.MAX_TEST_NODES || 0);
 const execFileAsync = promisify(execFile);
 
 let sources = JSON.parse(fs.readFileSync(path.join(ROOT, "config", "sources.json"), "utf8"));
@@ -67,7 +68,7 @@ function safeDecodeURIComponent(value = "") {
 function cleanNodeLine(line) {
   return line
     .trim()
-    .replace(/^\d+[\).、]\s*/, "")
+    .replace(/^\d+[\).\u3001]\s*/, "")
     .replace(/^[-*]\s*/, "")
     .replace(/&amp;/g, "&")
     .replace(/&#38;/g, "&")
@@ -418,7 +419,11 @@ async function main() {
   const rawNodes = [...new Set(fetchResults.flatMap((result) => result.nodes))];
   console.log(`Extracted ${rawNodes.length} unique nodes. Failed sources: ${failedSources.length}`);
 
-  const parsedNodes = rawNodes.map(parseNode).filter((node) => node.host && node.port);
+  let parsedNodes = rawNodes.map(parseNode).filter((node) => node.host && node.port);
+  if (MAX_TEST_NODES > 0 && parsedNodes.length > MAX_TEST_NODES) {
+    parsedNodes = parsedNodes.slice(0, MAX_TEST_NODES);
+    console.log(`Limited test set to ${parsedNodes.length} nodes.`);
+  }
   const testedNodes = process.env.SKIP_TCP_TEST === "1" ? parsedNodes.map((node) => ({
     ...node,
     reachable: true
@@ -462,12 +467,12 @@ async function main() {
       proxies,
       "proxy-groups": [
         {
-          name: "节点选择",
+          name: "Proxy Select",
           type: "select",
           proxies: proxyNames.length ? proxyNames : ["DIRECT"]
         }
       ],
-      rules: ["MATCH,节点选择"]
+      rules: ["MATCH,Proxy Select"]
     };
     writeTextFile(path.join(DIST_DIR, yamlRelative), dumpYaml(clashConfig));
 

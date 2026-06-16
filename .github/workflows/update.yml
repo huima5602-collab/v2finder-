@@ -16,7 +16,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   update:
@@ -41,6 +41,11 @@ jobs:
         env:
           BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
           MAX_PER_COUNTRY: "100"
+          SOURCE_LIMIT: "8"
+          MAX_TEST_NODES: "1500"
+          FETCH_TIMEOUT_MS: "12000"
+          TEST_TIMEOUT_MS: "2500"
+          TEST_CONCURRENCY: "240"
 
       - name: Check generated output
         run: npm run check
