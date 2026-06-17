@@ -3,13 +3,54 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇳🇱74019 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "🇳🇱[Channel id: @tik7net_vpn] ⁴"
     type: "ss"
-    server: "82.38.31.7"
+    server: "77.74.123.163"
+    port: 8443
+    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
+    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
+    udp: true
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "ss"
+    server: "193.29.139.143"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "1RWwXhwfAB5gAEozU4G2Pg"
+    udp: true
+  - name: "🇳🇱74214 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "ss"
+    server: "193.29.139.157"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    password: "cvII85TrW6n0OGyfpHVS1u"
     udp: true
+  - name: "🇳🇱[Channel id: @tik7net_vpn]"
+    type: "ss"
+    server: "185.246.153.12"
+    port: 31348
+    cipher: "chacha20-ietf-poly1305"
+    password: "ezyeH22iGS1UDeew5zzbTimqecrGBKSS1IsEqh"
+    udp: true
+  - name: "🇳🇱@FreakConfig"
+    type: "vless"
+    server: "38.180.132.206"
+    port: 443
+    udp: true
+    uuid: "11e559f8-f5b7-48be-9ab5-7fc0915569e0"
+    network: "tcp"
+  - name: "🇳🇱@FreakConfig"
+    type: "vless"
+    server: "25.26.27.158"
+    port: 2096
+    udp: true
+    uuid: "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a"
+    tls: true
+    servername: "sni.111000.de5.net"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+      headers:
+        Host: "sni.111000.de5.net"
   - name: "@YamYamProxy 🇳🇱"
     type: "vless"
     server: "104.16.6.70"
@@ -23,12 +64,34 @@ proxies:
       path: "/?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512"
       headers:
         Host: "mos.rfiksma.top"
-  - name: "🇳🇱73849 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
     type: "vless"
-    server: "144.31.157.56"
+    server: "195.181.173.194"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 t.me/Natrixo BB"
+    type: "vless"
+    server: "199.232.78.159"
     port: 443
     udp: true
-    uuid: "3e0c34a4-1c38-4d93-88c6-5155e81f8b52"
+    uuid: "3f61815a-1c63-456a-ad05-655374dfd7c8"
+    tls: true
+    servername: "default.ssl.fastly.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "bazaryabab.global.ssl.fastly.net"
+  - name: "[🇳🇱]t.me/Raiv2mmr"
+    type: "vless"
+    server: "45.82.13.82"
+    port: 443
+    udp: true
+    uuid: "4efaf684-3e7b-47a6-9193-d8d8f3481210"
     network: "tcp"
   - name: "CDN | 🇳🇱 @"
     type: "vless"
@@ -84,86 +147,6 @@ proxies:
     port: 8443
     udp: true
     password: "8r<[9'l6hAO#8ZQi"
-  - name: "荷兰+V2CROSS.COM"
-    type: "vless"
-    server: "185.229.191.10"
-    port: 8443
-    udp: true
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    servername: "ams1.fromblancwithlove.com"
-    network: "tcp"
-  - name: "🇳🇱NL_1|1.4MB/s"
-    type: "vless"
-    server: "45.82.13.4"
-    port: 443
-    udp: true
-    uuid: "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249"
-    tls: true
-    servername: "alb00.sidecloud.ru"
-  - name: "🇳🇱NL_2|2.6MB/s"
-    type: "vless"
-    server: "45.82.13.5"
-    port: 443
-    udp: true
-    uuid: "f64cab0a-75a4-44f1-b2f6-8ecc6c73c249"
-    tls: true
-    servername: "alb00.sidecloud.ru"
-  - name: "🇳🇱NL_3|2.7MB/s"
-    type: "ss"
-    server: "82.38.31.17"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇳🇱NL_4|1.2MB/s"
-    type: "vless"
-    server: "84.252.131.124"
-    port: 443
-    udp: true
-    uuid: "bbcde690-aca4-48dd-8da7-85fbad4b6d99"
-    tls: true
-    servername: "api.events.plus.yandex.net"
-    network: "grpc"
-  - name: "🇳🇱NL_5|1.9MB/s"
-    type: "vless"
-    server: "8.6.112.25"
-    port: 443
-    udp: true
-    uuid: "0d4feb36-7e09-45b6-9955-3850b9a3021f"
-    tls: true
-    servername: "pyric.cryptedoc.com"
-  - name: "🇳🇱NL_6|1.8MB/s"
-    type: "vless"
-    server: "217.198.6.220"
-    port: 443
-    udp: true
-    uuid: "bbcde690-aca4-48dd-8da7-85fbad4b6d99"
-    tls: true
-    servername: "2gis.com"
-    network: "grpc"
-  - name: "🇳🇱NL_7|1.5MB/s"
-    type: "vless"
-    server: "104.21.88.19"
-    port: 80
-    udp: true
-    uuid: "0c54bdcb-945b-423c-9d86-c6df16ef40ad"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "v2configlab.v2configlab15.workers.dev"
-  - name: "🇳🇱NL_8|2.7MB/s"
-    type: "vless"
-    server: "172.67.194.87"
-    port: 80
-    udp: true
-    uuid: "5eb1cee0-dca8-4018-a667-2d2184975799"
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "v2configlab.v2configlab14.workers.dev"
   - name: "NL_speednode_0005"
     type: "vless"
     server: "147.45.145.127"
@@ -172,126 +155,142 @@ proxies:
     uuid: "534cbbe2-cc36-4f2d-8fb0-90410e7148c9"
     tls: true
     servername: "yahoo.com"
-  - name: "🇳🇱NL-193.29.139.204-0122"
+  - name: "🇳🇱NL-193.29.139.204-0087"
     type: "ss"
     server: "193.29.139.204"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-193.29.139.217-0121"
-    type: "ss"
-    server: "193.29.139.217"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.189-0114"
-    type: "ss"
-    server: "193.29.139.189"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "cvII85TrW6n0OGyfpHVS1u"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.233-0126"
-    type: "ss"
-    server: "193.29.139.233"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.157-0120"
-    type: "ss"
-    server: "193.29.139.157"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "cvII85TrW6n0OGyfpHVS1u"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.235-0115"
-    type: "ss"
-    server: "193.29.139.235"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.151-0117"
+  - name: "🇳🇱NL-193.29.139.151-0083"
     type: "ss"
     server: "193.29.139.151"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-109.201.152.181-0138"
+  - name: "🇳🇱NL-109.201.152.181-0084"
     type: "ss"
     server: "109.201.152.181"
     port: 443
     cipher: "aes-128-cfb"
     password: "shadowsocks"
     udp: true
-  - name: "🇳🇱NL-193.29.139.227-0123"
+  - name: "🇳🇱NL-193.29.139.233-0100"
     type: "ss"
-    server: "193.29.139.227"
+    server: "193.29.139.233"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "fbx1Fw7mENCd7vZMvorQZ5"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
     udp: true
-  - name: "🇳🇱NL-108.181.126.122-0184"
+  - name: "🇳🇱NL-193.29.139.157-0096"
     type: "ss"
-    server: "108.181.126.122"
-    port: 8388
+    server: "193.29.139.157"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
+    password: "cvII85TrW6n0OGyfpHVS1u"
     udp: true
-  - name: "🇳🇱NL-108.181.58.239-0139"
+  - name: "🇳🇱NL-193.29.139.235-0090"
     type: "ss"
-    server: "108.181.58.239"
-    port: 8388
+    server: "193.29.139.235"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-51.15.23.63-0174"
+  - name: "🇳🇱NL-193.29.139.217-0105"
     type: "ss"
-    server: "51.15.23.63"
-    port: 989
-    cipher: "aes-256-cfb"
-    password: "f8f7aCzcPKbsF8p3"
+    server: "193.29.139.217"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
     udp: true
-  - name: "🇳🇱NL-195.93.253.245-0165"
+  - name: "🇳🇱NL-193.29.139.189-0091"
+    type: "ss"
+    server: "193.29.139.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "cvII85TrW6n0OGyfpHVS1u"
+    udp: true
+  - name: "🇳🇱NL-195.93.253.245-0130"
     type: "ss"
     server: "195.93.253.245"
     port: 49137
     cipher: "chacha20-ietf-poly1305"
     password: "FDeCHSu4lt8qflCS5zDOy8"
     udp: true
-  - name: "🇳🇱NL-193.29.139.179-0199"
+  - name: "🇳🇱NL-51.15.23.63-0151"
     type: "ss"
-    server: "193.29.139.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "cvII85TrW6n0OGyfpHVS1u"
+    server: "51.15.23.63"
+    port: 989
+    cipher: "aes-256-cfb"
+    password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇳🇱NL-193.29.139.206-0206"
+  - name: "🇳🇱NL-193.29.139.206-0168"
     type: "ss"
     server: "193.29.139.206"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "4a2rfixophdjffa8KVA4Aa"
     udp: true
-  - name: "🇳🇱NL-193.29.139.199-0196"
+  - name: "🇳🇱NL-193.29.139.179-0227"
+    type: "ss"
+    server: "193.29.139.179"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "cvII85TrW6n0OGyfpHVS1u"
+    udp: true
+  - name: "🇳🇱NL-108.181.126.122-0149"
+    type: "ss"
+    server: "108.181.126.122"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.227-0075"
+    type: "ss"
+    server: "193.29.139.227"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "fbx1Fw7mENCd7vZMvorQZ5"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.199-0200"
     type: "ss"
     server: "193.29.139.199"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "QCXDxuDlTTMD7jtgHUjIoj"
     udp: true
-  - name: "🇳🇱NL-172.99.188.71-5447"
+  - name: "🇳🇱NL-91.221.190.80-0746"
+    type: "trojan"
+    server: "91.221.190.80"
+    port: 443
+    udp: true
+    password: "8r<[9'l6hAO#8ZQi"
+    tls: true
+    servername: "Koma-YT.PAGeS.Dev"
+  - name: "🇳🇱NL-152.53.200.89-0749"
+    type: "trojan"
+    server: "152.53.200.89"
+    port: 8443
+    udp: true
+    password: "8r<[9'l6hAO#8ZQi"
+    tls: true
+    servername: "Koma-YT.PAGeS.Dev"
+  - name: "🇳🇱NL-108.181.58.239-0147"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-172.99.188.71-5488"
     type: "ss"
     server: "172.99.188.71"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇳🇱NL-152.70.57.182-6745"
+  - name: "🇳🇱NL-152.70.57.182-6786"
     type: "vmess"
     server: "152.70.57.182"
     port: 443
@@ -306,7 +305,7 @@ proxies:
       path: "/"
       headers:
         Host: "irvideo.cfd"
-  - name: "🇳🇱NL-51.158.146.183-7437"
+  - name: "🇳🇱NL-51.158.146.183-7478"
     type: "trojan"
     server: "51.158.146.183"
     port: 443
@@ -314,7 +313,7 @@ proxies:
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
     servername: "Speedtest.net"
-  - name: "🇳🇱NL-51.15.19.206-7439"
+  - name: "🇳🇱NL-51.15.19.206-7480"
     type: "vmess"
     server: "51.15.19.206"
     port: 80
@@ -326,7 +325,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-7440"
+  - name: "🇳🇱NL-51.15.19.206-7481"
     type: "vmess"
     server: "51.15.19.206"
     port: 8443
@@ -340,7 +339,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-7441"
+  - name: "🇳🇱NL-51.15.19.206-7482"
     type: "vmess"
     server: "51.15.19.206"
     port: 2083
@@ -356,12 +355,59 @@ proxies:
       headers:
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 01"
     type: "vless"
-    server: "95.85.226.56"
-    port: 443
+    server: "185.229.191.42"
+    port: 8443
     udp: true
-    uuid: "82dbc26e-2dcc-436a-84ee-f57d098209cd"
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
     network: "tcp"
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 02"
+    type: "vless"
+    server: "185.229.191.96"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 03"
+    type: "vless"
+    server: "185.229.191.184"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
+    type: "vless"
+    server: "185.229.191.145"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
+    type: "vless"
+    server: "185.229.191.111"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 06"
+    type: "vless"
+    server: "185.229.191.110"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 07"
     type: "vless"
     server: "185.229.191.10"
     port: 8443
@@ -370,6 +416,112 @@ proxies:
     tls: true
     servername: "ams1.fromblancwithlove.com"
     network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 08"
+    type: "vless"
+    server: "185.229.191.186"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 09"
+    type: "vless"
+    server: "185.229.191.157"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 10"
+    type: "vless"
+    server: "185.229.191.169"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 11"
+    type: "vless"
+    server: "185.229.191.82"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 12"
+    type: "vless"
+    server: "185.229.191.22"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 13"
+    type: "vless"
+    server: "185.229.191.93"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 14"
+    type: "vless"
+    server: "185.229.191.180"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 15"
+    type: "vless"
+    server: "185.229.191.95"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 16"
+    type: "vless"
+    server: "185.229.191.185"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 17"
+    type: "vless"
+    server: "185.229.191.12"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 18"
+    type: "vless"
+    server: "185.229.191.14"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 19"
+    type: "ss"
+    server: "82.38.31.10"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
   - name: "Channel id: @ShadowProxy66 🇳🇱"
     type: "ss"
     server: "82.38.31.2"
@@ -423,26 +575,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇮🇷🇳🇱@Letiranbreath"
-    type: "vless"
-    server: "142.54.23.15"
-    port: 8443
-    udp: true
-    uuid: "c20c6ab3-0495-48e3-bf01-77144b2a89c1"
-    tls: true
-    servername: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/anime/project/wiki?ed=2560"
-      headers:
-        Host: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "51.158.206.93"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
   - name: "🇳🇱"
     type: "vless"
     server: "199.232.78.159"
@@ -456,72 +588,99 @@ proxies:
       path: "/"
       headers:
         Host: "pan1.global.ssl.fastly.net"
-  - name: "🇳🇱"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
     type: "vless"
-    server: "77.74.123.168"
-    port: 8443
-    udp: true
-    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
-    tls: true
-    servername: "cdn3-87.vk-cdnvideo.com"
-    network: "tcp"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "163.172.214.188"
-    port: 80
-    udp: true
-    uuid: "40cc9b52-25b8-4cd5-8b45-715ae26e6baf"
-    network: "ws"
-    ws-opts:
-      path: "/vless/"
-      headers:
-  - name: "🇳🇱"
-    type: "vless"
-    server: "77.74.123.163"
-    port: 8443
-    udp: true
-    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
-    tls: true
-    servername: "cdn3-87.vk-cdnvideo.com"
-    network: "tcp"
-  - name: "🇮🇷🇳🇱@Letiranbreath"
-    type: "vless"
-    server: "151.245.136.43"
+    server: "188.226.188.80"
     port: 443
     udp: true
-    uuid: "c20c6ab3-0495-48e3-bf01-77144b2a89c1"
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
     tls: true
-    servername: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+    servername: "qeztrg7u.akscasx.workers.dev"
     network: "ws"
     ws-opts:
-      path: "/pictures/star/discount?ed=2560"
+      path: "/?ed=2560"
       headers:
-        Host: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+        Host: "qeztrg7u.akscasx.workers.dev"
   - name: "🇳🇱"
     type: "vless"
-    server: "45.91.55.232"
-    port: 7443
+    server: "51.158.206.25"
+    port: 23576
     udp: true
-    uuid: "8bbf020e-653f-4a82-9900-1214e4e37dab"
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
     network: "tcp"
   - name: "🇳🇱"
     type: "vless"
-    server: "46.229.243.133"
+    server: "162.249.126.68"
     port: 8443
     udp: true
     uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
     tls: true
     servername: "cdn3-87.vk-cdnvideo.com"
     network: "tcp"
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ⁴"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
     type: "vless"
-    server: "77.74.123.163"
+    server: "185.14.184.54"
+    port: 2083
+    udp: true
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
+    tls: true
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/users?ed=2560"
+      headers:
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+    type: "vless"
+    server: "95.133.245.170"
     port: 8443
     udp: true
     uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
     tls: true
     servername: "cdn3-87.vk-cdnvideo.com"
     network: "tcp"
+  - name: "🐲@v2land_xry🇳🇱🇳🇱برای کانفیگ عضوشین"
+    type: "vless"
+    server: "45.130.125.111"
+    port: 443
+    udp: true
+    uuid: "a90e9a75-b8be-448e-a135-d9397f10f9ad"
+    tls: true
+    servername: "main1.atomtank.dpdns.org"
+    network: "xhttp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "vless"
+    server: "206.189.12.181"
+    port: 2096
+    udp: true
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
+    tls: true
+    servername: "qeztrg7u.akscasx.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "qeztrg7u.akscasx.workers.dev"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "51.158.206.29"
+    port: 23576
+    udp: true
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    network: "tcp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "vless"
+    server: "188.226.166.92"
+    port: 443
+    udp: true
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
+    tls: true
+    servername: "qeztrg7u.akscasx.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "qeztrg7u.akscasx.workers.dev"
   - name: "🇳🇱[Channel id: @tik7net_vpn] ¹"
     type: "vless"
     server: "77.74.123.168"
@@ -531,43 +690,203 @@ proxies:
     tls: true
     servername: "cdn3-87.vk-cdnvideo.com"
     network: "tcp"
-  - name: "🇳🇱"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
     type: "vless"
-    server: "77.74.123.169"
-    port: 8443
+    server: "185.14.184.54"
+    port: 2083
     udp: true
-    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
     tls: true
-    servername: "cdn3-87.vk-cdnvideo.com"
-    network: "tcp"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "162.249.126.68"
-    port: 8443
-    udp: true
-    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
-    tls: true
-    servername: "cdn3-87.vk-cdnvideo.com"
-    network: "tcp"
-  - name: "🇮🇷🇳🇱@Letiranbreath"
-    type: "vless"
-    server: "152.53.200.193"
-    port: 8443
-    udp: true
-    uuid: "c20c6ab3-0495-48e3-bf01-77144b2a89c1"
-    tls: true
-    servername: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
     network: "ws"
     ws-opts:
-      path: "/retrieve/documents/directory?ed=2560"
+      path: "/users?ed=2560"
       headers:
-        Host: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "45.91.55.232"
+    port: 7443
+    udp: true
+    uuid: "8bbf020e-653f-4a82-9900-1214e4e37dab"
+    network: "tcp"
+  - name: "🐉@V2land_xry🇳🇱برای کانفیگ عضوشین"
+    type: "vless"
+    server: "209.46.30.149"
+    port: 2053
+    udp: true
+    uuid: "cba2bd81-d87d-4a69-9c9f-7d1db1d6fa47"
+    tls: true
+    servername: "main1.atomtank.dpdns.org"
+    network: "xhttp"
+  - name: "🇳🇱[Channel id: @tik7net_vpn] ⁴"
+    type: "vless"
+    server: "77.74.123.163"
+    port: 8443
+    udp: true
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "cdn3-87.vk-cdnvideo.com"
+    network: "tcp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "vless"
+    server: "188.226.166.92"
+    port: 443
+    udp: true
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
+    tls: true
+    servername: "qeztrg7u.akscasx.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "qeztrg7u.akscasx.workers.dev"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "147.45.145.127"
+    port: 443
+    udp: true
+    uuid: "534cbbe2-cc36-4f2d-8fb0-90410e7148c9"
+    network: "tcp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "vless"
+    server: "206.189.12.181"
+    port: 2096
+    udp: true
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
+    tls: true
+    servername: "qeztrg7u.akscasx.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "qeztrg7u.akscasx.workers.dev"
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+    type: "vless"
+    server: "77.74.123.168"
+    port: 8443
+    udp: true
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "cdn3-87.vk-cdnvideo.com"
+    network: "tcp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "vless"
+    server: "185.125.100.144"
+    port: 2053
+    udp: true
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
+    tls: true
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/album?ed=2560"
+      headers:
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "vless"
+    server: "95.85.15.135"
+    port: 443
+    udp: true
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
+    tls: true
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/u?ed=2560"
+      headers:
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "🦖@V2land_xry🇳🇱برای کانفیگ عضوشین"
+    type: "vless"
+    server: "45.130.125.220"
+    port: 2087
+    udp: true
+    uuid: "cba2bd81-d87d-4a69-9c9f-7d1db1d6fa47"
+    tls: true
+    servername: "main1.atomtank.dpdns.org"
+    network: "xhttp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "vless"
+    server: "188.226.188.80"
+    port: 443
+    udp: true
+    uuid: "4b184bbb-c4d6-42ae-b447-aa85d8294967"
+    tls: true
+    servername: "qeztrg7u.akscasx.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "qeztrg7u.akscasx.workers.dev"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "vless"
+    server: "95.85.15.135"
+    port: 443
+    udp: true
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
+    tls: true
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/u?ed=2560"
+      headers:
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "vless"
+    server: "185.125.100.144"
+    port: 2053
+    udp: true
+    uuid: "0977bddb-a758-4033-96dd-57468e02ea81"
+    tls: true
+    servername: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/album?ed=2560"
+      headers:
+        Host: "4qrnyf6s.5e6pmte8uw52n5ymvwx8.workers.dev"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "77.74.123.168"
+    port: 8443
+    udp: true
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "cdn3-87.vk-cdnvideo.com"
+    network: "tcp"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "ss"
+    server: "95.85.15.135"
+    port: 443
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "163.172.214.188"
-    port: 80
-    cipher: "�G\u001c��v�n[��\u001cw��o�~�^Z{n�"
-    password: "�G\u001c��v�n[��\u001cw��o�~�^Z{n�鶟"
+    server: "51.158.206.29"
+    port: 23576
+    cipher: "���پ���|��|����wֶyמw�"
+    password: "���پ���|��|����wֶyמw��"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "ss"
+    server: "185.125.100.144"
+    port: 2053
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "95.85.15.135"
+    port: 443
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
     udp: true
   - name: "🇳🇱"
     type: "ss"
@@ -576,30 +895,100 @@ proxies:
     cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
     password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
     udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ²"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
     type: "ss"
-    server: "82.38.31.182"
+    server: "206.189.12.181"
+    port: 2096
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "185.125.100.144"
+    port: 2053
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "82.38.31.181"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "185.14.184.54"
+    port: 2083
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "188.226.188.80"
+    port: 443
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
+    udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "185.246.153.12"
-    port: 31348
-    cipher: "chacha20-ietf-poly1305"
-    password: "ezyeH22iGS1UDeew5zzbTimqecrGBKSS1IsEqh"
+    server: "51.158.206.25"
+    port: 23576
+    cipher: "���پ���|��|����wֶyמw�"
+    password: "���پ���|��|����wֶyמw��"
     udp: true
-  - name: "🇮🇷🇳🇱@Letiranbreath"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
     type: "ss"
-    server: "152.53.200.193"
+    server: "185.14.184.54"
+    port: 2083
+    cipher: "���m�[�����4����~�"
+    password: "��6y�5"
+    udp: true
+  - name: "🐉@V2land_xry🇳🇱برای کانفیگ عضوشین"
+    type: "ss"
+    server: "209.46.30.149"
+    port: 2053
+    cipher: "q��m�5��;w�\u001a�߽s����]oWz}�"
+    password: "q��m�5��;w�\u001a�߽s����]oWz}�;"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
+    type: "ss"
+    server: "188.226.166.92"
+    port: 443
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
+    udp: true
+  - name: "🇳🇱[Channel id: @tik7net_vpn] ¹"
+    type: "ss"
+    server: "77.74.123.168"
     port: 8443
-    cipher: "sm\u001c���N=��<{�M~�x὚��"
-    password: "sm\u001c���N=��<{�M~�x὚��5"
+    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
+    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
+    udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "188.226.166.92"
+    port: 443
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
     udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "77.74.123.169"
+    server: "45.91.55.232"
+    port: 7443
+    cipher: "���m\u001e��w�\u001a�o��M>�mx{���"
+    password: "���m\u001e��w�\u001a�o��M>�mx{���֛"
+    udp: true
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+    type: "ss"
+    server: "77.74.123.168"
+    port: 8443
+    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
+    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
+    udp: true
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+    type: "ss"
+    server: "95.133.245.170"
     port: 8443
     cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
     password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
@@ -611,47 +1000,12 @@ proxies:
     cipher: "mޟ��w��\u001fw�\u001dw��u�>�W���\u001c��"
     password: "mޟ��w��\u001fw�\u001dw��u�>�W���\u001c��_"
     udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ³"
+  - name: "🇮🇷🇳🇱@Letiranbreath-frag"
     type: "ss"
-    server: "82.38.31.208"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "77.74.123.163"
-    port: 8443
-    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
-    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
-    udp: true
-  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇮🇷🇳🇱@Letiranbreath"
-    type: "ss"
-    server: "151.245.136.43"
+    server: "188.226.188.80"
     port: 443
-    cipher: "sm\u001c���N=��<{�M~�x὚��"
-    password: "sm\u001c���N=��<{�M~�x὚��5"
-    udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ¹"
-    type: "ss"
-    server: "82.38.31.208"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "51.158.206.93"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
     udp: true
   - name: "🇳🇱"
     type: "ss"
@@ -660,160 +1014,233 @@ proxies:
     cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
     password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
     udp: true
+  - name: "🇮🇷🇳🇱@Letiranbreath-ech"
+    type: "ss"
+    server: "206.189.12.181"
+    port: 2096
+    cipher: "�|����\u001d��6i���i�9wͽ�"
+    password: "�|����\u001d��6i���i�9wͽ�޻"
+    udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "193.29.139.235"
+    server: "147.45.145.127"
+    port: 443
+    cipher: "�~\u001cm����7��\u001f�߼}�>�N5�����"
+    password: "�~\u001cm����7��\u001f�߼}�>�N5�����="
+    udp: true
+  - name: "🦖@V2land_xry🇳🇱برای کانفیگ عضوشین"
+    type: "ss"
+    server: "45.130.125.220"
+    port: 2087
+    cipher: "q��m�5��;w�\u001a�߽s����]oWz}�"
+    password: "q��m�5��;w�\u001a�߽s����]oWz}�;"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "195.93.253.240"
+    port: 14130
+    cipher: "chacha20-ietf-poly1305"
+    password: "5DJXRpmi3iyqxQ79PfKv3B"
+    udp: true
+  - name: "🐲@v2land_xry🇳🇱🇳🇱برای کانفیگ عضوشین"
+    type: "ss"
+    server: "45.130.125.111"
+    port: 443
+    cipher: "k�\u001e�����\u001b{�8���~~w����t"
+    password: "k�\u001e�����\u001b{�8���~~w����t֝"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "82.38.31.149"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱"
+  - name: "🇳🇱 ShatakVPN 526779"
+    type: "vless"
+    server: "193.22.229.138"
+    port: 80
+    udp: true
+    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "pimxpass.alex96336997.workers.dev"
+  - name: "🇳🇱 ShatakVPN 690484"
+    type: "vless"
+    server: "193.22.229.138"
+    port: 80
+    udp: true
+    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "pimxpass.alex96336997.workers.dev"
+  - name: "🇳🇱 ShatakVPN 712650"
+    type: "vless"
+    server: "193.22.229.138"
+    port: 80
+    udp: true
+    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "pimxpass.alex96336997.workers.dev"
+  - name: "🇳🇱 ShatakVPN 170743"
+    type: "vless"
+    server: "193.22.229.138"
+    port: 80
+    udp: true
+    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "pimxpass.alex96336997.workers.dev"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
+    server: "46.229.243.75"
+    port: 8443
+    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
+    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
+    udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "ss"
+    server: "193.29.139.157"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "4a2rfixophdjffa8KVA4Aa"
+    udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
     server: "46.229.243.133"
     port: 8443
-    cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
-    password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
     udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn]"
-    type: "ss"
-    server: "185.246.153.12"
-    port: 31348
-    cipher: "chacha20-ietf-poly1305"
-    password: "ezyeH22iGS1UDeew5zzbTimqecrGBKSS1IsEqh"
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "46.229.243.133"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "46.229.243.144"
+    port: 8443
     udp: true
-  - name: "🇳🇱"
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "cdn3-87.vk-cdnvideo.com"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
-    server: "45.91.55.232"
-    port: 7443
-    cipher: "���m\u001e��w�\u001a�o��M>�mx{���"
-    password: "���m\u001e��w�\u001a�o��M>�mx{���֛"
+    server: "195.181.173.194"
+    port: 8443
+    cipher: "��\u001f��5�����;�߽k�~{�\u001f�ow��"
+    password: "��\u001f��5�����;�߽k�~{�\u001f�ow��w"
     udp: true
-  - name: "🇳🇱"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
-    server: "82.38.31.184"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ⁴"
-    type: "ss"
-    server: "77.74.123.163"
+    server: "46.229.243.68"
     port: 8443
     cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
     password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
     udp: true
-  - name: "🇳🇱[Channel id: @tik7net_vpn] ¹"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
-    server: "77.74.123.168"
+    server: "46.229.243.74"
     port: 8443
     cipher: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ"
     password: "�}{�ּ�w6��<�_���~_\u001ds�\u001eѮ�"
     udp: true
-  - name: "🇳🇱"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
-    server: "82.38.31.15"
+    server: "144.124.228.113"
     port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    cipher: "�Z׮|��"
+    password: "{�;���ݮ>�\u001cۏZq�Z"
     udp: true
-  - name: "🇮🇷🇳🇱@Letiranbreath"
-    type: "ss"
-    server: "142.54.23.15"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "46.229.243.133"
     port: 8443
-    cipher: "sm\u001c���N=��<{�M~�x὚��"
-    password: "sm\u001c���N=��<{�M~�x὚��5"
     udp: true
-  - name: "🇳🇱 ShatakVPN 306748"
+    uuid: "931729a8-3c20-4841-89a1-f18dc9ce0a6f"
+    tls: true
+    servername: "cdn3-87.vk-cdnvideo.com"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "vless"
-    server: "193.22.229.138"
-    port: 80
+    server: "185.229.191.53"
+    port: 8443
     udp: true
-    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "pimxpass.alex96336997.workers.dev"
-  - name: "🇳🇱 ShatakVPN 222910"
-    type: "vless"
-    server: "193.22.229.138"
-    port: 80
-    udp: true
-    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "pimxpass.alex96336997.workers.dev"
-  - name: "🇳🇱 ShatakVPN 868777"
-    type: "vless"
-    server: "193.22.229.138"
-    port: 80
-    udp: true
-    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "pimxpass.alex96336997.workers.dev"
-  - name: "🇳🇱 ShatakVPN 200994"
-    type: "vless"
-    server: "193.22.229.138"
-    port: 80
-    udp: true
-    uuid: "e30ba9e9-afc6-4236-803f-7b4ca30ce44b"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "pimxpass.alex96336997.workers.dev"
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇳🇱74019 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱[Channel id: @tik7net_vpn] ⁴"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "🇳🇱74214 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱[Channel id: @tik7net_vpn]"
+      - "🇳🇱@FreakConfig"
+      - "🇳🇱@FreakConfig"
       - "@YamYamProxy 🇳🇱"
-      - "🇳🇱73849 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "🇳🇱 t.me/Natrixo BB"
+      - "[🇳🇱]t.me/Raiv2mmr"
       - "CDN | 🇳🇱 @"
       - "@YamYamProxy 🇳🇱"
       - "@YamYamProxy 🇳🇱"
       - "@YamYamProxy 🇳🇱"
       - "🇳🇱NL荷蘭丨yoyapai.comr"
       - "荷蘭節點丨yoyapai.comr"
-      - "荷兰+V2CROSS.COM"
-      - "🇳🇱NL_1|1.4MB/s"
-      - "🇳🇱NL_2|2.6MB/s"
-      - "🇳🇱NL_3|2.7MB/s"
-      - "🇳🇱NL_4|1.2MB/s"
-      - "🇳🇱NL_5|1.9MB/s"
-      - "🇳🇱NL_6|1.8MB/s"
-      - "🇳🇱NL_7|1.5MB/s"
-      - "🇳🇱NL_8|2.7MB/s"
       - "NL_speednode_0005"
-      - "🇳🇱NL-193.29.139.204-0122"
-      - "🇳🇱NL-193.29.139.217-0121"
-      - "🇳🇱NL-193.29.139.189-0114"
-      - "🇳🇱NL-193.29.139.233-0126"
-      - "🇳🇱NL-193.29.139.157-0120"
-      - "🇳🇱NL-193.29.139.235-0115"
-      - "🇳🇱NL-193.29.139.151-0117"
-      - "🇳🇱NL-109.201.152.181-0138"
-      - "🇳🇱NL-193.29.139.227-0123"
-      - "🇳🇱NL-108.181.126.122-0184"
-      - "🇳🇱NL-108.181.58.239-0139"
-      - "🇳🇱NL-51.15.23.63-0174"
-      - "🇳🇱NL-195.93.253.245-0165"
-      - "🇳🇱NL-193.29.139.179-0199"
-      - "🇳🇱NL-193.29.139.206-0206"
-      - "🇳🇱NL-193.29.139.199-0196"
-      - "🇳🇱NL-172.99.188.71-5447"
-      - "🇳🇱NL-152.70.57.182-6745"
-      - "🇳🇱NL-51.158.146.183-7437"
-      - "🇳🇱NL-51.15.19.206-7439"
-      - "🇳🇱NL-51.15.19.206-7440"
-      - "🇳🇱NL-51.15.19.206-7441"
+      - "🇳🇱NL-193.29.139.204-0087"
+      - "🇳🇱NL-193.29.139.151-0083"
+      - "🇳🇱NL-109.201.152.181-0084"
+      - "🇳🇱NL-193.29.139.233-0100"
+      - "🇳🇱NL-193.29.139.157-0096"
+      - "🇳🇱NL-193.29.139.235-0090"
+      - "🇳🇱NL-193.29.139.217-0105"
+      - "🇳🇱NL-193.29.139.189-0091"
+      - "🇳🇱NL-195.93.253.245-0130"
+      - "🇳🇱NL-51.15.23.63-0151"
+      - "🇳🇱NL-193.29.139.206-0168"
+      - "🇳🇱NL-193.29.139.179-0227"
+      - "🇳🇱NL-108.181.126.122-0149"
+      - "🇳🇱NL-193.29.139.227-0075"
+      - "🇳🇱NL-193.29.139.199-0200"
+      - "🇳🇱NL-91.221.190.80-0746"
+      - "🇳🇱NL-152.53.200.89-0749"
+      - "🇳🇱NL-108.181.58.239-0147"
+      - "🇳🇱NL-172.99.188.71-5488"
+      - "🇳🇱NL-152.70.57.182-6786"
+      - "🇳🇱NL-51.158.146.183-7478"
+      - "🇳🇱NL-51.15.19.206-7480"
+      - "🇳🇱NL-51.15.19.206-7481"
+      - "🇳🇱NL-51.15.19.206-7482"
       - "🇳🇱 机场推荐:dafei.de 荷兰 01"
       - "🇳🇱 机场推荐:dafei.de 荷兰 02"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 03"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 04"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 05"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 06"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 07"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 08"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 09"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 10"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 11"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 12"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 13"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 14"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 15"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 16"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 17"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 18"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 19"
       - "Channel id: @ShadowProxy66 🇳🇱"
       - "Channel id: @ShadowProxy66 🇳🇱"
       - "Channel id: @ShadowProxy66 🇳🇱"
@@ -821,46 +1248,74 @@ proxy-groups:
       - "Channel id: @ShadowProxy66 🇳🇱"
       - "Channel id: @ShadowProxy66 🇳🇱"
       - "Channel id: @ShadowProxy66 🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
+      - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
       - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+      - "🐲@v2land_xry🇳🇱🇳🇱برای کانفیگ عضوشین"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
-      - "🇳🇱"
-      - "🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
-      - "🇳🇱"
-      - "🇳🇱"
-      - "🇳🇱[Channel id: @tik7net_vpn] ⁴"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱[Channel id: @tik7net_vpn] ¹"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
       - "🇳🇱"
+      - "🐉@V2land_xry🇳🇱برای کانفیگ عضوشین"
+      - "🇳🇱[Channel id: @tik7net_vpn] ⁴"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
       - "🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
+      - "🦖@V2land_xry🇳🇱برای کانفیگ عضوشین"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
       - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
       - "🇳🇱"
-      - "🇳🇱[Channel id: @tik7net_vpn] ²"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
       - "🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
-      - "🇳🇱[Channel id: @tik7net_vpn] ³"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🐉@V2land_xry🇳🇱برای کانفیگ عضوشین"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
+      - "🇳🇱[Channel id: @tik7net_vpn] ¹"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
-      - "🇳🇱[Channel id: @tik7net_vpn] ¹"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
       - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-frag"
       - "🇳🇱"
+      - "🇮🇷🇳🇱@Letiranbreath-ech"
       - "🇳🇱"
+      - "🦖@V2land_xry🇳🇱برای کانفیگ عضوشین"
       - "🇳🇱"
-      - "🇳🇱[Channel id: @tik7net_vpn]"
+      - "🐲@v2land_xry🇳🇱🇳🇱برای کانفیگ عضوشین"
       - "🇳🇱"
-      - "🇳🇱"
-      - "🇳🇱[Channel id: @tik7net_vpn] ⁴"
-      - "🇳🇱[Channel id: @tik7net_vpn] ¹"
-      - "🇳🇱"
-      - "🇮🇷🇳🇱@Letiranbreath"
-      - "🇳🇱 ShatakVPN 306748"
-      - "🇳🇱 ShatakVPN 222910"
-      - "🇳🇱 ShatakVPN 868777"
-      - "🇳🇱 ShatakVPN 200994"
+      - "🇳🇱 ShatakVPN 526779"
+      - "🇳🇱 ShatakVPN 690484"
+      - "🇳🇱 ShatakVPN 712650"
+      - "🇳🇱 ShatakVPN 170743"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"
