@@ -4,9 +4,13 @@ function proxyUrl(countryCode, type) {
   return `/api/sub?code=${encodeURIComponent(String(countryCode || "").toLowerCase())}&type=${type}`;
 }
 
-module.exports = async function handler(req, res) {
+function setNoCache(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+}
+
+export default async function handler(req, res) {
+  setNoCache(res);
 
   try {
     const upstream = await fetch(`${MANIFEST_URL}?t=${Date.now()}`, {
@@ -15,7 +19,6 @@ module.exports = async function handler(req, res) {
         "Accept": "application/json,text/plain,*/*",
         "Cache-Control": "no-cache",
       },
-      cache: "no-store",
     });
 
     if (!upstream.ok) {
@@ -26,7 +29,6 @@ module.exports = async function handler(req, res) {
     }
 
     const manifest = await upstream.json();
-
     const countries = Array.isArray(manifest.countries)
       ? manifest.countries.map((country) => ({
           ...country,
@@ -46,7 +48,7 @@ module.exports = async function handler(req, res) {
   } catch (error) {
     return res.status(500).json({
       error: "Manifest proxy error",
-      message: error instanceof Error ? error.message : String(error),
+      message: error && error.message ? error.message : String(error),
     });
   }
-};
+}
