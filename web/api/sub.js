@@ -2,9 +2,13 @@ const BASE_URL = "https://raw.githubusercontent.com/huima5602-collab/v2finder-/m
 const ALLOWED_TYPES = new Set(["txt", "yaml"]);
 const CODE_RE = /^[a-z0-9_-]{2,20}$/i;
 
-module.exports = async function handler(req, res) {
+function setNoCache(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
+}
+
+export default async function handler(req, res) {
+  setNoCache(res);
 
   const code = String(req.query.code || "").toLowerCase();
   const type = String(req.query.type || "txt").toLowerCase();
@@ -26,7 +30,6 @@ module.exports = async function handler(req, res) {
         "Accept": "text/plain,*/*",
         "Cache-Control": "no-cache",
       },
-      cache: "no-store",
     });
 
     if (!upstream.ok) {
@@ -37,6 +40,6 @@ module.exports = async function handler(req, res) {
     res.setHeader("Content-Type", type === "yaml" ? "application/x-yaml; charset=utf-8" : "text/plain; charset=utf-8");
     return res.status(200).send(text);
   } catch (error) {
-    return res.status(500).send(`Subscription proxy error: ${error instanceof Error ? error.message : String(error)}`);
+    return res.status(500).send(`Subscription proxy error: ${error && error.message ? error.message : String(error)}`);
   }
-};
+}
