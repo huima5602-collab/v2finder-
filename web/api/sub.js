@@ -2,7 +2,7 @@ const BASE_URL = "https://raw.githubusercontent.com/huima5602-collab/v2finder-/m
 const ALLOWED_TYPES = new Set(["txt", "yaml"]);
 const CODE_RE = /^[a-z0-9_-]{2,20}$/i;
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
 
@@ -39,4 +39,4 @@ export default async function handler(req, res) {
   } catch (error) {
     return res.status(500).send(`Subscription proxy error: ${error instanceof Error ? error.message : String(error)}`);
   }
-}
+};
