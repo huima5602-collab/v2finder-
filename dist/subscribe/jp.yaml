@@ -358,79 +358,6 @@ proxies:
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
     network: "tcp"
-  - name: "🇯🇵JP-161.129.34.102-2361"
-    type: "vmess"
-    server: "161.129.34.102"
-    port: 443
-    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "161.129.34.102"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇯🇵JP-161.129.34.102-1687"
-    type: "vmess"
-    server: "161.129.34.102"
-    port: 443
-    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "161.129.34.102"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "161.129.34.102"
-  - name: "🇯🇵JP-131.186.57.111-7190"
-    type: "vmess"
-    server: "131.186.57.111"
-    port: 443
-    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇯🇵JP-8.211.149.30-0234"
-    type: "vmess"
-    server: "8.211.149.30"
-    port: 443
-    uuid: "bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "polartime.link"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "polartime.link"
-  - name: "🇯🇵JP-172.104.78.98-1419"
-    type: "vmess"
-    server: "172.104.78.98"
-    port: 443
-    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "172.104.78.98"
-    network: "ws"
-    ws-opts:
-      path: "/chat"
-      headers:
   - name: "🇯🇵"
     type: "vless"
     server: "162.159.44.195"
@@ -507,6 +434,13 @@ proxies:
     udp: true
   - name: "🇯🇵"
     type: "ss"
+    server: "217.142.254.144"
+    port: 443
+    cipher: "y���m���v��\u001eko�릾�6y�v��"
+    password: "y���m���v��\u001eko�릾�6y�v��}"
+    udp: true
+  - name: "🇯🇵"
+    type: "ss"
     server: "47.79.144.115"
     port: 40003
     cipher: "aes-256-gcm"
@@ -573,16 +507,12 @@ proxy-groups:
       - "🇯🇵JP日本3"
       - "🇯🇵JP日本4"
       - "🇯🇵 机场推荐:dafei.de 日本 01"
-      - "🇯🇵JP-161.129.34.102-2361"
-      - "🇯🇵JP-161.129.34.102-1687"
-      - "🇯🇵JP-131.186.57.111-7190"
-      - "🇯🇵JP-8.211.149.30-0234"
-      - "🇯🇵JP-172.104.78.98-1419"
       - "🇯🇵"
       - "🇯🇵"
       - "🇯🇵"
       - "🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+      - "🇯🇵"
       - "🇯🇵"
       - "🇯🇵"
       - "🇯🇵"

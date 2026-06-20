@@ -3,13 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "SG SS-349 | free-nodes"
-    type: "ss"
-    server: "csgfw.top"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "6601fb90e9b3"
-    udp: true
   - name: "🇸🇬 新加坡|@ripaojiedian"
     type: "trojan"
     server: "35.77.34.38"
@@ -91,6 +84,14 @@ proxies:
       path: "/proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome"
       headers:
         Host: "nbhhh.mrcool.kdns.fr"
+  - name: "🇸🇬SG_5|1.1MB/s"
+    type: "vless"
+    server: "8.219.7.104"
+    port: 38649
+    udp: true
+    uuid: "f986775c-5abe-4950-a760-52cc9831a483"
+    tls: true
+    servername: "claw.cloud"
   - name: "🇸🇬SG-103.36.91.32-4546"
     type: "ss"
     server: "103.36.91.32"
@@ -474,172 +475,6 @@ proxies:
     udp: true
     uuid: "0fbf78f2-9b05-4f6d-af3a-a8b0cc989f97"
     network: "tcp"
-  - name: "🇸🇬SG-109.123.237.41-2062"
-    type: "vmess"
-    server: "109.123.237.41"
-    port: 80
-    uuid: "03a77360-808d-11ed-b736-205c6d5f5d78"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/fastssh"
-      headers:
-  - name: "🇸🇬SG-157.230.36.235-2155"
-    type: "vmess"
-    server: "157.230.36.235"
-    port: 80
-    uuid: "b484d576-b3e3-4ac5-b108-88a300dfe7e3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/graphql"
-      headers:
-  - name: "🇸🇬SG-202.79.171.157-2323"
-    type: "vmess"
-    server: "202.79.171.157"
-    port: 443
-    uuid: "fb3583a3-7717-4fe5-9146-3301861f9f41"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "202.79.171.157"
-    network: "ws"
-    ws-opts:
-      path: "/path/243535322906"
-      headers:
-  - name: "🇸🇬SG-8.219.123.35-7429"
-    type: "vmess"
-    server: "8.219.123.35"
-    port: 80
-    uuid: "7e7f8398-bd39-49d8-9ce6-e48ffef463dd"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/2TokGE9A/"
-      headers:
-  - name: "🇸🇬SG-202.79.172.53-1105"
-    type: "vmess"
-    server: "202.79.172.53"
-    port: 443
-    uuid: "30216206-14b7-40e7-995d-61c1219ba584"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "202.79.172.53"
-    network: "ws"
-    ws-opts:
-      path: "/path/220128071100"
-      headers:
-  - name: "🇸🇬SG-146.190.82.241-1571"
-    type: "vmess"
-    server: "146.190.82.241"
-    port: 443
-    uuid: "ee76cecf-1219-42be-ae3f-6b8077e4cacc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "146.190.82.241"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-206.238.236.36-7071"
-    type: "vmess"
-    server: "206.238.236.36"
-    port: 2052
-    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/afrhms16v.bestxray.buzz/linkws"
-      headers:
-        Host: "mysan2.jaquay22.workers.dev"
-  - name: "🇸🇬SG-15.235.147.186-0397"
-    type: "vmess"
-    server: "15.235.147.186"
-    port: 80
-    uuid: "6fea1649-425b-4092-bf53-29792152c925"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/sshkit/Ertusg86/635014638c264/"
-      headers:
-  - name: "🇸🇬SG-15.235.192.196-2154"
-    type: "vmess"
-    server: "15.235.192.196"
-    port: 80
-    uuid: "3701ded3-09ba-4154-970d-a9f4a090a382"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-  - name: "🇸🇬SG-118.107.46.173-8161"
-    type: "vmess"
-    server: "118.107.46.173"
-    port: 443
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "118.107.46.173"
-    network: "ws"
-    ws-opts:
-      path: "/path/080712342310"
-      headers:
-  - name: "🇸🇬SG-139.99.61.154-1009"
-    type: "vmess"
-    server: "139.99.61.154"
-    port: 80
-    uuid: "932a1f0d-f5ce-418d-8560-c88f53c534b9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "139.99.61.154"
-  - name: "🇸🇬SG-143.198.219.182-1121"
-    type: "vmess"
-    server: "143.198.219.182"
-    port: 80
-    uuid: "e9c4ce52-9a78-4381-b6f8-23350bc4d606"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/v2ray"
-      headers:
-  - name: "🇸🇬SG-15.235.184.36-1868"
-    type: "vmess"
-    server: "15.235.184.36"
-    port: 80
-    uuid: "7ce525f5-3a9b-4627-ae0e-3ca0b57519e3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
   - name: "🇸🇬"
     type: "vless"
     server: "162.159.12.41"
@@ -664,7 +499,6 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "SG SS-349 | free-nodes"
       - "🇸🇬 新加坡|@ripaojiedian"
       - "🇸🇬 新加坡3|@ripaojiedian"
       - "新加坡|@ripaojiedian"
@@ -674,6 +508,7 @@ proxy-groups:
       - "🇸🇬SG_2|2.1MB/s"
       - "🇸🇬SG_3|1.1MB/s"
       - "🇸🇬SG_4|3.2MB/s"
+      - "🇸🇬SG_5|1.1MB/s"
       - "🇸🇬SG-103.36.91.32-4546"
       - "🇸🇬SG-15.235.147.186-0404"
       - "🇸🇬SG-8.219.134.138-0840"
@@ -712,19 +547,6 @@ proxy-groups:
       - "🇸🇬 机场推荐:dafei.de 新加坡 02"
       - "🇸🇬 机场推荐:dafei.de 新加坡 03"
       - "🇸🇬 机场推荐:dafei.de 新加坡 04"
-      - "🇸🇬SG-109.123.237.41-2062"
-      - "🇸🇬SG-157.230.36.235-2155"
-      - "🇸🇬SG-202.79.171.157-2323"
-      - "🇸🇬SG-8.219.123.35-7429"
-      - "🇸🇬SG-202.79.172.53-1105"
-      - "🇸🇬SG-146.190.82.241-1571"
-      - "🇸🇬SG-206.238.236.36-7071"
-      - "🇸🇬SG-15.235.147.186-0397"
-      - "🇸🇬SG-15.235.192.196-2154"
-      - "🇸🇬SG-118.107.46.173-8161"
-      - "🇸🇬SG-139.99.61.154-1009"
-      - "🇸🇬SG-143.198.219.182-1121"
-      - "🇸🇬SG-15.235.184.36-1868"
       - "🇸🇬"
       - "🇸🇬"
 rules:

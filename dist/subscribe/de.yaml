@@ -3,44 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "DE VLESS-94 | free-nodes"
-    type: "vless"
-    server: "de2.niekotin.de"
-    port: 80
-    udp: true
-    uuid: "12e2b366-6426-4e09-9c6f-9c894262b923"
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: "de2.niekotin.de"
-  - name: "DE VLESS-365 | free-nodes"
-    type: "vless"
-    server: "179.61.138.177"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us88.okgfwbackxyz.xyz"
-    network: "xhttp"
-  - name: "DE VLESS-374 | free-nodes"
-    type: "vless"
-    server: "179.61.138.177"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us71.okgfwbackxyz.xyz"
-    network: "xhttp"
-  - name: "DE VLESS-379 | free-nodes"
-    type: "vless"
-    server: "179.61.138.177"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us85.okgfwbackxyz.xyz"
-    network: "xhttp"
   - name: "🇩🇪79170 | ⚡️Telegram = t.me/SOSkeyNET"
     type: "trojan"
     server: "141.101.90.101"
@@ -837,6 +799,28 @@ proxies:
     udp: true
     uuid: "e64100fd-773d-4cc6-adbe-a4c94876d07a"
     network: "grpc"
+  - name: "DE 🇩🇪 | @Raydikalx | 2495"
+    type: "vmess"
+    server: "142.132.163.200"
+    port: 80
+    uuid: "7f965e3e-b03f-455e-a96e-01b61f72537a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/graphql"
+      headers:
+  - name: "DE 🇩🇪 | @Raydikalx | 2309"
+    type: "vmess"
+    server: "51.75.69.164"
+    port: 2053
+    uuid: "bf2c1d9b-864c-4503-8133-648487ac3bc9"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "51.75.69.164"
   - name: "🇩🇪DE-162.55.174.135-2455"
     type: "vmess"
     server: "162.55.174.135"
@@ -864,179 +848,6 @@ proxies:
       path: "/"
       headers:
         Host: "harriscity.com"
-  - name: "🇩🇪DE-193.122.58.158-6782"
-    type: "vmess"
-    server: "193.122.58.158"
-    port: 443
-    uuid: "e537f2f5-2a0c-4f59-92c9-832ca6433bf3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "irvideo.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "irvideo.cfd"
-  - name: "🇩🇪DE-94.130.184.57-2337"
-    type: "vmess"
-    server: "94.130.184.57"
-    port: 80
-    uuid: "c5e523e7-da73-40af-a4a9-c638720c30e1"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/graphql"
-      headers:
-  - name: "🇩🇪DE-162.55.174.135-2613"
-    type: "vmess"
-    server: "162.55.174.135"
-    port: 80
-    uuid: "4d9aa6db-705a-4bfa-b05b-8f442c839557"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/graphql"
-      headers:
-  - name: "🇩🇪DE-57.129.59.199-6390"
-    type: "vmess"
-    server: "57.129.59.199"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "kampong.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "kampong.org"
-  - name: "🇩🇪DE-57.129.59.201-6327"
-    type: "vmess"
-    server: "57.129.59.201"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "kampong.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "kampong.org"
-  - name: "🇩🇪DE-5.75.173.189-2593"
-    type: "vmess"
-    server: "5.75.173.189"
-    port: 80
-    uuid: "2aac77de-b3e4-4017-845c-ca1380f2e8d0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/telegram-id-@privatevpns"
-      headers:
-  - name: "🇩🇪DE-167.235.78.112-2671"
-    type: "vmess"
-    server: "167.235.78.112"
-    port: 80
-    uuid: "2aac77de-b3e4-4017-845c-ca1380f2e8d0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/telegram-id-@privatevpns"
-      headers:
-  - name: "🇩🇪DE-157.90.20.18-3014"
-    type: "vmess"
-    server: "157.90.20.18"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | 404"
-    type: "vmess"
-    server: "89.167.82.102"
-    port: 4443
-    uuid: "88553247-c1c8-4e80-9db6-56bff7efc33b"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "德國節點"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-23.158.56.227-6894"
-    type: "vmess"
-    server: "23.158.56.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.158.56.227"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "23.158.56.227"
-  - name: "德國節點"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | 2387"
-    type: "vmess"
-    server: "51.75.69.164"
-    port: 2053
-    uuid: "bf2c1d9b-864c-4503-8133-648487ac3bc9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "51.75.69.164"
-  - name: "🇩🇪DE-57.129.64.163-6388"
-    type: "vmess"
-    server: "57.129.64.163"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "yichueng.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "yichueng.org"
-  - name: "🇩🇪DE-94.130.25.155-3017"
-    type: "vmess"
-    server: "94.130.25.155"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "🇩🇪 @SPARTAN_YT"
     type: "vless"
     server: "45.130.125.158"
@@ -1422,10 +1233,6 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "DE VLESS-94 | free-nodes"
-      - "DE VLESS-365 | free-nodes"
-      - "DE VLESS-374 | free-nodes"
-      - "DE VLESS-379 | free-nodes"
       - "🇩🇪79170 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇩🇪79070 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇩🇪79069 | ⚡️Telegram = t.me/SOSkeyNET"
@@ -1511,23 +1318,10 @@ proxy-groups:
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
+      - "DE 🇩🇪 | @Raydikalx | 2495"
+      - "DE 🇩🇪 | @Raydikalx | 2309"
       - "🇩🇪DE-162.55.174.135-2455"
       - "🇩🇪DE-57.129.24.142-6837"
-      - "🇩🇪DE-193.122.58.158-6782"
-      - "🇩🇪DE-94.130.184.57-2337"
-      - "🇩🇪DE-162.55.174.135-2613"
-      - "🇩🇪DE-57.129.59.199-6390"
-      - "🇩🇪DE-57.129.59.201-6327"
-      - "🇩🇪DE-5.75.173.189-2593"
-      - "🇩🇪DE-167.235.78.112-2671"
-      - "🇩🇪DE-157.90.20.18-3014"
-      - "DE 🇩🇪 | @Raydikalx | 404"
-      - "德國節點"
-      - "🇩🇪DE-23.158.56.227-6894"
-      - "德國節點"
-      - "DE 🇩🇪 | @Raydikalx | 2387"
-      - "🇩🇪DE-57.129.64.163-6388"
-      - "🇩🇪DE-94.130.25.155-3017"
       - "🇩🇪 @SPARTAN_YT"
       - "🇮🇷🇩🇪@Letiranbreath-ECH"
       - "🇩🇪All¹⁰"

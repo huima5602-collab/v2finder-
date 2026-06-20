@@ -29,6 +29,19 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
+  - name: "🇨🇦79081 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "de.hknet.pro"
+    port: 8443
+    udp: true
+    uuid: "14dcda30-0906-4e63-8ff3-a7c6e0253898"
+    tls: true
+    servername: "de.hknet.pro"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "de.hknet.pro"
   - name: "🇨🇦79072 | ⚡️Telegram = t.me/SOSkeyNET"
     type: "vless"
     server: "188.114.97.6"
@@ -404,21 +417,6 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇨🇦@FreakConfig"
-    type: "vmess"
-    server: "158.51.121.63"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "seribus.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "seribus.org"
   - name: "[🇨🇦]t.me/ConfigsHub"
     type: "vmess"
     server: "158.51.121.63"
@@ -434,7 +432,7 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "CA 🇨🇦 | @Raydikalx | 342"
+  - name: "CA 🇨🇦 | @Raydikalx | 240"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -449,76 +447,6 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "🇨🇦CA-134.195.198.147-6323"
-    type: "vmess"
-    server: "134.195.198.147"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "inna.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
-        Host: "inna.cfd"
-  - name: "🇨🇦CA-23.162.200.227-0131"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇨🇦CA-137.184.164.233-6297"
-    type: "vmess"
-    server: "137.184.164.233"
-    port: 80
-    uuid: "5cee90e3-b915-4f1e-bb8d-efadad0c6feb"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-  - name: "🇨🇦CA-158.51.121.63-6320"
-    type: "vmess"
-    server: "158.51.121.63"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "seribus.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "seribus.org"
-  - name: "🇨🇦CA-23.162.200.227-6321"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
   - name: "🇨🇦"
     type: "vless"
     server: "104.18.34.124"
@@ -545,6 +473,7 @@ proxy-groups:
     proxies:
       - "🇨🇦79047 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇨🇦79182 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦79081 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇨🇦79072 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇨🇦79190 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇨🇦79189 | ⚡️Telegram = t.me/SOSkeyNET"
@@ -579,14 +508,8 @@ proxy-groups:
       - "🇨🇦CA-23.162.200.94-7075"
       - "🇨🇦CA加拿大"
       - "🇨🇦CA加拿大2"
-      - "🇨🇦@FreakConfig"
       - "[🇨🇦]t.me/ConfigsHub"
-      - "CA 🇨🇦 | @Raydikalx | 342"
-      - "🇨🇦CA-134.195.198.147-6323"
-      - "🇨🇦CA-23.162.200.227-0131"
-      - "🇨🇦CA-137.184.164.233-6297"
-      - "🇨🇦CA-158.51.121.63-6320"
-      - "🇨🇦CA-23.162.200.227-6321"
+      - "CA 🇨🇦 | @Raydikalx | 240"
       - "🇨🇦"
       - "🇨🇦"
 rules:

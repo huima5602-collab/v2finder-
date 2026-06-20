@@ -3,58 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "GB VLESS-93 | free-nodes"
-    type: "vless"
-    server: "hostvds-nl-nl.kvnfreetest.uk"
-    port: 21443
-    udp: true
-    uuid: "122f8c58-f173-4f4a-acb8-86172ba5e10d"
-    network: "tcp"
-  - name: "GB VLESS-385 | free-nodes"
-    type: "vless"
-    server: "s128.ccgfw.top"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us128.ccgfw.top"
-    network: "tcp"
-  - name: "GB VLESS-387 | free-nodes"
-    type: "vless"
-    server: "s193.ccgfw.top"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us193.ccgfw.top"
-    network: "tcp"
-  - name: "GB VLESS-418 | free-nodes"
-    type: "vless"
-    server: "193.142.59.97"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us861.csgfw.top"
-    network: "xhttp"
-  - name: "GB VLESS-420 | free-nodes"
-    type: "vless"
-    server: "s124.ccgfw.top"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us124.ccgfw.top"
-    network: "tcp"
-  - name: "GB VLESS-431 | free-nodes"
-    type: "vless"
-    server: "193.142.59.97"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us1243.csgfw.top"
-    network: "xhttp"
   - name: "🇬🇧 United Kingdom Mill Hill | ⏱3613ms | ⚡87KB/s | @NamazVPN"
     type: "ss"
     server: "78.129.155.63"
@@ -77,15 +25,6 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "英国+V2CROSS.COM"
-    type: "trojan"
-    server: "185.126.236.190"
-    port: 443
-    udp: true
-    password: "VGBzLm49=M_i02Az30tIeonkQw180t-edg"
-    tls: true
-    servername: "185.126.236.190"
-    network: "tcp"
   - name: "🇬🇧GB-82.38.31.210-0099"
     type: "ss"
     server: "82.38.31.210"
@@ -497,116 +436,11 @@ proxies:
     udp: true
     uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
     network: "tcp"
-  - name: "🇬🇧GB-149.7.16.248-6968"
+  - name: "GB 🇬🇧 | @Raydikalx | 252"
     type: "vmess"
-    server: "149.7.16.248"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "149.7.16.248"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "149.7.16.248"
-  - name: "英國"
-    type: "vmess"
-    server: "82.198.246.214"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "英國"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "英國"
-    type: "vmess"
-    server: "82.198.246.37"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇬🇧GB-217.163.76.147-7184"
-    type: "vmess"
-    server: "217.163.76.147"
-    port: 443
-    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "GB 🇬🇧 | @Raydikalx | 361"
-    type: "vmess"
-    server: "69.84.182.49"
-    port: 80
-    uuid: "f8975871-a7a0-4906-8835-a23c1258ca1e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
-  - name: "英國節點"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "英國節點"
-    type: "vmess"
-    server: "82.198.246.214"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "英國節點"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇬🇧GB-149.7.16.73-7037"
-    type: "vmess"
-    server: "149.7.16.73"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "149.7.16.73"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "英國節點"
-    type: "vmess"
-    server: "82.198.246.214"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    server: "2.26.231.87"
+    port: 110
+    uuid: "6d6595b5-ff7f-4995-abde-b1187299a63d"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -685,16 +519,9 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "GB VLESS-93 | free-nodes"
-      - "GB VLESS-385 | free-nodes"
-      - "GB VLESS-387 | free-nodes"
-      - "GB VLESS-418 | free-nodes"
-      - "GB VLESS-420 | free-nodes"
-      - "GB VLESS-431 | free-nodes"
       - "🇬🇧 United Kingdom Mill Hill | ⏱3613ms | ⚡87KB/s | @NamazVPN"
       - "🇬🇧 United Kingdom City of London | ⏱593ms | ⚡1.0MB/s | @NamazVPN"
       - "🇬🇧79056 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "英国+V2CROSS.COM"
       - "🇬🇧GB-82.38.31.210-0099"
       - "🇬🇧GB-146.70.61.37-0193"
       - "🇬🇧GB-82.38.31.15-0096"
@@ -747,17 +574,7 @@ proxy-groups:
       - "AetrisVPN White list ┃ ✅ SNI: storage.yandex.net ┃ 🇬🇧 Великобритания (8)"
       - "Channel id: @ShadowProxy66 🇬🇧"
       - "Channel id: @ShadowProxy66 🇬🇧"
-      - "🇬🇧GB-149.7.16.248-6968"
-      - "英國"
-      - "英國"
-      - "英國"
-      - "🇬🇧GB-217.163.76.147-7184"
-      - "GB 🇬🇧 | @Raydikalx | 361"
-      - "英國節點"
-      - "英國節點"
-      - "英國節點"
-      - "🇬🇧GB-149.7.16.73-7037"
-      - "英國節點"
+      - "GB 🇬🇧 | @Raydikalx | 252"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
