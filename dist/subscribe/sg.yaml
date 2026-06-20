@@ -3,55 +3,28 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "SG"
-    type: "trojan"
-    server: "139.180.220.7"
+  - name: "SG SS-349 | free-nodes"
+    type: "ss"
+    server: "csgfw.top"
     port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "tjsp.hhxaf.cc.cd"
-  - name: "SG"
-    type: "trojan"
-    server: "45.77.241.64"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "tjsp.hhxaf.cc.cd"
-  - name: "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
-    type: "vmess"
-    server: "149.88.23.202"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
+    cipher: "aes-128-gcm"
+    password: "6601fb90e9b3"
     udp: true
   - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
     type: "trojan"
-    server: "47.82.162.142"
+    server: "8.219.134.138"
     port: 443
     udp: true
-    password: "4c3164ee-abcf-4091-abea-d1cd4937a68d"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
   - name: "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
     type: "trojan"
-    server: "47.82.155.79"
+    server: "167.254.240.12"
     port: 443
     udp: true
-    password: "4c3164ee-abcf-4091-abea-d1cd4937a68d"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
   - name: "新加坡|@ripaojiedian"
     type: "trojan"
-    server: "95.40.53.120"
+    server: "35.77.34.38"
     port: 29642
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
@@ -60,8 +33,8 @@ proxies:
     network: "tcp"
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "16.162.87.106"
-    port: 45744
+    server: "18.162.50.252"
+    port: 9149
     udp: true
     password: "BxceQaOe"
     tls: true
@@ -69,30 +42,30 @@ proxies:
     network: "tcp"
   - name: "新加坡|@ripaojiedian"
     type: "trojan"
-    server: "95.40.53.120"
+    server: "35.77.34.38"
     port: 29642
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "16.162.87.106"
-    port: 45744
+    server: "18.162.50.252"
+    port: 9149
     udp: true
     password: "BxceQaOe"
-  - name: "🇸🇬SG-172.104.48.151-0285"
-    type: "vmess"
-    server: "172.104.48.151"
-    port: 8080
-    uuid: "c8bab0e9-fad7-46ef-e74a-9cb2022ed9c9"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇸🇬SG_2|1.8MB/s"
+    type: "vless"
+    server: "162.159.18.228"
+    port: 2087
     udp: true
+    uuid: "4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65"
+    tls: true
+    servername: "lh1.fum.ccwu.cc"
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/proxyip=sjc.o00o.ooofp=chrome"
       headers:
-        Host: "172.104.48.151"
-  - name: "🇸🇬SG-15.235.147.186-0435"
+        Host: "lh1.fum.ccwu.cc"
+  - name: "🇸🇬SG-15.235.147.186-0397"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -104,7 +77,7 @@ proxies:
     ws-opts:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-1042"
+  - name: "🇸🇬SG-139.99.61.154-1002"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -117,7 +90,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "139.99.61.154"
-  - name: "🇸🇬SG-202.79.172.53-1138"
+  - name: "🇸🇬SG-202.79.172.53-1098"
     type: "vmess"
     server: "202.79.172.53"
     port: 443
@@ -131,7 +104,7 @@ proxies:
     ws-opts:
       path: "/path/220128071100"
       headers:
-  - name: "🇸🇬SG-143.198.219.182-1154"
+  - name: "🇸🇬SG-143.198.219.182-1114"
     type: "vmess"
     server: "143.198.219.182"
     port: 80
@@ -143,7 +116,7 @@ proxies:
     ws-opts:
       path: "/v2ray"
       headers:
-  - name: "🇸🇬SG-146.190.82.241-1191"
+  - name: "🇸🇬SG-146.190.82.241-1151"
     type: "vmess"
     server: "146.190.82.241"
     port: 80
@@ -155,14 +128,14 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-13.215.49.89-1549"
+  - name: "🇸🇬SG-13.215.49.89-1509"
     type: "ss"
     server: "13.215.49.89"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-146.190.82.241-1604"
+  - name: "🇸🇬SG-146.190.82.241-1564"
     type: "vmess"
     server: "146.190.82.241"
     port: 443
@@ -176,7 +149,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-15.235.184.36-1901"
+  - name: "🇸🇬SG-15.235.184.36-1862"
     type: "vmess"
     server: "15.235.184.36"
     port: 80
@@ -188,7 +161,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-1906"
+  - name: "🇸🇬SG-139.99.61.154-1867"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -200,7 +173,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-1933"
+  - name: "🇸🇬SG-109.123.237.41-1894"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -212,7 +185,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-2095"
+  - name: "🇸🇬SG-109.123.237.41-2056"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -224,7 +197,7 @@ proxies:
     ws-opts:
       path: "/fastssh"
       headers:
-  - name: "🇸🇬SG-15.235.192.196-2187"
+  - name: "🇸🇬SG-15.235.192.196-2148"
     type: "vmess"
     server: "15.235.192.196"
     port: 80
@@ -236,7 +209,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-157.230.36.235-2188"
+  - name: "🇸🇬SG-157.230.36.235-2149"
     type: "vmess"
     server: "157.230.36.235"
     port: 80
@@ -248,7 +221,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇸🇬SG-202.79.171.157-2356"
+  - name: "🇸🇬SG-202.79.171.157-2317"
     type: "vmess"
     server: "202.79.171.157"
     port: 443
@@ -262,14 +235,14 @@ proxies:
     ws-opts:
       path: "/path/243535322906"
       headers:
-  - name: "🇸🇬SG-13.213.46.196-4431"
+  - name: "🇸🇬SG-13.213.46.196-4392"
     type: "ss"
     server: "13.213.46.196"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-159.223.94.156-4437"
+  - name: "🇸🇬SG-159.223.94.156-4398"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -281,7 +254,7 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "🇸🇬SG-5.180.78.22-4518"
+  - name: "🇸🇬SG-5.180.78.22-4480"
     type: "trojan"
     server: "5.180.78.22"
     port: 443
@@ -289,15 +262,22 @@ proxies:
     password: "d30ab83dbde4480082048fb315bedebd"
     tls: true
     servername: "5.180.78.22"
-  - name: "🇸🇬SG-188.253.12.94-4582"
+  - name: "🇸🇬SG-103.36.91.23-4521"
+    type: "ss"
+    server: "103.36.91.23"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+    udp: true
+  - name: "🇸🇬SG-188.253.12.99-4545"
     type: "trojan"
-    server: "188.253.12.94"
+    server: "188.253.12.99"
     port: 45553
     udp: true
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.99-4583"
+  - name: "🇸🇬SG-188.253.12.99-4546"
     type: "trojan"
     server: "188.253.12.99"
     port: 41943
@@ -305,7 +285,7 @@ proxies:
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-4584"
+  - name: "🇸🇬SG-188.253.12.93-4547"
     type: "trojan"
     server: "188.253.12.93"
     port: 41943
@@ -313,15 +293,15 @@ proxies:
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.99-4585"
+  - name: "🇸🇬SG-188.253.12.94-4548"
     type: "trojan"
-    server: "188.253.12.99"
+    server: "188.253.12.94"
     port: 45553
     udp: true
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-206.238.236.36-7107"
+  - name: "🇸🇬SG-206.238.236.36-7065"
     type: "vmess"
     server: "206.238.236.36"
     port: 2052
@@ -334,7 +314,7 @@ proxies:
       path: "/afrhms16v.bestxray.buzz/linkws"
       headers:
         Host: "mysan2.jaquay22.workers.dev"
-  - name: "🇸🇬SG-8.219.123.35-7465"
+  - name: "🇸🇬SG-8.219.123.35-7423"
     type: "vmess"
     server: "8.219.123.35"
     port: 80
@@ -346,14 +326,14 @@ proxies:
     ws-opts:
       path: "/2TokGE9A/"
       headers:
-  - name: "🇸🇬SG-51.79.161.232-7504"
+  - name: "🇸🇬SG-51.79.161.232-7462"
     type: "ss"
     server: "51.79.161.232"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "4Hub2f9JyhECyAq2Opm0NS"
     udp: true
-  - name: "🇸🇬SG-15.235.197.4-8097"
+  - name: "🇸🇬SG-15.235.197.4-8055"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -361,7 +341,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "15.235.197.4"
-  - name: "🇸🇬SG-15.235.197.4-8099"
+  - name: "🇸🇬SG-15.235.197.4-8057"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -369,7 +349,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "getandroid.com"
-  - name: "🇸🇬SG-118.107.46.173-8195"
+  - name: "🇸🇬SG-118.107.46.173-8153"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -383,7 +363,7 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "🇸🇬SG-118.107.46.173-8197"
+  - name: "🇸🇬SG-118.107.46.173-8155"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -397,87 +377,36 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "🇸🇬"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 01"
     type: "vless"
-    server: "172.64.53.74"
+    server: "8.219.7.104"
+    port: 38649
+    udp: true
+    uuid: "f986775c-5abe-4950-a760-52cc9831a483"
+    network: "tcp"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 02"
+    type: "trojan"
+    server: "35.77.34.38"
+    port: 29642
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
+    network: "tcp"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 03"
+    type: "trojan"
+    server: "18.162.50.252"
+    port: 9149
+    udp: true
+    password: "BxceQaOe"
+    network: "tcp"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 04"
+    type: "vless"
+    server: "152.42.198.111"
     port: 443
     udp: true
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
-  - name: "🇸🇬"
-    type: "vless"
-    server: "172.64.149.209"
-    port: 2087
-    udp: true
-    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
-    tls: true
-    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
-  - name: "🇸🇬"
-    type: "vless"
-    server: "172.67.185.178"
-    port: 443
-    udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    tls: true
-    servername: "hhlfy.twiladaphne.ndjp.net"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇸🇬"
-    type: "vless"
-    server: "45.85.118.1"
-    port: 80
-    udp: true
-    uuid: "3d663ca2-98b2-4f2b-8652-c527b12bebfc"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiRVF4cEpmc1Y2SFUzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
-      headers:
-        Host: "orange-truth-c6d1.rhyljiti.workers.dev"
-  - name: "🇸🇬"
-    type: "vless"
-    server: "162.159.81.104"
-    port: 80
-    udp: true
-    uuid: "4b00d726-e072-429b-997e-f07affea3b7f"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
-      headers:
-        Host: "icy-darkness-8ff1.farzambia12mo.workers.dev"
-  - name: "🇸🇬"
-    type: "vless"
-    server: "50.114.55.14"
-    port: 10001
-    udp: true
-    uuid: "9c79aceb-4649-44ea-9698-b5e9ecf6d6da"
+    uuid: "0fbf78f2-9b05-4f6d-af3a-a8b0cc989f97"
     network: "tcp"
   - name: "🇸🇬"
     type: "vless"
-    server: "162.159.81.177"
-    port: 80
-    udp: true
-    uuid: "4b00d726-e072-429b-997e-f07affea3b7f"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed=2560"
-      headers:
-        Host: "icy-darkness-8ff1.farzambia12mo.workers.dev"
-  - name: "🇸🇬"
-    type: "vless"
     server: "104.18.34.124"
     port: 443
     udp: true
@@ -490,53 +419,69 @@ proxies:
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
   - name: "🇸🇬"
-    type: "ss"
-    server: "50.114.55.14"
-    port: 10001
-    cipher: "���iǛ�����8y����>o��y��w�"
-    password: "���iǛ�����8y����>o��y��w�Z"
+    type: "vless"
+    server: "188.114.97.6"
+    port: 2096
+    udp: true
+    uuid: "70252937-5c61-4fb0-8656-d1a16261b795"
+    tls: true
+    servername: "group.shalana.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/shalana"
+      headers:
+        Host: "group.shalana.xyz"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "172.64.149.209"
+    port: 2087
+    udp: true
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "188.114.97.6"
+    port: 2086
+    udp: true
+    uuid: "9c10d8b0-e1fb-48d5-af5d-03ad736f37bb"
+    network: "ws"
+    ws-opts:
+      path: "/eyJqdW5rIjoiMENyWGlPUjVmIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOlsiODcuMTIwLjE2Ni4xNCJdfQ==?ed=2560"
+      headers:
+        Host: "snowy-fire-7369.mmdiborobav.workers.dev"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "172.64.53.227"
+    port: 2087
+    udp: true
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
+  - name: "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
+    type: "vmess"
+    server: "155.254.126.249"
+    port: 6004
+    uuid: "a030842a-d29a-4ea9-a776-14fc4b9e102d"
+    alterId: 0
+    cipher: "auto"
     udp: true
   - name: "🇸🇬"
     type: "ss"
-    server: "162.159.81.104"
-    port: 80
-    cipher: "�4w����;��6������N�}��ݾ"
-    password: "�4w����;��6������N�}��ݾ�"
-    udp: true
-  - name: "🇸🇬"
-    type: "ss"
-    server: "45.85.118.1"
-    port: 80
-    cipher: "�޺�ƶ��\u001b��\u001fٿ�띾s��o]�y�"
-    password: "�޺�ƶ��\u001b��\u001fٿ�띾s��o]�y��"
-    udp: true
-  - name: "🇸🇬"
-    type: "ss"
-    server: "104.18.34.124"
-    port: 443
-    cipher: "{�\u001cצ�����"
-    password: "oo�٧�iݵ緵�["
-    udp: true
-  - name: "🇸🇬"
-    type: "ss"
-    server: "162.159.81.177"
-    port: 80
-    cipher: "�4w����;��6������N�}��ݾ"
-    password: "�4w����;��6������N�}��ݾ�"
-    udp: true
-  - name: "🇸🇬"
-    type: "ss"
-    server: "172.64.53.74"
-    port: 443
-    cipher: "�����Ʒ{�믛��~k�9G�ov"
-    password: "�����Ʒ{�믛��~k�9G�ov�"
-    udp: true
-  - name: "🇸🇬"
-    type: "ss"
-    server: "172.67.185.178"
-    port: 443
-    cipher: "{�\u001cצ�����"
-    password: "oo�٧�iݵ緵�["
+    server: "188.114.97.6"
+    port: 2096
+    cipher: "�M������"
+    password: "��\u001foO�랾wV��n�o�y"
     udp: true
   - name: "🇸🇬"
     type: "ss"
@@ -547,69 +492,108 @@ proxies:
     udp: true
   - name: "🇸🇬"
     type: "ss"
-    server: "168.138.175.92"
-    port: 9888
-    cipher: "aes-128-gcm"
-    password: "JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF"
+    server: "104.18.34.124"
+    port: 443
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
     udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "172.64.53.227"
+    port: 2087
+    cipher: "�����Ʒ{�믛��~k�9G�ov"
+    password: "�����Ʒ{�믛��~k�9G�ov�"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "188.114.97.6"
+    port: 2086
+    cipher: "��tw����_o�<w���~�v��~�߶"
+    password: "��tw����_o�<w���~�v��~�߶�"
+    udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "146.235.16.191"
+    port: 443
+    udp: true
+    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "t1s1.rittbo.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1s1.rittbo.kdns.fr"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "149.28.159.222"
+    port: 443
+    udp: true
+    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "t1s1.rittbo.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1s1.rittbo.kdns.fr"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "SG"
-      - "SG"
+      - "SG SS-349 | free-nodes"
+      - "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
+      - "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
+      - "新加坡|@ripaojiedian"
+      - "新加坡3|@ripaojiedian"
+      - "新加坡|@ripaojiedian"
+      - "新加坡3|@ripaojiedian"
+      - "🇸🇬SG_2|1.8MB/s"
+      - "🇸🇬SG-15.235.147.186-0397"
+      - "🇸🇬SG-139.99.61.154-1002"
+      - "🇸🇬SG-202.79.172.53-1098"
+      - "🇸🇬SG-143.198.219.182-1114"
+      - "🇸🇬SG-146.190.82.241-1151"
+      - "🇸🇬SG-13.215.49.89-1509"
+      - "🇸🇬SG-146.190.82.241-1564"
+      - "🇸🇬SG-15.235.184.36-1862"
+      - "🇸🇬SG-139.99.61.154-1867"
+      - "🇸🇬SG-109.123.237.41-1894"
+      - "🇸🇬SG-109.123.237.41-2056"
+      - "🇸🇬SG-15.235.192.196-2148"
+      - "🇸🇬SG-157.230.36.235-2149"
+      - "🇸🇬SG-202.79.171.157-2317"
+      - "🇸🇬SG-13.213.46.196-4392"
+      - "🇸🇬SG-159.223.94.156-4398"
+      - "🇸🇬SG-5.180.78.22-4480"
+      - "🇸🇬SG-103.36.91.23-4521"
+      - "🇸🇬SG-188.253.12.99-4545"
+      - "🇸🇬SG-188.253.12.99-4546"
+      - "🇸🇬SG-188.253.12.93-4547"
+      - "🇸🇬SG-188.253.12.94-4548"
+      - "🇸🇬SG-206.238.236.36-7065"
+      - "🇸🇬SG-8.219.123.35-7423"
+      - "🇸🇬SG-51.79.161.232-7462"
+      - "🇸🇬SG-15.235.197.4-8055"
+      - "🇸🇬SG-15.235.197.4-8057"
+      - "🇸🇬SG-118.107.46.173-8153"
+      - "🇸🇬SG-118.107.46.173-8155"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 01"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 02"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 03"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 04"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
       - "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
-      - "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-      - "🇸🇬 SG新加坡(mibei77.com 米贝节点分享)"
-      - "新加坡|@ripaojiedian"
-      - "新加坡3|@ripaojiedian"
-      - "新加坡|@ripaojiedian"
-      - "新加坡3|@ripaojiedian"
-      - "🇸🇬SG-172.104.48.151-0285"
-      - "🇸🇬SG-15.235.147.186-0435"
-      - "🇸🇬SG-139.99.61.154-1042"
-      - "🇸🇬SG-202.79.172.53-1138"
-      - "🇸🇬SG-143.198.219.182-1154"
-      - "🇸🇬SG-146.190.82.241-1191"
-      - "🇸🇬SG-13.215.49.89-1549"
-      - "🇸🇬SG-146.190.82.241-1604"
-      - "🇸🇬SG-15.235.184.36-1901"
-      - "🇸🇬SG-139.99.61.154-1906"
-      - "🇸🇬SG-109.123.237.41-1933"
-      - "🇸🇬SG-109.123.237.41-2095"
-      - "🇸🇬SG-15.235.192.196-2187"
-      - "🇸🇬SG-157.230.36.235-2188"
-      - "🇸🇬SG-202.79.171.157-2356"
-      - "🇸🇬SG-13.213.46.196-4431"
-      - "🇸🇬SG-159.223.94.156-4437"
-      - "🇸🇬SG-5.180.78.22-4518"
-      - "🇸🇬SG-188.253.12.94-4582"
-      - "🇸🇬SG-188.253.12.99-4583"
-      - "🇸🇬SG-188.253.12.93-4584"
-      - "🇸🇬SG-188.253.12.99-4585"
-      - "🇸🇬SG-206.238.236.36-7107"
-      - "🇸🇬SG-8.219.123.35-7465"
-      - "🇸🇬SG-51.79.161.232-7504"
-      - "🇸🇬SG-15.235.197.4-8097"
-      - "🇸🇬SG-15.235.197.4-8099"
-      - "🇸🇬SG-118.107.46.173-8195"
-      - "🇸🇬SG-118.107.46.173-8197"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
-      - "🇸🇬"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"

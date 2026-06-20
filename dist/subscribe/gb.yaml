@@ -3,13 +3,107 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇬🇧 英国 V2CROSS.COM"
-    type: "ss"
-    server: "148.253.208.76"
-    port: 3478
-    cipher: "chacha20-ietf-poly1305"
-    password: "yu2XnSPWhmQjxn83iJA3DA"
+  - name: "GB VLESS-93 | free-nodes"
+    type: "vless"
+    server: "hostvds-nl-nl.kvnfreetest.uk"
+    port: 21443
     udp: true
+    uuid: "122f8c58-f173-4f4a-acb8-86172ba5e10d"
+    network: "tcp"
+  - name: "GB VLESS-385 | free-nodes"
+    type: "vless"
+    server: "s128.ccgfw.top"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us128.ccgfw.top"
+    network: "tcp"
+  - name: "GB VLESS-387 | free-nodes"
+    type: "vless"
+    server: "s193.ccgfw.top"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us193.ccgfw.top"
+    network: "tcp"
+  - name: "GB VLESS-418 | free-nodes"
+    type: "vless"
+    server: "193.142.59.97"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us861.csgfw.top"
+    network: "xhttp"
+  - name: "GB VLESS-420 | free-nodes"
+    type: "vless"
+    server: "s124.ccgfw.top"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us124.ccgfw.top"
+    network: "tcp"
+  - name: "GB VLESS-431 | free-nodes"
+    type: "vless"
+    server: "193.142.59.97"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us1243.csgfw.top"
+    network: "xhttp"
+  - name: "🇬🇧 United Kingdom, London | [BL]"
+    type: "vless"
+    server: "45.206.0.36"
+    port: 8443
+    udp: true
+    uuid: "4d606920-62d7-4d28-a5c4-f8a70fe56aaa"
+    network: "tcp"
+  - name: "🇬🇧 United Kingdom, London | [BL]"
+    type: "vless"
+    server: "45.206.0.37"
+    port: 8443
+    udp: true
+    uuid: "52faee73-e0fe-4661-992d-67259257170f"
+    network: "tcp"
+  - name: "🇬🇧 United Kingdom, London | [BL]"
+    type: "vless"
+    server: "151.243.28.97"
+    port: 1443
+    udp: true
+    uuid: "be5abe11-1c65-4289-b581-a5121a8719a1"
+    network: "tcp"
+  - name: "🇬🇧GB_3|2.0MB/s"
+    type: "vless"
+    server: "31.76.113.30"
+    port: 443
+    udp: true
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
+    network: "tcp"
+  - name: "🇬🇧GB_6|2.0MB/s"
+    type: "vless"
+    server: "31.76.113.30"
+    port: 443
+    udp: true
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
+    network: "tcp"
+  - name: "🇬🇧GB_5|1.7MB/s"
+    type: "vless"
+    server: "31.76.113.91"
+    port: 443
+    udp: true
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
+    network: "tcp"
+  - name: "🇬🇧GB_2|2.1MB/s"
+    type: "vless"
+    server: "31.76.113.91"
+    port: 443
+    udp: true
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
+    network: "tcp"
   - name: "英國節點"
     type: "vmess"
     server: "82.198.246.214"
@@ -104,250 +198,247 @@ proxies:
     port: 46424
     udp: true
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-  - name: "🇬🇧GB_1|1023KB/s"
+  - name: "🇬🇧GB_2|2.5MB/s"
     type: "vless"
-    server: "31.76.113.100"
-    port: 443
-    udp: true
-    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
-    tls: true
-    servername: "it.s3-cloud.xyz"
-  - name: "🇬🇧GB_2|1.1MB/s"
-    type: "vless"
-    server: "2.144.5.90"
+    server: "152.233.28.201"
     port: 8443
     udp: true
-    uuid: "21784e1c-392e-4c5f-b50a-9f8a49f87e9a"
-    network: "ws"
-    ws-opts:
-      path: "/Stream"
-      headers:
-        Host: "bama.ir"
-  - name: "🇬🇧GB-82.38.31.217-0113"
-    type: "ss"
-    server: "82.38.31.217"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+  - name: "🇬🇧GB_3|1.4MB/s"
+    type: "vless"
+    server: "152.233.28.202"
+    port: 8443
     udp: true
-  - name: "🇬🇧GB-82.38.31.16-0135"
-    type: "ss"
-    server: "82.38.31.16"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.17-0115"
-    type: "ss"
-    server: "82.38.31.17"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.192-0116"
-    type: "ss"
-    server: "82.38.31.192"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.194-0119"
-    type: "ss"
-    server: "82.38.31.194"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.149-0120"
-    type: "ss"
-    server: "82.38.31.149"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.205-0123"
-    type: "ss"
-    server: "82.38.31.205"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.15-0128"
-    type: "ss"
-    server: "82.38.31.15"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-146.70.61.37-0221"
-    type: "ss"
-    server: "146.70.61.37"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.191-0114"
-    type: "ss"
-    server: "82.38.31.191"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.214-0223"
-    type: "ss"
-    server: "82.38.31.214"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.35-0222"
-    type: "ss"
-    server: "82.38.31.35"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-94.156.250.148-0155"
-    type: "ss"
-    server: "94.156.250.148"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.210-0130"
-    type: "ss"
-    server: "82.38.31.210"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-141.98.101.178-0160"
-    type: "ss"
-    server: "141.98.101.178"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧GB-141.98.101.181-0152"
-    type: "ss"
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧GB-141.98.101.179-0151"
-    type: "ss"
-    server: "141.98.101.179"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧GB-141.98.101.182-0153"
-    type: "ss"
-    server: "141.98.101.182"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.202-0129"
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+  - name: "🇬🇧GB-82.38.31.202-0104"
     type: "ss"
     server: "82.38.31.202"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇬🇧GB-82.38.31.2-0184"
+  - name: "🇬🇧GB-82.38.31.214-0080"
     type: "ss"
-    server: "82.38.31.2"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.7-0181"
-    type: "ss"
-    server: "82.38.31.7"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇬🇧GB-185.5.38.111-0200"
-    type: "ss"
-    server: "185.5.38.111"
-    port: 55988
-    cipher: "chacha20-ietf-poly1305"
-    password: "bZ87amPpdG7KuWM62bKtm1KHoowuVjnV8CKtq653ymHcg2dPYcPJfnaQ61stuAjr2ZiLDaqH56XpkxEYuwDzzRrMWieebWGt"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.199-0189"
-    type: "ss"
-    server: "82.38.31.199"
+    server: "82.38.31.214"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇬🇧GB-82.38.31.187-0192"
+  - name: "🇬🇧GB-82.38.31.205-0093"
     type: "ss"
-    server: "82.38.31.187"
+    server: "82.38.31.205"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇬🇧GB-82.38.31.186-0191"
+  - name: "🇬🇧GB-82.38.31.217-0094"
     type: "ss"
-    server: "82.38.31.186"
+    server: "82.38.31.217"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇬🇧GB-82.38.31.179-0193"
-    type: "ss"
-    server: "82.38.31.179"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.176-0248"
-    type: "ss"
-    server: "82.38.31.176"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.189-0255"
-    type: "ss"
-    server: "82.38.31.189"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.184-0225"
-    type: "ss"
-    server: "82.38.31.184"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.218-0127"
-    type: "ss"
-    server: "82.38.31.218"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇬🇧GB-82.38.31.208-0226"
+  - name: "🇬🇧GB-82.38.31.208-0076"
     type: "ss"
     server: "82.38.31.208"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇬🇧GB-82.38.31.155-0277"
+  - name: "🇬🇧GB-82.38.31.194-0091"
+    type: "ss"
+    server: "82.38.31.194"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.149-0087"
+    type: "ss"
+    server: "82.38.31.149"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.191-0079"
+    type: "ss"
+    server: "82.38.31.191"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.15-0085"
+    type: "ss"
+    server: "82.38.31.15"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.192-0083"
+    type: "ss"
+    server: "82.38.31.192"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.210-0095"
+    type: "ss"
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.17-0090"
+    type: "ss"
+    server: "82.38.31.17"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.35-0088"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.16-0081"
+    type: "ss"
+    server: "82.38.31.16"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-141.98.101.181-0114"
+    type: "ss"
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧GB-141.98.101.179-0116"
+    type: "ss"
+    server: "141.98.101.179"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧GB-94.156.250.148-0112"
+    type: "ss"
+    server: "94.156.250.148"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇬🇧GB-141.98.101.178-0113"
+    type: "ss"
+    server: "141.98.101.178"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧GB-141.98.101.182-0121"
+    type: "ss"
+    server: "141.98.101.182"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.10-0138"
+    type: "ss"
+    server: "82.38.31.10"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.2-0136"
+    type: "ss"
+    server: "82.38.31.2"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.7-0135"
+    type: "ss"
+    server: "82.38.31.7"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.179-0152"
+    type: "ss"
+    server: "82.38.31.179"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.187-0156"
+    type: "ss"
+    server: "82.38.31.187"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.189-0143"
+    type: "ss"
+    server: "82.38.31.189"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.186-0157"
+    type: "ss"
+    server: "82.38.31.186"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.176-0154"
+    type: "ss"
+    server: "82.38.31.176"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.199-0146"
+    type: "ss"
+    server: "82.38.31.199"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.184-0158"
+    type: "ss"
+    server: "82.38.31.184"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.155-0111"
     type: "ss"
     server: "82.38.31.155"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇬🇧GB-132.145.51.172-2456"
+  - name: "🇬🇧GB-146.70.61.37-0082"
+    type: "ss"
+    server: "146.70.61.37"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+    udp: true
+  - name: "🇬🇧GB-82.38.31.218-0195"
+    type: "ss"
+    server: "82.38.31.218"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇬🇧GB-132.145.51.172-2417"
     type: "trojan"
     server: "132.145.51.172"
     port: 443
@@ -355,7 +446,7 @@ proxies:
     password: "02e653c9-7c93-46a9-999d-11834bd0c577"
     tls: true
     servername: "132.145.51.172"
-  - name: "🇬🇧GB-51.75.160.126-3781"
+  - name: "🇬🇧GB-51.75.160.126-3742"
     type: "vmess"
     server: "51.75.160.126"
     port: 80
@@ -367,7 +458,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇬🇧GB-185.44.76.188-4095"
+  - name: "🇬🇧GB-185.44.76.188-4056"
     type: "trojan"
     server: "185.44.76.188"
     port: 443
@@ -375,21 +466,21 @@ proxies:
     password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272"
     tls: true
     servername: "185.44.76.188"
-  - name: "🇬🇧GB-172.99.190.149-5018"
+  - name: "🇬🇧GB-172.99.190.149-4976"
     type: "ss"
     server: "172.99.190.149"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇬🇧GB-172.99.190.149-5610"
+  - name: "🇬🇧GB-172.99.190.149-5568"
     type: "ss"
     server: "172.99.190.149"
     port: 8080
     cipher: "aes-256-gcm"
     password: "KixLvKzwjekG00rm"
     udp: true
-  - name: "🇬🇧GB-149.7.16.248-7004"
+  - name: "🇬🇧GB-149.7.16.248-6962"
     type: "vmess"
     server: "149.7.16.248"
     port: 443
@@ -404,7 +495,7 @@ proxies:
       path: "/"
       headers:
         Host: "149.7.16.248"
-  - name: "🇬🇧GB-172.99.190.209-7050"
+  - name: "🇬🇧GB-172.99.190.209-7008"
     type: "vmess"
     server: "172.99.190.209"
     port: 443
@@ -419,7 +510,7 @@ proxies:
       path: "/"
       headers:
         Host: "172.99.190.209"
-  - name: "🇬🇧GB-149.7.16.73-7073"
+  - name: "🇬🇧GB-149.7.16.73-7031"
     type: "vmess"
     server: "149.7.16.73"
     port: 443
@@ -433,7 +524,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇬🇧GB-217.163.76.147-7220"
+  - name: "🇬🇧GB-217.163.76.147-7178"
     type: "vmess"
     server: "217.163.76.147"
     port: 443
@@ -448,13 +539,62 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇬🇧GB英国 661.5KB/s"
-    type: "ss"
-    server: "148.253.208.76"
-    port: 3478
-    cipher: "chacha20-ietf-poly1305"
-    password: "yu2XnSPWhmQjxn83iJA3DA"
+  - name: "🇬🇧GB英国"
+    type: "trojan"
+    server: "103.177.136.42"
+    port: 46424
     udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  - name: "🇬🇧GB英国2"
+    type: "trojan"
+    server: "185.126.236.190"
+    port: 443
+    udp: true
+    password: "VGBzLm49=M_i02Az30tIeonkQw180t-edg"
+    tls: true
+    servername: "185.126.236.190"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 01"
+    type: "vless"
+    server: "82.40.23.19"
+    port: 443
+    udp: true
+    uuid: "ff19693c-11f3-4df9-8713-79a85a5ca090"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
+    type: "vless"
+    server: "152.233.28.202"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 03"
+    type: "vless"
+    server: "152.233.28.201"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 05"
+    type: "vless"
+    server: "2.26.128.72"
+    port: 443
+    udp: true
+    uuid: "e5c76e2a-cf15-4bc9-9f70-e9079b55f284"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 06"
+    type: "vless"
+    server: "152.233.28.200"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
   - name: "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚"
     type: "vless"
     server: "85.234.114.53"
@@ -492,34 +632,29 @@ proxies:
     udp: true
     uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
     network: "tcp"
+  - name: "GB 🇬🇧 | @Raydikalx | 2451"
+    type: "vmess"
+    server: "57.128.174.124"
+    port: 2096
+    uuid: "ae91113b-915f-4a56-b998-e52d8a12da39"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "57.128.174.124"
   - name: "🇬🇧"
     type: "vless"
-    server: "152.233.28.198"
-    port: 8443
+    server: "31.76.53.0"
+    port: 443
     udp: true
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    servername: "uk1.fromblancwithlove.com"
+    uuid: "749a5df1-2d12-45cf-80f3-f85ea6b2e405"
     network: "tcp"
-  - name: "@Biosabet01🇬🇧"
-    type: "vless"
-    server: "91.193.58.201"
-    port: 443
-    udp: true
-    uuid: "3584a1b7-2951-4195-af81-ef46f290ab98"
-    tls: true
-    servername: "GGNL.downloadgameiran.ir"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "GGNL.downloadgameiran.ir"
   - name: "🇬🇧"
     type: "vless"
-    server: "178.159.10.78"
+    server: "31.76.113.111"
     port: 443
     udp: true
-    uuid: "43488128-319e-f480-64ea-0acdc712e2a8"
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
     network: "tcp"
   - name: "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
     type: "vmess"
@@ -531,17 +666,10 @@ proxies:
     udp: true
   - name: "🇬🇧"
     type: "ss"
-    server: "15.204.254.187"
-    port: 12000
-    cipher: "aes-256-gcm"
-    password: "8JCsPssfgS8tiRwiMlhARg=="
-    udp: true
-  - name: "🇬🇧"
-    type: "ss"
-    server: "178.159.10.78"
+    server: "141.98.101.181"
     port: 443
-    cipher: "�~<�]��}}{���O���ѧ\u001ds�v{f"
-    password: "�~<�]��}}{���O���ѧ\u001ds�v{f�"
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
     udp: true
   - name: "🇬🇧"
     type: "ss"
@@ -552,37 +680,91 @@ proxies:
     udp: true
   - name: "🇬🇧"
     type: "ss"
-    server: "141.98.101.181"
+    server: "31.76.113.111"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    cipher: "u�4q�]��4��5oO���>�7m��wG"
+    password: "u�4q�]��4��5oO���>�7m��wG^"
     udp: true
   - name: "🇬🇧"
     type: "ss"
-    server: "152.233.28.198"
-    port: 8443
-    cipher: "��\u001f��5�����;�߽k�~{�\u001f�ow��"
-    password: "��\u001f��5�����;�߽k�~{�\u001f�ow��w"
+    server: "15.204.254.187"
+    port: 12000
+    cipher: "aes-256-gcm"
+    password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
-  - name: "@Biosabet01🇬🇧"
+  - name: "🇬🇧"
     type: "ss"
-    server: "91.193.58.201"
+    server: "31.76.53.0"
     port: 443
-    cipher: "ߟ8kV��oy��5����~y�"
-    password: "oti�|"
+    cipher: "�Z����gu��9q������^k��{�"
+    password: "�Z����gu��9q������^k��{�9"
     udp: true
-  - name: ">>@free4allVPN::GB"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "trojan"
+    server: "54.37.18.204"
+    port: 443
+    udp: true
+    password: "opentunnel.net-english30day"
+    tls: true
+    servername: "uplod.ir"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
     type: "ss"
-    server: "141.98.101.182"
+    server: "178.159.10.78"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    cipher: "�~<�]��}}{���O���ѧ\u001ds�v{f"
+    password: "�~<�]��}}{���O���ѧ\u001ds�v{f�"
     udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "45.85.119.122"
+    port: 2096
+    udp: true
+    uuid: "ad356e93-cc14-417d-9f4e-32376d03f5b7"
+    tls: true
+    servername: "9b94d317f693703f.hozheen.ir"
+    network: "ws"
+    ws-opts:
+      path: "/ws?ed"
+      headers:
+        Host: "com.hozheen.ir"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "209.127.228.114"
+    port: 443
+    udp: true
+    uuid: "d205ae68-0819-473c-b425-6c5947ac2f8d"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "91.193.59.145"
+    port: 2087
+    udp: true
+    uuid: "9ce7ac33-5004-40ea-8236-15bc2d25a37c"
+    tls: true
+    servername: "sparkling-violet-f617.manoalkkhg.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/v2ngfast---v2ngfast---v2ngfast---v2ngfast---v2ngfast"
+      headers:
+        Host: "sparkling-violet-f617.manoalkkhg.workers.dev"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇬🇧 英国 V2CROSS.COM"
+      - "GB VLESS-93 | free-nodes"
+      - "GB VLESS-385 | free-nodes"
+      - "GB VLESS-387 | free-nodes"
+      - "GB VLESS-418 | free-nodes"
+      - "GB VLESS-420 | free-nodes"
+      - "GB VLESS-431 | free-nodes"
+      - "🇬🇧 United Kingdom, London | [BL]"
+      - "🇬🇧 United Kingdom, London | [BL]"
+      - "🇬🇧 United Kingdom, London | [BL]"
+      - "🇬🇧GB_3|2.0MB/s"
+      - "🇬🇧GB_6|2.0MB/s"
+      - "🇬🇧GB_5|1.7MB/s"
+      - "🇬🇧GB_2|2.1MB/s"
       - "英國節點"
       - "英國"
       - "英國節點"
@@ -595,57 +777,63 @@ proxy-groups:
       - "英國"
       - "英國"
       - "🇬🇧 GB英国(mibei77.com 米贝节点分享)"
-      - "🇬🇧GB_1|1023KB/s"
-      - "🇬🇧GB_2|1.1MB/s"
-      - "🇬🇧GB-82.38.31.217-0113"
-      - "🇬🇧GB-82.38.31.16-0135"
-      - "🇬🇧GB-82.38.31.17-0115"
-      - "🇬🇧GB-82.38.31.192-0116"
-      - "🇬🇧GB-82.38.31.194-0119"
-      - "🇬🇧GB-82.38.31.149-0120"
-      - "🇬🇧GB-82.38.31.205-0123"
-      - "🇬🇧GB-82.38.31.15-0128"
-      - "🇬🇧GB-146.70.61.37-0221"
-      - "🇬🇧GB-82.38.31.191-0114"
-      - "🇬🇧GB-82.38.31.214-0223"
-      - "🇬🇧GB-82.38.31.35-0222"
-      - "🇬🇧GB-94.156.250.148-0155"
-      - "🇬🇧GB-82.38.31.210-0130"
-      - "🇬🇧GB-141.98.101.178-0160"
-      - "🇬🇧GB-141.98.101.181-0152"
-      - "🇬🇧GB-141.98.101.179-0151"
-      - "🇬🇧GB-141.98.101.182-0153"
-      - "🇬🇧GB-82.38.31.202-0129"
-      - "🇬🇧GB-82.38.31.2-0184"
-      - "🇬🇧GB-82.38.31.7-0181"
-      - "🇬🇧GB-185.5.38.111-0200"
-      - "🇬🇧GB-82.38.31.199-0189"
-      - "🇬🇧GB-82.38.31.187-0192"
-      - "🇬🇧GB-82.38.31.186-0191"
-      - "🇬🇧GB-82.38.31.179-0193"
-      - "🇬🇧GB-82.38.31.176-0248"
-      - "🇬🇧GB-82.38.31.189-0255"
-      - "🇬🇧GB-82.38.31.184-0225"
-      - "🇬🇧GB-82.38.31.218-0127"
-      - "🇬🇧GB-82.38.31.208-0226"
-      - "🇬🇧GB-82.38.31.155-0277"
-      - "🇬🇧GB-132.145.51.172-2456"
-      - "🇬🇧GB-51.75.160.126-3781"
-      - "🇬🇧GB-185.44.76.188-4095"
-      - "🇬🇧GB-172.99.190.149-5018"
-      - "🇬🇧GB-172.99.190.149-5610"
-      - "🇬🇧GB-149.7.16.248-7004"
-      - "🇬🇧GB-172.99.190.209-7050"
-      - "🇬🇧GB-149.7.16.73-7073"
-      - "🇬🇧GB-217.163.76.147-7220"
-      - "🇬🇧GB英国 661.5KB/s"
+      - "🇬🇧GB_2|2.5MB/s"
+      - "🇬🇧GB_3|1.4MB/s"
+      - "🇬🇧GB-82.38.31.202-0104"
+      - "🇬🇧GB-82.38.31.214-0080"
+      - "🇬🇧GB-82.38.31.205-0093"
+      - "🇬🇧GB-82.38.31.217-0094"
+      - "🇬🇧GB-82.38.31.208-0076"
+      - "🇬🇧GB-82.38.31.194-0091"
+      - "🇬🇧GB-82.38.31.149-0087"
+      - "🇬🇧GB-82.38.31.191-0079"
+      - "🇬🇧GB-82.38.31.15-0085"
+      - "🇬🇧GB-82.38.31.192-0083"
+      - "🇬🇧GB-82.38.31.210-0095"
+      - "🇬🇧GB-82.38.31.17-0090"
+      - "🇬🇧GB-82.38.31.35-0088"
+      - "🇬🇧GB-82.38.31.16-0081"
+      - "🇬🇧GB-141.98.101.181-0114"
+      - "🇬🇧GB-141.98.101.179-0116"
+      - "🇬🇧GB-94.156.250.148-0112"
+      - "🇬🇧GB-141.98.101.178-0113"
+      - "🇬🇧GB-141.98.101.182-0121"
+      - "🇬🇧GB-82.38.31.10-0138"
+      - "🇬🇧GB-82.38.31.2-0136"
+      - "🇬🇧GB-82.38.31.7-0135"
+      - "🇬🇧GB-82.38.31.179-0152"
+      - "🇬🇧GB-82.38.31.187-0156"
+      - "🇬🇧GB-82.38.31.189-0143"
+      - "🇬🇧GB-82.38.31.186-0157"
+      - "🇬🇧GB-82.38.31.176-0154"
+      - "🇬🇧GB-82.38.31.199-0146"
+      - "🇬🇧GB-82.38.31.184-0158"
+      - "🇬🇧GB-82.38.31.155-0111"
+      - "🇬🇧GB-146.70.61.37-0082"
+      - "🇬🇧GB-82.38.31.218-0195"
+      - "🇬🇧GB-132.145.51.172-2417"
+      - "🇬🇧GB-51.75.160.126-3742"
+      - "🇬🇧GB-185.44.76.188-4056"
+      - "🇬🇧GB-172.99.190.149-4976"
+      - "🇬🇧GB-172.99.190.149-5568"
+      - "🇬🇧GB-149.7.16.248-6962"
+      - "🇬🇧GB-172.99.190.209-7008"
+      - "🇬🇧GB-149.7.16.73-7031"
+      - "🇬🇧GB-217.163.76.147-7178"
+      - "🇬🇧GB英国"
+      - "🇬🇧GB英国2"
+      - "🇬🇧 机场推荐:dafei.de 英国 01"
+      - "🇬🇧 机场推荐:dafei.de 英国 02"
+      - "🇬🇧 机场推荐:dafei.de 英国 03"
+      - "🇬🇧 机场推荐:dafei.de 英国 05"
+      - "🇬🇧 机场推荐:dafei.de 英国 06"
       - "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚"
       - "🇬🇧_GB_英国"
       - "Channel id: @ShadowProxy66 🇬🇧"
       - "Channel id: @ShadowProxy66 🇬🇧"
       - "Channel id: @ShadowProxy66 🇬🇧"
+      - "GB 🇬🇧 | @Raydikalx | 2451"
       - "🇬🇧"
-      - "@Biosabet01🇬🇧"
       - "🇬🇧"
       - "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
       - "🇬🇧"
@@ -653,7 +841,10 @@ proxy-groups:
       - "🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
-      - "@Biosabet01🇬🇧"
-      - ">>@free4allVPN::GB"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"
