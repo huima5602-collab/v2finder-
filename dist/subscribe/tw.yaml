@@ -3,14 +3,14 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-185.189.160.105-0171"
+  - name: "🇹🇼TW-185.189.160.105-0141"
     type: "ss"
     server: "185.189.160.105"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇹🇼TW-85.237.207.189-4444"
+  - name: "🇹🇼TW-85.237.207.189-4472"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -22,7 +22,7 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-185.189.160.105-0171"
-      - "🇹🇼TW-85.237.207.189-4444"
+      - "🇹🇼TW-185.189.160.105-0141"
+      - "🇹🇼TW-85.237.207.189-4472"
 rules:
   - "MATCH,Proxy Select"
