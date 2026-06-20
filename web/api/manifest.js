@@ -4,7 +4,7 @@ function proxyUrl(countryCode, type) {
   return `/api/sub?code=${encodeURIComponent(String(countryCode || "").toLowerCase())}&type=${type}`;
 }
 
-export default async function handler(req, res) {
+module.exports = async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Cache-Control", "no-store, no-cache, must-revalidate, proxy-revalidate");
 
@@ -49,4 +49,4 @@ export default async function handler(req, res) {
       message: error instanceof Error ? error.message : String(error),
     });
   }
-}
+};
