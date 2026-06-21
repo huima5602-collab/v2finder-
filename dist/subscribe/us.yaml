@@ -3,6 +3,87 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "US VLESS-409 | free-nodes"
+    type: "vless"
+    server: "198.12.124.74"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us734.csgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-412 | free-nodes"
+    type: "vless"
+    server: "192.3.118.133"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us2317.csgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-425 | free-nodes"
+    type: "vless"
+    server: "192.3.118.133"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us2318.csgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-428 | free-nodes"
+    type: "vless"
+    server: "23.166.40.27"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us880.ccgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-431 | free-nodes"
+    type: "vless"
+    server: "198.12.124.74"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us709.csgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-432 | free-nodes"
+    type: "vless"
+    server: "185.106.96.231"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us848.ccgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-437 | free-nodes"
+    type: "vless"
+    server: "23.166.40.27"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us79.ccgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-439 | free-nodes"
+    type: "vless"
+    server: "192.3.118.133"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us2316.csgfw.top"
+    network: "xhttp"
+  - name: "US VLESS-443 | free-nodes"
+    type: "vless"
+    server: "185.106.96.231"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us559.ccgfw.top"
+    network: "xhttp"
   - name: "🇺🇸79095 | ⚡️Telegram = t.me/LonUp_M"
     type: "trojan"
     server: "140.248.185.253"
@@ -73,6 +154,18 @@ proxies:
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
+  - name: "🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司"
+    type: "trojan"
+    server: "130.94.114.217"
+    port: 443
+    udp: true
+    password: "BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V"
+  - name: "🇺🇸 美国 CloudFlare节点"
+    type: "trojan"
+    server: "104.20.6.134"
+    port: 443
+    udp: true
+    password: "humanity"
   - name: "🇺🇸 美国 V2CROSS.COM"
     type: "vmess"
     server: "69.84.182.49"
@@ -86,12 +179,6 @@ proxies:
       path: "/"
       headers:
         Host: "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
-  - name: "🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司"
-    type: "trojan"
-    server: "130.94.94.15"
-    port: 443
-    udp: true
-    password: "tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR"
   - name: "🇺🇸 美国|@ripaojiedian"
     type: "trojan"
     server: "35.77.34.38"
@@ -122,153 +209,74 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.18.152.54"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.multiplydose.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.16.174.117"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "美国+V2CROSS.COM"
+  - name: "美国+佛罗里达州迈阿密市"
     type: "vless"
-    server: "143.244.45.50"
-    port: 8443
+    server: "72.56.112.226"
+    port: 40443
     udp: true
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    servername: "ams1.fromblancwithlove.com"
+    uuid: "8c158c22-ecaf-441e-8653-91f1a5a4fd15"
     network: "tcp"
-  - name: "美国+加州"
-    type: "trojan"
-    server: "216.24.57.1"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.creationlong.org"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
   - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "172.67.155.199"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "美国+加利福尼亚州洛杉矶DMIT数据中心"
-    type: "trojan"
-    server: "154.17.4.159"
-    port: 2053
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "美国+CloudFlare节点"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "美国+V2CROSS.COM"
     type: "vless"
-    server: "143.244.45.53"
-    port: 8443
-    udp: true
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    servername: "ams1.fromblancwithlove.com"
-    network: "tcp"
-  - name: "美国+华盛顿Cogent通信公司"
-    type: "trojan"
-    server: "38.54.13.189"
+    server: "172.64.147.236"
     port: 443
     udp: true
-    password: "lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi"
+    uuid: "c35050ce-01ab-45a9-91b8-54cec637d0a8"
     tls: true
-    servername: "38.54.13.189"
+    servername: "octopusss5.info"
+    network: "ws"
+    ws-opts:
+      path: "/udfyfws"
+      headers:
+        Host: "octopusss5.info"
   - name: "美国|@ripaojiedian"
     type: "trojan"
-    server: "35.77.34.38"
+    server: "43.198.206.201"
     port: 49277
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
     tls: true
     servername: "www.nintendogames.net"
     network: "tcp"
-  - name: "🇺🇸US_2|2.6MB/s"
+  - name: "美国3|@ripaojiedian"
+    type: "trojan"
+    server: "18.163.80.94"
+    port: 17801
+    udp: true
+    password: "BxceQaOe"
+    tls: true
+    servername: "t.me/ripaojiedian"
+    network: "tcp"
+  - name: "美国|@ripaojiedian"
+    type: "trojan"
+    server: "43.198.206.201"
+    port: 49277
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
+  - name: "美国3|@ripaojiedian"
+    type: "trojan"
+    server: "18.163.80.94"
+    port: 17801
+    udp: true
+    password: "BxceQaOe"
+  - name: "🇺🇸US_1|1.4MB/s"
     type: "trojan"
     server: "35.77.34.38"
     port: 49277
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
-  - name: "🇺🇸US_1|2.1MB/s"
-    type: "trojan"
-    server: "154.17.225.54"
-    port: 443
+  - name: "🇺🇸US_2|4.0MB/s"
+    type: "vless"
+    server: "92.53.189.40"
+    port: 8880
     udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-  - name: "🇺🇸US_3|1.4MB/s"
-    type: "vless"
-    server: "64.186.246.93"
-    port: 443
-    udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "🇺🇸US_6|1.1MB/s"
-    type: "vless"
-    server: "144.34.235.155"
-    port: 35535
-    udp: true
-    uuid: "35939cbe-5d57-4413-f4d0-cc115db0e000"
-    tls: true
-    servername: "www.speedtest.org"
-  - name: "🇺🇸US_8|1.1MB/s"
+        Host: "vms.lifetime19.workers.dev"
+  - name: "🇺🇸US_3|3.2MB/s"
     type: "vless"
     server: "104.17.9.5"
     port: 443
@@ -281,19 +289,14 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "newgit.jisucf.cloudns.biz"
-  - name: "🇺🇸US_9|1.0MB/s"
+  - name: "🇺🇸US_6|1.0MB/s"
     type: "vless"
-    server: "91.193.58.17"
-    port: 2083
+    server: "191.44.118.101"
+    port: 443
     udp: true
-    uuid: "af475b0e-0c07-40fe-b4db-3dea2c0a481d"
+    uuid: "deecd21a-a24f-444d-b92a-2c8e41a6b05b"
     tls: true
-    servername: "edgetunnel-cmliu.lyqnihao.dpdns.org"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chromefp=chrome"
-      headers:
-        Host: "edgetunnel-cmliu.lyqnihao.dpdns.org"
+    servername: "www.microsoft.com"
   - name: "US_speednode_0069"
     type: "trojan"
     server: "154.17.28.152"
@@ -459,6 +462,13 @@ proxies:
     port: 21273
     cipher: "chacha20-ietf-poly1305"
     password: "Ll6cYfXM5DzQbdtMMb72A_jqVnNljU3yqe"
+    udp: true
+  - name: "🇺🇸US-108.181.0.177-0195"
+    type: "ss"
+    server: "108.181.0.177"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
     udp: true
   - name: "🇺🇸US-161.35.229.94-0471"
     type: "vmess"
@@ -1405,61 +1415,20 @@ proxies:
     password: "ee2bccd3-0f30-42d4-86d6-3d393ad230bd"
     tls: true
     servername: "us3.trojanvh.xyz"
-  - name: "🇺🇸US美国3"
-    type: "ss"
-    server: "15.204.247.49"
-    port: 12000
-    cipher: "aes-256-gcm"
-    password: "8JCsPssfgS8tiRwiMlhARg=="
-    udp: true
-  - name: "🇺🇸US美国4"
+  - name: "🇺🇸US美国"
     type: "trojan"
-    server: "35.77.34.38"
-    port: 49277
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-  - name: "🇺🇸US美国5"
-    type: "trojan"
-    server: "38.54.13.189"
-    port: 443
-    udp: true
-    password: "lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi"
-    tls: true
-    servername: "38.54.13.189"
-  - name: "🇺🇸US美国6 194.4KB/s"
-    type: "trojan"
-    server: "130.94.78.17"
-    port: 443
-    udp: true
-    password: "PoSQBShqwNV9wKX4WHxDoLxbvp4eQYnD8v"
-  - name: "🇺🇸US美国7"
-    type: "trojan"
-    server: "104.19.208.184"
+    server: "104.20.6.134"
     port: 443
     udp: true
     password: "humanity"
-  - name: "US2"
-    type: "vmess"
-    server: "188.114.97.3"
-    port: 443
-    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
-    alterId: 0
-    cipher: "auto"
-    udp: true
     tls: true
-    servername: "afrhms16v.bestxray.buzz"
+    servername: "www.calmloud.com"
     network: "ws"
     ws-opts:
-      path: "/linkws"
+      path: "/assignment"
       headers:
-        Host: "afrhms16v.bestxray.buzz"
-  - name: "🇺🇸US美国11"
-    type: "trojan"
-    server: "130.94.114.217"
-    port: 443
-    udp: true
-    password: "BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V"
-  - name: "US4"
+        Host: "www.calmloud.com"
+  - name: "US"
     type: "vmess"
     server: "172.64.146.102"
     port: 8443
@@ -1474,7 +1443,7 @@ proxies:
       path: "/c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm"
       headers:
         Host: "marco-visibility-tops-estimate.trycloudflare.com"
-  - name: "US5"
+  - name: "US2"
     type: "vmess"
     server: "45.85.118.88"
     port: 443
@@ -1489,18 +1458,51 @@ proxies:
       path: "/aidapp.lifevws"
       headers:
         Host: "hstr1675520106270.aidapp.life"
-  - name: "🇺🇸US美国13"
-    type: "trojan"
-    server: "104.18.12.149"
-    port: 443
+  - name: "US3"
+    type: "vmess"
+    server: "104.233.214.176"
+    port: 13581
+    uuid: "d4d715a6-0a2e-4304-df2f-d5efd85a5a5d"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    password: "humanity"
+  - name: "US4"
+    type: "vmess"
+    server: "188.114.97.3"
+    port: 443
+    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
+    alterId: 0
+    cipher: "auto"
+    udp: true
     tls: true
-    servername: "www.calmlunch.com"
+    servername: "afrhms16v.bestxray.buzz"
     network: "ws"
     ws-opts:
-      path: "/assignment"
+      path: "/linkws"
       headers:
+        Host: "afrhms16v.bestxray.buzz"
+  - name: "🇺🇸US美国3 587.3KB/s"
+    type: "trojan"
+    server: "130.94.94.15"
+    port: 443
+    udp: true
+    password: "tUtK5TKdjxsPnOyritLtv8OQWHAK8f8yNR"
+    tls: true
+    servername: "130.94.94.15"
+    network: "tcp"
+  - name: "🇺🇸US美国8"
+    type: "ss"
+    server: "15.204.247.49"
+    port: 12000
+    cipher: "aes-256-gcm"
+    password: "8JCsPssfgS8tiRwiMlhARg=="
+    udp: true
+  - name: "🇺🇸US美国9"
+    type: "trojan"
+    server: "35.77.34.38"
+    port: 49277
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
   - name: "github.com/freefq - 美国CloudFlare公司CDN节点 9"
     type: "vmess"
     server: "104.21.82.183"
@@ -1514,142 +1516,108 @@ proxies:
       path: "/"
       headers:
         Host: "server26.beheshtbaneh.com"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 08"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 06"
     type: "trojan"
     server: "35.77.34.38"
     port: 49277
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
     network: "tcp"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 07"
+    type: "vless"
+    server: "162.159.13.71"
+    port: 443
+    udp: true
+    uuid: "659a9075-d5ab-4fd2-bf34-b37043fae832"
+    tls: true
+    servername: "nbhhh.mrcool.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/proxyip=dc844a1f.tp15333.ip.090227.xyz"
+      headers:
+        Host: "nbhhh.mrcool.kdns.fr"
+  - name: "🇺🇸 机场推荐:dafei.de 美国 08"
+    type: "vless"
+    server: "108.162.194.135"
+    port: 443
+    udp: true
+    uuid: "659a9075-d5ab-4fd2-bf34-b37043fae832"
+    tls: true
+    servername: "nbhhh.mrcool.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/proxyip=dc844a1f.tp15333.ip.090227.xyz"
+      headers:
+        Host: "nbhhh.mrcool.kdns.fr"
   - name: "🇺🇸 机场推荐:dafei.de 美国 09"
     type: "vless"
-    server: "50.62.198.50"
-    port: 8880
+    server: "162.159.19.67"
+    port: 443
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    uuid: "659a9075-d5ab-4fd2-bf34-b37043fae832"
+    tls: true
+    servername: "nbhhh.mrcool.kdns.fr"
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/proxyip=dc844a1f.tp15333.ip.090227.xyz"
       headers:
-        Host: "vms.lifetime39.workers.dev"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 10"
-    type: "vless"
-    server: "199.181.197.40"
-    port: 8880
-    udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime19.workers.dev"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 11"
-    type: "vless"
-    server: "185.135.9.50"
-    port: 8880
-    udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560&https://t.me/youtube@ZYFXS🇨🇳"
-      headers:
-        Host: "vms.lifetime50.workers.dev"
+        Host: "nbhhh.mrcool.kdns.fr"
   - name: "🇺🇸 机场推荐:dafei.de 美国 12"
     type: "vless"
-    server: "108.165.152.30"
-    port: 8880
+    server: "66.33.23.63"
+    port: 443
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    uuid: "17d21ae6-4fb9-cc7d-757a-b11fb2ecc622"
+    tls: true
+    servername: "tmesubgift.up.railway.app"
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/ws/17d21ae6-4fb9-cc7d-757a-b11fb2ecc622"
       headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 13"
-    type: "vless"
-    server: "45.80.110.50"
-    port: 8880
-    udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime51.workers.dev"
+        Host: "tmesubgift.up.railway.app"
   - name: "🇺🇸 机场推荐:dafei.de 美国 14"
     type: "vless"
-    server: "45.130.125.50"
-    port: 8880
+    server: "150.241.102.175"
+    port: 443
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
+    uuid: "967064b5-3272-431e-8dce-9519acfb94be"
+    network: "tcp"
   - name: "🇺🇸 机场推荐:dafei.de 美国 15"
-    type: "vless"
-    server: "45.130.125.30"
-    port: 8880
+    type: "trojan"
+    server: "154.17.225.54"
+    port: 443
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime58.workers.dev"
   - name: "🇺🇸 机场推荐:dafei.de 美国 16"
     type: "vless"
-    server: "155.46.167.30"
-    port: 8880
+    server: "104.17.9.5"
+    port: 443
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    uuid: "5fbbf263-0518-446c-8ef2-13b2001aa69d"
+    tls: true
+    servername: "newgit.jisucf.cloudns.biz"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime50.workers.dev"
+        Host: "newgit.jisucf.cloudns.biz"
   - name: "🇺🇸 机场推荐:dafei.de 美国 17"
     type: "vless"
-    server: "172.64.155.209"
-    port: 443
+    server: "104.18.47.140"
+    port: 2096
     udp: true
-    uuid: "da78f96e-01d3-4289-9d0b-fbbe3f0a5472"
+    uuid: "06b65903-406d-4a41-8400-6fd5c0ee7798"
     tls: true
-    servername: "aio.zxcore.biz.id"
+    servername: "sp.linuxdododo.ccwu.cc"
     network: "ws"
     ws-opts:
-      path: "/aioproxybot/124.153.168.248-50001"
+      path: "/proxyip=ProxyIP.JP.cmliussss.netfp=random"
       headers:
-        Host: "aio.zxcore.biz.id"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 18"
-    type: "vless"
-    server: "191.40.5.176"
-    port: 2087
-    udp: true
-    uuid: "94910009-feb5-41c2-8a88-d0ca12af592f"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇺🇸 机场推荐:dafei.de 美国 19"
-    type: "vless"
-    server: "185.162.229.50"
-    port: 8880
-    udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇺🇸 机场推荐:dafei.de 美国 20"
-    type: "vless"
-    server: "191.44.118.101"
-    port: 443
-    udp: true
-    uuid: "deecd21a-a24f-444d-b92a-2c8e41a6b05b"
-    network: "tcp"
+        Host: "sp.linuxdododo.ccwu.cc"
   - name: "🇺🇸_US_美国->🇮🇩_ID_印度尼西亚"
     type: "vless"
     server: "208.103.161.170"
@@ -1736,54 +1704,7 @@ proxies:
     udp: true
     uuid: "749a5df1-2d12-45cf-80f3-f85ea6b2e405"
     network: "tcp"
-  - name: "US 🇺🇸 | @Raydikalx | 289"
-    type: "vmess"
-    server: "23.141.204.132"
-    port: 29633
-    uuid: "0685a0bf-2413-45d2-dc00-c0281387c247"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "US 🇺🇸 | @Raydikalx | 2591"
-    type: "vmess"
-    server: "45.85.118.88"
-    port: 443
-    uuid: "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "hstr1675520106270.aidapp.life"
-    network: "ws"
-    ws-opts:
-      path: "/aidapp.lifevws"
-      headers:
-        Host: "hstr1675520106270.aidapp.life"
-  - name: "US 🇺🇸 | @Raydikalx | 2877"
-    type: "vmess"
-    server: "169.197.142.22"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "US 🇺🇸 | @Raydikalx | 2380"
-    type: "vmess"
-    server: "104.233.214.176"
-    port: 13581
-    uuid: "d4d715a6-0a2e-4304-df2f-d5efd85a5a5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "US 🇺🇸 | @Raydikalx | 242"
-    type: "vmess"
-    server: "57.151.100.27"
-    port: 10086
-    uuid: "550e8400-e29b-41d4-a716-446655440000"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "US 🇺🇸 | @Raydikalx | 284"
+  - name: "US 🇺🇸 | @Raydikalx | 389"
     type: "vmess"
     server: "186.244.208.78"
     port: 30022
@@ -1791,7 +1712,15 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "US 🇺🇸 | @Raydikalx | 2387"
+  - name: "US 🇺🇸 | @Raydikalx | 2448"
+    type: "vmess"
+    server: "165.140.216.141"
+    port: 443
+    uuid: "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "US 🇺🇸 | @Raydikalx | 2450"
     type: "vmess"
     server: "172.64.146.102"
     port: 8443
@@ -1806,18 +1735,92 @@ proxies:
       path: "/c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm"
       headers:
         Host: "marco-visibility-tops-estimate.trycloudflare.com"
-  - name: "🇺🇸US-47.88.89.106-7502"
+  - name: "US 🇺🇸 | @Raydikalx | 320"
     type: "vmess"
-    server: "47.88.89.106"
-    port: 80
-    uuid: "86f8f25d-9d26-41a6-a75b-e0ef992cc74a"
+    server: "57.151.100.27"
+    port: 10086
+    uuid: "550e8400-e29b-41d4-a716-446655440000"
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "US 🇺🇸 | @Raydikalx | 2614"
+    type: "vmess"
+    server: "188.114.97.3"
+    port: 443
+    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "afrhms16v.bestxray.buzz"
     network: "ws"
     ws-opts:
-      path: "/rxrsOUmNbuTJCk4izFEHWrb9qm"
+      path: "/linkws"
       headers:
+        Host: "afrhms16v.bestxray.buzz"
+  - name: "US 🇺🇸 | @Raydikalx | 2652"
+    type: "vmess"
+    server: "45.85.118.88"
+    port: 443
+    uuid: "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "hstr1675520106270.aidapp.life"
+    network: "ws"
+    ws-opts:
+      path: "/aidapp.lifevws"
+      headers:
+        Host: "hstr1675520106270.aidapp.life"
+  - name: "US 🇺🇸 | @Raydikalx | 2435"
+    type: "vmess"
+    server: "82.198.246.214"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "US 🇺🇸 | @Raydikalx | 2457"
+    type: "vmess"
+    server: "216.106.183.35"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "US 🇺🇸 | @Raydikalx | 2432"
+    type: "vmess"
+    server: "67.220.95.3"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "aes-128-gcm"
+    udp: true
+  - name: "🇺🇸"
+    type: "vless"
+    server: "104.254.140.30"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime54.workers.dev"
+  - name: "🇺🇸"
+    type: "vless"
+    server: "156.231.113.141"
+    port: 8443
+    udp: true
+    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "t1s1.rittbo.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "t1s1.rittbo.kdns.fr"
   - name: "0.1x 🇺🇸"
     type: "vless"
     server: "185.143.233.5"
@@ -1844,49 +1847,24 @@ proxies:
         Host: "hhlfy.twiladaphne.ndjp.net"
   - name: "🇺🇸"
     type: "vless"
-    server: "77.110.127.191"
-    port: 9443
+    server: "198.41.219.218"
+    port: 443
     udp: true
-    uuid: "e0de62c9-f317-4275-b7e5-8da7b7fa9bc6"
+    uuid: "fe273991-0514-4a16-8ec4-b15ae861c000"
+    tls: true
+    servername: "zyzzzoao.xn--fiqv8j.eu.org"
     network: "ws"
     ws-opts:
-      path: "/pourya"
+      path: "/?ed=2048fp=randomized"
       headers:
+        Host: "zyzzzoao.xn--fiqv8j.eu.org"
   - name: "🇺🇸"
     type: "vless"
-    server: "104.254.140.30"
-    port: 8880
+    server: "137.184.218.169"
+    port: 36925
     udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime54.workers.dev"
-  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-    type: "vmess"
-    server: "82.198.246.250"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-    type: "vmess"
-    server: "165.140.216.141"
-    port: 443
-    uuid: "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-    type: "vmess"
-    server: "82.198.246.9"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
+    uuid: "c9fd0fb1-8251-4106-b09a-f4b426736f67"
+    network: "tcp"
   - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
     type: "vmess"
     server: "67.220.72.237"
@@ -1897,54 +1875,81 @@ proxies:
     udp: true
   - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
     type: "vmess"
-    server: "165.140.216.141"
-    port: 443
-    uuid: "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d"
+    server: "82.198.246.233"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
     alterId: 0
     cipher: "auto"
     udp: true
   - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
     type: "vmess"
-    server: "165.140.216.141"
-    port: 443
-    uuid: "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d"
+    server: "82.198.246.250"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "82.198.246.37"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "82.198.246.214"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "67.220.95.3"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "aes-128-gcm"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "23.141.204.132"
+    port: 29633
+    uuid: "0685a0bf-2413-45d2-dc00-c0281387c247"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "67.220.85.46"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "aes-128-gcm"
+    udp: true
+  - name: "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+    type: "vmess"
+    server: "216.106.183.35"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
     alterId: 0
     cipher: "auto"
     udp: true
   - name: "🇺🇸"
     type: "ss"
-    server: "216.105.168.18"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "hCCWOcIsK5wrFz4OX70rWf"
+    server: "137.184.218.169"
+    port: 36925
+    cipher: "s������͹��5ӯ��־��ۮ���"
+    password: "s������͹��5ӯ��־��ۮ����"
     udp: true
   - name: "🇺🇸"
     type: "ss"
-    server: "104.254.140.30"
-    port: 8880
-    cipher: "�m6om���{s�\u001d���n>���i��s�"
-    password: "�m6om���{s�\u001d���n>���i��s�]"
-    udp: true
-  - name: "🇺🇸"
-    type: "ss"
-    server: "37.19.198.236"
+    server: "156.146.38.169"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-    udp: true
-  - name: "🇺🇸"
-    type: "ss"
-    server: "161.129.71.148"
-    port: 17913
-    cipher: "aes-128-gcm"
-    password: "wcjMniCODfhz26P7L2BvpEDQfhogbFTl"
-    udp: true
-  - name: "🇺🇸"
-    type: "ss"
-    server: "162.159.44.195"
-    port: 443
-    cipher: "{�\u001cצ�����"
-    password: "oo�٧�iݵ緵�["
     udp: true
   - name: "0.1x 🇺🇸"
     type: "ss"
@@ -1955,12 +1960,74 @@ proxies:
     udp: true
   - name: "🇺🇸"
     type: "ss"
-    server: "198.98.53.130"
+    server: "104.254.140.30"
+    port: 8880
+    cipher: "�m6om���{s�\u001d���n>���i��s�"
+    password: "�m6om���{s�\u001d���n>���i��s�]"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "198.41.219.218"
+    port: 443
+    cipher: "}����u�Nu��\u001aׯ�y�>o^Z{εsM"
+    password: "}����u�Nu��\u001aׯ�y�>o^Z{εsM4"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "216.105.168.18"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "eDfN7SODQceIOmIAbtJJtK"
+    password: "hCCWOcIsK5wrFz4OX70rWf"
     udp: true
-  - name: "🇺🇸 ShatakVPN 492429"
+  - name: "🇺🇸"
+    type: "ss"
+    server: "107.172.250.161"
+    port: 59556
+    cipher: "chacha20-ietf-poly1305"
+    password: "QTmLViU4VEmuwbOxUw4IXd"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "156.231.113.141"
+    port: 8443
+    cipher: "y���m���v��\u001eko�릾�6y�v��"
+    password: "y���m���v��\u001eko�릾�6y�v��}"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "69.164.240.83"
+    port: 10878
+    cipher: "aes-128-gcm"
+    password: "t6d26id0pjzdo3x5wtlf"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "173.244.56.9"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇺🇸"
+    type: "ss"
+    server: "162.159.44.195"
+    port: 443
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
+    udp: true
+  - name: "🇺🇸 ShatakVPN 652371"
+    type: "vless"
+    server: "162.159.12.41"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 864062"
     type: "trojan"
     server: "199.181.197.169"
     port: 443
@@ -1973,7 +2040,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 954087"
+  - name: "🇺🇸 ShatakVPN 584265"
     type: "trojan"
     server: "199.181.197.169"
     port: 443
@@ -1986,33 +2053,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 475997"
-    type: "trojan"
-    server: "199.181.197.143"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 111745"
-    type: "trojan"
-    server: "199.181.197.143"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 224734"
+  - name: "🇺🇸 ShatakVPN 216008"
     type: "vless"
     server: "104.17.121.98"
     port: 443
@@ -2025,7 +2066,7 @@ proxies:
       path: "/ca-cl"
       headers:
         Host: "unnes.ac.id.yxls.eu.cc"
-  - name: "🇺🇸 ShatakVPN 381561"
+  - name: "🇺🇸 ShatakVPN 503614"
     type: "vless"
     server: "104.17.121.98"
     port: 443
@@ -2038,9 +2079,135 @@ proxies:
       path: "/ca-cl"
       headers:
         Host: "unnes.ac.id.yxls.eu.cc"
-  - name: "🇺🇸 ShatakVPN 639868"
+  - name: "🇺🇸 ShatakVPN 841915"
     type: "trojan"
-    server: "172.64.155.209"
+    server: "199.181.197.143"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmloud.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmloud.com"
+  - name: "🇺🇸 ShatakVPN 523002"
+    type: "trojan"
+    server: "199.181.197.143"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmloud.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmloud.com"
+  - name: "🇺🇸 ShatakVPN 598874"
+    type: "trojan"
+    server: "172.64.152.23"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmlunch.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "🇺🇸 ShatakVPN 197827"
+    type: "trojan"
+    server: "172.64.152.23"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmlunch.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "🇺🇸 ShatakVPN 248087"
+    type: "trojan"
+    server: "104.19.208.184"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/%2Fassignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 564740"
+    type: "trojan"
+    server: "104.19.208.184"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "//assignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 631050"
+    type: "trojan"
+    server: "199.181.197.212"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmloud.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmloud.com"
+  - name: "🇺🇸 ShatakVPN 955185"
+    type: "trojan"
+    server: "199.181.197.212"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.calmloud.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmloud.com"
+  - name: "🇺🇸 ShatakVPN 116309"
+    type: "vless"
+    server: "104.18.37.228"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 481223"
+    type: "vless"
+    server: "172.64.150.28"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 485383"
+    type: "trojan"
+    server: "104.18.32.47"
     port: 443
     udp: true
     password: "humanity"
@@ -2049,7 +2216,207 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 224725"
+  - name: "🇺🇸 ShatakVPN 849630"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 8443
+    udp: true
+    password: "ppmk"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "flat-firefly-6022.rixewi3168.workers.dev"
+  - name: "🇺🇸 ShatakVPN 176317"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.gossipglove.com"
+  - name: "🇺🇸 ShatakVPN 440796"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 8443
+    udp: true
+    password: "ppmk"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "flat-firefly-6022.rixewi3168.workers.dev"
+  - name: "🇺🇸 ShatakVPN 209170"
+    type: "trojan"
+    server: "8.6.112.0"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.multiplydose.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 385026"
+    type: "trojan"
+    server: "8.6.112.0"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.multiplydose.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 417906"
+    type: "vless"
+    server: "104.27.78.203"
+    port: 2083
+    udp: true
+    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
+    tls: true
+    servername: "fhfhfhf.kathykroger.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fhfhfhf.kathykroger.workers.dev"
+  - name: "🇺🇸 ShatakVPN 785508"
+    type: "vless"
+    server: "104.27.78.203"
+    port: 2083
+    udp: true
+    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
+    tls: true
+    servername: "fhfhfhf.kathykroger.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fhfhfhf.kathykroger.workers.dev"
+  - name: "🇺🇸 ShatakVPN 289688"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.gossipglove.com"
+  - name: "🇺🇸 ShatakVPN 690671"
+    type: "vless"
+    server: "162.159.12.41"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 665501"
+    type: "vless"
+    server: "104.17.121.98"
+    port: 443
+    udp: true
+    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+    tls: true
+    servername: "unnes.ac.id.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/ca-cl"
+      headers:
+        Host: "unnes.ac.id.yxls.eu.cc"
+  - name: "🇺🇸 ShatakVPN 587442"
+    type: "vless"
+    server: "104.17.121.98"
+    port: 443
+    udp: true
+    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+    tls: true
+    servername: "unnes.ac.id.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/ca-cl"
+      headers:
+        Host: "unnes.ac.id.yxls.eu.cc"
+  - name: "🇺🇸 ShatakVPN 832072"
+    type: "vless"
+    server: "172.64.150.28"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 559685"
+    type: "vless"
+    server: "172.64.150.28"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 127522"
+    type: "vless"
+    server: "104.27.78.203"
+    port: 2083
+    udp: true
+    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
+    tls: true
+    servername: "fhfhfhf.kathykroger.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fhfhfhf.kathykroger.workers.dev"
+  - name: "🇺🇸 ShatakVPN 812688"
+    type: "vless"
+    server: "104.27.78.203"
+    port: 2083
+    udp: true
+    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
+    tls: true
+    servername: "fhfhfhf.kathykroger.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fhfhfhf.kathykroger.workers.dev"
+  - name: "🇺🇸 ShatakVPN 948160"
+    type: "vless"
+    server: "162.159.12.41"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 685378"
     type: "vless"
     server: "104.18.32.47"
     port: 443
@@ -2062,340 +2429,20 @@ proxies:
       path: "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
       headers:
         Host: "ancient-heart-60c5.dpccgizieb.workers.dev"
-  - name: "🇺🇸 ShatakVPN 493194"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 911041"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 359431"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 649731"
-    type: "trojan"
-    server: "104.17.121.9"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🇺🇸 ShatakVPN 671115"
-    type: "trojan"
-    server: "104.17.121.9"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🇺🇸 ShatakVPN 444486"
+  - name: "🇺🇸 ShatakVPN 233085"
     type: "vless"
-    server: "104.27.78.203"
-    port: 2083
+    server: "162.159.12.41"
+    port: 443
     udp: true
-    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
     tls: true
-    servername: "fhfhfhf.kathykroger.workers.dev"
+    servername: "hhlfy.twiladaphne.ndjp.net"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "fhfhfhf.kathykroger.workers.dev"
-  - name: "🇺🇸 ShatakVPN 331712"
-    type: "vless"
-    server: "104.27.78.203"
-    port: 2083
-    udp: true
-    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
-    tls: true
-    servername: "fhfhfhf.kathykroger.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fhfhfhf.kathykroger.workers.dev"
-  - name: "🇺🇸 ShatakVPN 329996"
-    type: "trojan"
-    server: "216.24.57.7"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "🇺🇸 ShatakVPN 441169"
-    type: "trojan"
-    server: "216.24.57.7"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "🇺🇸 ShatakVPN 546502"
-    type: "trojan"
-    server: "66.81.247.155"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 600354"
-    type: "trojan"
-    server: "66.81.247.155"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 660387"
-    type: "trojan"
-    server: "141.193.213.11"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 390109"
-    type: "trojan"
-    server: "141.193.213.11"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 987529"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 213147"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 628075"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 991805"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 469079"
-    type: "trojan"
-    server: "172.64.155.209"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.gossipglove.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 407506"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 8443
-    udp: true
-    password: "ppmk"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "flat-firefly-6022.rixewi3168.workers.dev"
-  - name: "🇺🇸 ShatakVPN 839959"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 110994"
-    type: "trojan"
-    server: "172.64.155.209"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.gossipglove.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 600693"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 8443
-    udp: true
-    password: "ppmk"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "flat-firefly-6022.rixewi3168.workers.dev"
-  - name: "🇺🇸 ShatakVPN 588871"
-    type: "vless"
-    server: "104.17.121.98"
-    port: 443
-    udp: true
-    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-    tls: true
-    servername: "unnes.ac.id.yxls.eu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/ca-cl"
-      headers:
-        Host: "unnes.ac.id.yxls.eu.cc"
-  - name: "🇺🇸 ShatakVPN 832741"
-    type: "vless"
-    server: "104.17.121.98"
-    port: 443
-    udp: true
-    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
-    tls: true
-    servername: "unnes.ac.id.yxls.eu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/ca-cl"
-      headers:
-        Host: "unnes.ac.id.yxls.eu.cc"
-  - name: "🇺🇸 ShatakVPN 610308"
-    type: "vless"
-    server: "172.64.155.209"
-    port: 443
-    udp: true
-    uuid: "11e9eea1-b1a9-4f02-a1a1-b24f7664b1cf"
-    tls: true
-    servername: "ancIEnt-HeaRt-60c5.dPccgIzieB.WoRKers.dEV"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiYW1sczlYWkFHOCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
-      headers:
-        Host: "ancient-heart-60c5.dpccgizieb.workers.dev"
-  - name: "🇺🇸 ShatakVPN 222530"
-    type: "vless"
-    server: "104.27.78.203"
-    port: 2083
-    udp: true
-    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
-    tls: true
-    servername: "fhfhfhf.kathykroger.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fhfhfhf.kathykroger.workers.dev"
-  - name: "🇺🇸 ShatakVPN 623249"
-    type: "vless"
-    server: "104.27.78.203"
-    port: 2083
-    udp: true
-    uuid: "3727b0ac-9f3e-4da8-895e-33f739e9d9bb"
-    tls: true
-    servername: "fhfhfhf.kathykroger.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fhfhfhf.kathykroger.workers.dev"
-  - name: "🇺🇸 ShatakVPN 283459"
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇺🇸 ShatakVPN 951554"
     type: "trojan"
     server: "199.181.197.169"
     port: 443
@@ -2408,7 +2455,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 943184"
+  - name: "🇺🇸 ShatakVPN 289326"
     type: "trojan"
     server: "199.181.197.169"
     port: 443
@@ -2421,7 +2468,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 850685"
+  - name: "🇺🇸 ShatakVPN 980421"
     type: "trojan"
     server: "199.181.197.143"
     port: 443
@@ -2434,7 +2481,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 831242"
+  - name: "🇺🇸 ShatakVPN 884353"
     type: "trojan"
     server: "199.181.197.143"
     port: 443
@@ -2447,53 +2494,9 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 215836"
+  - name: "🇺🇸 ShatakVPN 959862"
     type: "trojan"
-    server: "104.18.32.47"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 969141"
-    type: "trojan"
-    server: "104.18.32.47"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 928566"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 860451"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 109960"
-    type: "trojan"
-    server: "104.17.121.9"
+    server: "172.64.152.23"
     port: 443
     udp: true
     password: "humanity"
@@ -2504,9 +2507,9 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇺🇸 ShatakVPN 649010"
+  - name: "🇺🇸 ShatakVPN 691519"
     type: "trojan"
-    server: "104.17.121.9"
+    server: "172.64.152.23"
     port: 443
     udp: true
     password: "humanity"
@@ -2517,44 +2520,31 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇺🇸 ShatakVPN 598904"
+  - name: "🇺🇸 ShatakVPN 192289"
     type: "trojan"
-    server: "216.24.57.7"
+    server: "104.19.208.184"
     port: 443
     udp: true
     password: "humanity"
     network: "ws"
     ws-opts:
-      path: "/assignment"
+      path: "/%2Fassignment"
       headers:
-        Host: "www.ignitelimit.com"
-  - name: "🇺🇸 ShatakVPN 652635"
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 695488"
     type: "trojan"
-    server: "216.24.57.7"
+    server: "104.19.208.184"
     port: 443
     udp: true
     password: "humanity"
     network: "ws"
     ws-opts:
-      path: "/assignment"
+      path: "//assignment"
       headers:
-        Host: "www.ignitelimit.com"
-  - name: "🇺🇸 ShatakVPN 723978"
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 630750"
     type: "trojan"
-    server: "66.81.247.155"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 810130"
-    type: "trojan"
-    server: "66.81.247.155"
+    server: "199.181.197.212"
     port: 443
     udp: true
     password: "humanity"
@@ -2565,9 +2555,9 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 911900"
+  - name: "🇺🇸 ShatakVPN 817042"
     type: "trojan"
-    server: "141.193.213.11"
+    server: "199.181.197.212"
     port: 443
     udp: true
     password: "humanity"
@@ -2578,59 +2568,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 855515"
-    type: "trojan"
-    server: "141.193.213.11"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 389828"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 607488"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 335926"
-    type: "trojan"
-    server: "8.6.112.6"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmloud.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmloud.com"
-  - name: "🇺🇸 ShatakVPN 589067"
+  - name: "🇺🇸 ShatakVPN 809685"
     type: "trojan"
     server: "104.18.32.47"
     port: 443
@@ -2641,20 +2579,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 159733"
-    type: "trojan"
-    server: "172.64.155.209"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.gossipglove.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 403658"
+  - name: "🇺🇸 ShatakVPN 249478"
     type: "trojan"
     server: "104.18.32.47"
     port: 8443
@@ -2665,7 +2590,7 @@ proxies:
       path: "/"
       headers:
         Host: "flat-firefly-6022.rixewi3168.workers.dev"
-  - name: "🇺🇸 ShatakVPN 440059"
+  - name: "🇺🇸 ShatakVPN 906960"
     type: "trojan"
     server: "104.18.32.47"
     port: 443
@@ -2676,20 +2601,7 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 385164"
-    type: "trojan"
-    server: "172.64.155.209"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.gossipglove.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.gossipglove.com"
-  - name: "🇺🇸 ShatakVPN 544757"
+  - name: "🇺🇸 ShatakVPN 371782"
     type: "trojan"
     server: "104.18.32.47"
     port: 8443
@@ -2700,10 +2612,56 @@ proxies:
       path: "/"
       headers:
         Host: "flat-firefly-6022.rixewi3168.workers.dev"
+  - name: "🇺🇸 ShatakVPN 553865"
+    type: "trojan"
+    server: "8.6.112.0"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.multiplydose.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 664520"
+    type: "trojan"
+    server: "8.6.112.0"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.multiplydose.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.multiplydose.com"
+  - name: "🇺🇸 ShatakVPN 697462"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.gossipglove.com"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "US VLESS-409 | free-nodes"
+      - "US VLESS-412 | free-nodes"
+      - "US VLESS-425 | free-nodes"
+      - "US VLESS-428 | free-nodes"
+      - "US VLESS-431 | free-nodes"
+      - "US VLESS-432 | free-nodes"
+      - "US VLESS-437 | free-nodes"
+      - "US VLESS-439 | free-nodes"
+      - "US VLESS-443 | free-nodes"
       - "🇺🇸79095 | ⚡️Telegram = t.me/LonUp_M"
       - "🇺🇸79094 | ⚡️Telegram = t.me/LonUp_M"
       - "🇺🇸79053 | ⚡️Telegram = t.me/SOSkeyNET"
@@ -2712,28 +2670,23 @@ proxy-groups:
       - "🇺🇸 Join+Telegram:@FarahVPN 🇺🇸"
       - "🇺🇸 SS-美国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-23.95.76.59:990"
       - "🇺🇸 SS-美国-NF解锁自制剧-ChatGPT-TikTok-YouTube-15.204.247.49:12000"
-      - "🇺🇸 美国 V2CROSS.COM"
       - "🇺🇸 美国 科罗拉多州阿拉帕霍县格林伍德村市NTT美国股份有限公司"
+      - "🇺🇸 美国 CloudFlare节点"
+      - "🇺🇸 美国 V2CROSS.COM"
       - "🇺🇸 美国|@ripaojiedian"
       - "🇺🇸_US_美国"
       - "🇺🇸_US_美国"
       - "🇺🇸_US_美国"
+      - "美国+佛罗里达州迈阿密市"
       - "美国+CloudFlare节点"
-      - "美国+CloudFlare节点"
-      - "美国+V2CROSS.COM"
-      - "美国+加州"
-      - "美国+CloudFlare节点"
-      - "美国+加利福尼亚州洛杉矶DMIT数据中心"
-      - "美国+CloudFlare节点"
-      - "美国+V2CROSS.COM"
-      - "美国+华盛顿Cogent通信公司"
       - "美国|@ripaojiedian"
-      - "🇺🇸US_2|2.6MB/s"
-      - "🇺🇸US_1|2.1MB/s"
-      - "🇺🇸US_3|1.4MB/s"
-      - "🇺🇸US_6|1.1MB/s"
-      - "🇺🇸US_8|1.1MB/s"
-      - "🇺🇸US_9|1.0MB/s"
+      - "美国3|@ripaojiedian"
+      - "美国|@ripaojiedian"
+      - "美国3|@ripaojiedian"
+      - "🇺🇸US_1|1.4MB/s"
+      - "🇺🇸US_2|4.0MB/s"
+      - "🇺🇸US_3|3.2MB/s"
+      - "🇺🇸US_6|1.0MB/s"
       - "US_speednode_0069"
       - "US_speednode_0071"
       - "US_speednode_0072"
@@ -2754,6 +2707,7 @@ proxy-groups:
       - "🇺🇸US-216.105.168.18-0218"
       - "🇺🇸US-69.84.182.49-0823"
       - "🇺🇸US-149.104.109.74-0150"
+      - "🇺🇸US-108.181.0.177-0195"
       - "🇺🇸US-161.35.229.94-0471"
       - "🇺🇸US-107.151.182.253-0742"
       - "🇺🇸US-15.204.247.49-0744"
@@ -2841,30 +2795,24 @@ proxy-groups:
       - "🇺🇸US-135.148.148.4-8146"
       - "🇺🇸US-135.148.148.4-8148"
       - "🇺🇸US-135.148.148.4-8152"
-      - "🇺🇸US美国3"
-      - "🇺🇸US美国4"
-      - "🇺🇸US美国5"
-      - "🇺🇸US美国6 194.4KB/s"
-      - "🇺🇸US美国7"
+      - "🇺🇸US美国"
+      - "US"
       - "US2"
-      - "🇺🇸US美国11"
+      - "US3"
       - "US4"
-      - "US5"
-      - "🇺🇸US美国13"
+      - "🇺🇸US美国3 587.3KB/s"
+      - "🇺🇸US美国8"
+      - "🇺🇸US美国9"
       - "github.com/freefq - 美国CloudFlare公司CDN节点 9"
+      - "🇺🇸 机场推荐:dafei.de 美国 06"
+      - "🇺🇸 机场推荐:dafei.de 美国 07"
       - "🇺🇸 机场推荐:dafei.de 美国 08"
       - "🇺🇸 机场推荐:dafei.de 美国 09"
-      - "🇺🇸 机场推荐:dafei.de 美国 10"
-      - "🇺🇸 机场推荐:dafei.de 美国 11"
       - "🇺🇸 机场推荐:dafei.de 美国 12"
-      - "🇺🇸 机场推荐:dafei.de 美国 13"
       - "🇺🇸 机场推荐:dafei.de 美国 14"
       - "🇺🇸 机场推荐:dafei.de 美国 15"
       - "🇺🇸 机场推荐:dafei.de 美国 16"
       - "🇺🇸 机场推荐:dafei.de 美国 17"
-      - "🇺🇸 机场推荐:dafei.de 美国 18"
-      - "🇺🇸 机场推荐:dafei.de 美国 19"
-      - "🇺🇸 机场推荐:dafei.de 美国 20"
       - "🇺🇸_US_美国->🇮🇩_ID_印度尼西亚"
       - "🇺🇸_US_美国"
       - "🇺🇸_US_美国"
@@ -2875,90 +2823,91 @@ proxy-groups:
       - "Channel id: @ShadowProxy66 🇺🇸"
       - "Channel id: @ShadowProxy66 🇺🇸"
       - "Channel id: @ShadowProxy66 🇺🇸"
-      - "US 🇺🇸 | @Raydikalx | 289"
-      - "US 🇺🇸 | @Raydikalx | 2591"
-      - "US 🇺🇸 | @Raydikalx | 2877"
-      - "US 🇺🇸 | @Raydikalx | 2380"
-      - "US 🇺🇸 | @Raydikalx | 242"
-      - "US 🇺🇸 | @Raydikalx | 284"
-      - "US 🇺🇸 | @Raydikalx | 2387"
-      - "🇺🇸US-47.88.89.106-7502"
-      - "0.1x 🇺🇸"
-      - "🇺🇸"
-      - "🇺🇸"
-      - "🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
-      - "🇺🇸"
-      - "🇺🇸"
-      - "🇺🇸"
+      - "US 🇺🇸 | @Raydikalx | 389"
+      - "US 🇺🇸 | @Raydikalx | 2448"
+      - "US 🇺🇸 | @Raydikalx | 2450"
+      - "US 🇺🇸 | @Raydikalx | 320"
+      - "US 🇺🇸 | @Raydikalx | 2614"
+      - "US 🇺🇸 | @Raydikalx | 2652"
+      - "US 🇺🇸 | @Raydikalx | 2435"
+      - "US 🇺🇸 | @Raydikalx | 2457"
+      - "US 🇺🇸 | @Raydikalx | 2432"
       - "🇺🇸"
       - "🇺🇸"
       - "0.1x 🇺🇸"
       - "🇺🇸"
-      - "🇺🇸 ShatakVPN 492429"
-      - "🇺🇸 ShatakVPN 954087"
-      - "🇺🇸 ShatakVPN 475997"
-      - "🇺🇸 ShatakVPN 111745"
-      - "🇺🇸 ShatakVPN 224734"
-      - "🇺🇸 ShatakVPN 381561"
-      - "🇺🇸 ShatakVPN 639868"
-      - "🇺🇸 ShatakVPN 224725"
-      - "🇺🇸 ShatakVPN 493194"
-      - "🇺🇸 ShatakVPN 911041"
-      - "🇺🇸 ShatakVPN 359431"
-      - "🇺🇸 ShatakVPN 649731"
-      - "🇺🇸 ShatakVPN 671115"
-      - "🇺🇸 ShatakVPN 444486"
-      - "🇺🇸 ShatakVPN 331712"
-      - "🇺🇸 ShatakVPN 329996"
-      - "🇺🇸 ShatakVPN 441169"
-      - "🇺🇸 ShatakVPN 546502"
-      - "🇺🇸 ShatakVPN 600354"
-      - "🇺🇸 ShatakVPN 660387"
-      - "🇺🇸 ShatakVPN 390109"
-      - "🇺🇸 ShatakVPN 987529"
-      - "🇺🇸 ShatakVPN 213147"
-      - "🇺🇸 ShatakVPN 628075"
-      - "🇺🇸 ShatakVPN 991805"
-      - "🇺🇸 ShatakVPN 469079"
-      - "🇺🇸 ShatakVPN 407506"
-      - "🇺🇸 ShatakVPN 839959"
-      - "🇺🇸 ShatakVPN 110994"
-      - "🇺🇸 ShatakVPN 600693"
-      - "🇺🇸 ShatakVPN 588871"
-      - "🇺🇸 ShatakVPN 832741"
-      - "🇺🇸 ShatakVPN 610308"
-      - "🇺🇸 ShatakVPN 222530"
-      - "🇺🇸 ShatakVPN 623249"
-      - "🇺🇸 ShatakVPN 283459"
-      - "🇺🇸 ShatakVPN 943184"
-      - "🇺🇸 ShatakVPN 850685"
-      - "🇺🇸 ShatakVPN 831242"
-      - "🇺🇸 ShatakVPN 215836"
-      - "🇺🇸 ShatakVPN 969141"
-      - "🇺🇸 ShatakVPN 928566"
-      - "🇺🇸 ShatakVPN 860451"
-      - "🇺🇸 ShatakVPN 109960"
-      - "🇺🇸 ShatakVPN 649010"
-      - "🇺🇸 ShatakVPN 598904"
-      - "🇺🇸 ShatakVPN 652635"
-      - "🇺🇸 ShatakVPN 723978"
-      - "🇺🇸 ShatakVPN 810130"
-      - "🇺🇸 ShatakVPN 911900"
-      - "🇺🇸 ShatakVPN 855515"
-      - "🇺🇸 ShatakVPN 389828"
-      - "🇺🇸 ShatakVPN 607488"
-      - "🇺🇸 ShatakVPN 335926"
-      - "🇺🇸 ShatakVPN 589067"
-      - "🇺🇸 ShatakVPN 159733"
-      - "🇺🇸 ShatakVPN 403658"
-      - "🇺🇸 ShatakVPN 440059"
-      - "🇺🇸 ShatakVPN 385164"
-      - "🇺🇸 ShatakVPN 544757"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸 Join+Telegram:@Farah_VPN 🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "0.1x 🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸"
+      - "🇺🇸 ShatakVPN 652371"
+      - "🇺🇸 ShatakVPN 864062"
+      - "🇺🇸 ShatakVPN 584265"
+      - "🇺🇸 ShatakVPN 216008"
+      - "🇺🇸 ShatakVPN 503614"
+      - "🇺🇸 ShatakVPN 841915"
+      - "🇺🇸 ShatakVPN 523002"
+      - "🇺🇸 ShatakVPN 598874"
+      - "🇺🇸 ShatakVPN 197827"
+      - "🇺🇸 ShatakVPN 248087"
+      - "🇺🇸 ShatakVPN 564740"
+      - "🇺🇸 ShatakVPN 631050"
+      - "🇺🇸 ShatakVPN 955185"
+      - "🇺🇸 ShatakVPN 116309"
+      - "🇺🇸 ShatakVPN 481223"
+      - "🇺🇸 ShatakVPN 485383"
+      - "🇺🇸 ShatakVPN 849630"
+      - "🇺🇸 ShatakVPN 176317"
+      - "🇺🇸 ShatakVPN 440796"
+      - "🇺🇸 ShatakVPN 209170"
+      - "🇺🇸 ShatakVPN 385026"
+      - "🇺🇸 ShatakVPN 417906"
+      - "🇺🇸 ShatakVPN 785508"
+      - "🇺🇸 ShatakVPN 289688"
+      - "🇺🇸 ShatakVPN 690671"
+      - "🇺🇸 ShatakVPN 665501"
+      - "🇺🇸 ShatakVPN 587442"
+      - "🇺🇸 ShatakVPN 832072"
+      - "🇺🇸 ShatakVPN 559685"
+      - "🇺🇸 ShatakVPN 127522"
+      - "🇺🇸 ShatakVPN 812688"
+      - "🇺🇸 ShatakVPN 948160"
+      - "🇺🇸 ShatakVPN 685378"
+      - "🇺🇸 ShatakVPN 233085"
+      - "🇺🇸 ShatakVPN 951554"
+      - "🇺🇸 ShatakVPN 289326"
+      - "🇺🇸 ShatakVPN 980421"
+      - "🇺🇸 ShatakVPN 884353"
+      - "🇺🇸 ShatakVPN 959862"
+      - "🇺🇸 ShatakVPN 691519"
+      - "🇺🇸 ShatakVPN 192289"
+      - "🇺🇸 ShatakVPN 695488"
+      - "🇺🇸 ShatakVPN 630750"
+      - "🇺🇸 ShatakVPN 817042"
+      - "🇺🇸 ShatakVPN 809685"
+      - "🇺🇸 ShatakVPN 249478"
+      - "🇺🇸 ShatakVPN 906960"
+      - "🇺🇸 ShatakVPN 371782"
+      - "🇺🇸 ShatakVPN 553865"
+      - "🇺🇸 ShatakVPN 664520"
+      - "🇺🇸 ShatakVPN 697462"
 rules:
   - "MATCH,Proxy Select"

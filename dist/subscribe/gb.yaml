@@ -3,6 +3,31 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "GB VLESS-93 | free-nodes"
+    type: "vless"
+    server: "hostvds-nl-nl.kvnfreetest.uk"
+    port: 21443
+    udp: true
+    uuid: "122f8c58-f173-4f4a-acb8-86172ba5e10d"
+    network: "tcp"
+  - name: "GB VLESS-438 | free-nodes"
+    type: "vless"
+    server: "193.142.59.97"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us861.csgfw.top"
+    network: "xhttp"
+  - name: "GB VLESS-451 | free-nodes"
+    type: "vless"
+    server: "193.142.59.97"
+    port: 443
+    udp: true
+    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
+    tls: true
+    servername: "u711540us1243.csgfw.top"
+    network: "xhttp"
   - name: "🇬🇧 United Kingdom Mill Hill | ⏱3613ms | ⚡87KB/s | @NamazVPN"
     type: "ss"
     server: "78.129.155.63"
@@ -25,6 +50,38 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "英国+V2CROSS.COM"
+    type: "vless"
+    server: "31.76.110.6"
+    port: 3443
+    udp: true
+    uuid: "967064b5-3272-431e-8dce-9519acfb94be"
+    network: "tcp"
+  - name: "英国+V2CROSS.COM"
+    type: "trojan"
+    server: "185.126.236.190"
+    port: 443
+    udp: true
+    password: "VGBzLm49=M_i02Az30tIeonkQw180t-edg"
+    tls: true
+    servername: "185.126.236.190"
+    network: "tcp"
+  - name: "🇬🇧GB_2|2.9MB/s"
+    type: "vless"
+    server: "152.233.28.201"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+  - name: "🇬🇧GB_3|2.4MB/s"
+    type: "vless"
+    server: "95.133.242.210"
+    port: 443
+    udp: true
+    uuid: "5982d32f-f2e4-4267-a8ad-48492e65344c"
+    tls: true
+    servername: "filesconvert.org"
   - name: "🇬🇧GB-82.38.31.210-0099"
     type: "ss"
     server: "82.38.31.210"
@@ -358,21 +415,21 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
+  - name: "🇬🇧GB英国2"
+    type: "trojan"
+    server: "185.126.236.190"
+    port: 443
+    udp: true
+    password: "VGBzLm49=M_i02Az30tIeonkQw180t-edg"
+    tls: true
+    servername: "185.126.236.190"
+    network: "tcp"
   - name: "🇬🇧 机场推荐:dafei.de 英国 01"
     type: "vless"
     server: "82.40.23.19"
     port: 443
     udp: true
     uuid: "ff19693c-11f3-4df9-8713-79a85a5ca090"
-    network: "tcp"
-  - name: "🇬🇧 机场推荐:dafei.de 英国 02"
-    type: "vless"
-    server: "152.233.28.202"
-    port: 8443
-    udp: true
-    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
-    tls: true
-    servername: "ams1.fromblancwithlove.com"
     network: "tcp"
   - name: "🇬🇧 机场推荐:dafei.de 英国 03"
     type: "vless"
@@ -383,16 +440,18 @@ proxies:
     tls: true
     servername: "ams1.fromblancwithlove.com"
     network: "tcp"
-  - name: "🇬🇧 机场推荐:dafei.de 英国 05"
-    type: "vless"
-    server: "2.26.128.72"
-    port: 443
-    udp: true
-    uuid: "e5c76e2a-cf15-4bc9-9f70-e9079b55f284"
-    network: "tcp"
-  - name: "🇬🇧 机场推荐:dafei.de 英国 06"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 04"
     type: "vless"
     server: "152.233.28.200"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "🇬🇧 机场推荐:dafei.de 英国 05"
+    type: "vless"
+    server: "152.233.28.202"
     port: 8443
     udp: true
     uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
@@ -436,14 +495,16 @@ proxies:
     udp: true
     uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
     network: "tcp"
-  - name: "GB 🇬🇧 | @Raydikalx | 252"
+  - name: "GB 🇬🇧 | @Raydikalx | 2429"
     type: "vmess"
-    server: "2.26.231.87"
-    port: 110
-    uuid: "6d6595b5-ff7f-4995-abde-b1187299a63d"
+    server: "57.128.174.124"
+    port: 2096
+    uuid: "ae91113b-915f-4a56-b998-e52d8a12da39"
     alterId: 0
     cipher: "auto"
     udp: true
+    tls: true
+    servername: "57.128.174.124"
   - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇬🇧"
     type: "vless"
     server: "188.114.97.6"
@@ -459,6 +520,13 @@ proxies:
         Host: "t02.tzteam.online"
   - name: "🇬🇧"
     type: "vless"
+    server: "31.76.91.26"
+    port: 443
+    udp: true
+    uuid: "dfc0cb9d-f005-41b0-848c-7703bd39d0de"
+    network: "tcp"
+  - name: "🇬🇧"
+    type: "vless"
     server: "152.233.28.198"
     port: 8443
     udp: true
@@ -466,26 +534,33 @@ proxies:
     tls: true
     servername: "uk1.fromblancwithlove.com"
     network: "tcp"
-  - name: "🇬🇧"
-    type: "vless"
-    server: "178.159.10.78"
-    port: 443
+  - name: "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
+    type: "vmess"
+    server: "2.26.231.87"
+    port: 110
+    uuid: "6d6595b5-ff7f-4995-abde-b1187299a63d"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "43488128-319e-f480-64ea-0acdc712e2a8"
-    network: "tcp"
+  - name: "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
+    type: "vmess"
+    server: "69.84.182.49"
+    port: 80
+    uuid: "f8975871-a7a0-4906-8835-a23c1258ca1e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir."
   - name: "🇬🇧"
     type: "ss"
-    server: "141.98.101.182"
+    server: "141.98.101.179"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧"
-    type: "ss"
-    server: "178.159.10.78"
-    port: 443
-    cipher: "�~<�]��}}{���O���ѧ\u001ds�v{f"
-    password: "�~<�]��}}{���O���ѧ\u001ds�v{f�"
     udp: true
   - name: "🇬🇧"
     type: "ss"
@@ -496,10 +571,17 @@ proxies:
     udp: true
   - name: "🇬🇧"
     type: "ss"
-    server: "141.98.101.178"
+    server: "141.98.101.182"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧"
+    type: "ss"
+    server: "31.76.91.26"
+    port: 443
+    cipher: "u�4q�]��4��5oO���>�7m��wG"
+    password: "u�4q�]��4��5oO���>�7m��wG^"
     udp: true
   - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇬🇧"
     type: "ss"
@@ -508,20 +590,20 @@ proxies:
     cipher: "�y�v��]}o�6�Ϛk��Ѷ�{f�w�"
     password: "�y�v��]}o�6�Ϛk��Ѷ�{f�w��"
     udp: true
-  - name: "🇬🇧"
-    type: "ss"
-    server: "141.98.101.179"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "GB VLESS-93 | free-nodes"
+      - "GB VLESS-438 | free-nodes"
+      - "GB VLESS-451 | free-nodes"
       - "🇬🇧 United Kingdom Mill Hill | ⏱3613ms | ⚡87KB/s | @NamazVPN"
       - "🇬🇧 United Kingdom City of London | ⏱593ms | ⚡1.0MB/s | @NamazVPN"
       - "🇬🇧79056 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "英国+V2CROSS.COM"
+      - "英国+V2CROSS.COM"
+      - "🇬🇧GB_2|2.9MB/s"
+      - "🇬🇧GB_3|2.4MB/s"
       - "🇬🇧GB-82.38.31.210-0099"
       - "🇬🇧GB-146.70.61.37-0193"
       - "🇬🇧GB-82.38.31.15-0096"
@@ -564,25 +646,26 @@ proxy-groups:
       - "🇬🇧GB-172.99.190.209-7042"
       - "🇬🇧GB-149.7.16.73-7065"
       - "🇬🇧GB-217.163.76.147-7211"
+      - "🇬🇧GB英国2"
       - "🇬🇧 机场推荐:dafei.de 英国 01"
-      - "🇬🇧 机场推荐:dafei.de 英国 02"
       - "🇬🇧 机场推荐:dafei.de 英国 03"
+      - "🇬🇧 机场推荐:dafei.de 英国 04"
       - "🇬🇧 机场推荐:dafei.de 英国 05"
-      - "🇬🇧 机场推荐:dafei.de 英国 06"
       - "🇬🇧_GB_英国->🇬🇪_GE_格鲁吉亚"
       - "🇬🇧_GB_英国"
       - "AetrisVPN White list ┃ ✅ SNI: storage.yandex.net ┃ 🇬🇧 Великобритания (8)"
       - "Channel id: @ShadowProxy66 🇬🇧"
       - "Channel id: @ShadowProxy66 🇬🇧"
-      - "GB 🇬🇧 | @Raydikalx | 252"
+      - "GB 🇬🇧 | @Raydikalx | 2429"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
+      - "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
+      - "🇬🇧 Join+Telegram:@Farah_VPN 🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
       - "🇬🇧"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇬🇧"
-      - "🇬🇧"
 rules:
   - "MATCH,Proxy Select"

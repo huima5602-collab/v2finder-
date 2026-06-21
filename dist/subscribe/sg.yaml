@@ -15,10 +15,28 @@ proxies:
     port: 9149
     udp: true
     password: "BxceQaOe"
+  - name: "新加坡+Microsoft公司"
+    type: "vless"
+    server: "104.43.91.69"
+    port: 443
+    udp: true
+    uuid: "afcac633-0e1a-46c3-bef2-cc01cc0097c8"
+    tls: true
+    servername: "r1.mizulina.top"
+    network: "tcp"
   - name: "新加坡|@ripaojiedian"
     type: "trojan"
-    server: "35.77.34.38"
-    port: 29642
+    server: "43.198.206.201"
+    port: 48738
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
+    tls: true
+    servername: "www.nintendogames.net"
+    network: "tcp"
+  - name: "新加坡2|@ripaojiedian"
+    type: "trojan"
+    server: "18.162.190.157"
+    port: 17005
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
     tls: true
@@ -26,72 +44,37 @@ proxies:
     network: "tcp"
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "18.162.50.252"
+    server: "16.162.118.154"
     port: 9149
     udp: true
     password: "BxceQaOe"
     tls: true
     servername: "t.me%2Fripaojiedian"
     network: "tcp"
-  - name: "🇸🇬SG_1|1.3MB/s"
+  - name: "新加坡|@ripaojiedian"
     type: "trojan"
-    server: "35.77.34.38"
-    port: 29642
+    server: "43.198.206.201"
+    port: 48738
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
+  - name: "新加坡2|@ripaojiedian"
+    type: "trojan"
+    server: "18.162.190.157"
+    port: 17005
     udp: true
     password: "e0195c73018d597b1c2f0ea89d8676ae"
   - name: "新加坡3|@ripaojiedian"
+    type: "trojan"
+    server: "16.162.118.154"
+    port: 9149
+    udp: true
+    password: "BxceQaOe"
+  - name: "🇸🇬SG_1|2.2MB/s"
     type: "trojan"
     server: "18.162.50.252"
     port: 9149
     udp: true
     password: "BxceQaOe"
-  - name: "🇸🇬SG_2|2.1MB/s"
-    type: "vless"
-    server: "104.18.47.140"
-    port: 2096
-    udp: true
-    uuid: "06b65903-406d-4a41-8400-6fd5c0ee7798"
-    tls: true
-    servername: "sp.linuxdododo.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/proxyip=ProxyIP.JP.cmliussss.netfp=random"
-      headers:
-        Host: "sp.linuxdododo.ccwu.cc"
-  - name: "🇸🇬SG_3|1.1MB/s"
-    type: "vless"
-    server: "13.213.109.65"
-    port: 443
-    udp: true
-    uuid: "06b65903-406d-4a41-8400-6fd5c0ee7798"
-    tls: true
-    servername: "sp.linuxdododo.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/proxyip=ProxyIP.JP.cmliussss.netfp=random"
-      headers:
-        Host: "sp.linuxdododo.ccwu.cc"
-  - name: "🇸🇬SG_4|3.2MB/s"
-    type: "vless"
-    server: "108.162.194.135"
-    port: 443
-    udp: true
-    uuid: "659a9075-d5ab-4fd2-bf34-b37043fae832"
-    tls: true
-    servername: "nbhhh.mrcool.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/proxyip=dc844a1f.tp15333.ip.090227.xyzfp=chrome"
-      headers:
-        Host: "nbhhh.mrcool.kdns.fr"
-  - name: "🇸🇬SG_5|1.1MB/s"
-    type: "vless"
-    server: "8.219.7.104"
-    port: 38649
-    udp: true
-    uuid: "f986775c-5abe-4950-a760-52cc9831a483"
-    tls: true
-    servername: "claw.cloud"
   - name: "🇸🇬SG-103.36.91.32-4546"
     type: "ss"
     server: "103.36.91.32"
@@ -435,45 +418,116 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "🇸🇬SG新加坡"
-    type: "trojan"
-    server: "35.77.34.38"
-    port: 29642
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-  - name: "🇸🇬SG新加坡3"
+  - name: "🇸🇬SG新加坡2"
     type: "trojan"
     server: "18.162.50.252"
     port: 9149
     udp: true
     password: "BxceQaOe"
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 01"
-    type: "vless"
-    server: "8.219.7.104"
-    port: 38649
+  - name: "🇸🇬SG新加坡5"
+    type: "trojan"
+    server: "35.77.34.38"
+    port: 29642
     udp: true
-    uuid: "f986775c-5abe-4950-a760-52cc9831a483"
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 01"
+    type: "trojan"
+    server: "35.77.34.38"
+    port: 29642
+    udp: true
+    password: "e0195c73018d597b1c2f0ea89d8676ae"
     network: "tcp"
   - name: "🇸🇬 机场推荐:dafei.de 新加坡 02"
     type: "trojan"
-    server: "35.77.34.38"
-    port: 29642
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    network: "tcp"
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 03"
-    type: "trojan"
     server: "18.162.50.252"
     port: 9149
     udp: true
     password: "BxceQaOe"
     network: "tcp"
-  - name: "🇸🇬 机场推荐:dafei.de 新加坡 04"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 05"
+    type: "vless"
+    server: "13.213.109.65"
+    port: 443
+    udp: true
+    uuid: "06b65903-406d-4a41-8400-6fd5c0ee7798"
+    tls: true
+    servername: "sp.linuxdododo.ccwu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/proxyip=ProxyIP.JP.cmliussss.netfp=random"
+      headers:
+        Host: "sp.linuxdododo.ccwu.cc"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 06"
     type: "vless"
     server: "152.42.198.111"
     port: 443
     udp: true
     uuid: "0fbf78f2-9b05-4f6d-af3a-a8b0cc989f97"
+    network: "tcp"
+  - name: "SG 🇸🇬 | @Raydikalx | 2901"
+    type: "vmess"
+    server: "149.88.23.207"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇸🇬"
+    type: "vless"
+    server: "45.85.118.1"
+    port: 80
+    udp: true
+    uuid: "3d663ca2-98b2-4f2b-8652-c527b12bebfc"
+    network: "ws"
+    ws-opts:
+      path: "/eyJqdW5rIjoiRVF4cEpmc1Y2SFUzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ=="
+      headers:
+        Host: "orange-truth-c6d1.rhyljiti.workers.dev"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "104.18.34.124"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "172.64.53.74"
+    port: 443
+    udp: true
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "104.17.156.197"
+    port: 443
+    udp: true
+    uuid: "a6f1755f-0140-4bea-8727-0db1bed7c4df"
+    tls: true
+    servername: "juzi.qea.ccwu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "juzi.qea.ccwu.cc"
+  - name: "🇸🇬"
+    type: "vless"
+    server: "140.245.50.174"
+    port: 10000
+    udp: true
+    uuid: "af6904c1-4349-4448-8e99-0024824a0c33"
     network: "tcp"
   - name: "🇸🇬"
     type: "vless"
@@ -489,11 +543,79 @@ proxies:
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
   - name: "🇸🇬"
+    type: "vless"
+    server: "216.24.57.40"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime28.workers.dev"
+  - name: "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
+    type: "vmess"
+    server: "149.88.23.207"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "104.18.34.124"
+    port: 443
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "104.17.156.197"
+    port: 443
+    cipher: "k���_�Mx��\u001by���n����m�{s�"
+    password: "k���_�Mx��\u001by���n����m�{s�_"
+    udp: true
+  - name: "🇸🇬"
     type: "ss"
     server: "162.159.12.41"
     port: 443
     cipher: "{�\u001cצ�����"
     password: "oo�٧�iݵ緵�["
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "216.24.57.40"
+    port: 8880
+    cipher: "�m6om���{s�\u001d���n>���i��s�"
+    password: "�m6om���{s�\u001d���n>���i��s�]"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "172.64.53.74"
+    port: 443
+    cipher: "�����Ʒ{�믛��~k�9G�ov"
+    password: "�����Ʒ{�믛��~k�9G�ov�"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "140.245.50.174"
+    port: 10000
+    cipher: "i��Ӈ5�����8�ϼ{�~�M��n\u001a��"
+    password: "i��Ӈ5�����8�ϼ{�~�M��n\u001a���"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "45.85.118.1"
+    port: 80
+    cipher: "�޺�ƶ��\u001b��\u001fٿ�띾s��o]�y�"
+    password: "�޺�ƶ��\u001b��\u001fٿ�띾s��o]�y��"
+    udp: true
+  - name: "🇸🇬"
+    type: "ss"
+    server: "168.138.175.92"
+    port: 9888
+    cipher: "aes-128-gcm"
+    password: "JVSuuib4ydvY8m7u6jElTYbeRO8ygJ4Hi8Iq733BqAkF"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
@@ -501,14 +623,14 @@ proxy-groups:
     proxies:
       - "🇸🇬 新加坡|@ripaojiedian"
       - "🇸🇬 新加坡3|@ripaojiedian"
+      - "新加坡+Microsoft公司"
       - "新加坡|@ripaojiedian"
+      - "新加坡2|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "🇸🇬SG_1|1.3MB/s"
+      - "新加坡|@ripaojiedian"
+      - "新加坡2|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "🇸🇬SG_2|2.1MB/s"
-      - "🇸🇬SG_3|1.1MB/s"
-      - "🇸🇬SG_4|3.2MB/s"
-      - "🇸🇬SG_5|1.1MB/s"
+      - "🇸🇬SG_1|2.2MB/s"
       - "🇸🇬SG-103.36.91.32-4546"
       - "🇸🇬SG-15.235.147.186-0404"
       - "🇸🇬SG-8.219.134.138-0840"
@@ -541,12 +663,27 @@ proxy-groups:
       - "🇸🇬SG-15.235.197.4-8090"
       - "🇸🇬SG-118.107.46.173-8186"
       - "🇸🇬SG-118.107.46.173-8188"
-      - "🇸🇬SG新加坡"
-      - "🇸🇬SG新加坡3"
+      - "🇸🇬SG新加坡2"
+      - "🇸🇬SG新加坡5"
       - "🇸🇬 机场推荐:dafei.de 新加坡 01"
       - "🇸🇬 机场推荐:dafei.de 新加坡 02"
-      - "🇸🇬 机场推荐:dafei.de 新加坡 03"
-      - "🇸🇬 机场推荐:dafei.de 新加坡 04"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 05"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 06"
+      - "SG 🇸🇬 | @Raydikalx | 2901"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
+      - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
 rules:
