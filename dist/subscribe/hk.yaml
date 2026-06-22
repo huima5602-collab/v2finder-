@@ -3,30 +3,12 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "HK VLESS-383 | free-nodes"
-    type: "vless"
-    server: "212.192.15.58"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us299.wagahaha.xyz"
-    network: "xhttp"
-  - name: "HK VLESS-397 | free-nodes"
-    type: "vless"
-    server: "212.192.15.58"
-    port: 443
-    udp: true
-    uuid: "43bcba7d-cd22-379c-a7da-2e8eafecbc78"
-    tls: true
-    servername: "u711540us298.wagahaha.xyz"
-    network: "xhttp"
-  - name: "🇭🇰 香港3|@ripaojiedian"
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
     type: "trojan"
-    server: "43.198.206.201"
-    port: 2008
+    server: "103.177.136.45"
+    port: 41943
     udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
   - name: "🇭🇰_HK_中国香港"
     type: "vmess"
     server: "47.244.120.197"
@@ -40,74 +22,21 @@ proxies:
       path: "/arki?ed=2048"
       headers:
         Host: "47.244.120.197"
-  - name: "香港3|@ripaojiedian"
-    type: "trojan"
-    server: "35.77.34.38"
-    port: 53012
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    tls: true
-    servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "香港4|@ripaojiedian"
-    type: "trojan"
-    server: "18.162.50.252"
-    port: 11035
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian"
-    network: "tcp"
-  - name: "香港5|@ripaojiedian"
-    type: "trojan"
-    server: "18.162.50.252"
-    port: 11035
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian"
-    network: "tcp"
-  - name: "香港3|@ripaojiedian"
-    type: "trojan"
-    server: "35.77.34.38"
-    port: 53012
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-  - name: "香港5|@ripaojiedian"
-    type: "trojan"
-    server: "18.162.50.252"
-    port: 11035
-    udp: true
-    password: "BxceQaOe"
-  - name: "🇭🇰HK-112.213.102.188-0186"
+  - name: "🇭🇰HK-112.213.102.188-0162"
     type: "ss"
     server: "112.213.102.188"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇭🇰HK-103.141.221.124-4476"
+  - name: "🇭🇰HK-216.250.97.82-0206"
     type: "ss"
-    server: "103.141.221.124"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+    server: "216.250.97.82"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
     udp: true
-  - name: "🇭🇰HK-103.149.182.105-4477"
-    type: "ss"
-    server: "103.149.182.105"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇭🇰HK-103.141.221.101-4543"
-    type: "ss"
-    server: "103.141.221.101"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-0171"
+  - name: "🇭🇰HK-47.244.120.197-0201"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -119,7 +48,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇭🇰HK-47.244.120.197-0172"
+  - name: "🇭🇰HK-47.244.120.197-0202"
     type: "vmess"
     server: "47.244.120.197"
     port: 44867
@@ -131,14 +60,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇭🇰HK-216.250.97.82-0168"
-    type: "ss"
-    server: "216.250.97.82"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-0461"
+  - name: "🇭🇰HK-47.244.120.197-0479"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -150,111 +72,7 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "🇭🇰HK-18.163.80.1-0771"
-    type: "trojan"
-    server: "18.163.80.1"
-    port: 17005
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    tls: true
-    servername: "www.nintendogames.net"
-  - name: "🇭🇰HK-103.177.136.45-0838"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0842"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0844"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0845"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0852"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-0853"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-0854"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-0855"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-0856"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0857"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-0858"
-    type: "trojan"
-    server: "103.177.136.45"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.42-0859"
-    type: "trojan"
-    server: "103.177.136.42"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-47.244.120.197-0875"
+  - name: "🇭🇰HK-47.244.120.197-0803"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -267,31 +85,7 @@ proxies:
       path: "/arki?ed=2048"
       headers:
         Host: "47.244.120.197"
-  - name: "🇭🇰HK-43.198.206.201-1664"
-    type: "trojan"
-    server: "43.198.206.201"
-    port: 2008
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    tls: true
-    servername: "www.nintendogames.net"
-  - name: "🇭🇰HK-43.198.206.201-1668"
-    type: "trojan"
-    server: "43.198.206.201"
-    port: 37973
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    tls: true
-    servername: "www.nintendogames.net"
-  - name: "🇭🇰HK-18.162.50.252-1672"
-    type: "trojan"
-    server: "18.162.50.252"
-    port: 9149
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me%2Fripaojiedian"
-  - name: "🇭🇰HK-20.187.85.198-4011"
+  - name: "🇭🇰HK-20.187.85.198-3938"
     type: "trojan"
     server: "20.187.85.198"
     port: 443
@@ -299,22 +93,23 @@ proxies:
     password: "b26e31e5-eac1-45b0-9069-83830bd69521"
     tls: true
     servername: "hkt.iamnotagoodman.com"
-  - name: "🇭🇰HK-103.149.182.79-4544"
-    type: "ss"
-    server: "103.149.182.79"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇭🇰HK-103.177.136.41-4607"
+  - name: "🇭🇰HK-58.152.25.253-4409"
     type: "trojan"
-    server: "103.177.136.41"
-    port: 48697
+    server: "58.152.25.253"
+    port: 443
+    udp: true
+    password: "BxceQaOe"
+    tls: true
+    servername: "58.152.25.253"
+  - name: "🇭🇰HK-103.177.136.45-4529"
+    type: "trojan"
+    server: "103.177.136.45"
+    port: 41943
     udp: true
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.41-4608"
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇭🇰HK-103.177.136.41-4530"
     type: "trojan"
     server: "103.177.136.41"
     port: 45553
@@ -322,20 +117,15 @@ proxies:
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "ch.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-47.244.120.197-0169"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇭🇰HK-103.177.136.41-4531"
+    type: "trojan"
+    server: "103.177.136.41"
+    port: 48697
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "47.244.120.197"
-  - name: "🇭🇰HK-219.76.13.181-6270"
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇭🇰HK-219.76.13.181-6193"
     type: "trojan"
     server: "219.76.13.181"
     port: 443
@@ -343,7 +133,7 @@ proxies:
     password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
     tls: true
     servername: "arbettp.freetrade.link"
-  - name: "🇭🇰HK-219.76.13.180-6271"
+  - name: "🇭🇰HK-219.76.13.180-6194"
     type: "trojan"
     server: "219.76.13.180"
     port: 443
@@ -366,26 +156,6 @@ proxies:
       path: "/aa"
       headers:
         Host: "hk.nbee.pp.ua"
-  - name: "🇭🇰HK香港2"
-    type: "trojan"
-    server: "43.198.206.201"
-    port: 2008
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-  - name: "🇭🇰 机场推荐:dafei.de 香港 01"
-    type: "trojan"
-    server: "43.198.206.201"
-    port: 2008
-    udp: true
-    password: "e0195c73018d597b1c2f0ea89d8676ae"
-    network: "tcp"
-  - name: "🇭🇰 机场推荐:dafei.de 香港 02"
-    type: "vless"
-    server: "103.166.127.195"
-    port: 448
-    udp: true
-    uuid: "8224aa92-4a38-4756-a7d9-a9e7cde12a31"
-    network: "tcp"
   - name: "🇭🇰_HK_中国香港"
     type: "vmess"
     server: "47.244.120.197"
@@ -398,71 +168,26 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "HK 🇭🇰 | @Raydikalx | 2444"
-    type: "vmess"
-    server: "131.186.63.89"
-    port: 11655
-    uuid: "4bf075f5-4d5e-4d39-f5ab-b32a86250f0e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "hk.nbee.pp.ua"
-    network: "ws"
-    ws-opts:
-      path: "/aa"
-      headers:
-        Host: "hk.nbee.pp.ua"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "HK VLESS-383 | free-nodes"
-      - "HK VLESS-397 | free-nodes"
-      - "🇭🇰 香港3|@ripaojiedian"
+      - "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
       - "🇭🇰_HK_中国香港"
-      - "香港3|@ripaojiedian"
-      - "香港4|@ripaojiedian"
-      - "香港5|@ripaojiedian"
-      - "香港3|@ripaojiedian"
-      - "香港5|@ripaojiedian"
-      - "🇭🇰HK-112.213.102.188-0186"
-      - "🇭🇰HK-103.141.221.124-4476"
-      - "🇭🇰HK-103.149.182.105-4477"
-      - "🇭🇰HK-103.141.221.101-4543"
-      - "🇭🇰HK-47.244.120.197-0171"
-      - "🇭🇰HK-47.244.120.197-0172"
-      - "🇭🇰HK-216.250.97.82-0168"
-      - "🇭🇰HK-47.244.120.197-0461"
-      - "🇭🇰HK-18.163.80.1-0771"
-      - "🇭🇰HK-103.177.136.45-0838"
-      - "🇭🇰HK-103.177.136.42-0842"
-      - "🇭🇰HK-103.177.136.42-0844"
-      - "🇭🇰HK-103.177.136.42-0845"
-      - "🇭🇰HK-103.177.136.42-0852"
-      - "🇭🇰HK-103.177.136.45-0853"
-      - "🇭🇰HK-103.177.136.45-0854"
-      - "🇭🇰HK-103.177.136.45-0855"
-      - "🇭🇰HK-103.177.136.45-0856"
-      - "🇭🇰HK-103.177.136.42-0857"
-      - "🇭🇰HK-103.177.136.45-0858"
-      - "🇭🇰HK-103.177.136.42-0859"
-      - "🇭🇰HK-47.244.120.197-0875"
-      - "🇭🇰HK-43.198.206.201-1664"
-      - "🇭🇰HK-43.198.206.201-1668"
-      - "🇭🇰HK-18.162.50.252-1672"
-      - "🇭🇰HK-20.187.85.198-4011"
-      - "🇭🇰HK-103.149.182.79-4544"
-      - "🇭🇰HK-103.177.136.41-4607"
-      - "🇭🇰HK-103.177.136.41-4608"
-      - "🇭🇰HK-47.244.120.197-0169"
-      - "🇭🇰HK-219.76.13.181-6270"
-      - "🇭🇰HK-219.76.13.180-6271"
+      - "🇭🇰HK-112.213.102.188-0162"
+      - "🇭🇰HK-216.250.97.82-0206"
+      - "🇭🇰HK-47.244.120.197-0201"
+      - "🇭🇰HK-47.244.120.197-0202"
+      - "🇭🇰HK-47.244.120.197-0479"
+      - "🇭🇰HK-47.244.120.197-0803"
+      - "🇭🇰HK-20.187.85.198-3938"
+      - "🇭🇰HK-58.152.25.253-4409"
+      - "🇭🇰HK-103.177.136.45-4529"
+      - "🇭🇰HK-103.177.136.41-4530"
+      - "🇭🇰HK-103.177.136.41-4531"
+      - "🇭🇰HK-219.76.13.181-6193"
+      - "🇭🇰HK-219.76.13.180-6194"
       - "HK"
-      - "🇭🇰HK香港2"
-      - "🇭🇰 机场推荐:dafei.de 香港 01"
-      - "🇭🇰 机场推荐:dafei.de 香港 02"
       - "🇭🇰_HK_中国香港"
-      - "HK 🇭🇰 | @Raydikalx | 2444"
 rules:
   - "MATCH,Proxy Select"

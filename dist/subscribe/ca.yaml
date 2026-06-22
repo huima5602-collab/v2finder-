@@ -226,14 +226,46 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇨🇦CA-149.22.95.183-0106"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "103.177.136.42"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "103.177.136.45"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "103.177.136.42"
+    port: 48697
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+  - name: "🇨🇦CA-137.184.174.93-4448"
+    type: "ss"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+    udp: true
+  - name: "🇨🇦CA-108.181.118.10-4367"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+    udp: true
+  - name: "🇨🇦CA-149.22.95.183-0117"
     type: "ss"
     server: "149.22.95.183"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇨🇦CA-23.162.200.227-6349"
+  - name: "🇨🇦CA-23.162.200.227-6272"
     type: "vmess"
     server: "23.162.200.227"
     port: 443
@@ -247,22 +279,7 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-134.195.198.147-6351"
-    type: "vmess"
-    server: "134.195.198.147"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "inna.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
-        Host: "inna.cfd"
-  - name: "🇨🇦CA-134.195.198.147-0136"
+  - name: "🇨🇦CA-134.195.198.147-0153"
     type: "vmess"
     server: "134.195.198.147"
     port: 443
@@ -277,21 +294,7 @@ proxies:
       path: "/"
       headers:
         Host: "inna.cfd"
-  - name: "🇨🇦CA-23.162.200.227-0134"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇨🇦CA-148.113.141.99-0586"
+  - name: "🇨🇦CA-148.113.141.99-0601"
     type: "trojan"
     server: "148.113.141.99"
     port: 443
@@ -299,42 +302,43 @@ proxies:
     password: "HdsUZmsHQW"
     tls: true
     servername: "148.113.141.99"
-  - name: "🇨🇦CA-144.217.164.29-0732"
+  - name: "🇨🇦CA-144.217.164.29-0747"
     type: "ss"
     server: "144.217.164.29"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
-  - name: "🇨🇦CA-45.154.204.7-0735"
+  - name: "🇨🇦CA-45.154.204.7-0750"
     type: "ss"
     server: "45.154.204.7"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇨🇦CA-23.95.76.59-0740"
+  - name: "🇨🇦CA-23.95.76.59-0755"
     type: "ss"
     server: "23.95.76.59"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇨🇦CA-79.127.233.170-0746"
+  - name: "🇨🇦CA-79.127.233.170-0761"
     type: "ss"
     server: "79.127.233.170"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇨🇦CA-137.184.174.93-0078"
-    type: "ss"
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
+  - name: "🇨🇦CA-130.94.114.217-0775"
+    type: "trojan"
+    server: "130.94.114.217"
+    port: 443
     udp: true
-  - name: "🇨🇦CA-158.51.121.36-1775"
+    password: "BhNAljna1sXjsY.Nqdl0ksXJ1VsGRqXz1V"
+    tls: true
+    servername: "130.94.114.217"
+  - name: "🇨🇦CA-158.51.121.36-1702"
     type: "vmess"
     server: "158.51.121.36"
     port: 443
@@ -348,7 +352,21 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-137.184.164.233-6325"
+  - name: "🇨🇦CA-23.162.200.227-0148"
+    type: "vmess"
+    server: "23.162.200.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "23.162.200.227"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇨🇦CA-137.184.164.233-6248"
     type: "vmess"
     server: "137.184.164.233"
     port: 80
@@ -360,7 +378,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇨🇦CA-158.51.121.63-6348"
+  - name: "🇨🇦CA-158.51.121.63-6271"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -375,7 +393,22 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "🇨🇦CA-23.162.200.94-7075"
+  - name: "🇨🇦CA-134.195.198.147-6274"
+    type: "vmess"
+    server: "134.195.198.147"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "inna.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/linkvws"
+      headers:
+        Host: "inna.cfd"
+  - name: "🇨🇦CA-23.162.200.94-6997"
     type: "vmess"
     server: "23.162.200.94"
     port: 443
@@ -404,14 +437,7 @@ proxies:
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
-  - name: "🇨🇦 机场推荐:dafei.de 加拿大 01"
-    type: "vless"
-    server: "15.223.121.250"
-    port: 41087
-    udp: true
-    uuid: "57d94cf7-ca36-4c2a-bec5-90cf38588cda"
-    network: "tcp"
-  - name: "CA 🇨🇦 | @Raydikalx | 317"
+  - name: "[🇨🇦]t.me/ConfigsHub"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -441,37 +467,6 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "CA 🇨🇦 | @Raydikalx | 2910"
-    type: "vmess"
-    server: "23.162.200.198"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "[🇨🇦]t.me/ConfigsHub"
-    type: "vmess"
-    server: "158.51.121.63"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "seribus.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "seribus.org"
-  - name: "CA 🇨🇦 | @Raydikalx | 2909"
-    type: "vmess"
-    server: "134.195.196.211"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "t.me/v2Line | Free | 3191 | Canada"
     type: "vmess"
     server: "158.51.121.63"
@@ -488,8 +483,56 @@ proxies:
       headers:
   - name: "🇨🇦"
     type: "vless"
-    server: "172.64.53.74"
+    server: "104.254.140.30"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime54.workers.dev"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "104.18.34.124"
     port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "162.159.12.41"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/fp=random"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "104.17.72.206"
+    port: 80
+    udp: true
+    uuid: "1de37726-744b-46e1-9101-c926b3402e82"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "v2.v2configlab.workers.dev"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "172.64.149.209"
+    port: 2087
     udp: true
     uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
     tls: true
@@ -499,41 +542,26 @@ proxies:
       path: "/"
       headers:
         Host: "fgnix832fx.fx6hsv0.ccwu.cc"
-  - name: "@Biosabet06🇨🇦"
-    type: "vless"
-    server: "104.26.14.85"
-    port: 443
-    udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    tls: true
-    servername: "rubifen.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/GOrbEh"
-      headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-    type: "vmess"
-    server: "23.162.200.198"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-    type: "vmess"
-    server: "134.195.196.211"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇨🇦"
+    type: "ss"
+    server: "104.254.140.30"
+    port: 8880
+    cipher: "�m6om���{s�\u001d���n>���i��s�"
+    password: "�m6om���{s�\u001d���n>���i��s�]"
     udp: true
   - name: "🇨🇦"
     type: "ss"
-    server: "172.64.53.74"
+    server: "162.159.12.41"
     port: 443
-    cipher: "�����Ʒ{�믛��~k�9G�ov"
-    password: "�����Ʒ{�믛��~k�9G�ov�"
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
+    udp: true
+  - name: "🇨🇦"
+    type: "ss"
+    server: "104.18.34.124"
+    port: 443
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
     udp: true
   - name: "🇨🇦"
     type: "ss"
@@ -542,12 +570,19 @@ proxies:
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "@Biosabet06🇨🇦"
+  - name: "🇨🇦"
     type: "ss"
-    server: "104.26.14.85"
-    port: 443
-    cipher: "q��}�������6q����~٧z���{�"
-    password: "q��}�������6q����~٧z���{��"
+    server: "172.64.149.209"
+    port: 2087
+    cipher: "�����Ʒ{�믛��~k�9G�ov"
+    password: "�����Ʒ{�믛��~k�9G�ov�"
+    udp: true
+  - name: "🇨🇦"
+    type: "ss"
+    server: "104.17.72.206"
+    port: 80
+    cipher: "�׷ｺ��8o�"
+    password: "{_��M~sݺo~4��6"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
@@ -572,36 +607,41 @@ proxy-groups:
       - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000"
       - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990"
       - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990"
-      - "🇨🇦CA-149.22.95.183-0106"
-      - "🇨🇦CA-23.162.200.227-6349"
-      - "🇨🇦CA-134.195.198.147-6351"
-      - "🇨🇦CA-134.195.198.147-0136"
-      - "🇨🇦CA-23.162.200.227-0134"
-      - "🇨🇦CA-148.113.141.99-0586"
-      - "🇨🇦CA-144.217.164.29-0732"
-      - "🇨🇦CA-45.154.204.7-0735"
-      - "🇨🇦CA-23.95.76.59-0740"
-      - "🇨🇦CA-79.127.233.170-0746"
-      - "🇨🇦CA-137.184.174.93-0078"
-      - "🇨🇦CA-158.51.121.36-1775"
-      - "🇨🇦CA-137.184.164.233-6325"
-      - "🇨🇦CA-158.51.121.63-6348"
-      - "🇨🇦CA-23.162.200.94-7075"
+      - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+      - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+      - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+      - "🇨🇦CA-137.184.174.93-4448"
+      - "🇨🇦CA-108.181.118.10-4367"
+      - "🇨🇦CA-149.22.95.183-0117"
+      - "🇨🇦CA-23.162.200.227-6272"
+      - "🇨🇦CA-134.195.198.147-0153"
+      - "🇨🇦CA-148.113.141.99-0601"
+      - "🇨🇦CA-144.217.164.29-0747"
+      - "🇨🇦CA-45.154.204.7-0750"
+      - "🇨🇦CA-23.95.76.59-0755"
+      - "🇨🇦CA-79.127.233.170-0761"
+      - "🇨🇦CA-130.94.114.217-0775"
+      - "🇨🇦CA-158.51.121.36-1702"
+      - "🇨🇦CA-23.162.200.227-0148"
+      - "🇨🇦CA-137.184.164.233-6248"
+      - "🇨🇦CA-158.51.121.63-6271"
+      - "🇨🇦CA-134.195.198.147-6274"
+      - "🇨🇦CA-23.162.200.94-6997"
       - "🇨🇦CA加拿大"
       - "🇨🇦CA加拿大2"
-      - "🇨🇦 机场推荐:dafei.de 加拿大 01"
-      - "CA 🇨🇦 | @Raydikalx | 317"
-      - "🇨🇦@FreakConfig"
-      - "CA 🇨🇦 | @Raydikalx | 2910"
       - "[🇨🇦]t.me/ConfigsHub"
-      - "CA 🇨🇦 | @Raydikalx | 2909"
+      - "🇨🇦@FreakConfig"
       - "t.me/v2Line | Free | 3191 | Canada"
       - "🇨🇦"
-      - "@Biosabet06🇨🇦"
-      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
-      - "@Biosabet06🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
+      - "🇨🇦"
 rules:
   - "MATCH,Proxy Select"
