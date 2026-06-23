@@ -3,14 +3,30 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-185.189.160.105-0218"
+  - name: "TW_speednode_0083"
+    type: "vless"
+    server: "45.206.0.35"
+    port: 8443
+    udp: true
+    uuid: "52faee73-e0fe-4661-992d-67259257170f"
+    tls: true
+    servername: "storage.yandex.net"
+  - name: "TW_speednode_0084"
+    type: "vless"
+    server: "45.206.0.34"
+    port: 8443
+    udp: true
+    uuid: "52faee73-e0fe-4661-992d-67259257170f"
+    tls: true
+    servername: "storage.yandex.net"
+  - name: "🇹🇼TW-185.189.160.105-0165"
     type: "ss"
     server: "185.189.160.105"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇹🇼TW-85.237.207.189-4402"
+  - name: "🇹🇼TW-85.237.207.189-4505"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -22,7 +38,9 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-185.189.160.105-0218"
-      - "🇹🇼TW-85.237.207.189-4402"
+      - "TW_speednode_0083"
+      - "TW_speednode_0084"
+      - "🇹🇼TW-185.189.160.105-0165"
+      - "🇹🇼TW-85.237.207.189-4505"
 rules:
   - "MATCH,Proxy Select"

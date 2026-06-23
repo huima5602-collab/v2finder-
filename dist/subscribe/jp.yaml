@@ -3,68 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇯🇵79042 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "trojan"
-    server: "202.182.118.182"
-    port: 443
-    udp: true
-    password: "4c3164ee-abcf-4091-abea-d1cd4937a68d"
-    tls: true
-    servername: "jy.hhllfly.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇯🇵79040 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "88.216.193.154"
-    port: 443
-    udp: true
-    uuid: "51171159-d453-4d05-bbae-287207db33dd"
-    network: "tcp"
-  - name: "🇯🇵79039 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "8.211.167.113"
-    port: 443
-    udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "🇯🇵 Join+Telegram:@FarahVPN 🇯🇵"
-    type: "vmess"
-    server: "8.211.149.30"
-    port: 443
-    uuid: "bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "polartime.link"
-    network: "ws"
-    ws-opts:
-      path: "/ws/"
-      headers:
-        Host: "polartime.link"
-  - name: "日本3|@ripaojiedian"
-    type: "trojan"
-    server: "18.162.41.225"
-    port: 37973
-    udp: true
-    password: "860c3c2c89a1c7515792be1c5295d21e"
-    tls: true
-    servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "日本3|@ripaojiedian"
-    type: "trojan"
-    server: "18.162.41.225"
-    port: 37973
-    udp: true
-    password: "860c3c2c89a1c7515792be1c5295d21e"
   - name: "🇯🇵JP_1|2.6MB/s"
     type: "trojan"
     server: "64.110.101.250"
@@ -75,128 +13,61 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-149.22.87.204-0129"
+  - name: "🇯🇵JP_2|3.3MB/s"
+    type: "vless"
+    server: "142.91.108.139"
+    port: 443
+    udp: true
+    uuid: "7e6d3393-bb84-45c7-9eef-35de95805b7e"
+    tls: true
+    servername: "jp.api-yandex.net"
+  - name: "JP_speednode_0010"
+    type: "vless"
+    server: "151.101.109.223"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "🇯🇵JP-149.22.87.204-0146"
     type: "ss"
     server: "149.22.87.204"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.240-0130"
+  - name: "🇯🇵JP-149.22.87.240-0148"
     type: "ss"
     server: "149.22.87.240"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.241-0128"
+  - name: "🇯🇵JP-149.22.87.241-0149"
     type: "ss"
     server: "149.22.87.241"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-103.106.228.175-0131"
+  - name: "🇯🇵JP-103.106.228.175-0150"
     type: "ss"
     server: "103.106.228.175"
     port: 8009
     cipher: "aes-256-gcm"
     password: "XKFKl2rULjIp74"
     udp: true
-  - name: "🇯🇵JP-47.79.144.115-0195"
+  - name: "🇯🇵JP-47.79.144.115-0197"
     type: "ss"
     server: "47.79.144.115"
     port: 40003
     cipher: "aes-256-gcm"
     password: "GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA"
     udp: true
-  - name: "🇯🇵JP-8.211.149.30-0264"
-    type: "vmess"
-    server: "8.211.149.30"
-    port: 443
-    uuid: "bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "polartime.link"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "polartime.link"
-  - name: "🇯🇵JP-172.104.78.98-1368"
-    type: "vmess"
-    server: "172.104.78.98"
-    port: 443
-    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "172.104.78.98"
-    network: "ws"
-    ws-opts:
-      path: "/chat"
-      headers:
-  - name: "🇯🇵JP-47.245.62.4-1617"
-    type: "ss"
-    server: "47.245.62.4"
-    port: 8443
-    cipher: "aes-128-gcm"
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    udp: true
-  - name: "🇯🇵JP-161.129.34.102-1635"
-    type: "vmess"
-    server: "161.129.34.102"
-    port: 443
-    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "161.129.34.102"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "161.129.34.102"
-  - name: "🇯🇵JP-43.207.1.14-2006"
-    type: "ss"
-    server: "43.207.1.14"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "🇯🇵JP-161.129.34.102-2309"
-    type: "vmess"
-    server: "161.129.34.102"
-    port: 443
-    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "161.129.34.102"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇯🇵JP-161.129.34.102-2818"
-    type: "vmess"
-    server: "161.129.34.102"
-    port: 443
-    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "161.129.34.102"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇯🇵JP-131.186.57.111-7140"
+  - name: "🇯🇵JP-131.186.57.111-7241"
     type: "vmess"
     server: "131.186.57.111"
     port: 443
@@ -211,81 +82,185 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇯🇵"
-    type: "vless"
-    server: "162.159.44.195"
+  - name: "🇯🇵JP-54.250.165.160-0838"
+    type: "ss"
+    server: "54.250.165.160"
+    port: 2377
+    cipher: "chacha20-ietf-poly1305"
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    udp: true
+  - name: "🇯🇵JP-198.13.37.176-0886"
+    type: "trojan"
+    server: "198.13.37.176"
     port: 443
     udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     tls: true
-    servername: "hhlfy.twiladaphne.ndjp.net"
+    servername: "hhcm.hhxaf.cc.cd"
     network: "ws"
     ws-opts:
-      path: "/fp=chrome"
+      path: "/"
       headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇯🇵"
-    type: "vless"
-    server: "156.231.113.141"
+  - name: "🇯🇵JP-172.104.78.98-1471"
+    type: "vmess"
+    server: "172.104.78.98"
+    port: 443
+    uuid: "927094d3-d678-4763-8591-e240d0bcae87"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "172.104.78.98"
+    network: "ws"
+    ws-opts:
+      path: "/chat"
+      headers:
+  - name: "🇯🇵JP-47.245.62.4-1720"
+    type: "ss"
+    server: "47.245.62.4"
     port: 8443
-    udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "🇯🇵"
-    type: "ss"
-    server: "162.159.44.195"
-    port: 443
-    cipher: "{�\u001cצ�����"
-    password: "oo�٧�iݵ緵�["
-    udp: true
-  - name: "🇯🇵"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
     cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    udp: true
+  - name: "🇯🇵JP-161.129.34.102-1738"
+    type: "vmess"
+    server: "161.129.34.102"
+    port: 443
+    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "161.129.34.102"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "161.129.34.102"
+  - name: "🇯🇵JP-43.207.1.14-2109"
+    type: "ss"
+    server: "43.207.1.14"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "🇯🇵JP-161.129.34.102-2412"
+    type: "vmess"
+    server: "161.129.34.102"
+    port: 443
+    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "161.129.34.102"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇯🇵JP-161.129.34.102-2921"
+    type: "vmess"
+    server: "161.129.34.102"
+    port: 443
+    uuid: "ec736482-173e-3eff-9114-b49df8056e7d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "161.129.34.102"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇯🇵JP-172.111.146.64-4610"
+    type: "vmess"
+    server: "172.111.146.64"
+    port: 80
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess/"
+      headers:
+  - name: "🇯🇵JP日本3"
+    type: "trojan"
+    server: "18.182.54.28"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "🇯🇵"
+    type: "vless"
+    server: "47.79.144.103"
+    port: 25242
+    udp: true
+    uuid: "a12b0d31-f599-498e-b76e-8558a14b766b"
+    network: "ws"
+    ws-opts:
+      path: "/a12b0d31"
+      headers:
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+    type: "vmess"
+    server: "172.111.146.64"
+    port: 80
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess/"
+      headers:
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+    type: "vmess"
+    server: "172.104.80.66"
+    port: 22324
+    uuid: "04621bae-ab36-11ec-b909-0242ac120002"
+    alterId: 1
+    cipher: "auto"
     udp: true
   - name: "🇯🇵"
     type: "ss"
-    server: "156.231.113.141"
-    port: 8443
-    cipher: "y���m���v��\u001eko�릾�6y�v��"
-    password: "y���m���v��\u001eko�릾�6y�v��}"
+    server: "47.79.144.103"
+    port: 25242
+    cipher: "k]������}��=��茶�|k^\u001b"
+    password: "k]������}��=��茶�|k^\u001bﮛ"
+    udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "ss"
+    server: "103.106.228.175"
+    port: 8009
+    cipher: "aes-256-gcm"
+    password: "XKFKl2rULjIp74"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇯🇵79042 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇯🇵79040 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇯🇵79039 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇯🇵 Join+Telegram:@FarahVPN 🇯🇵"
-      - "日本3|@ripaojiedian"
-      - "日本3|@ripaojiedian"
       - "🇯🇵JP_1|2.6MB/s"
-      - "🇯🇵JP-149.22.87.204-0129"
-      - "🇯🇵JP-149.22.87.240-0130"
-      - "🇯🇵JP-149.22.87.241-0128"
-      - "🇯🇵JP-103.106.228.175-0131"
-      - "🇯🇵JP-47.79.144.115-0195"
-      - "🇯🇵JP-8.211.149.30-0264"
-      - "🇯🇵JP-172.104.78.98-1368"
-      - "🇯🇵JP-47.245.62.4-1617"
-      - "🇯🇵JP-161.129.34.102-1635"
-      - "🇯🇵JP-43.207.1.14-2006"
-      - "🇯🇵JP-161.129.34.102-2309"
-      - "🇯🇵JP-161.129.34.102-2818"
-      - "🇯🇵JP-131.186.57.111-7140"
+      - "🇯🇵JP_2|3.3MB/s"
+      - "JP_speednode_0010"
+      - "🇯🇵JP-149.22.87.204-0146"
+      - "🇯🇵JP-149.22.87.240-0148"
+      - "🇯🇵JP-149.22.87.241-0149"
+      - "🇯🇵JP-103.106.228.175-0150"
+      - "🇯🇵JP-47.79.144.115-0197"
+      - "🇯🇵JP-131.186.57.111-7241"
+      - "🇯🇵JP-54.250.165.160-0838"
+      - "🇯🇵JP-198.13.37.176-0886"
+      - "🇯🇵JP-172.104.78.98-1471"
+      - "🇯🇵JP-47.245.62.4-1720"
+      - "🇯🇵JP-161.129.34.102-1738"
+      - "🇯🇵JP-43.207.1.14-2109"
+      - "🇯🇵JP-161.129.34.102-2412"
+      - "🇯🇵JP-161.129.34.102-2921"
+      - "🇯🇵JP-172.111.146.64-4610"
+      - "🇯🇵JP日本3"
       - "🇯🇵"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵"
-      - "🇯🇵"
-      - "🇯🇵"
-      - "🇯🇵"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"
