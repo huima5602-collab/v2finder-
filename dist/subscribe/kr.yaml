@@ -3,68 +3,78 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-    type: "vmess"
-    server: "152.67.218.38"
-    port: 443
-    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "152.67.218.38"
-  - name: "🇰🇷KR_1|1.2MB/s"
-    type: "vless"
+  - name: "🇰🇷 韩国 V2CROSS.COM"
+    type: "trojan"
     server: "211.49.57.178"
     port: 443
     udp: true
-    uuid: "23cb9aa7-9756-459f-aa84-3a27bdf6ad64"
-    tls: true
-    servername: "s5.868001.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/proxyipfp=chrome"
-      headers:
-        Host: "s5.868001.xyz"
-  - name: "🇰🇷KR-218.237.185.230-0194"
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "韩国+KT电信r"
+    type: "trojan"
+    server: "121.178.83.161"
+    port: 26214
+    udp: true
+    password: "GKHWMe2R4qwNcNxu6l3KMkdd"
+  - name: "韓國丨yoyapai.comr"
+    type: "trojan"
+    server: "211.49.57.175"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "211.49.57.178"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "211.49.57.179"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+  - name: "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "141.164.42.2"
+    port: 443
+    udp: true
+    password: "114514"
+  - name: "🇰🇷KR-218.237.185.230-0166"
     type: "ss"
     server: "218.237.185.230"
     port: 4652
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-221.139.79.57-0193"
+  - name: "🇰🇷KR-221.139.79.57-0190"
     type: "ss"
     server: "221.139.79.57"
     port: 13979
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-211.178.105.134-0198"
+  - name: "🇰🇷KR-211.178.105.134-0173"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-141.164.45.187-0196"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-    udp: true
-  - name: "🇰🇷KR-141.164.45.187-0195"
+  - name: "🇰🇷KR-141.164.45.187-0189"
     type: "ss"
     server: "141.164.45.187"
     port: 6679
     cipher: "aes-256-gcm"
     password: "TEzjfAYq2IjtuoS"
     udp: true
-  - name: "🇰🇷KR-152.67.218.38-0208"
+  - name: "🇰🇷KR-141.164.45.187-0187"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇰🇷KR-152.67.218.38-0156"
     type: "vmess"
     server: "152.67.218.38"
     port: 443
@@ -77,7 +87,7 @@ proxies:
       path: "/"
       headers:
         Host: "152.67.218.38"
-  - name: "🇰🇷KR-152.67.218.38-0211"
+  - name: "🇰🇷KR-152.67.218.38-0163"
     type: "vmess"
     server: "152.67.218.38"
     port: 443
@@ -89,47 +99,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-211.49.57.175-0803"
-    type: "trojan"
-    server: "211.49.57.175"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-  - name: "🇰🇷KR-121.178.83.161-0811"
-    type: "trojan"
-    server: "121.178.83.161"
-    port: 26214
-    udp: true
-    password: "GKHWMe2R4qwNcNxu6l3KMkdd"
-    tls: true
-    servername: "vpn1.rnmcnm.com"
-  - name: "🇰🇷KR-211.49.57.179-0860"
-    type: "trojan"
-    server: "211.49.57.179"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇰🇷KR-211.49.57.178-0868"
-    type: "trojan"
-    server: "211.49.57.178"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇰🇷KR-211.49.57.161-0870"
+  - name: "🇰🇷KR-211.49.57.161-1004"
     type: "trojan"
     server: "211.49.57.161"
     port: 443
@@ -141,83 +111,101 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-43.201.48.212-1681"
+  - name: "🇰🇷KR-211.49.57.175-1005"
+    type: "trojan"
+    server: "211.49.57.175"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-211.49.57.175-1007"
+    type: "trojan"
+    server: "211.49.57.175"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-211.49.57.179-1009"
+    type: "trojan"
+    server: "211.49.57.179"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-43.201.48.212-1815"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-158.247.205.87-1771"
+  - name: "🇰🇷KR-158.247.205.87-1903"
     type: "ss"
     server: "158.247.205.87"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇰🇷KR韩国"
-    type: "trojan"
-    server: "211.49.57.179"
+  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+    type: "vmess"
+    server: "140.238.2.250"
     port: 443
+    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-  - name: "🇰🇷KR韩国4"
-    type: "trojan"
-    server: "121.178.83.161"
-    port: 26214
-    udp: true
-    password: "GKHWMe2R4qwNcNxu6l3KMkdd"
-  - name: "🇰🇷"
-    type: "vless"
-    server: "47.80.60.254"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vmess"
+    server: "152.67.218.38"
     port: 443
+    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "🇰🇷"
-    type: "ss"
-    server: "47.80.60.254"
-    port: 443
-    cipher: "y���m���v��\u001eko�릾�6y�v��"
-    password: "y���m���v��\u001eko�릾�6y�v��}"
-    udp: true
-  - name: "🇰🇷"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-    udp: true
+        Host: "152.67.218.38"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇰🇷 韩国 V2CROSS.COM"
+      - "韩国+KT电信r"
+      - "韓國丨yoyapai.comr"
+      - "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+      - "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+      - "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
+      - "🇰🇷KR-218.237.185.230-0166"
+      - "🇰🇷KR-221.139.79.57-0190"
+      - "🇰🇷KR-211.178.105.134-0173"
+      - "🇰🇷KR-141.164.45.187-0189"
+      - "🇰🇷KR-141.164.45.187-0187"
+      - "🇰🇷KR-152.67.218.38-0156"
+      - "🇰🇷KR-152.67.218.38-0163"
+      - "🇰🇷KR-211.49.57.161-1004"
+      - "🇰🇷KR-211.49.57.175-1005"
+      - "🇰🇷KR-211.49.57.175-1007"
+      - "🇰🇷KR-211.49.57.179-1009"
+      - "🇰🇷KR-43.201.48.212-1815"
+      - "🇰🇷KR-158.247.205.87-1903"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-      - "🇰🇷KR_1|1.2MB/s"
-      - "🇰🇷KR-218.237.185.230-0194"
-      - "🇰🇷KR-221.139.79.57-0193"
-      - "🇰🇷KR-211.178.105.134-0198"
-      - "🇰🇷KR-141.164.45.187-0196"
-      - "🇰🇷KR-141.164.45.187-0195"
-      - "🇰🇷KR-152.67.218.38-0208"
-      - "🇰🇷KR-152.67.218.38-0211"
-      - "🇰🇷KR-211.49.57.175-0803"
-      - "🇰🇷KR-121.178.83.161-0811"
-      - "🇰🇷KR-211.49.57.179-0860"
-      - "🇰🇷KR-211.49.57.178-0868"
-      - "🇰🇷KR-211.49.57.161-0870"
-      - "🇰🇷KR-43.201.48.212-1681"
-      - "🇰🇷KR-158.247.205.87-1771"
-      - "🇰🇷KR韩国"
-      - "🇰🇷KR韩国4"
-      - "🇰🇷"
-      - "🇰🇷"
-      - "🇰🇷"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"
