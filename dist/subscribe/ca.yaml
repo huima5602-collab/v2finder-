@@ -3,6 +3,140 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "加拿大丨yoyapai.com不列顛哥倫比亞省溫哥華丨yoyapai.com"
+    type: "vless"
+    server: "151.101.212.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/?https://t.me/WangCai2🇨🇳"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA加拿大丨yoyapai.com"
+    type: "vless"
+    server: "151.101.127.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA加拿大丨yoyapai.com"
+    type: "vless"
+    server: "151.101.139.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA加拿大丨yoyapai.com"
+    type: "vless"
+    server: "151.101.124.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "加拿大丨yoyapai.com安大略省多倫多丨yoyapai.com"
+    type: "vless"
+    server: "151.101.124.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/?https://t.me/WangCai2🇨🇳"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "🇨🇦@FreakConfig"
+    type: "trojan"
+    server: "172.67.210.215"
+    port: 443
+    udp: true
+    password: "MiTiVPN"
+    tls: true
+    servername: "linkkon-w.ir"
+    network: "ws"
+    ws-opts:
+      path: "/ed=mitivpn"
+      headers:
+        Host: "linkkon-w.ir"
+  - name: "🇨🇦@FreakConfig"
+    type: "trojan"
+    server: "104.16.174.121"
+    port: 443
+    udp: true
+    password: "humanity"
+    tls: true
+    servername: "www.ignitelimit.com"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.ignitelimit.com"
+  - name: "🇨🇦@FreakConfig"
+    type: "vless"
+    server: "172.66.3.252"
+    port: 2096
+    udp: true
+    uuid: "9f2ecebe-3a52-460e-80ac-74a21fffdaf7"
+    tls: true
+    servername: "gxgdjtgdt.fatehuiolk.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/v2ngnet--v2ngnet--v2ngnet--v2ngnet--v2ngnet--v2ngnet--v2ngnet--v2ngnet"
+      headers:
+        Host: "gxgdjtgdt.fatehuiolk.workers.dev"
+  - name: "🇨🇦@FreakConfig"
+    type: "vless"
+    server: "172.67.215.201"
+    port: 2096
+    udp: true
+    uuid: "f8fff57f-224a-4ae3-80c1-a9299796ad7c"
+    tls: true
+    servername: "11.EZ-70eF02.wOrkeRS.DeV"
+    network: "ws"
+    ws-opts:
+      path: "/eyJqdW5rIjoicmc2S3lEeXFMV3Y3UHkiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI1Ny4xMjkuNDcuNTIiXX0=?ed=2560"
+      headers:
+        Host: "11.ez-70ef02.workers.dev"
+  - name: "🇨🇦85954 | ⚡️Telegram = t.me/LonUp_M"
+    type: "vmess"
+    server: "104.26.14.137"
+    port: 80
+    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1/?de=2560"
+      headers:
+        Host: "tr1-smart.adelping.com."
+  - name: "🇨🇦85978 | ⚡️Telegram = t.me/LonUp_M"
+    type: "vmess"
+    server: "23.162.200.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "23.162.200.227"
+    network: "ws"
+    ws-opts:
+      path: "/linkvws"
+      headers:
   - name: "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000"
     type: "ss"
     server: "144.217.164.29"
@@ -24,28 +158,72 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇨🇦CA-108.181.118.10-0090"
-    type: "ss"
-    server: "108.181.118.10"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
+  - name: "加拿大+魁北克省蒙特利尔Fastly节点"
+    type: "vless"
+    server: "151.101.136.151"
+    port: 80
     udp: true
-  - name: "🇨🇦CA-149.22.95.183-0093"
-    type: "ss"
-    server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/?https://t.me/WangCai2🇨🇳"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA_speednode_0005"
+    type: "vless"
+    server: "151.101.124.151"
+    port: 80
     udp: true
-  - name: "🇨🇦CA-137.184.174.93-0099"
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA_speednode_0006"
+    type: "vless"
+    server: "151.101.127.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "CA_speednode_0007"
+    type: "vless"
+    server: "151.101.139.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "🇨🇦CA-137.184.174.93-0078"
     type: "ss"
     server: "137.184.174.93"
     port: 8080
     cipher: "rc4-md5"
     password: "14fFPrbezE3HDZzsMOr6"
     udp: true
-  - name: "🇨🇦CA-134.195.198.147-6503"
+  - name: "🇨🇦CA-149.22.95.183-0065"
+    type: "ss"
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇨🇦CA-108.181.118.10-0059"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+    udp: true
+  - name: "🇨🇦CA-134.195.198.147-6531"
     type: "vmess"
     server: "134.195.198.147"
     port: 443
@@ -60,22 +238,7 @@ proxies:
       path: "/linkvws"
       headers:
         Host: "inna.cfd"
-  - name: "🇨🇦CA-134.195.198.147-0144"
-    type: "vmess"
-    server: "134.195.198.147"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "inna.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "inna.cfd"
-  - name: "🇨🇦CA-23.162.200.227-0157"
+  - name: "🇨🇦CA-23.162.200.227-0166"
     type: "vmess"
     server: "23.162.200.227"
     port: 443
@@ -89,7 +252,22 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇨🇦CA-148.113.141.99-0811"
+  - name: "🇨🇦CA-134.195.198.147-0109"
+    type: "vmess"
+    server: "134.195.198.147"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "inna.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "inna.cfd"
+  - name: "🇨🇦CA-148.113.141.99-0799"
     type: "trojan"
     server: "148.113.141.99"
     port: 443
@@ -97,35 +275,35 @@ proxies:
     password: "HdsUZmsHQW"
     tls: true
     servername: "148.113.141.99"
-  - name: "🇨🇦CA-144.217.164.29-0957"
+  - name: "🇨🇦CA-144.217.164.29-0945"
     type: "ss"
     server: "144.217.164.29"
     port: 12000
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
-  - name: "🇨🇦CA-45.154.204.7-0960"
+  - name: "🇨🇦CA-45.154.204.7-0948"
     type: "ss"
     server: "45.154.204.7"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇨🇦CA-23.95.76.59-0965"
+  - name: "🇨🇦CA-23.95.76.59-0953"
     type: "ss"
     server: "23.95.76.59"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇨🇦CA-79.127.233.170-0971"
+  - name: "🇨🇦CA-79.127.233.170-0959"
     type: "ss"
     server: "79.127.233.170"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "f8f7aCzcPKbsF8p3"
     udp: true
-  - name: "🇨🇦CA-158.51.121.36-1937"
+  - name: "🇨🇦CA-158.51.121.36-1960"
     type: "vmess"
     server: "158.51.121.36"
     port: 443
@@ -139,7 +317,7 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-137.184.164.233-6477"
+  - name: "🇨🇦CA-137.184.164.233-6505"
     type: "vmess"
     server: "137.184.164.233"
     port: 80
@@ -151,7 +329,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇨🇦CA-158.51.121.63-6500"
+  - name: "🇨🇦CA-158.51.121.63-6528"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -166,7 +344,7 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "🇨🇦CA-23.162.200.227-6501"
+  - name: "🇨🇦CA-23.162.200.227-6529"
     type: "vmess"
     server: "23.162.200.227"
     port: 443
@@ -180,7 +358,7 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-23.162.200.94-7226"
+  - name: "🇨🇦CA-23.162.200.94-7255"
     type: "vmess"
     server: "23.162.200.94"
     port: 443
@@ -209,7 +387,7 @@ proxies:
     cipher: "aes-256-gcm"
     password: "8JCsPssfgS8tiRwiMlhARg=="
     udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 464"
+  - name: "[🇨🇦]t.me/ConfigsHub"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -238,7 +416,37 @@ proxies:
     ws-opts:
       path: "linkvws"
       headers:
-  - name: "[🇨🇦]t.me/ConfigsHub"
+  - name: "CA 🇨🇦 | @Raydikalx | 431"
+    type: "vmess"
+    server: "158.51.121.63"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "seribus.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "seribus.org"
+  - name: "🇨🇦@FreakConfig"
+    type: "vmess"
+    server: "158.51.121.63"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "seribus.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "seribus.org"
+  - name: "CA 🇨🇦 | @Raydikalx | 409"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -255,41 +463,6 @@ proxies:
         Host: "seribus.org"
   - name: "🇨🇦"
     type: "vless"
-    server: "155.46.167.30"
-    port: 8880
-    udp: true
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime50.workers.dev"
-  - name: "🇨🇦"
-    type: "vless"
-    server: "83.229.126.127"
-    port: 32237
-    udp: true
-    uuid: "73bcd72f-9545-4cb8-8daf-7d004501880d"
-    tls: true
-    servername: "dcsrzh.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chromefp=chrome"
-      headers:
-        Host: "dcsrzh.ccwu.cc"
-  - name: "🇨🇦"
-    type: "vless"
-    server: "198.41.222.191"
-    port: 80
-    udp: true
-    uuid: "e388fffb-03b0-4227-ac2c-2b5cec1f5c34"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "leecher56.matinheydri.workers.dev"
-  - name: "🇨🇦"
-    type: "vless"
     server: "104.18.34.124"
     port: 443
     udp: true
@@ -303,34 +476,65 @@ proxies:
         Host: "hhlfy.twiladaphne.ndjp.net"
   - name: "🇨🇦"
     type: "vless"
-    server: "104.24.45.247"
-    port: 80
+    server: "172.64.53.74"
+    port: 443
     udp: true
-    uuid: "2e71d8fc-d2e8-44fc-89bd-c8a449a193aa"
+    uuid: "77777777-8a3e-6666-b6d1-a9c5f0e8b3a2"
+    tls: true
+    servername: "fgnix832fx.fx6hsv0.ccwu.cc"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "odd-bread-435d.ahmadrezasteamacc.workers.dev"
+        Host: "fgnix832fx.fx6hsv0.ccwu.cc"
   - name: "🇨🇦"
     type: "vless"
-    server: "45.40.149.50"
+    server: "172.67.185.178"
+    port: 443
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    tls: true
+    servername: "hhlfy.twiladaphne.ndjp.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn🇨🇦"
+    type: "vless"
+    server: "104.16.72.70"
+    port: 443
+    udp: true
+    uuid: "0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c"
+    tls: true
+    servername: "unnes.ac.id.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/ca-cl"
+      headers:
+        Host: "unnes.ac.id.yxls.eu.cc"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "104.254.140.30"
     port: 8880
     udp: true
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     network: "ws"
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
-        Host: "vms.lifetime39.workers.dev"
-  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-    type: "vmess"
-    server: "134.195.196.211"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
+        Host: "vms.lifetime54.workers.dev"
+  - name: "🇨🇦"
+    type: "vless"
+    server: "162.159.81.104"
+    port: 80
     udp: true
+    uuid: "4b00d726-e072-429b-997e-f07affea3b7f"
+    network: "ws"
+    ws-opts:
+      path: "/eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560"
+      headers:
+        Host: "icy-darkness-8ff1.farzambia12mo.workers.dev"
   - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
     type: "vmess"
     server: "23.162.200.198"
@@ -341,10 +545,31 @@ proxies:
     udp: true
   - name: "🇨🇦"
     type: "ss"
-    server: "198.41.222.191"
+    server: "104.254.140.30"
+    port: 8880
+    cipher: "�m6om���{s�\u001d���n>���i��s�"
+    password: "�m6om���{s�\u001d���n>���i��s�]"
+    udp: true
+  - name: "🇨🇦"
+    type: "ss"
+    server: "162.159.81.104"
     port: 80
-    cipher: "{<}���M���6ۿ�sg>پ\\y�_��"
-    password: "{<}���M���6ۿ�sg>پ\\y�_���"
+    cipher: "�4w����;��6������N�}��ݾ"
+    password: "�4w����;��6������N�}��ݾ�"
+    udp: true
+  - name: "🇨🇦"
+    type: "ss"
+    server: "172.67.185.178"
+    port: 443
+    cipher: "{�\u001cצ�����"
+    password: "oo�٧�iݵ緵�["
+    udp: true
+  - name: "🇨🇦"
+    type: "ss"
+    server: "172.64.53.74"
+    port: 443
+    cipher: "�����Ʒ{�믛��~k�9G�ov"
+    password: "�����Ʒ{�믛��~k�9G�ov�"
     udp: true
   - name: "🇨🇦"
     type: "ss"
@@ -353,454 +578,70 @@ proxies:
     cipher: "{�\u001cצ�����"
     password: "oo�٧�iݵ緵�["
     udp: true
-  - name: "🇨🇦"
+  - name: "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn🇨🇦"
     type: "ss"
-    server: "83.229.126.127"
-    port: 32237
-    cipher: "�v�w����x��\u001coϼu����4�5��"
-    password: "�v�w����x��\u001coϼu����4�5��\u001d"
-    udp: true
-  - name: "🇨🇦"
-    type: "ss"
-    server: "104.24.45.247"
-    port: 80
-    cipher: "���w���ݞ��8}ϼ��~sƸ�ֵ�v"
-    password: "���w���ݞ��8}ϼ��~sƸ�ֵ�v�"
-    udp: true
-  - name: "🇨🇦"
-    type: "ss"
-    server: "155.46.167.30"
-    port: 8880
-    cipher: "�m6om���{s�\u001d���n>���i��s�"
-    password: "�m6om���{s�\u001d���n>���i��s�]"
-    udp: true
-  - name: "🇨🇦"
-    type: "ss"
-    server: "45.40.149.50"
-    port: 8880
-    cipher: "�m6om���{s�\u001d���n>���i��s�"
-    password: "�m6om���{s�\u001d���n>���i��s�]"
-    udp: true
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.98.224"
-    port: 8080
-    udp: true
-    uuid: "Come_To_VPNCUSTOMIZE"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "104.18.115.61"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.gossipglove.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 80
-    udp: true
-    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
-    network: "ws"
-    ws-opts:
-      path: "/http"
-      headers:
-        Host: "@SylphNet"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.26.6.89"
-    port: 8443
-    udp: true
-    uuid: "e999db7a-1b17-4da6-bc37-c9fa24af2e93"
-    tls: true
-    servername: "YjF03nNq0B.sOlEnTrAa.InFo"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "YjF03nNq0B.sOlEnTrAa.InFo"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "172.67.190.211"
-    port: 2082
-    udp: true
-    uuid: "54b3cbba-e6ac-485a-9481-976a0873eab9"
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "bLaCk-trutH-63Bc.DoviF72324.WoRKeRs.dev"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "104.16.174.46"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "172.64.145.202"
-    port: 443
-    udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 443
-    udp: true
-    uuid: "16debcbb-d5dc-465d-bf58-940825bc34d4"
-    tls: true
-    servername: "ez-b573b2.nova-ad8c81.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "ez-b573b2.nova-ad8c81.workers.dev"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "104.19.229.21"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "assignment"
-      headers:
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.20.1.252"
-    port: 443
-    udp: true
-    uuid: "fef4a93d-eb4f-4657-b56b-32a0dc060045"
-    tls: true
-    servername: "dev.nestandneighbours.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "dev.nestandneighbours.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.17.108.69"
-    port: 8443
-    udp: true
-    uuid: "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93"
-    tls: true
-    servername: "srv14.hamiibar.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "srv14.hamiibar.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.96.3"
-    port: 443
-    udp: true
-    uuid: "5b9fbf67-e47c-4a2e-9dc2-f1a7a024a9b8"
-    tls: true
-    servername: "EZaCcEss-pRojECT-ffD5d4.eZ-B75Eb6.wOrkERS.dev"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiMnVoQ2w4eEl4QXdEIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
-      headers:
-        Host: "ezaccess-project-ffd5d4.ez-b75eb6.workers.dev"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.18.117.159"
-    port: 443
-    udp: true
-    uuid: "82241d60-2bdf-4de7-9a29-2d57ebc09b76"
-    tls: true
-    servername: "h18I2JaM-v6hTJQ-F-vwAI0PvGltC6On.hGhOrBAni-MC70.WoRkErS.dev"
-    network: "ws"
-    ws-opts:
-      path: "/eyJqdW5rIjoiSWVocjJHeWRvSGxYaThvIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ"
-      headers:
-        Host: "h18i2jam-v6htjq-f-vwai0pvgltc6on.hghorbani-mc70.workers.dev"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.16.41.28"
-    port: 443
-    udp: true
-    uuid: "15298f41-e80b-463a-b85b-0c903258a1c8"
-    tls: true
-    servername: "d5.medicaltreatment.ir"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "d5.medicaltreatment.ir"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "104.18.152.229"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
     server: "104.16.72.70"
-    port: 8443
-    udp: true
-    uuid: "e1ea855f-d0c2-5ed2-a454-294bb73c0cee"
-    tls: true
-    servername: "speedtest-chekhost-fastly.amuseftdomainroyal.com"
-    network: "ws"
-    ws-opts:
-      path: "/ZoRoVpn"
-      headers:
-        Host: "speedtest-chekhost-fastly.amuseftdomainroyal.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.27.66.214"
-    port: 8443
-    udp: true
-    uuid: "be5851ff-9af5-45ea-b874-a0a035714114"
-    tls: true
-    servername: "ratatouille.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/admin.php"
-      headers:
-        Host: "ratatouille.adaspoloandco.com"
-  - name: "CA-vless-56"
-    type: "vless"
-    server: "188.114.97.26"
-    port: 2087
-    udp: true
-    uuid: "093e2398-047a-474e-8c1e-7015934954b0"
-    tls: true
-    servername: "mhione.mgvip.ir"
-    network: "xhttp"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.97.6"
     port: 443
-    udp: true
-    uuid: "a63daf4e-e245-4497-af49-9976c2ef51b7"
-    tls: true
-    servername: "information.gamecenteriran.com"
-    network: "ws"
-    ws-opts:
-      path: "/uploader.php"
-      headers:
-        Host: "information.gamecenteriran.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 8080
-    udp: true
-    uuid: "115936e4-4a2f-45b5-bcda-a572ef2982aa"
-    network: "xhttp"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vmess"
-    server: "188.114.96.9"
-    port: 80
-    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
-      headers:
-        Host: "tr1-smart.adelping.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "104.16.0.0"
-    port: 8080
-    udp: true
-    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "tr-cd.sublink-vip2.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "188.114.96.6"
-    port: 443
-    udp: true
-    password: "MiTiVPN"
-    tls: true
-    servername: "f6r.ir"
-    network: "ws"
-    ws-opts:
-      path: "/usa=mitivpn"
-      headers:
-        Host: "f6r.ir"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "172.65.132.152"
-    port: 3389
-    udp: true
-    uuid: "bfb2be9b-3b9c-a215-6be9-78f9ec83b93a"
-    network: "tcp"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "ss"
-    server: "23.95.76.59"
-    port: 990
-    cipher: "chacha20-ietf-poly1305"
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-    udp: true
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 8443
-    udp: true
-    uuid: "f3b8c2a1-9d4e-4b7f-a6c5-2e8d1f0b4a93"
-    tls: true
-    servername: "srv71.perfectbulk.info"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "srv71.perfectbulk.info"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "trojan"
-    server: "104.17.121.71"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.calmlunch.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "172.64.149.54"
-    port: 443
-    udp: true
-    uuid: "4b581293-af3a-4658-b9b2-06949626bf86"
-    tls: true
-    servername: "cdnde.sheriffbus.com"
-    network: "xhttp"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "188.114.96.1"
-    port: 443
-    udp: true
-    uuid: "89b3cbba-e6ac-485a-9481-976a0415eab9"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "172.67.71.247"
-    port: 443
-    udp: true
-    uuid: "c35050ce-01ab-45a9-91b8-54cec637d0a8"
-    tls: true
-    servername: "octopusss5.info"
-    network: "ws"
-    ws-opts:
-      path: "/udfyfws"
-      headers:
-        Host: "octopusss5.info"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "ss"
-    server: "104.18.32.47"
-    port: 443
-    cipher: ".���"
-    password: ".���׭"
+    cipher: "ѧ4k�������;_�u�>q����u�"
+    password: "ѧ4k�������;_�u�>q����u�\\"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "加拿大丨yoyapai.com不列顛哥倫比亞省溫哥華丨yoyapai.com"
+      - "CA加拿大丨yoyapai.com"
+      - "CA加拿大丨yoyapai.com"
+      - "CA加拿大丨yoyapai.com"
+      - "加拿大丨yoyapai.com安大略省多倫多丨yoyapai.com"
+      - "🇨🇦@FreakConfig"
+      - "🇨🇦@FreakConfig"
+      - "🇨🇦@FreakConfig"
+      - "🇨🇦@FreakConfig"
+      - "🇨🇦85954 | ⚡️Telegram = t.me/LonUp_M"
+      - "🇨🇦85978 | ⚡️Telegram = t.me/LonUp_M"
       - "🇨🇦 SS-加拿大>英国-NF解锁英国地区非自制剧-ChatGPT-144.217.164.29:12000"
       - "🇦🇿 SS-阿塞拜疆-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-45.154.204.7:990"
       - "🇨🇦 SS-英国-NF解锁加拿大地区非自制剧-ChatGPT-TikTok-YouTube-79.127.233.170:990"
-      - "🇨🇦CA-108.181.118.10-0090"
-      - "🇨🇦CA-149.22.95.183-0093"
-      - "🇨🇦CA-137.184.174.93-0099"
-      - "🇨🇦CA-134.195.198.147-6503"
-      - "🇨🇦CA-134.195.198.147-0144"
-      - "🇨🇦CA-23.162.200.227-0157"
-      - "🇨🇦CA-148.113.141.99-0811"
-      - "🇨🇦CA-144.217.164.29-0957"
-      - "🇨🇦CA-45.154.204.7-0960"
-      - "🇨🇦CA-23.95.76.59-0965"
-      - "🇨🇦CA-79.127.233.170-0971"
-      - "🇨🇦CA-158.51.121.36-1937"
-      - "🇨🇦CA-137.184.164.233-6477"
-      - "🇨🇦CA-158.51.121.63-6500"
-      - "🇨🇦CA-23.162.200.227-6501"
-      - "🇨🇦CA-23.162.200.94-7226"
+      - "加拿大+魁北克省蒙特利尔Fastly节点"
+      - "CA_speednode_0005"
+      - "CA_speednode_0006"
+      - "CA_speednode_0007"
+      - "🇨🇦CA-137.184.174.93-0078"
+      - "🇨🇦CA-149.22.95.183-0065"
+      - "🇨🇦CA-108.181.118.10-0059"
+      - "🇨🇦CA-134.195.198.147-6531"
+      - "🇨🇦CA-23.162.200.227-0166"
+      - "🇨🇦CA-134.195.198.147-0109"
+      - "🇨🇦CA-148.113.141.99-0799"
+      - "🇨🇦CA-144.217.164.29-0945"
+      - "🇨🇦CA-45.154.204.7-0948"
+      - "🇨🇦CA-23.95.76.59-0953"
+      - "🇨🇦CA-79.127.233.170-0959"
+      - "🇨🇦CA-158.51.121.36-1960"
+      - "🇨🇦CA-137.184.164.233-6505"
+      - "🇨🇦CA-158.51.121.63-6528"
+      - "🇨🇦CA-23.162.200.227-6529"
+      - "🇨🇦CA-23.162.200.94-7255"
       - "🇨🇦CA加拿大"
       - "🇨🇦CA加拿大2"
-      - "CA 🇨🇦 | @Raydikalx | 464"
-      - "t.me/v2Line | Free | 3191 | Canada"
       - "[🇨🇦]t.me/ConfigsHub"
+      - "t.me/v2Line | Free | 3191 | Canada"
+      - "CA 🇨🇦 | @Raydikalx | 431"
+      - "🇨🇦@FreakConfig"
+      - "CA 🇨🇦 | @Raydikalx | 409"
       - "🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
-      - "🇨🇦"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
       - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
-      - "🇨🇦"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "CA-vless-56"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn🇨🇦"
 rules:
   - "MATCH,Proxy Select"
