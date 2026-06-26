@@ -3,6 +3,26 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "HK香港丨yoyapai.com"
+    type: "trojan"
+    server: "23.156.153.57"
+    port: 443
+    udp: true
+    password: "114514"
+    tls: true
+    servername: "tjaaa.hhllfly.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "tjaaa.hhllfly.kdns.fr"
+  - name: "🇭🇰HK香港丨yoyapai.com"
+    type: "ss"
+    server: "47.76.218.163"
+    port: 443
+    cipher: "none"
+    password: "https://t.me/WangCai2🇨🇳"
+    udp: true
   - name: "香港丨yoyapai.com"
     type: "vless"
     server: "151.101.77.151"
@@ -14,20 +34,50 @@ proxies:
       path: "/?https://t.me/WangCai2🇨🇳"
       headers:
         Host: "max-gb1.global.ssl.fastly.net"
-  - name: "🇭🇰HK香港丨yoyapai.com"
-    type: "ss"
-    server: "47.76.218.163"
-    port: 443
-    cipher: "none"
-    password: "https://t.me/WangCai2🇨🇳"
-    udp: true
-  - name: "🇭🇰@FreakConfig"
+  - name: "香港极速(大带宽,低延时|||14050405|wxdy666|V2rayCh"
     type: "vless"
-    server: "103.166.127.195"
-    port: 448
+    server: "103.100.158.25"
+    port: 443
     udp: true
-    uuid: "8224aa92-4a38-4756-a7d9-a9e7cde12a31"
-    network: "tcp"
+    uuid: "8062e5ed-20b0-4304-b90b-e1652cfc72fa"
+  - name: "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "23.156.153.57"
+    port: 443
+    udp: true
+    password: "114514"
+  - name: "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+    type: "vmess"
+    server: "160.250.247.70"
+    port: 49178
+    uuid: "d7c13e10-2ba9-4677-a877-d9e9d1738394"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇭🇰_HK_中国香港"
     type: "vmess"
     server: "47.244.120.197"
@@ -41,47 +91,28 @@ proxies:
       path: "/arki?ed=2048"
       headers:
         Host: "47.244.120.197"
-  - name: "🇭🇰HK-47.244.120.197-1065"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-        Host: "47.244.120.197"
-  - name: "🇭🇰HK-216.250.97.82-0152"
+  - name: "🇭🇰HK-103.149.182.79-5808"
     type: "ss"
-    server: "216.250.97.82"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    server: "103.149.182.79"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
     udp: true
-  - name: "🇭🇰HK-47.244.120.197-0153"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "47.244.120.197"
-  - name: "🇭🇰HK-112.213.102.188-0128"
+  - name: "🇭🇰HK-112.213.102.188-0169"
     type: "ss"
     server: "112.213.102.188"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇭🇰HK-47.244.120.197-0201"
+  - name: "🇭🇰HK-216.250.97.82-0166"
+    type: "ss"
+    server: "216.250.97.82"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    udp: true
+  - name: "🇭🇰HK-47.244.120.197-0138"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -93,14 +124,27 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇭🇰HK-103.141.221.101-0235"
+        Host: "47.244.120.197"
+  - name: "🇭🇰HK-47.244.120.197-0212"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-103.141.221.101-0244"
     type: "ss"
     server: "103.141.221.101"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
     udp: true
-  - name: "🇭🇰HK-47.244.120.197-0444"
+  - name: "🇭🇰HK-47.244.120.197-0447"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -112,7 +156,7 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "🇭🇰HK-103.177.136.45-0668"
+  - name: "🇭🇰HK-103.177.136.45-0718"
     type: "trojan"
     server: "103.177.136.45"
     port: 46424
@@ -120,7 +164,20 @@ proxies:
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "de.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-20.187.85.198-4196"
+  - name: "🇭🇰HK-47.244.120.197-2224"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+        Host: "47.244.120.197"
+  - name: "🇭🇰HK-20.187.85.198-5355"
     type: "trojan"
     server: "20.187.85.198"
     port: 443
@@ -128,14 +185,7 @@ proxies:
     password: "b26e31e5-eac1-45b0-9069-83830bd69521"
     tls: true
     servername: "hkt.iamnotagoodman.com"
-  - name: "🇭🇰HK-103.149.182.79-4663"
-    type: "ss"
-    server: "103.149.182.79"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-4760"
+  - name: "🇭🇰HK-47.244.120.197-5887"
     type: "vmess"
     server: "47.244.120.197"
     port: 44867
@@ -147,23 +197,7 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "🇭🇰HK-103.177.136.41-4793"
-    type: "trojan"
-    server: "103.177.136.41"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.41-4794"
-    type: "trojan"
-    server: "103.177.136.41"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-103.177.136.45-4795"
+  - name: "🇭🇰HK-103.177.136.45-5920"
     type: "trojan"
     server: "103.177.136.45"
     port: 41943
@@ -171,19 +205,23 @@ proxies:
     password: "4f4d1167-ef14-4304-9bce-0740472503ef"
     tls: true
     servername: "az.01.naiun.bilibili.com"
-  - name: "🇭🇰HK-47.244.120.197-0139"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇭🇰HK-103.177.136.41-5921"
+    type: "trojan"
+    server: "103.177.136.41"
+    port: 48697
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-219.76.13.181-6450"
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇭🇰HK-103.177.136.41-5922"
+    type: "trojan"
+    server: "103.177.136.41"
+    port: 45553
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "ch.01.naiun.bilibili.com"
+  - name: "🇭🇰HK-219.76.13.181-7582"
     type: "trojan"
     server: "219.76.13.181"
     port: 443
@@ -191,7 +229,7 @@ proxies:
     password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
     tls: true
     servername: "arbettp.freetrade.link"
-  - name: "🇭🇰HK-219.76.13.180-6451"
+  - name: "🇭🇰HK-219.76.13.180-7583"
     type: "trojan"
     server: "219.76.13.180"
     port: 443
@@ -226,45 +264,52 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
+  - name: "HK 🇭🇰 | @Raydikalx | 2721"
     type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    server: "131.186.63.89"
+    port: 11655
+    uuid: "4bf075f5-4d5e-4d39-f5ab-b32a86250f0e"
     alterId: 0
     cipher: "auto"
     udp: true
+    tls: true
+    servername: "hk.nbee.pp.ua"
     network: "ws"
     ws-opts:
-      path: "/arki?ed=2048"
+      path: "/aa"
       headers:
+        Host: "hk.nbee.pp.ua"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "香港丨yoyapai.com"
+      - "HK香港丨yoyapai.com"
       - "🇭🇰HK香港丨yoyapai.com"
-      - "🇭🇰@FreakConfig"
+      - "香港丨yoyapai.com"
+      - "香港极速(大带宽,低延时|||14050405|wxdy666|V2rayCh"
+      - "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
+      - "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰"
+      - "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
+      - "🇭🇰 HK香港(mibei77.com 米贝节点分享)"
       - "🇭🇰_HK_中国香港"
-      - "🇭🇰HK-47.244.120.197-1065"
-      - "🇭🇰HK-216.250.97.82-0152"
-      - "🇭🇰HK-47.244.120.197-0153"
-      - "🇭🇰HK-112.213.102.188-0128"
-      - "🇭🇰HK-47.244.120.197-0201"
-      - "🇭🇰HK-103.141.221.101-0235"
-      - "🇭🇰HK-47.244.120.197-0444"
-      - "🇭🇰HK-103.177.136.45-0668"
-      - "🇭🇰HK-20.187.85.198-4196"
-      - "🇭🇰HK-103.149.182.79-4663"
-      - "🇭🇰HK-47.244.120.197-4760"
-      - "🇭🇰HK-103.177.136.41-4793"
-      - "🇭🇰HK-103.177.136.41-4794"
-      - "🇭🇰HK-103.177.136.45-4795"
-      - "🇭🇰HK-47.244.120.197-0139"
-      - "🇭🇰HK-219.76.13.181-6450"
-      - "🇭🇰HK-219.76.13.180-6451"
+      - "🇭🇰HK-103.149.182.79-5808"
+      - "🇭🇰HK-112.213.102.188-0169"
+      - "🇭🇰HK-216.250.97.82-0166"
+      - "🇭🇰HK-47.244.120.197-0138"
+      - "🇭🇰HK-47.244.120.197-0212"
+      - "🇭🇰HK-103.141.221.101-0244"
+      - "🇭🇰HK-47.244.120.197-0447"
+      - "🇭🇰HK-103.177.136.45-0718"
+      - "🇭🇰HK-47.244.120.197-2224"
+      - "🇭🇰HK-20.187.85.198-5355"
+      - "🇭🇰HK-47.244.120.197-5887"
+      - "🇭🇰HK-103.177.136.45-5920"
+      - "🇭🇰HK-103.177.136.41-5921"
+      - "🇭🇰HK-103.177.136.41-5922"
+      - "🇭🇰HK-219.76.13.181-7582"
+      - "🇭🇰HK-219.76.13.180-7583"
       - "HK2"
       - "🇭🇰_HK_中国香港"
-      - "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
+      - "HK 🇭🇰 | @Raydikalx | 2721"
 rules:
   - "MATCH,Proxy Select"
