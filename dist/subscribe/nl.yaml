@@ -3,6 +3,20 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "🇳🇱93807 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "ss"
+    server: "82.38.31.205"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱93762 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "ss"
+    server: "82.38.31.15"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
   - name: "🇳🇱 The Netherlands Amsterdam | ⏱748ms | ⚡889KB/s | @NamazVPN"
     type: "trojan"
     server: "91.193.58.201"
@@ -88,91 +102,55 @@ proxies:
       path: "/"
       headers:
         Host: "ez-9f020d.ezaccess1990eee.workers.dev"
-  - name: "🇳🇱NL荷蘭丨yoyapai.comr"
+  - name: "🇳🇱 NL荷兰(mibei77.com 米贝节点分享)"
     type: "trojan"
-    server: "91.221.190.80"
+    server: "151.101.56.6"
     port: 443
     udp: true
-    password: "8r<[9'l6hAO#8ZQi"
-  - name: "荷蘭節點丨yoyapai.comr"
-    type: "trojan"
-    server: "152.53.200.89"
-    port: 8443
+    password: "Mitivpn"
+  - name: "荷兰+V2CROSS.COM"
+    type: "ss"
+    server: "193.168.175.56"
+    port: 14605
+    cipher: "chacha20-ietf-poly1305"
+    password: "Uk8lfmvhYnx5rJvXxKrRqGRynd9gIpJ.iY"
     udp: true
-    password: "8r<[9'l6hAO#8ZQi"
-  - name: "🇳🇱NL_1|1.6MB/s"
-    type: "vless"
-    server: "104.21.87.142"
+  - name: "🇳🇱NL-193.29.139.204-0112"
+    type: "ss"
+    server: "193.29.139.204"
     port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-    uuid: "cad25dec-01c3-4c2b-8422-eedeefa9a73e"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "zeus-panel-2mp2ud.287et32e3o8ye78.workers.dev"
-  - name: "🇳🇱NL_2|1.9MB/s"
-    type: "vless"
-    server: "104.21.29.89"
+  - name: "🇳🇱NL-193.29.139.235-0122"
+    type: "ss"
+    server: "193.29.139.235"
     port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-    uuid: "4bf5989f-ab5a-41c4-b43f-99320aa9e800"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "zeus-panel-yilj6d.zeus-fjo5h1.workers.dev"
-  - name: "🇳🇱NL_3|2.1MB/s"
-    type: "vless"
-    server: "172.67.148.26"
-    port: 80
+  - name: "🇳🇱NL-193.29.139.151-0124"
+    type: "ss"
+    server: "193.29.139.151"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-    uuid: "95de071f-747c-dc07-36ac-5c0854a9e50e"
-    network: "ws"
-    ws-opts:
-      path: "/sync"
-      headers:
-        Host: "restless-boat-ebf2.moha102030.workers.dev"
-  - name: "NL_speednode_0016"
-    type: "trojan"
-    server: "45.131.4.118"
-    port: 443
-    udp: true
-    password: "MiTiVPN"
-    network: "ws"
-    ws-opts:
-      path: "/MiTiVPN=Se"
-      headers:
-        Host: "95r.ir"
-  - name: "🇳🇱NL-109.201.152.181-0127"
+  - name: "🇳🇱NL-109.201.152.181-0134"
     type: "ss"
     server: "109.201.152.181"
     port: 443
     cipher: "aes-128-cfb"
     password: "shadowsocks"
     udp: true
-  - name: "🇳🇱NL-108.181.126.122-0104"
-    type: "ss"
-    server: "108.181.126.122"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-108.181.58.239-0108"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-158.173.20.171-0095"
+  - name: "🇳🇱NL-158.173.20.171-0217"
     type: "ss"
     server: "158.173.20.171"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇳🇱NL-152.70.57.182-1297"
+  - name: "🇳🇱NL-152.70.57.182-1356"
     type: "vmess"
     server: "152.70.57.182"
     port: 443
@@ -187,7 +165,7 @@ proxies:
       path: "/linkws"
       headers:
         Host: "irvideo.cfd"
-  - name: "🇳🇱NL-91.221.190.80-2489"
+  - name: "🇳🇱NL-91.221.190.80-2557"
     type: "trojan"
     server: "91.221.190.80"
     port: 443
@@ -195,7 +173,7 @@ proxies:
     password: "8r<[9'l6hAO#8ZQi"
     tls: true
     servername: "Koma-YT.PAGeS.Dev"
-  - name: "🇳🇱NL-152.53.200.89-2492"
+  - name: "🇳🇱NL-152.53.200.89-2560"
     type: "trojan"
     server: "152.53.200.89"
     port: 8443
@@ -203,7 +181,7 @@ proxies:
     password: "8r<[9'l6hAO#8ZQi"
     tls: true
     servername: "Koma-YT.PAGeS.Dev"
-  - name: "🇳🇱NL-194.124.216.192-6205"
+  - name: "🇳🇱NL-194.124.216.192-6314"
     type: "trojan"
     server: "194.124.216.192"
     port: 443
@@ -211,14 +189,14 @@ proxies:
     password: "M08tvzYWtUEJNtbpHp"
     tls: true
     servername: "194.124.216.192"
-  - name: "🇳🇱NL-172.99.188.71-7175"
+  - name: "🇳🇱NL-172.99.188.71-7283"
     type: "ss"
     server: "172.99.188.71"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇳🇱NL-152.70.57.182-8473"
+  - name: "🇳🇱NL-152.70.57.182-8580"
     type: "vmess"
     server: "152.70.57.182"
     port: 443
@@ -233,7 +211,7 @@ proxies:
       path: "/"
       headers:
         Host: "irvideo.cfd"
-  - name: "🇳🇱NL-51.158.146.183-9165"
+  - name: "🇳🇱NL-51.158.146.183-9270"
     type: "trojan"
     server: "51.158.146.183"
     port: 443
@@ -241,7 +219,7 @@ proxies:
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
     servername: "Speedtest.net"
-  - name: "🇳🇱NL-51.15.19.206-9167"
+  - name: "🇳🇱NL-51.15.19.206-9272"
     type: "vmess"
     server: "51.15.19.206"
     port: 80
@@ -253,7 +231,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-9168"
+  - name: "🇳🇱NL-51.15.19.206-9273"
     type: "vmess"
     server: "51.15.19.206"
     port: 8443
@@ -267,7 +245,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-9169"
+  - name: "🇳🇱NL-51.15.19.206-9274"
     type: "vmess"
     server: "51.15.19.206"
     port: 2083
@@ -281,262 +259,158 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱_NL_荷兰"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 01"
     type: "vless"
-    server: "88.218.248.195"
+    server: "37.49.229.44"
     port: 443
     udp: true
-    uuid: "05f7b98c-3cd4-4f15-cb80-ac38e1c08a96"
-    tls: true
-    servername: "us2.wxgqlfx.icu"
-    network: "ws"
-    ws-opts:
-      path: "/TG@wxgqlfx"
-      headers:
-        Host: "us2.wxgqlfx.icu"
-  - name: "🇳🇱_NL_荷兰"
+    uuid: "17930cee-cbea-484b-ad7f-7b8062825fee"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 02"
     type: "vless"
-    server: "87.199.210.215"
+    server: "117.55.202.15"
     port: 443
     udp: true
-    uuid: "def62c86-e2f2-4d13-b1f1-b3c197ed4873"
+    uuid: "17930cee-cbea-484b-ad7f-7b8062825fee"
+    network: "tcp"
+  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
+    type: "vless"
+    server: "188.166.69.138"
+    port: 443
+    udp: true
+    uuid: "0970324b-8c61-4ae7-8c3f-385a6f1e17e4"
     tls: true
-    servername: "87.199.210.215"
+    servername: "vpn47.cc.cd"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-  - name: "Channel id: @ShadowProxy66 🇳🇱"
+        Host: "vpn47.cc.cd"
+  - name: "🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰"
     type: "vless"
-    server: "144.124.251.49"
+    server: "158.160.191.91"
     port: 443
     udp: true
     uuid: "a5ea9247-79f3-4655-aece-3fb51e1e669e"
+    tls: true
+    servername: "rezerv8.yunus.guru"
     network: "tcp"
-  - name: "@MARAMBASHI 🇳🇱"
+  - name: "🇳🇱Test"
     type: "vless"
-    server: "188.114.97.4"
+    server: "185.155.8.34"
+    port: 4440
+    udp: true
+    uuid: "7fe06354-a602-4b25-b1a9-0069baec6ff0"
+    network: "xhttp"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "173.245.58.75"
     port: 443
     udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
     tls: true
-    servername: "rubifen.adaspoloandco.com"
+    servername: "terazhediii.info"
     network: "ws"
     ws-opts:
-      path: "/GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+      path: "/hdgrbws"
       headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "vless"
-    server: "151.115.164.110"
-    port: 8880
-    udp: true
-    uuid: "8dc7722c-2767-4eea-a28b-2f8daacc07e3"
-    network: "grpc"
+        Host: "terazhediii.info"
   - name: "🇳🇱"
     type: "vless"
-    server: "51.158.206.19"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "vless"
-    server: "104.26.0.7"
+    server: "138.124.113.18"
     port: 443
     udp: true
-    uuid: "10a6b923-e349-4594-92bb-d81a6245aaec"
+    uuid: "1f4c983e-382c-d2fa-b2dc-7981f02b34de"
+    network: "tcp"
+  - name: "🇳🇱"
+    type: "vless"
+    server: "20.229.252.162"
+    port: 443
+    udp: true
+    uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
-    servername: "sertraline.adaspoloandco.com"
+    servername: "i8dxb.media-cdn-us.chinav.indevs.in"
     network: "ws"
     ws-opts:
-      path: "/download.php#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
+      path: "/danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp"
       headers:
-        Host: "sertraline.adaspoloandco.com"
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "vless"
-    server: "104.26.14.85"
+        Host: "i8dxb.media-cdn-us.chinav.indevs.in"
+  - name: "🇳🇱"
+    type: "ss"
+    server: "138.124.113.18"
     port: 443
-    udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    tls: true
-    servername: "rubifen.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/GOrbEh#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560"
-      headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "51.158.206.25"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "@MARAMBASHI جوین بده🇳🇱"
-    type: "vless"
-    server: "167.82.101.251"
-    port: 443
-    udp: true
-    uuid: "d27a232b-de94-4204-9bae-b0c243c6b93c"
-    tls: true
-    servername: "default.ssl.fastly.net"
-    network: "ws"
-    ws-opts:
-      path: "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
-      headers:
-        Host: "newip.global.ssl.fastly.neT."
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "vless"
-    server: "192.71.82.2"
-    port: 443
-    udp: true
-    uuid: "a5c05c1e-aa68-443f-8598-09800244bd4b"
-    tls: true
-    servername: "kingcloud.biack.ir"
-    network: "ws"
-    ws-opts:
-      path: "/LiL?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512"
-      headers:
-  - name: "🇳🇱"
-    type: "vless"
-    server: "51.158.206.26"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "vless"
-    server: "186.190.211.188"
-    port: 443
-    udp: true
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    tls: true
-    servername: "186.190.211.188"
-    network: "tcp"
-  - name: "🇳🇱[All] قطع شدی بیا چنل👉@JKVPN"
-    type: "vless"
-    server: "87.199.202.15"
-    port: 2566
-    udp: true
-    uuid: "49bab9b8-5a76-4ef1-a4b4-979d8611acef"
-    network: "tcp"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "51.158.206.12"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "🇳🇱"
-    type: "vless"
-    server: "51.158.206.34"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "ss"
-    server: "104.26.14.85"
-    port: 443
-    cipher: "q��}�������6q����~٧z���{�"
-    password: "q��}�������6q����~٧z���{��"
-    udp: true
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "ss"
-    server: "186.190.211.188"
-    port: 443
-    cipher: "�w�s�|��ww����i�~��s��w�"
-    password: "�w�s�|��ww����i�~��s��w�5"
-    udp: true
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "ss"
-    server: "188.114.97.4"
-    port: 443
-    cipher: "q��}�������6q����~٧z���{�"
-    password: "q��}�������6q����~٧z���{��"
+    cipher: "��\u001c����6s�v}����>��5M�߇"
+    password: "��\u001c����6s�v}����>��5M�߇^"
     udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "51.158.206.25"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
-    udp: true
-  - name: "🇳🇱[All] قطع شدی بیا چنل👉@JKVPN"
-    type: "ss"
-    server: "87.199.202.15"
-    port: 2566
-    cipher: "���o�������\u001e_��>��]�ui"
-    password: "���o�������\u001e_��>��]�uiǟ"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "51.158.206.34"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "51.158.206.26"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
-    udp: true
-  - name: "@MARAMBASHI جوین بده🇳🇱"
-    type: "ss"
-    server: "167.82.101.251"
-    port: 443
-    cipher: "wn��}��׽��6ӏ�m��oG6�w"
-    password: "o��"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "51.158.206.19"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
-    udp: true
-  - name: "🇳🇱"
-    type: "ss"
-    server: "141.227.152.129"
+    server: "108.181.58.239"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
-    password: "VJeAjiJ40F2Il17Elv285W"
-    udp: true
-  - name: "@MARAMBASHI 🇳🇱"
-    type: "ss"
-    server: "151.115.164.110"
-    port: 8880
-    cipher: "��;�m��n���\u001ey�������\u001di�\u001cӷ"
-    password: "��;�m��n���\u001ey�������\u001di�\u001cӷ�"
+    password: "CJmTCCx7Ltud"
     udp: true
   - name: "🇳🇱"
     type: "ss"
-    server: "51.158.206.12"
-    port: 23576
-    cipher: "���پ���|��|����wֶyמw�"
-    password: "���پ���|��|����wֶyמw��"
+    server: "82.38.31.205"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "@MARAMBASHI 🇳🇱"
+  - name: "🇳🇱"
     type: "ss"
-    server: "192.71.82.2"
+    server: "20.229.252.162"
     port: 443
-    cipher: "k�4��^�����8�����>��4�n8m�"
-    password: "k�4��^�����8�����>��4�n8m�\u001b"
+    cipher: "ۮv��\u001e��u��4׏��n�߮_on�k^"
+    password: "ۮv��\u001e��u��4׏��n�߮_on�k^\u001d"
     udp: true
-  - name: "@MARAMBASHI 🇳🇱"
+  - name: "🇳🇱"
     type: "ss"
-    server: "104.26.0.7"
+    server: "82.38.31.210"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "82.38.31.2"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "173.245.58.75"
     port: 443
-    cipher: "�F�oݷ�����9���ٶ�w�Z�n9i�"
-    password: "�F�oݷ�����9���ٶ�w�Z�n9i��"
+    cipher: "og�i���ny��\u001a�ϛ��>��xo]��m"
+    password: "og�i���ny��\u001a�ϛ��>��xo]��m{"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "82.38.31.16"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇳🇱"
+    type: "ss"
+    server: "82.38.31.199"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: ">>@ISVvpn::NL"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇳🇱93807 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱93762 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇳🇱 The Netherlands Amsterdam | ⏱748ms | ⚡889KB/s | @NamazVPN"
       - "🇳🇱 The Netherlands Amsterdam | ⏱698ms | ⚡1.1MB/s | @NamazVPN"
       - "🇳🇱 @FreakConfig|||14050408|freakconfig|V2rayCh"
@@ -544,55 +418,40 @@ proxy-groups:
       - "🇳🇱93706 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇳🇱93793 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇳🇱93801 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱NL荷蘭丨yoyapai.comr"
-      - "荷蘭節點丨yoyapai.comr"
-      - "🇳🇱NL_1|1.6MB/s"
-      - "🇳🇱NL_2|1.9MB/s"
-      - "🇳🇱NL_3|2.1MB/s"
-      - "NL_speednode_0016"
-      - "🇳🇱NL-109.201.152.181-0127"
-      - "🇳🇱NL-108.181.126.122-0104"
-      - "🇳🇱NL-108.181.58.239-0108"
-      - "🇳🇱NL-158.173.20.171-0095"
-      - "🇳🇱NL-152.70.57.182-1297"
-      - "🇳🇱NL-91.221.190.80-2489"
-      - "🇳🇱NL-152.53.200.89-2492"
-      - "🇳🇱NL-194.124.216.192-6205"
-      - "🇳🇱NL-172.99.188.71-7175"
-      - "🇳🇱NL-152.70.57.182-8473"
-      - "🇳🇱NL-51.158.146.183-9165"
-      - "🇳🇱NL-51.15.19.206-9167"
-      - "🇳🇱NL-51.15.19.206-9168"
-      - "🇳🇱NL-51.15.19.206-9169"
-      - "🇳🇱_NL_荷兰"
-      - "🇳🇱_NL_荷兰"
-      - "Channel id: @ShadowProxy66 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "🇳🇱"
-      - "@MARAMBASHI جوین بده🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "🇳🇱[All] قطع شدی بیا چنل👉@JKVPN"
+      - "🇳🇱 NL荷兰(mibei77.com 米贝节点分享)"
+      - "荷兰+V2CROSS.COM"
+      - "🇳🇱NL-193.29.139.204-0112"
+      - "🇳🇱NL-193.29.139.235-0122"
+      - "🇳🇱NL-193.29.139.151-0124"
+      - "🇳🇱NL-109.201.152.181-0134"
+      - "🇳🇱NL-158.173.20.171-0217"
+      - "🇳🇱NL-152.70.57.182-1356"
+      - "🇳🇱NL-91.221.190.80-2557"
+      - "🇳🇱NL-152.53.200.89-2560"
+      - "🇳🇱NL-194.124.216.192-6314"
+      - "🇳🇱NL-172.99.188.71-7283"
+      - "🇳🇱NL-152.70.57.182-8580"
+      - "🇳🇱NL-51.158.146.183-9270"
+      - "🇳🇱NL-51.15.19.206-9272"
+      - "🇳🇱NL-51.15.19.206-9273"
+      - "🇳🇱NL-51.15.19.206-9274"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 01"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 02"
+      - "🇳🇱 机场推荐:dafei.de 荷兰 04"
+      - "🇷🇺_RU_俄罗斯->🇳🇱_NL_荷兰"
+      - "🇳🇱Test"
       - "🇳🇱"
       - "🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "🇳🇱"
-      - "🇳🇱[All] قطع شدی بیا چنل👉@JKVPN"
       - "🇳🇱"
       - "🇳🇱"
-      - "@MARAMBASHI جوین بده🇳🇱"
       - "🇳🇱"
       - "🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
       - "🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
-      - "@MARAMBASHI 🇳🇱"
+      - "🇳🇱"
+      - "🇳🇱"
+      - "🇳🇱"
+      - "🇳🇱"
+      - "🇳🇱"
+      - ">>@ISVvpn::NL"
 rules:
   - "MATCH,Proxy Select"
