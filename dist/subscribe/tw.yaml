@@ -3,14 +3,22 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-185.189.160.105-0242"
+  - name: "TW_speednode_0053"
+    type: "vless"
+    server: "45.206.0.29"
+    port: 8443
+    udp: true
+    uuid: "52faee73-e0fe-4661-992d-67259257170f"
+    tls: true
+    servername: "storage.yandex.net"
+  - name: "🇹🇼TW-185.189.160.105-0124"
     type: "ss"
     server: "185.189.160.105"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇹🇼TW-211.22.180.68-1311"
+  - name: "🇹🇼TW-211.22.180.68-1262"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -25,7 +33,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6264"
+  - name: "🇹🇼TW-85.237.207.189-6130"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -33,21 +41,21 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇹🇼TW-59.125.62.188-6157"
+    type: "ss"
+    server: "59.125.62.188"
+    port: 2377
+    cipher: "chacha20-ietf-poly1305"
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-185.189.160.105-0242"
-      - "🇹🇼TW-211.22.180.68-1311"
-      - "🇹🇼TW-85.237.207.189-6264"
-      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+      - "TW_speednode_0053"
+      - "🇹🇼TW-185.189.160.105-0124"
+      - "🇹🇼TW-211.22.180.68-1262"
+      - "🇹🇼TW-85.237.207.189-6130"
+      - "🇹🇼TW-59.125.62.188-6157"
 rules:
   - "MATCH,Proxy Select"
