@@ -3,14 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "TW_speednode_0053"
     type: "vless"
     server: "45.206.0.29"
@@ -19,14 +11,14 @@ proxies:
     uuid: "52faee73-e0fe-4661-992d-67259257170f"
     tls: true
     servername: "storage.yandex.net"
-  - name: "🇹🇼TW-185.189.160.105-0116"
+  - name: "🇹🇼TW-185.189.160.105-0125"
     type: "ss"
     server: "185.189.160.105"
     port: 41632
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇹🇼TW-211.22.180.68-1273"
+  - name: "🇹🇼TW-211.22.180.68-1272"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -41,35 +33,30 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼"
-    type: "vless"
-    server: "104.16.72.41"
+  - name: "🇹🇼TW-85.237.207.189-6159"
+    type: "trojan"
+    server: "85.237.207.189"
     port: 443
     udp: true
-    uuid: "659a9075-d5ab-4fd2-bf34-b37043fae832"
+    password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
-    servername: "nbhhh.mrcool.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/proxyip"
-      headers:
-        Host: "nbhhh.mrcool.kdns.fr"
-  - name: "🇹🇼"
-    type: "ss"
-    server: "104.16.72.41"
-    port: 443
-    cipher: "�Z�N���Zo�\u001fwo�~>o~��w�{�"
-    password: "�Z�N���Zo�\u001fwo�~>o~��w�{��"
+    servername: "85.237.207.189"
+  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
       - "TW_speednode_0053"
-      - "🇹🇼TW-185.189.160.105-0116"
-      - "🇹🇼TW-211.22.180.68-1273"
-      - "🇹🇼"
-      - "🇹🇼"
+      - "🇹🇼TW-185.189.160.105-0125"
+      - "🇹🇼TW-211.22.180.68-1272"
+      - "🇹🇼TW-85.237.207.189-6159"
+      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
 rules:
   - "MATCH,Proxy Select"
