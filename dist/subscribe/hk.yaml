@@ -3,20 +3,112 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇭🇰 Hong Kong Hong Kong | ⏱1485ms | ⚡351KB/s | @NamazVPN"
+  - name: "HK VLESS-673 | free-nodes"
     type: "vless"
-    server: "38.180.149.55"
-    port: 49875
+    server: "212.192.15.58"
+    port: 443
     udp: true
-    uuid: "c3f8992b-c174-4fc0-bfde-87ae88c88da2"
+    uuid: "9794d18f-9280-3553-a7a5-a23da75aca76"
+    tls: true
+    servername: "u691611ub93696d0s298.wagahaha.xyz"
+    network: "xhttp"
+  - name: "香港5|@ripaojiedian"
+    type: "trojan"
+    server: "16.162.220.240"
+    port: 27161
+    udp: true
+    password: "BxceQaOe"
+    tls: true
+    servername: "t.me/ripaojiedian"
     network: "tcp"
-  - name: "🇭🇰 香港3|@ripaojiedian"
+  - name: "香港5|@ripaojiedian"
+    type: "trojan"
+    server: "16.162.220.240"
+    port: 27161
+    udp: true
+    password: "BxceQaOe"
+  - name: "🇭🇰HK-112.213.102.188-0163"
+    type: "ss"
+    server: "112.213.102.188"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇭🇰HK-47.244.120.197-6266"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-103.141.221.101-0150"
+    type: "ss"
+    server: "103.141.221.101"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+    udp: true
+  - name: "🇭🇰HK-47.244.120.197-0179"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-47.244.120.197-0181"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-216.250.97.82-0195"
+    type: "ss"
+    server: "216.250.97.82"
+    port: 38388
+    cipher: "aes-256-cfb"
+    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
+    udp: true
+  - name: "🇭🇰HK-16.163.138.198-0569"
     type: "trojan"
     server: "16.163.138.198"
-    port: 2008
+    port: 55973
     udp: true
     password: "d6788cf74e6844c45538204efd24b00f"
-  - name: "香港3|@ripaojiedian"
+    tls: true
+    servername: "www.nintendogames.net"
+  - name: "🇭🇰HK-16.163.138.198-0570"
+    type: "trojan"
+    server: "16.163.138.198"
+    port: 3743
+    udp: true
+    password: "d6788cf74e6844c45538204efd24b00f"
+    tls: true
+    servername: "www.nintendogames.net"
+  - name: "🇭🇰HK-16.163.138.198-0574"
+    type: "trojan"
+    server: "16.163.138.198"
+    port: 49277
+    udp: true
+    password: "d6788cf74e6844c45538204efd24b00f"
+    tls: true
+    servername: "www.nintendogames.net"
+  - name: "🇭🇰HK-16.163.138.198-0575"
     type: "trojan"
     server: "16.163.138.198"
     port: 2008
@@ -24,98 +116,7 @@ proxies:
     password: "d6788cf74e6844c45538204efd24b00f"
     tls: true
     servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "🇭🇰HK-103.141.221.101-6238"
-    type: "ss"
-    server: "103.141.221.101"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇭🇰HK-112.213.102.188-0196"
-    type: "ss"
-    server: "112.213.102.188"
-    port: 41632
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-6261"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-6262"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "🇭🇰HK-216.250.97.82-0170"
-    type: "ss"
-    server: "216.250.97.82"
-    port: 38388
-    cipher: "aes-256-cfb"
-    password: "Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV"
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-0284"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0285"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-43.199.31.72-0843"
-    type: "trojan"
-    server: "43.199.31.72"
-    port: 39414
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian"
-  - name: "🇭🇰HK-1.65.209.213-1808"
-    type: "vmess"
-    server: "1.65.209.213"
-    port: 8080
-    uuid: "b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9"
-    alterId: 2
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "broadcastlv.chat.bilibili.com"
-  - name: "🇭🇰HK-20.187.85.198-5715"
+  - name: "🇭🇰HK-20.187.85.198-5723"
     type: "trojan"
     server: "20.187.85.198"
     port: 443
@@ -123,21 +124,27 @@ proxies:
     password: "b26e31e5-eac1-45b0-9069-83830bd69521"
     tls: true
     servername: "hkt.iamnotagoodman.com"
-  - name: "🇭🇰HK-103.149.182.105-6239"
-    type: "ss"
-    server: "103.149.182.105"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+  - name: "🇭🇰HK-58.152.25.253-6200"
+    type: "trojan"
+    server: "58.152.25.253"
+    port: 443
     udp: true
-  - name: "🇭🇰HK-103.141.221.124-6240"
-    type: "ss"
-    server: "103.141.221.124"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+    password: "BxceQaOe"
+    tls: true
+    servername: "58.152.25.253"
+  - name: "🇭🇰HK-47.244.120.197-6265"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
     udp: true
-  - name: "🇭🇰HK-219.76.13.181-7950"
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-219.76.13.181-7942"
     type: "trojan"
     server: "219.76.13.181"
     port: 443
@@ -145,7 +152,7 @@ proxies:
     password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
     tls: true
     servername: "arbettp.freetrade.link"
-  - name: "🇭🇰HK-219.76.13.180-7951"
+  - name: "🇭🇰HK-219.76.13.180-7943"
     type: "trojan"
     server: "219.76.13.180"
     port: 443
@@ -153,7 +160,13 @@ proxies:
     password: "F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0"
     tls: true
     servername: "stutter.freetrade.link"
-  - name: "HK2"
+  - name: "🇭🇰HK香港"
+    type: "trojan"
+    server: "16.163.138.198"
+    port: 2008
+    udp: true
+    password: "d6788cf74e6844c45538204efd24b00f"
+  - name: "HK"
     type: "vmess"
     server: "131.186.63.89"
     port: 11655
@@ -194,45 +207,31 @@ proxies:
       path: "/rdfgtws"
       headers:
         Host: "vangoghhh.info"
-  - name: "HK 🇭🇰 | @Raydikalx | 2864"
-    type: "vmess"
-    server: "131.186.63.89"
-    port: 11655
-    uuid: "4bf075f5-4d5e-4d39-f5ab-b32a86250f0e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "hk.nbee.pp.ua"
-    network: "ws"
-    ws-opts:
-      path: "/aa"
-      headers:
-        Host: "hk.nbee.pp.ua"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇭🇰 Hong Kong Hong Kong | ⏱1485ms | ⚡351KB/s | @NamazVPN"
-      - "🇭🇰 香港3|@ripaojiedian"
-      - "香港3|@ripaojiedian"
-      - "🇭🇰HK-103.141.221.101-6238"
-      - "🇭🇰HK-112.213.102.188-0196"
-      - "🇭🇰HK-47.244.120.197-6261"
-      - "🇭🇰HK-47.244.120.197-6262"
-      - "🇭🇰HK-216.250.97.82-0170"
-      - "🇭🇰HK-47.244.120.197-0284"
-      - "🇭🇰HK-47.244.120.197-0285"
-      - "🇭🇰HK-43.199.31.72-0843"
-      - "🇭🇰HK-1.65.209.213-1808"
-      - "🇭🇰HK-20.187.85.198-5715"
-      - "🇭🇰HK-103.149.182.105-6239"
-      - "🇭🇰HK-103.141.221.124-6240"
-      - "🇭🇰HK-219.76.13.181-7950"
-      - "🇭🇰HK-219.76.13.180-7951"
-      - "HK2"
+      - "HK VLESS-673 | free-nodes"
+      - "香港5|@ripaojiedian"
+      - "香港5|@ripaojiedian"
+      - "🇭🇰HK-112.213.102.188-0163"
+      - "🇭🇰HK-47.244.120.197-6266"
+      - "🇭🇰HK-103.141.221.101-0150"
+      - "🇭🇰HK-47.244.120.197-0179"
+      - "🇭🇰HK-47.244.120.197-0181"
+      - "🇭🇰HK-216.250.97.82-0195"
+      - "🇭🇰HK-16.163.138.198-0569"
+      - "🇭🇰HK-16.163.138.198-0570"
+      - "🇭🇰HK-16.163.138.198-0574"
+      - "🇭🇰HK-16.163.138.198-0575"
+      - "🇭🇰HK-20.187.85.198-5723"
+      - "🇭🇰HK-58.152.25.253-6200"
+      - "🇭🇰HK-47.244.120.197-6265"
+      - "🇭🇰HK-219.76.13.181-7942"
+      - "🇭🇰HK-219.76.13.180-7943"
+      - "🇭🇰HK香港"
+      - "HK"
       - "Channel id: @ShadowProxy66 🇭🇰"
       - "Channel id: @ShadowProxy66 🇭🇰"
-      - "HK 🇭🇰 | @Raydikalx | 2864"
 rules:
   - "MATCH,Proxy Select"
