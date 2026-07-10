@@ -5,12 +5,30 @@ log-level: "info"
 proxies:
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
-    server: "140.238.2.250"
-    port: 443
-    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
     alterId: 0
     cipher: "auto"
     udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "🇰🇷 Join+Telegram:@FarahVPN 🇰🇷"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
   - name: "韓國丨yoyapai.comr"
     type: "trojan"
     server: "211.49.57.175"
@@ -31,63 +49,21 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "🇰🇷 机场推荐:dafei.de 韩国 06"
-    type: "vless"
-    server: "43.133.237.158"
-    port: 8443
+  - name: "🇰🇷KR-141.164.45.187-0164"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
     udp: true
-    uuid: "26524cce-d514-4014-a426-365fb266a14d"
-    tls: true
-    servername: "wgl.cdn-c.gfw.qzz.io"
-    network: "ws"
-    ws-opts:
-      path: "/danfeng-jh5qzt-fk3fns-mqcd-34e34dzl"
-      headers:
-        Host: "wgl.cdn-c.gfw.qzz.io"
-  - name: "Channel id: @ShadowProxy66 🇰🇷"
-    type: "vless"
-    server: "64.110.74.109"
-    port: 443
+  - name: "🇰🇷KR-141.164.45.187-0159"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
     udp: true
-    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "t1s1.rittbo.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "t1s1.rittbo.kdns.fr"
-  - name: "Channel id: @ShadowProxy66 🇰🇷"
-    type: "trojan"
-    server: "38.60.220.65"
-    port: 443
-    udp: true
-    password: "t5FsyeQXkNCY6eVGiqBXmPu4..jBEpNbak"
-    tls: true
-    servername: "38.60.220.65"
-    network: "tcp"
-  - name: "KR 🇰🇷 | @Raydikalx | 2759"
-    type: "vmess"
-    server: "140.238.2.250"
-    port: 443
-    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇰🇷KR-92.223.61.25-2035"
-    type: "vmess"
-    server: "92.223.61.25"
-    port: 80
-    uuid: "22aa72b1-605b-4807-8a81-fb414cbb409c"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "mizban888.servecounterstrike.com"
-  - name: "🇰🇷KR-152.67.218.38-0147"
+  - name: "🇰🇷KR-152.67.218.38-0058"
     type: "vmess"
     server: "152.67.218.38"
     port: 443
@@ -100,7 +76,132 @@ proxies:
       path: "/"
       headers:
         Host: "152.67.218.38"
-  - name: "🇰🇷KR-132.145.80.230-2278"
+  - name: "🇰🇷KR-221.139.79.57-0213"
+    type: "ss"
+    server: "221.139.79.57"
+    port: 13979
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-211.178.105.134-0216"
+    type: "ss"
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-152.67.218.38-0226"
+    type: "vmess"
+    server: "152.67.218.38"
+    port: 443
+    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-152.67.210.234-0702"
+    type: "trojan"
+    server: "152.67.210.234"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-211.49.57.178-0785"
+    type: "trojan"
+    server: "211.49.57.178"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-211.49.57.175-0787"
+    type: "trojan"
+    server: "211.49.57.175"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-211.49.57.179-0788"
+    type: "trojan"
+    server: "211.49.57.179"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-104.37.215.102-1347"
+    type: "vmess"
+    server: "104.37.215.102"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "www.31733109.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/path/191019072927"
+      headers:
+        Host: "www.31733109.xyz"
+  - name: "🇰🇷KR-104.37.215.83-1373"
+    type: "vmess"
+    server: "104.37.215.83"
+    port: 30000
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "www.19289243.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/path/191019072927"
+      headers:
+        Host: "www.19289243.xyz"
+  - name: "🇰🇷KR-92.223.61.25-2099"
+    type: "vmess"
+    server: "92.223.61.25"
+    port: 80
+    uuid: "22aa72b1-605b-4807-8a81-fb414cbb409c"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mizban888.servecounterstrike.com"
+  - name: "🇰🇷KR-217.142.138.61-2334"
+    type: "vmess"
+    server: "217.142.138.61"
+    port: 80
+    uuid: "ac1b933d-afff-4487-93ef-f57130a55dff"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇰🇷KR-132.145.80.230-2342"
     type: "vmess"
     server: "132.145.80.230"
     port: 80
@@ -115,6 +216,57 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "kr02.a0a.xyz"
+  - name: "🇰🇷KR-43.201.48.212-3445"
+    type: "ss"
+    server: "43.201.48.212"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "🇰🇷KR-144.24.72.126-4283"
+    type: "trojan"
+    server: "144.24.72.126"
+    port: 443
+    udp: true
+    password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
+    tls: true
+    servername: "144.24.72.126"
+  - name: "🇰🇷KR-3.34.6.217-5342"
+    type: "trojan"
+    server: "3.34.6.217"
+    port: 443
+    udp: true
+    password: "xxoo"
+    tls: true
+    servername: "3.34.6.217"
+  - name: "🇰🇷KR-218.237.185.230-6370"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "vless"
+    server: "64.110.74.109"
+    port: 443
+    udp: true
+    uuid: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "t1s1.rittbo.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1s1.rittbo.kdns.fr"
+  - name: "KR 🇰🇷 | @Raydikalx | 2544"
+    type: "vmess"
+    server: "146.56.112.110"
+    port: 8888
+    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -133,16 +285,31 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+      - "🇰🇷 Join+Telegram:@FarahVPN 🇰🇷"
       - "韓國丨yoyapai.comr"
       - "KR韓國丨yoyapai.comr"
       - "🇰🇷 KR韩国(mibei77.com 米贝节点分享)"
-      - "🇰🇷 机场推荐:dafei.de 韩国 06"
+      - "🇰🇷KR-141.164.45.187-0164"
+      - "🇰🇷KR-141.164.45.187-0159"
+      - "🇰🇷KR-152.67.218.38-0058"
+      - "🇰🇷KR-221.139.79.57-0213"
+      - "🇰🇷KR-211.178.105.134-0216"
+      - "🇰🇷KR-152.67.218.38-0226"
+      - "🇰🇷KR-152.67.210.234-0702"
+      - "🇰🇷KR-211.49.57.178-0785"
+      - "🇰🇷KR-211.49.57.175-0787"
+      - "🇰🇷KR-211.49.57.179-0788"
+      - "🇰🇷KR-104.37.215.102-1347"
+      - "🇰🇷KR-104.37.215.83-1373"
+      - "🇰🇷KR-92.223.61.25-2099"
+      - "🇰🇷KR-217.142.138.61-2334"
+      - "🇰🇷KR-132.145.80.230-2342"
+      - "🇰🇷KR-43.201.48.212-3445"
+      - "🇰🇷KR-144.24.72.126-4283"
+      - "🇰🇷KR-3.34.6.217-5342"
+      - "🇰🇷KR-218.237.185.230-6370"
       - "Channel id: @ShadowProxy66 🇰🇷"
-      - "Channel id: @ShadowProxy66 🇰🇷"
-      - "KR 🇰🇷 | @Raydikalx | 2759"
-      - "🇰🇷KR-92.223.61.25-2035"
-      - "🇰🇷KR-152.67.218.38-0147"
-      - "🇰🇷KR-132.145.80.230-2278"
+      - "KR 🇰🇷 | @Raydikalx | 2544"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"

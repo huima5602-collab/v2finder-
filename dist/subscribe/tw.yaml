@@ -3,40 +3,42 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼105330 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "🇹🇼TW-185.189.160.105-0237"
     type: "ss"
-    server: "114.25.8.198"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    server: "185.189.160.105"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
     udp: true
-  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+  - name: "🇹🇼TW-211.22.180.68-1351"
     type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
+    server: "211.22.180.68"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
     cipher: "auto"
     udp: true
-  - name: "🇹🇼TW_1|1.9MB/s"
-    type: "vless"
-    server: "220.135.92.105"
-    port: 2087
-    udp: true
-    uuid: "26524cce-d514-4014-a426-365fb266a14d"
     tls: true
-    servername: "wgl.cdn-c.gfw.qzz.io"
+    servername: "www.82131333.xyz"
     network: "ws"
     ws-opts:
-      path: "/danfeng-jh5qzt-fk3fns-mqcd-34e34dzl?ed=2560fp=firefox"
+      path: "/path/191019072927"
       headers:
-        Host: "wgl.cdn-c.gfw.qzz.io"
+        Host: "www.82131333.xyz"
+  - name: "🇹🇼TW-85.237.207.189-6290"
+    type: "trojan"
+    server: "85.237.207.189"
+    port: 443
+    udp: true
+    password: "3ac6a6ca99f74941b1eaf892818e2ddb"
+    tls: true
+    servername: "85.237.207.189"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼105330 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-      - "🇹🇼TW_1|1.9MB/s"
+      - "🇹🇼TW-185.189.160.105-0237"
+      - "🇹🇼TW-211.22.180.68-1351"
+      - "🇹🇼TW-85.237.207.189-6290"
 rules:
   - "MATCH,Proxy Select"
