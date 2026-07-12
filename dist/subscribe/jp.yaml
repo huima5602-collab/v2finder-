@@ -3,60 +3,94 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇯🇵 Join+Telegram:@FarahVPN 🇯🇵|||14050420|farahvpn|V2rayCh"
-    type: "vmess"
-    server: "167.179.99.83"
-    port: 8443
-    uuid: "7a86d8d5-2fdf-4e2b-9ce9-55b99584f40e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/ray"
-      headers:
-  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "212.135.212.26"
+  - name: "JP VLESS-824 | free-nodes"
+    type: "vless"
+    server: "64.176.40.252"
     port: 443
     udp: true
-    password: "666"
-  - name: "🇯🇵JP_1|5.5MB/s"
-    type: "ss"
-    server: "35.77.98.65"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099ua4a430dds9987.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-825 | free-nodes"
+    type: "vless"
+    server: "64.176.43.109"
     port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
     udp: true
-  - name: "🇯🇵JP-149.22.87.240-0181"
-    type: "ss"
-    server: "149.22.87.240"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099u35a454ebs9872.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-826 | free-nodes"
+    type: "vless"
+    server: "64.176.63.28"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.241-0180"
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099ud4477dd7s9999.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-827 | free-nodes"
+    type: "vless"
+    server: "45.32.28.47"
+    port: 443
+    udp: true
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099uac9f11dfs9945.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-828 | free-nodes"
+    type: "vless"
+    server: "167.179.106.130"
+    port: 443
+    udp: true
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099u98cc3916s9850.gogocs.xyz"
+    network: "tcp"
+  - name: "🇯🇵JP-149.22.87.241-0128"
     type: "ss"
     server: "149.22.87.241"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.204-0182"
+  - name: "🇯🇵JP-13.192.184.199-2651"
+    type: "ss"
+    server: "13.192.184.199"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.204-0127"
     type: "ss"
     server: "149.22.87.204"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-54.238.164.53-3510"
+  - name: "🇯🇵JP-54.238.164.53-0130"
     type: "ss"
     server: "54.238.164.53"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇯🇵JP-140.83.51.161-1455"
+  - name: "🇯🇵JP-35.77.98.65-2646"
+    type: "ss"
+    server: "35.77.98.65"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.240-0129"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-140.83.51.161-1388"
     type: "vmess"
     server: "140.83.51.161"
     port: 25686
@@ -69,7 +103,7 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp02.a0a.xyz"
-  - name: "🇯🇵JP-157.85.230.247-2348"
+  - name: "🇯🇵JP-157.85.230.247-2281"
     type: "vmess"
     server: "157.85.230.247"
     port: 2052
@@ -82,7 +116,7 @@ proxies:
       path: "85357d35-492e-4814-835a-aba4cb7f00ad-vm"
       headers:
         Host: "www.bing.com"
-  - name: "🇯🇵JP-140.83.51.161-0211"
+  - name: "🇯🇵JP-140.83.51.161-0159"
     type: "vmess"
     server: "140.83.51.161"
     port: 25686
@@ -95,7 +129,7 @@ proxies:
       path: "/"
       headers:
         Host: "jp02.a0a.xyz"
-  - name: "🇯🇵JP-157.85.230.247-0217"
+  - name: "🇯🇵JP-157.85.230.247-0151"
     type: "vmess"
     server: "157.85.230.247"
     port: 2052
@@ -108,7 +142,7 @@ proxies:
       path: "/"
       headers:
         Host: "www.bing.com"
-  - name: "🇯🇵JP-91.200.242.187-0568"
+  - name: "🇯🇵JP-91.200.242.187-0499"
     type: "vmess"
     server: "91.200.242.187"
     port: 14954
@@ -121,7 +155,7 @@ proxies:
       path: "/download"
       headers:
         Host: "download.windowsupdate.com"
-  - name: "🇯🇵JP-168.138.212.80-0733"
+  - name: "🇯🇵JP-168.138.212.80-0666"
     type: "trojan"
     server: "168.138.212.80"
     port: 443
@@ -133,7 +167,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-108.160.132.132-0814"
+  - name: "🇯🇵JP-108.160.132.132-0747"
     type: "trojan"
     server: "108.160.132.132"
     port: 443
@@ -145,7 +179,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-64.176.36.17-0853"
+  - name: "🇯🇵JP-64.176.36.17-0786"
     type: "trojan"
     server: "64.176.36.17"
     port: 443
@@ -157,7 +191,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-131.186.63.89-1366"
+  - name: "🇯🇵JP-131.186.63.89-1299"
     type: "vmess"
     server: "131.186.63.89"
     port: 11655
@@ -172,7 +206,7 @@ proxies:
       path: "/aa"
       headers:
         Host: "hk.nbee.pp.ua"
-  - name: "🇯🇵JP-104.219.208.195-1372"
+  - name: "🇯🇵JP-104.219.208.195-1305"
     type: "vmess"
     server: "104.219.208.195"
     port: 34001
@@ -187,7 +221,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.56982071.xyz"
-  - name: "🇯🇵JP-161.129.34.102-1673"
+  - name: "🇯🇵JP-161.129.34.102-1606"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -202,7 +236,7 @@ proxies:
       path: "/"
       headers:
         Host: "161.129.34.102"
-  - name: "🇯🇵JP-47.245.42.92-1769"
+  - name: "🇯🇵JP-47.245.42.92-1702"
     type: "vmess"
     server: "47.245.42.92"
     port: 443
@@ -217,7 +251,7 @@ proxies:
       path: "/"
       headers:
         Host: "n1753598452.wpg27.xyz"
-  - name: "🇯🇵JP-131.186.57.111-2073"
+  - name: "🇯🇵JP-131.186.57.111-2006"
     type: "vmess"
     server: "131.186.57.111"
     port: 443
@@ -232,7 +266,7 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇯🇵JP-168.138.43.75-2231"
+  - name: "🇯🇵JP-168.138.43.75-2164"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -247,14 +281,14 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp01.a0a.xyz"
-  - name: "🇯🇵JP-54.250.165.160-2671"
+  - name: "🇯🇵JP-54.250.165.160-2611"
     type: "ss"
     server: "54.250.165.160"
     port: 2377
     cipher: "chacha20-ietf-poly1305"
     password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
     udp: true
-  - name: "🇯🇵JP-172.104.78.98-3270"
+  - name: "🇯🇵JP-172.104.78.98-3216"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -268,14 +302,7 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP-13.192.184.199-3511"
-    type: "ss"
-    server: "13.192.184.199"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "🇯🇵JP-161.129.34.102-4214"
+  - name: "🇯🇵JP-161.129.34.102-4155"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -289,7 +316,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-161.129.34.102-4723"
+  - name: "🇯🇵JP-161.129.34.102-4664"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -303,7 +330,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-43.207.105.49-6267"
+  - name: "🇯🇵JP-43.207.105.49-6209"
     type: "trojan"
     server: "43.207.105.49"
     port: 443
@@ -311,23 +338,9 @@ proxies:
     password: "BxceQaOe"
     tls: true
     servername: "43.207.105.49"
-  - name: "🇯🇵 机场推荐:dafei.de 日本 03"
-    type: "ss"
-    server: "13.193.101.147"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "🇯🇵_JP_日本"
+  - name: "🇯🇵 机场推荐:dafei.de 日本 02"
     type: "ss"
     server: "35.77.98.65"
-    port: 443
-    cipher: "aes-256-cfb"
-    password: "amazonskr05"
-    udp: true
-  - name: "🇯🇵_JP_日本"
-    type: "ss"
-    server: "13.192.184.199"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
@@ -339,17 +352,17 @@ proxies:
     udp: true
     uuid: "85357d35-492e-4814-835a-aba4cb7f00ad"
     network: "tcp"
-  - name: "JP 🇯🇵 | @Raydikalx | 3164"
+  - name: "JP 🇯🇵 | @Raydikalx | 2695"
     type: "vmess"
-    server: "167.179.99.83"
-    port: 8443
-    uuid: "7a86d8d5-2fdf-4e2b-9ce9-55b99584f40e"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/ray"
+      path: "/cctv13.m3u8"
       headers:
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
@@ -380,38 +393,39 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇯🇵 Join+Telegram:@FarahVPN 🇯🇵|||14050420|farahvpn|V2rayCh"
-      - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-      - "🇯🇵JP_1|5.5MB/s"
-      - "🇯🇵JP-149.22.87.240-0181"
-      - "🇯🇵JP-149.22.87.241-0180"
-      - "🇯🇵JP-149.22.87.204-0182"
-      - "🇯🇵JP-54.238.164.53-3510"
-      - "🇯🇵JP-140.83.51.161-1455"
-      - "🇯🇵JP-157.85.230.247-2348"
-      - "🇯🇵JP-140.83.51.161-0211"
-      - "🇯🇵JP-157.85.230.247-0217"
-      - "🇯🇵JP-91.200.242.187-0568"
-      - "🇯🇵JP-168.138.212.80-0733"
-      - "🇯🇵JP-108.160.132.132-0814"
-      - "🇯🇵JP-64.176.36.17-0853"
-      - "🇯🇵JP-131.186.63.89-1366"
-      - "🇯🇵JP-104.219.208.195-1372"
-      - "🇯🇵JP-161.129.34.102-1673"
-      - "🇯🇵JP-47.245.42.92-1769"
-      - "🇯🇵JP-131.186.57.111-2073"
-      - "🇯🇵JP-168.138.43.75-2231"
-      - "🇯🇵JP-54.250.165.160-2671"
-      - "🇯🇵JP-172.104.78.98-3270"
-      - "🇯🇵JP-13.192.184.199-3511"
-      - "🇯🇵JP-161.129.34.102-4214"
-      - "🇯🇵JP-161.129.34.102-4723"
-      - "🇯🇵JP-43.207.105.49-6267"
-      - "🇯🇵 机场推荐:dafei.de 日本 03"
-      - "🇯🇵_JP_日本"
-      - "🇯🇵_JP_日本"
+      - "JP VLESS-824 | free-nodes"
+      - "JP VLESS-825 | free-nodes"
+      - "JP VLESS-826 | free-nodes"
+      - "JP VLESS-827 | free-nodes"
+      - "JP VLESS-828 | free-nodes"
+      - "🇯🇵JP-149.22.87.241-0128"
+      - "🇯🇵JP-13.192.184.199-2651"
+      - "🇯🇵JP-149.22.87.204-0127"
+      - "🇯🇵JP-54.238.164.53-0130"
+      - "🇯🇵JP-35.77.98.65-2646"
+      - "🇯🇵JP-149.22.87.240-0129"
+      - "🇯🇵JP-140.83.51.161-1388"
+      - "🇯🇵JP-157.85.230.247-2281"
+      - "🇯🇵JP-140.83.51.161-0159"
+      - "🇯🇵JP-157.85.230.247-0151"
+      - "🇯🇵JP-91.200.242.187-0499"
+      - "🇯🇵JP-168.138.212.80-0666"
+      - "🇯🇵JP-108.160.132.132-0747"
+      - "🇯🇵JP-64.176.36.17-0786"
+      - "🇯🇵JP-131.186.63.89-1299"
+      - "🇯🇵JP-104.219.208.195-1305"
+      - "🇯🇵JP-161.129.34.102-1606"
+      - "🇯🇵JP-47.245.42.92-1702"
+      - "🇯🇵JP-131.186.57.111-2006"
+      - "🇯🇵JP-168.138.43.75-2164"
+      - "🇯🇵JP-54.250.165.160-2611"
+      - "🇯🇵JP-172.104.78.98-3216"
+      - "🇯🇵JP-161.129.34.102-4155"
+      - "🇯🇵JP-161.129.34.102-4664"
+      - "🇯🇵JP-43.207.105.49-6209"
+      - "🇯🇵 机场推荐:dafei.de 日本 02"
       - "🇯🇵 3@exclavevpn"
-      - "JP 🇯🇵 | @Raydikalx | 3164"
+      - "JP 🇯🇵 | @Raydikalx | 2695"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
 rules:
