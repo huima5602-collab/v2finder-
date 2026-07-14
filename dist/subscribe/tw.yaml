@@ -3,7 +3,14 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1370"
+  - name: "🇹🇼TW-185.189.160.105-0233"
+    type: "ss"
+    server: "185.189.160.105"
+    port: 41632
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇹🇼TW-211.22.180.68-1354"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +25,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6313"
+  - name: "🇹🇼TW-85.237.207.189-6302"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -30,7 +37,8 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1370"
-      - "🇹🇼TW-85.237.207.189-6313"
+      - "🇹🇼TW-185.189.160.105-0233"
+      - "🇹🇼TW-211.22.180.68-1354"
+      - "🇹🇼TW-85.237.207.189-6302"
 rules:
   - "MATCH,Proxy Select"
