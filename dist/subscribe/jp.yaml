@@ -3,33 +3,112 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇯🇵110639 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "JP VLESS-911 | free-nodes"
+    type: "vless"
+    server: "167.179.76.195"
+    port: 443
+    udp: true
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099u0e388253s9963.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-912 | free-nodes"
+    type: "vless"
+    server: "202.182.97.59"
+    port: 443
+    udp: true
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099u797c514fs9957.gogocs.xyz"
+    network: "tcp"
+  - name: "JP VLESS-914 | free-nodes"
+    type: "vless"
+    server: "45.76.199.51"
+    port: 443
+    udp: true
+    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
+    tls: true
+    servername: "u695099ue135b21fs10030.gogocs.xyz"
+    network: "tcp"
+  - name: "🇯🇵 Japan, Shibuya City | [BL]"
     type: "vless"
     server: "43.165.186.226"
     port: 443
     udp: true
     uuid: "3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be"
     network: "tcp"
-  - name: "🇯🇵110710 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "A - 🇯🇵 JP 03 TG: @nodpai"
     type: "vless"
-    server: "154.197.80.175"
-    port: 2082
+    server: "138.2.112.117"
+    port: 15807
     udp: true
-    uuid: "5361a986-91b9-4756-a78c-103261128d83"
-    network: "httpupgrade"
-  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-    type: "vmess"
-    server: "168.138.43.75"
-    port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
+    uuid: "00000000-0000-4000-8000-000000000000"
+    tls: true
+    servername: "57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org"
     network: "ws"
     ws-opts:
-      path: "/cctv13.m3u8"
+      path: "/@Marisa_kristifp=chrome"
       headers:
-  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+        Host: "57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org"
+  - name: "A - 🇯🇵 JP 05 TG: @nodpai"
+    type: "vless"
+    server: "176.124.223.30"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime38.workers.dev"
+  - name: "A - 🇯🇵 JP 06 TG: @nodpai"
+    type: "vless"
+    server: "114.204.40.185"
+    port: 30001
+    udp: true
+    uuid: "00000000-0000-4000-8000-000000000000"
+    tls: true
+    servername: "9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+    network: "ws"
+    ws-opts:
+      path: "/@Marisa_kristifp=chrome"
+      headers:
+        Host: "9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com"
+  - name: "🇯🇵JP_3|2.0MB/s"
+    type: "vless"
+    server: "195.209.88.182"
+    port: 443
+    udp: true
+    uuid: "45c8814c-c06f-4444-acda-1b745e74d33e"
+    tls: true
+    servername: "s76276.cdn.ngenix.net"
+    network: "ws"
+    ws-opts:
+      path: "/v1/data/sync/fp=chrome"
+      headers:
+        Host: "s76276.cdn.ngenix.net"
+  - name: "🇯🇵JP-149.22.87.204-0167"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.240-0166"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.241-0168"
+    type: "ss"
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-45.76.202.45-5950"
     type: "vmess"
     server: "45.76.202.45"
     port: 4010
@@ -41,83 +120,7 @@ proxies:
     ws-opts:
       path: "/liksuzcp"
       headers:
-  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "jp02.a0a.xyz"
-  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-    type: "vmess"
-    server: "161.33.139.138"
-    port: 58905
-    uuid: "1610f8dc-0661-4032-ac6a-a7250603f608"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/1610f8dc-0661-4032-ac6a-a7250603f608-vm"
-      headers:
-  - name: "日本|@ripaojiedian"
-    type: "trojan"
-    server: "35.78.192.10"
-    port: 6769
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me%2Fripaojiedian"
-    network: "tcp"
-  - name: "日本3|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.77.5"
-    port: 40138
-    udp: true
-    password: "b490740312aedb5f9f6b84c7aebd08c0"
-    tls: true
-    servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "日本|@ripaojiedian"
-    type: "trojan"
-    server: "35.78.192.10"
-    port: 6769
-    udp: true
-    password: "BxceQaOe"
-  - name: "日本3|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.77.5"
-    port: 40138
-    udp: true
-    password: "b490740312aedb5f9f6b84c7aebd08c0"
-  - name: "🇯🇵JP-149.22.87.240-0141"
-    type: "ss"
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-149.22.87.204-0140"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-149.22.87.241-0146"
-    type: "ss"
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-172.111.146.64-5948"
+  - name: "🇯🇵JP-172.111.146.64-0184"
     type: "vmess"
     server: "172.111.146.64"
     port: 80
@@ -127,9 +130,9 @@ proxies:
     udp: true
     network: "ws"
     ws-opts:
-      path: "/vmess/"
+      path: "/"
       headers:
-  - name: "🇯🇵JP-140.83.51.161-0179"
+  - name: "🇯🇵JP-140.83.51.161-0229"
     type: "vmess"
     server: "140.83.51.161"
     port: 25686
@@ -142,7 +145,7 @@ proxies:
       path: "/"
       headers:
         Host: "jp02.a0a.xyz"
-  - name: "🇯🇵JP-161.33.139.138-0142"
+  - name: "🇯🇵JP-161.33.139.138-0246"
     type: "vmess"
     server: "161.33.139.138"
     port: 58905
@@ -155,7 +158,7 @@ proxies:
       path: "/"
       headers:
         Host: "161.33.139.138"
-  - name: "🇯🇵JP-131.186.63.89-0585"
+  - name: "🇯🇵JP-131.186.63.89-0545"
     type: "vmess"
     server: "131.186.63.89"
     port: 11655
@@ -170,7 +173,7 @@ proxies:
       path: "/aa"
       headers:
         Host: "hk.nbee.pp.ua"
-  - name: "🇯🇵JP-91.200.242.187-0636"
+  - name: "🇯🇵JP-91.200.242.187-0596"
     type: "vmess"
     server: "91.200.242.187"
     port: 14954
@@ -183,7 +186,7 @@ proxies:
       path: "/download"
       headers:
         Host: "download.windowsupdate.com"
-  - name: "🇯🇵JP-104.219.208.195-1018"
+  - name: "🇯🇵JP-104.219.208.195-0978"
     type: "vmess"
     server: "104.219.208.195"
     port: 34001
@@ -198,7 +201,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.56982071.xyz"
-  - name: "🇯🇵JP-161.129.34.102-1291"
+  - name: "🇯🇵JP-161.129.34.102-1251"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -213,7 +216,7 @@ proxies:
       path: "/"
       headers:
         Host: "161.129.34.102"
-  - name: "🇯🇵JP-47.245.42.92-1383"
+  - name: "🇯🇵JP-47.245.42.92-1343"
     type: "vmess"
     server: "47.245.42.92"
     port: 443
@@ -228,7 +231,7 @@ proxies:
       path: "/"
       headers:
         Host: "n1753598452.wpg27.xyz"
-  - name: "🇯🇵JP-131.186.57.111-1687"
+  - name: "🇯🇵JP-131.186.57.111-1647"
     type: "vmess"
     server: "131.186.57.111"
     port: 443
@@ -243,7 +246,7 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇯🇵JP-168.138.43.75-1836"
+  - name: "🇯🇵JP-168.138.43.75-1796"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -258,7 +261,14 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp01.a0a.xyz"
-  - name: "🇯🇵JP-172.104.78.98-2794"
+  - name: "🇯🇵JP-54.250.165.160-2213"
+    type: "ss"
+    server: "54.250.165.160"
+    port: 2377
+    cipher: "chacha20-ietf-poly1305"
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    udp: true
+  - name: "🇯🇵JP-172.104.78.98-2811"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -272,7 +282,7 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP-161.129.34.102-3765"
+  - name: "🇯🇵JP-161.129.34.102-3752"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -286,7 +296,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-161.129.34.102-4274"
+  - name: "🇯🇵JP-161.129.34.102-4261"
     type: "vmess"
     server: "161.129.34.102"
     port: 443
@@ -300,7 +310,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-43.207.105.49-5818"
+  - name: "🇯🇵JP-43.207.105.49-5806"
     type: "trojan"
     server: "43.207.105.49"
     port: 443
@@ -310,22 +320,8 @@ proxies:
     servername: "43.207.105.49"
   - name: "🇯🇵 机场推荐:dafei.de 日本 01"
     type: "vless"
-    server: "3.114.220.22"
-    port: 19645
-    udp: true
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    network: "tcp"
-  - name: "🇯🇵 机场推荐:dafei.de 日本 03"
-    type: "vless"
-    server: "43.239.249.156"
-    port: 443
-    udp: true
-    uuid: "b9d8adf0-0e2f-4fe2-b7b2-f5c99f5ee7e8"
-    network: "tcp"
-  - name: "🇯🇵 机场推荐:dafei.de 日本 04"
-    type: "vless"
-    server: "3.114.220.22"
-    port: 10583
+    server: "103.75.118.228"
+    port: 12683
     udp: true
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     network: "tcp"
@@ -336,23 +332,57 @@ proxies:
     udp: true
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     network: "tcp"
-  - name: "🇯🇵 机场推荐:dafei.de 日本 07"
-    type: "vless"
-    server: "38.226.195.144"
-    port: 2096
+  - name: "JP 🇯🇵 | @Raydikalx | 3632"
+    type: "vmess"
+    server: "140.83.51.161"
+    port: 25686
+    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "7fcad981-da4c-4017-9189-c90cc2bd3ff2"
-    network: "tcp"
-  - name: "🇯🇵_JP_日本"
-    type: "vless"
-    server: "103.75.118.228"
-    port: 12683
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "140.83.51.161"
+  - name: "JP 🇯🇵 | @Raydikalx | 3679"
+    type: "vmess"
+    server: "140.83.51.161"
+    port: 25686
+    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    tls: true
-    servername: "www.apple.com"
-    network: "tcp"
-  - name: "JP 🇯🇵 | @Raydikalx | 3615"
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+  - name: "JP 🇯🇵 | @Raydikalx | 3578"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "jp01.a0a.xyz"
+  - name: "JP 🇯🇵 | @Raydikalx | 3724"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+  - name: "JP 🇯🇵 | @Raydikalx | 3731"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -365,32 +395,7 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "None"
-  - name: "JP 🇯🇵 | @Raydikalx | 3616"
-    type: "vmess"
-    server: "161.33.139.138"
-    port: 58905
-    uuid: "1610f8dc-0661-4032-ac6a-a7250603f608"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/1610f8dc-0661-4032-ac6a-a7250603f608-vm"
-      headers:
-        Host: "161.33.139.138"
-  - name: "JP 🇯🇵 | @Raydikalx | 573"
-    type: "vmess"
-    server: "45.76.202.45"
-    port: 4010
-    uuid: "071a8a71-c656-4fb6-a908-4e42eb72243d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/liksuzcp"
-      headers:
-  - name: "JP 🇯🇵 | @Raydikalx | 3614"
+  - name: "JP 🇯🇵 | @Raydikalx | 3708"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -402,32 +407,8 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
-  - name: "JP 🇯🇵 | @Raydikalx | 3640"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "jp02.a0a.xyz"
-  - name: "JP 🇯🇵 | @Raydikalx | 3610"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-  - name: "JP 🇯🇵 | @Raydikalx | 3602"
+        Host: "168.138.43.75"
+  - name: "JP 🇯🇵 | @Raydikalx | 2766"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -464,79 +445,47 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp01.a0a.xyz"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vmess"
-    server: "168.138.43.75"
-    port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "168.138.43.75"
-  - name: "🔥Join+Telegram:@Farah_VPN🟣"
-    type: "vless"
-    server: "64.176.42.196"
-    port: 10443
-    udp: true
-    uuid: "e258977b-e413-4718-a3af-02d75492c349"
-    tls: true
-    servername: "ww1.aniuge.qzz.io"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "ww1.aniuge.qzz.io"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇯🇵110639 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇯🇵110710 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "日本|@ripaojiedian"
-      - "日本3|@ripaojiedian"
-      - "日本|@ripaojiedian"
-      - "日本3|@ripaojiedian"
-      - "🇯🇵JP-149.22.87.240-0141"
-      - "🇯🇵JP-149.22.87.204-0140"
-      - "🇯🇵JP-149.22.87.241-0146"
-      - "🇯🇵JP-172.111.146.64-5948"
-      - "🇯🇵JP-140.83.51.161-0179"
-      - "🇯🇵JP-161.33.139.138-0142"
-      - "🇯🇵JP-131.186.63.89-0585"
-      - "🇯🇵JP-91.200.242.187-0636"
-      - "🇯🇵JP-104.219.208.195-1018"
-      - "🇯🇵JP-161.129.34.102-1291"
-      - "🇯🇵JP-47.245.42.92-1383"
-      - "🇯🇵JP-131.186.57.111-1687"
-      - "🇯🇵JP-168.138.43.75-1836"
-      - "🇯🇵JP-172.104.78.98-2794"
-      - "🇯🇵JP-161.129.34.102-3765"
-      - "🇯🇵JP-161.129.34.102-4274"
-      - "🇯🇵JP-43.207.105.49-5818"
+      - "JP VLESS-911 | free-nodes"
+      - "JP VLESS-912 | free-nodes"
+      - "JP VLESS-914 | free-nodes"
+      - "🇯🇵 Japan, Shibuya City | [BL]"
+      - "A - 🇯🇵 JP 03 TG: @nodpai"
+      - "A - 🇯🇵 JP 05 TG: @nodpai"
+      - "A - 🇯🇵 JP 06 TG: @nodpai"
+      - "🇯🇵JP_3|2.0MB/s"
+      - "🇯🇵JP-149.22.87.204-0167"
+      - "🇯🇵JP-149.22.87.240-0166"
+      - "🇯🇵JP-149.22.87.241-0168"
+      - "🇯🇵JP-45.76.202.45-5950"
+      - "🇯🇵JP-172.111.146.64-0184"
+      - "🇯🇵JP-140.83.51.161-0229"
+      - "🇯🇵JP-161.33.139.138-0246"
+      - "🇯🇵JP-131.186.63.89-0545"
+      - "🇯🇵JP-91.200.242.187-0596"
+      - "🇯🇵JP-104.219.208.195-0978"
+      - "🇯🇵JP-161.129.34.102-1251"
+      - "🇯🇵JP-47.245.42.92-1343"
+      - "🇯🇵JP-131.186.57.111-1647"
+      - "🇯🇵JP-168.138.43.75-1796"
+      - "🇯🇵JP-54.250.165.160-2213"
+      - "🇯🇵JP-172.104.78.98-2811"
+      - "🇯🇵JP-161.129.34.102-3752"
+      - "🇯🇵JP-161.129.34.102-4261"
+      - "🇯🇵JP-43.207.105.49-5806"
       - "🇯🇵 机场推荐:dafei.de 日本 01"
-      - "🇯🇵 机场推荐:dafei.de 日本 03"
-      - "🇯🇵 机场推荐:dafei.de 日本 04"
       - "🇯🇵 机场推荐:dafei.de 日本 05"
-      - "🇯🇵 机场推荐:dafei.de 日本 07"
-      - "🇯🇵_JP_日本"
-      - "JP 🇯🇵 | @Raydikalx | 3615"
-      - "JP 🇯🇵 | @Raydikalx | 3616"
-      - "JP 🇯🇵 | @Raydikalx | 573"
-      - "JP 🇯🇵 | @Raydikalx | 3614"
-      - "JP 🇯🇵 | @Raydikalx | 3640"
-      - "JP 🇯🇵 | @Raydikalx | 3610"
-      - "JP 🇯🇵 | @Raydikalx | 3602"
+      - "JP 🇯🇵 | @Raydikalx | 3632"
+      - "JP 🇯🇵 | @Raydikalx | 3679"
+      - "JP 🇯🇵 | @Raydikalx | 3578"
+      - "JP 🇯🇵 | @Raydikalx | 3724"
+      - "JP 🇯🇵 | @Raydikalx | 3731"
+      - "JP 🇯🇵 | @Raydikalx | 3708"
+      - "JP 🇯🇵 | @Raydikalx | 2766"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
-      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"
