@@ -3,13 +3,14 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇨🇳 TW台湾(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "104.19.174.68"
-    port: 443
+  - name: "New+Taipei+City,+NWT,+Taiwan"
+    type: "ss"
+    server: "36.224.158.182"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
     udp: true
-    password: "a5e355b9-11fc-449a-aa7b-eb707783f25a"
-  - name: "🇹🇼TW-211.22.180.68-1015"
+  - name: "🇹🇼TW-211.22.180.68-0979"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -24,7 +25,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-5909"
+  - name: "🇹🇼TW-85.237.207.189-5815"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -32,21 +33,12 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "TW 🇹🇼 | @Raydikalx | 3799"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇨🇳 TW台湾(mibei77.com 米贝节点分享)"
-      - "🇹🇼TW-211.22.180.68-1015"
-      - "🇹🇼TW-85.237.207.189-5909"
-      - "TW 🇹🇼 | @Raydikalx | 3799"
+      - "New+Taipei+City,+NWT,+Taiwan"
+      - "🇹🇼TW-211.22.180.68-0979"
+      - "🇹🇼TW-85.237.207.189-5815"
 rules:
   - "MATCH,Proxy Select"
