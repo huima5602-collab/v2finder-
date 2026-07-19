@@ -3,14 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "New+Taipei+City,+NWT,+Taiwan"
-    type: "ss"
-    server: "36.224.158.182"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    udp: true
-  - name: "🇹🇼TW-211.22.180.68-0979"
+  - name: "🇹🇼TW-211.22.180.68-1017"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -25,7 +18,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-5815"
+  - name: "🇹🇼TW-85.237.207.189-5933"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -37,8 +30,7 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "New+Taipei+City,+NWT,+Taiwan"
-      - "🇹🇼TW-211.22.180.68-0979"
-      - "🇹🇼TW-85.237.207.189-5815"
+      - "🇹🇼TW-211.22.180.68-1017"
+      - "🇹🇼TW-85.237.207.189-5933"
 rules:
   - "MATCH,Proxy Select"
