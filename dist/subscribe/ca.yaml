@@ -258,28 +258,42 @@ proxies:
       path: "/"
       headers:
         Host: "t1s1.rittbo.kdns.fr"
-  - name: "🇨🇦CA-149.22.95.183-0115"
-    type: "ss"
-    server: "149.22.95.183"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇨🇦CA-108.181.118.10-0102"
-    type: "ss"
-    server: "108.181.118.10"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "G5p6ww4o67HB"
-    udp: true
-  - name: "🇨🇦CA-137.184.174.93-0078"
+  - name: "🇨🇦CA-137.184.174.93-0205"
     type: "ss"
     server: "137.184.174.93"
     port: 8080
     cipher: "rc4-md5"
     password: "14fFPrbezE3HDZzsMOr6"
     udp: true
-  - name: "🇨🇦CA-158.51.121.63-0528"
+  - name: "🇨🇦CA-108.181.118.10-0064"
+    type: "ss"
+    server: "108.181.118.10"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "G5p6ww4o67HB"
+    udp: true
+  - name: "🇨🇦CA-149.22.95.183-0061"
+    type: "ss"
+    server: "149.22.95.183"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇨🇦CA-23.162.200.227-7887"
+    type: "vmess"
+    server: "23.162.200.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "23.162.200.227"
+    network: "ws"
+    ws-opts:
+      path: "/linkvws"
+      headers:
+  - name: "🇨🇦CA-158.51.121.63-0520"
     type: "vmess"
     server: "158.51.121.63"
     port: 443
@@ -294,21 +308,7 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "🇨🇦CA-23.162.200.227-7895"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
-  - name: "🇨🇦CA-134.195.198.147-7897"
+  - name: "🇨🇦CA-134.195.198.147-7889"
     type: "vmess"
     server: "134.195.198.147"
     port: 443
@@ -323,7 +323,22 @@ proxies:
       path: "/linkvws"
       headers:
         Host: "inna.cfd"
-  - name: "🇨🇦CA-23.162.200.94-1585"
+  - name: "🇨🇦CA-134.195.198.147-0487"
+    type: "vmess"
+    server: "134.195.198.147"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "inna.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "inna.cfd"
+  - name: "🇨🇦CA-23.162.200.94-1564"
     type: "vmess"
     server: "23.162.200.94"
     port: 443
@@ -338,7 +353,7 @@ proxies:
       path: "/linkvws"
       headers:
         Host: "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-  - name: "🇨🇦CA-148.113.141.99-2061"
+  - name: "🇨🇦CA-148.113.141.99-2045"
     type: "trojan"
     server: "148.113.141.99"
     port: 443
@@ -346,36 +361,7 @@ proxies:
     password: "HdsUZmsHQW"
     tls: true
     servername: "148.113.141.99"
-  - name: "🇨🇦CA-134.195.198.147-0263"
-    type: "vmess"
-    server: "134.195.198.147"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "inna.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "inna.cfd"
-  - name: "🇨🇦CA-23.162.200.227-0254"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇨🇦CA-158.51.121.36-3214"
+  - name: "🇨🇦CA-158.51.121.36-3186"
     type: "vmess"
     server: "158.51.121.36"
     port: 443
@@ -389,7 +375,7 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-137.184.164.233-7871"
+  - name: "🇨🇦CA-137.184.164.233-7863"
     type: "vmess"
     server: "137.184.164.233"
     port: 80
@@ -1048,19 +1034,6 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.gossipglove.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 3606"
-    type: "vmess"
-    server: "104.16.67.38"
-    port: 2082
-    uuid: "f584de15-2034-4170-a723-f48c2bae5e0f"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/afrhms16v.bestxray.buzz/linkws"
-      headers:
-        Host: "till-bush-d255.loyabok125.workers.dev"
   - name: "[🇨🇦]t.me/ConfigsHub"
     type: "vmess"
     server: "158.51.121.63"
@@ -1076,19 +1049,35 @@ proxies:
       path: "linkvws"
       headers:
         Host: "seribus.org"
-  - name: "CA 🇨🇦 | @Raydikalx | 3605"
+  - name: "t.me/v2Line | Free | 3191 | Canada"
     type: "vmess"
-    server: "104.19.47.88"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    server: "158.51.121.63"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
     alterId: 0
     cipher: "auto"
     udp: true
+    tls: true
+    servername: "seribus.org"
     network: "ws"
     ws-opts:
-      path: "github.com/Alvin9999"
+      path: "linkvws"
       headers:
-        Host: "ip1.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 929"
+    type: "vmess"
+    server: "158.51.121.63"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "seribus.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "seribus.org"
   - name: "@MARAMBASHI 🇨🇦"
     type: "vless"
     server: "31.77.161.2"
@@ -1358,18 +1347,17 @@ proxy-groups:
       - "🇨🇦 加拿大"
       - "🇨🇦@FreakConfig"
       - "🇨🇦@FreakConfig"
-      - "🇨🇦CA-149.22.95.183-0115"
-      - "🇨🇦CA-108.181.118.10-0102"
-      - "🇨🇦CA-137.184.174.93-0078"
-      - "🇨🇦CA-158.51.121.63-0528"
-      - "🇨🇦CA-23.162.200.227-7895"
-      - "🇨🇦CA-134.195.198.147-7897"
-      - "🇨🇦CA-23.162.200.94-1585"
-      - "🇨🇦CA-148.113.141.99-2061"
-      - "🇨🇦CA-134.195.198.147-0263"
-      - "🇨🇦CA-23.162.200.227-0254"
-      - "🇨🇦CA-158.51.121.36-3214"
-      - "🇨🇦CA-137.184.164.233-7871"
+      - "🇨🇦CA-137.184.174.93-0205"
+      - "🇨🇦CA-108.181.118.10-0064"
+      - "🇨🇦CA-149.22.95.183-0061"
+      - "🇨🇦CA-23.162.200.227-7887"
+      - "🇨🇦CA-158.51.121.63-0520"
+      - "🇨🇦CA-134.195.198.147-7889"
+      - "🇨🇦CA-134.195.198.147-0487"
+      - "🇨🇦CA-23.162.200.94-1564"
+      - "🇨🇦CA-148.113.141.99-2045"
+      - "🇨🇦CA-158.51.121.36-3186"
+      - "🇨🇦CA-137.184.164.233-7863"
       - "Channel id: @ShadowProxy66 🇨🇦"
       - "Channel id: @ShadowProxy66 🇨🇦"
       - "Channel id: @ShadowProxy66 🇨🇦"
@@ -1421,9 +1409,9 @@ proxy-groups:
       - "Channel id: @ShadowProxy66 🇨🇦"
       - "Channel id: @ShadowProxy66 🇨🇦"
       - "Channel id: @ShadowProxy66 🇨🇦"
-      - "CA 🇨🇦 | @Raydikalx | 3606"
       - "[🇨🇦]t.me/ConfigsHub"
-      - "CA 🇨🇦 | @Raydikalx | 3605"
+      - "t.me/v2Line | Free | 3191 | Canada"
+      - "CA 🇨🇦 | @Raydikalx | 929"
       - "@MARAMBASHI 🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
