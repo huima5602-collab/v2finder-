@@ -3,7 +3,14 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1049"
+  - name: "🇹🇼118417 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "ss"
+    server: "61.231.24.154"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    udp: true
+  - name: "🇹🇼TW-211.22.180.68-1040"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +25,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-5907"
+  - name: "🇹🇼TW-85.237.207.189-5893"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -26,20 +33,12 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "TW 363.1KB/s"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1049"
-      - "🇹🇼TW-85.237.207.189-5907"
-      - "TW 363.1KB/s"
+      - "🇹🇼118417 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇹🇼TW-211.22.180.68-1040"
+      - "🇹🇼TW-85.237.207.189-5893"
 rules:
   - "MATCH,Proxy Select"
