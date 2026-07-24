@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1059"
+  - name: "🇹🇼TW-211.22.180.68-1062"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +18,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-5941"
+  - name: "🇹🇼TW-85.237.207.189-6054"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -26,20 +26,11 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "TW 🇹🇼 | @Raydikalx | 4030"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1059"
-      - "🇹🇼TW-85.237.207.189-5941"
-      - "TW 🇹🇼 | @Raydikalx | 4030"
+      - "🇹🇼TW-211.22.180.68-1062"
+      - "🇹🇼TW-85.237.207.189-6054"
 rules:
   - "MATCH,Proxy Select"
