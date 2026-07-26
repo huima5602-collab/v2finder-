@@ -3,7 +3,15 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1111"
+  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇹🇼TW-211.22.180.68-1015"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +26,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6011"
+  - name: "🇹🇼TW-85.237.207.189-5906"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -26,11 +34,53 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
+  - name: "TW 🇹🇼 | @Raydikalx | 4246"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇹🇼 ShatakVPN 447971"
+    type: "ss"
+    server: "36.224.182.144"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    udp: true
+  - name: "🇹🇼 ShatakVPN 631429"
+    type: "ss"
+    server: "36.224.184.245"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    udp: true
+  - name: "🇹🇼 ShatakVPN 314779"
+    type: "ss"
+    server: "36.224.182.144"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    udp: true
+  - name: "🇹🇼 ShatakVPN 942885"
+    type: "ss"
+    server: "36.224.184.245"
+    port: 50099
+    cipher: "chacha20-ietf-poly1305"
+    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1111"
-      - "🇹🇼TW-85.237.207.189-6011"
+      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+      - "🇹🇼TW-211.22.180.68-1015"
+      - "🇹🇼TW-85.237.207.189-5906"
+      - "TW 🇹🇼 | @Raydikalx | 4246"
+      - "🇹🇼 ShatakVPN 447971"
+      - "🇹🇼 ShatakVPN 631429"
+      - "🇹🇼 ShatakVPN 314779"
+      - "🇹🇼 ShatakVPN 942885"
 rules:
   - "MATCH,Proxy Select"
