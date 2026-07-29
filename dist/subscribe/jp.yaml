@@ -3,26 +3,19 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "日本|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.208.174"
-    port: 45691
-    udp: true
-    password: "BxceQaOe"
-  - name: "🇯🇵124204 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "日本家宽|||14050507|wxdy666|V2rayCh"
     type: "vless"
-    server: "43.163.241.110"
-    port: 24477
-    udp: true
-    uuid: "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d"
-    network: "tcp"
-  - name: "JP【机场推荐：https://a9a.xyz】38"
-    type: "vless"
-    server: "45.151.152.28"
+    server: "154.17.231.4"
     port: 443
     udp: true
-    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-    network: "tcp"
+    uuid: "23e11949-b10b-415a-a49f-08ba12f21ff4"
+    tls: true
+    servername: "vless.041620.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/socks5://44f7:2208f1f5@107.175.224.62:17920"
+      headers:
+        Host: "vless.041620.xyz"
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
     server: "172.111.146.64"
@@ -35,62 +28,29 @@ proxies:
     ws-opts:
       path: "/vmess/"
       headers:
-  - name: "日本|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.208.174"
-    port: 45691
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me%2Fripaojiedian"
-    network: "tcp"
-  - name: "🇯🇵JP-149.22.87.241-0190"
-    type: "ss"
-    server: "149.22.87.241"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-149.22.87.204-0186"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-149.22.87.240-0187"
-    type: "ss"
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-161.33.139.138-0525"
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
-    server: "161.33.139.138"
-    port: 58905
-    uuid: "1610f8dc-0661-4032-ac6a-a7250603f608"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/1610f8dc-0661-4032-ac6a-a7250603f608-vm"
-      headers:
-        Host: "161.33.139.138"
-  - name: "🇯🇵JP-172.111.146.64-6023"
-    type: "vmess"
-    server: "172.111.146.64"
+    server: "168.138.43.75"
     port: 80
-    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/vmess/"
+      path: "/cctv13.m3u8"
       headers:
-  - name: "🇯🇵JP-45.76.202.45-6022"
+        Host: "None"
+  - name: "日本2|@ripaojiedian"
+    type: "trojan"
+    server: "18.163.111.105"
+    port: 38937
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
+    tls: true
+    servername: "www.nintendogames.net"
+    network: "tcp"
+  - name: "🇯🇵JP-45.76.202.45-6120"
     type: "vmess"
     server: "45.76.202.45"
     port: 4010
@@ -102,7 +62,53 @@ proxies:
     ws-opts:
       path: "/liksuzcp"
       headers:
-  - name: "🇯🇵JP-45.76.202.45-0145"
+  - name: "🇯🇵JP-149.22.87.204-0225"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.240-0226"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.241-0224"
+    type: "ss"
+    server: "149.22.87.241"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-161.33.139.138-0229"
+    type: "vmess"
+    server: "161.33.139.138"
+    port: 58905
+    uuid: "1610f8dc-0661-4032-ac6a-a7250603f608"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "161.33.139.138"
+  - name: "🇯🇵JP-172.111.146.64-0259"
+    type: "vmess"
+    server: "172.111.146.64"
+    port: 80
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇯🇵JP-45.76.202.45-0262"
     type: "vmess"
     server: "45.76.202.45"
     port: 4010
@@ -114,7 +120,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-131.186.63.89-0519"
+  - name: "🇯🇵JP-131.186.63.89-0573"
     type: "vmess"
     server: "131.186.63.89"
     port: 11655
@@ -129,7 +135,22 @@ proxies:
       path: "/aa"
       headers:
         Host: "hk.nbee.pp.ua"
-  - name: "🇯🇵JP-91.200.242.187-0674"
+  - name: "🇯🇵JP-140.83.51.161-0574"
+    type: "vmess"
+    server: "140.83.51.161"
+    port: 25686
+    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "jp02.a0a.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "jp02.a0a.xyz"
+  - name: "🇯🇵JP-91.200.242.187-0745"
     type: "vmess"
     server: "91.200.242.187"
     port: 14954
@@ -142,7 +163,7 @@ proxies:
       path: "/download"
       headers:
         Host: "download.windowsupdate.com"
-  - name: "🇯🇵JP-104.219.208.195-1044"
+  - name: "🇯🇵JP-104.219.208.195-1115"
     type: "vmess"
     server: "104.219.208.195"
     port: 34001
@@ -157,7 +178,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.56982071.xyz"
-  - name: "🇯🇵JP-47.245.42.92-1393"
+  - name: "🇯🇵JP-47.245.42.92-1463"
     type: "vmess"
     server: "47.245.42.92"
     port: 443
@@ -172,7 +193,7 @@ proxies:
       path: "/"
       headers:
         Host: "n1753598452.wpg27.xyz"
-  - name: "🇯🇵JP-131.186.57.111-1692"
+  - name: "🇯🇵JP-131.186.57.111-1761"
     type: "vmess"
     server: "131.186.57.111"
     port: 443
@@ -187,14 +208,14 @@ proxies:
       path: "/"
       headers:
         Host: "e130917c-1b58-4136-b2d9-76dc920e0add.add97ee8-0f14-48a3-b2cd-979c56742e64.loseyourip.com"
-  - name: "🇯🇵JP-54.250.165.160-2280"
+  - name: "🇯🇵JP-54.250.165.160-2354"
     type: "ss"
     server: "54.250.165.160"
     port: 2377
     cipher: "chacha20-ietf-poly1305"
     password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
     udp: true
-  - name: "🇯🇵JP-172.104.78.98-2905"
+  - name: "🇯🇵JP-172.104.78.98-2982"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -208,69 +229,24 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP-140.83.51.161-0224"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇯🇵JP-43.207.82.53-3203"
+    type: "ss"
+    server: "43.207.82.53"
+    port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "jp02.a0a.xyz"
-  - name: "JP 🇯🇵 | @Raydikalx | 4594"
+  - name: "🇯🇵JP-172.111.146.64-6119"
     type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "140.83.51.161"
-  - name: "JP 🇯🇵 | @Raydikalx | 4605"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "jp02.a0a.xyz"
-  - name: "JP 🇯🇵 | @Raydikalx | 3903"
-    type: "vmess"
-    server: "168.138.43.75"
+    server: "172.111.146.64"
     port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "None"
-  - name: "JP 🇯🇵 | @Raydikalx | 4604"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
+      path: "/vmess/"
       headers:
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
@@ -301,30 +277,27 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "日本|@ripaojiedian"
-      - "🇯🇵124204 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "JP【机场推荐：https://a9a.xyz】38"
+      - "日本家宽|||14050507|wxdy666|V2rayCh"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-      - "日本|@ripaojiedian"
-      - "🇯🇵JP-149.22.87.241-0190"
-      - "🇯🇵JP-149.22.87.204-0186"
-      - "🇯🇵JP-149.22.87.240-0187"
-      - "🇯🇵JP-161.33.139.138-0525"
-      - "🇯🇵JP-172.111.146.64-6023"
-      - "🇯🇵JP-45.76.202.45-6022"
-      - "🇯🇵JP-45.76.202.45-0145"
-      - "🇯🇵JP-131.186.63.89-0519"
-      - "🇯🇵JP-91.200.242.187-0674"
-      - "🇯🇵JP-104.219.208.195-1044"
-      - "🇯🇵JP-47.245.42.92-1393"
-      - "🇯🇵JP-131.186.57.111-1692"
-      - "🇯🇵JP-54.250.165.160-2280"
-      - "🇯🇵JP-172.104.78.98-2905"
-      - "🇯🇵JP-140.83.51.161-0224"
-      - "JP 🇯🇵 | @Raydikalx | 4594"
-      - "JP 🇯🇵 | @Raydikalx | 4605"
-      - "JP 🇯🇵 | @Raydikalx | 3903"
-      - "JP 🇯🇵 | @Raydikalx | 4604"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+      - "日本2|@ripaojiedian"
+      - "🇯🇵JP-45.76.202.45-6120"
+      - "🇯🇵JP-149.22.87.204-0225"
+      - "🇯🇵JP-149.22.87.240-0226"
+      - "🇯🇵JP-149.22.87.241-0224"
+      - "🇯🇵JP-161.33.139.138-0229"
+      - "🇯🇵JP-172.111.146.64-0259"
+      - "🇯🇵JP-45.76.202.45-0262"
+      - "🇯🇵JP-131.186.63.89-0573"
+      - "🇯🇵JP-140.83.51.161-0574"
+      - "🇯🇵JP-91.200.242.187-0745"
+      - "🇯🇵JP-104.219.208.195-1115"
+      - "🇯🇵JP-47.245.42.92-1463"
+      - "🇯🇵JP-131.186.57.111-1761"
+      - "🇯🇵JP-54.250.165.160-2354"
+      - "🇯🇵JP-172.104.78.98-2982"
+      - "🇯🇵JP-43.207.82.53-3203"
+      - "🇯🇵JP-172.111.146.64-6119"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
 rules:

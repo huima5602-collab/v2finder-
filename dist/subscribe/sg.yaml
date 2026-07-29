@@ -3,52 +3,45 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇸🇬SG_2|2.1MB/s"
+  - name: "🇸🇬 新加坡|@ripaojiedian"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 6357
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
+  - name: "🇸🇬 新加坡2|@ripaojiedian"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 48738
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
+  - name: "🇸🇬_SG_新加坡"
+    type: "trojan"
+    server: "45.135.228.169"
+    port: 443
+    udp: true
+    password: "IQ68037294"
+  - name: "🇸🇬SG_1|2.9MB/s"
+    type: "vless"
+    server: "172.64.146.86"
+    port: 443
+    udp: true
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    tls: true
+    servername: "support.zoom.us.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/sg-melbifp=chrome"
+      headers:
+        Host: "support.zoom.us.yxls.eu.cc"
+  - name: "🇸🇬SG-103.36.91.32-6035"
     type: "ss"
-    server: "161.118.215.232"
-    port: 56927
-    cipher: "chacha20-ietf-poly1305"
-    password: "Y2QwZTQ0MDYzOWFhNjA5YmE0NTZhNWFkODkzMWNmODU="
+    server: "103.36.91.32"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
     udp: true
-  - name: "新加坡2|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.180.201"
-    port: 48738
-    udp: true
-    password: "d1960ba9f0f6353353994fa844cf817b"
-  - name: "新加坡|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.180.201"
-    port: 6357
-    udp: true
-    password: "d1960ba9f0f6353353994fa844cf817b"
-  - name: "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
-    type: "vmess"
-    server: "149.88.23.207"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "新加坡|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.180.201"
-    port: 6357
-    udp: true
-    password: "d1960ba9f0f6353353994fa844cf817b"
-    tls: true
-    servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "新加坡2|@ripaojiedian"
-    type: "trojan"
-    server: "18.163.180.201"
-    port: 48738
-    udp: true
-    password: "d1960ba9f0f6353353994fa844cf817b"
-    tls: true
-    servername: "www.nintendogames.net"
-    network: "tcp"
-  - name: "🇸🇬SG-167.150.100.133-0522"
+  - name: "🇸🇬SG-167.150.100.133-0268"
     type: "trojan"
     server: "167.150.100.133"
     port: 450
@@ -56,14 +49,7 @@ proxies:
     password: "0_Oms89nH82l_Ki813_Nxmw81_Rbt_Jq190Kl_m"
     tls: true
     servername: "grape-power-sg.roxa.org"
-  - name: "🇸🇬SG-8.210.171.48-0263"
-    type: "ss"
-    server: "8.210.171.48"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "a172cf0d-ae89-42f3-8505-0c51dae293a1"
-    udp: true
-  - name: "🇸🇬SG-15.235.147.186-0415"
+  - name: "🇸🇬SG-15.235.147.186-0434"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -75,7 +61,7 @@ proxies:
     ws-opts:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
-  - name: "🇸🇬SG-134.122.184.88-1049"
+  - name: "🇸🇬SG-134.122.184.88-1120"
     type: "vmess"
     server: "134.122.184.88"
     port: 48885
@@ -90,7 +76,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.13146165.xyz"
-  - name: "🇸🇬SG-139.99.61.154-1261"
+  - name: "🇸🇬SG-139.99.61.154-1331"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -103,7 +89,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "139.99.61.154"
-  - name: "🇸🇬SG-206.238.236.36-1620"
+  - name: "🇸🇬SG-206.238.236.36-1689"
     type: "vmess"
     server: "206.238.236.36"
     port: 2052
@@ -116,7 +102,7 @@ proxies:
       path: "/afrhms16v.bestxray.buzz/linkws"
       headers:
         Host: "mysan2.jaquay22.workers.dev"
-  - name: "🇸🇬SG-157.245.152.136-1878"
+  - name: "🇸🇬SG-157.245.152.136-1947"
     type: "vmess"
     server: "157.245.152.136"
     port: 80
@@ -129,7 +115,7 @@ proxies:
       path: "/kvw0870h/"
       headers:
         Host: "4gvpn.akamaized.net"
-  - name: "🇸🇬SG-139.59.255.209-1879"
+  - name: "🇸🇬SG-139.59.255.209-1948"
     type: "vmess"
     server: "139.59.255.209"
     port: 80
@@ -142,7 +128,7 @@ proxies:
       path: "/cloudfast"
       headers:
         Host: "4gvpn.akamaized.net"
-  - name: "🇸🇬SG-213.35.113.150-1998"
+  - name: "🇸🇬SG-213.35.113.150-2064"
     type: "vmess"
     server: "213.35.113.150"
     port: 80
@@ -155,7 +141,7 @@ proxies:
       path: "/"
       headers:
         Host: "dl.kgvn.garenanow.com"
-  - name: "🇸🇬SG-202.79.172.53-2591"
+  - name: "🇸🇬SG-202.79.172.53-2668"
     type: "vmess"
     server: "202.79.172.53"
     port: 443
@@ -169,7 +155,7 @@ proxies:
     ws-opts:
       path: "/path/220128071100"
       headers:
-  - name: "🇸🇬SG-143.198.219.182-2607"
+  - name: "🇸🇬SG-143.198.219.182-2684"
     type: "vmess"
     server: "143.198.219.182"
     port: 80
@@ -181,7 +167,7 @@ proxies:
     ws-opts:
       path: "/v2ray"
       headers:
-  - name: "🇸🇬SG-146.190.82.241-2644"
+  - name: "🇸🇬SG-146.190.82.241-2721"
     type: "vmess"
     server: "146.190.82.241"
     port: 80
@@ -193,14 +179,14 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-13.215.49.89-3002"
+  - name: "🇸🇬SG-13.215.49.89-3079"
     type: "ss"
     server: "13.215.49.89"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-146.190.82.241-3057"
+  - name: "🇸🇬SG-146.190.82.241-3134"
     type: "vmess"
     server: "146.190.82.241"
     port: 443
@@ -214,7 +200,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-3353"
+  - name: "🇸🇬SG-139.99.61.154-3441"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -226,7 +212,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3380"
+  - name: "🇸🇬SG-109.123.237.41-3468"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -238,7 +224,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3542"
+  - name: "🇸🇬SG-109.123.237.41-3630"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -250,7 +236,7 @@ proxies:
     ws-opts:
       path: "/fastssh"
       headers:
-  - name: "🇸🇬SG-15.235.192.196-3634"
+  - name: "🇸🇬SG-15.235.192.196-3722"
     type: "vmess"
     server: "15.235.192.196"
     port: 80
@@ -262,7 +248,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-157.230.36.235-3635"
+  - name: "🇸🇬SG-157.230.36.235-3723"
     type: "vmess"
     server: "157.230.36.235"
     port: 80
@@ -274,7 +260,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇸🇬SG-202.79.171.157-3803"
+  - name: "🇸🇬SG-202.79.171.157-3891"
     type: "vmess"
     server: "202.79.171.157"
     port: 443
@@ -288,7 +274,7 @@ proxies:
     ws-opts:
       path: "/path/243535322906"
       headers:
-  - name: "🇸🇬SG-159.223.94.156-5884"
+  - name: "🇸🇬SG-159.223.94.156-5972"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -300,7 +286,7 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "🇸🇬SG-43.160.197.160-5894"
+  - name: "🇸🇬SG-43.160.197.160-5982"
     type: "trojan"
     server: "43.160.197.160"
     port: 443
@@ -308,7 +294,7 @@ proxies:
     password: "38f169d6-d202-4b1b-8db8-e6eb1648f5cf"
     tls: true
     servername: "43.160.197.160"
-  - name: "🇸🇬SG-18.140.67.76-6408"
+  - name: "🇸🇬SG-18.140.67.76-6505"
     type: "trojan"
     server: "18.140.67.76"
     port: 443
@@ -316,7 +302,7 @@ proxies:
     password: "iyinglong"
     tls: true
     servername: "18.140.67.76"
-  - name: "🇸🇬SG-8.219.123.35-8003"
+  - name: "🇸🇬SG-8.219.123.35-8100"
     type: "vmess"
     server: "8.219.123.35"
     port: 80
@@ -328,14 +314,14 @@ proxies:
     ws-opts:
       path: "/2TokGE9A/"
       headers:
-  - name: "🇸🇬SG-51.79.161.232-8042"
+  - name: "🇸🇬SG-51.79.161.232-8139"
     type: "ss"
     server: "51.79.161.232"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "4Hub2f9JyhECyAq2Opm0NS"
     udp: true
-  - name: "🇸🇬SG-15.235.197.4-8635"
+  - name: "🇸🇬SG-15.235.197.4-8732"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -343,7 +329,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "15.235.197.4"
-  - name: "🇸🇬SG-15.235.197.4-8637"
+  - name: "🇸🇬SG-15.235.197.4-8734"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -351,7 +337,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "getandroid.com"
-  - name: "🇸🇬SG-118.107.46.173-8733"
+  - name: "🇸🇬SG-118.107.46.173-8830"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -365,7 +351,7 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "🇸🇬SG-118.107.46.173-8735"
+  - name: "🇸🇬SG-118.107.46.173-8832"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -379,14 +365,46 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "SG 🇸🇬 | @Raydikalx | 3900"
-    type: "vmess"
-    server: "129.226.157.220"
-    port: 59121
-    uuid: "d9865d63-d95c-454b-ba07-8e88b838a801"
-    alterId: 0
-    cipher: "auto"
+  - name: "🇸🇬SG新加坡"
+    type: "trojan"
+    server: "45.135.228.169"
+    port: 443
     udp: true
+    password: "IQ68037294"
+  - name: "🇸🇬SG新加坡2 879.4KB/s"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 6357
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
+  - name: "🇸🇬SG新加坡7"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 48738
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 03"
+    type: "trojan"
+    server: "45.135.228.169"
+    port: 443
+    udp: true
+    password: "IQ68037294"
+    network: "tcp"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 07"
+    type: "trojan"
+    server: "81.28.13.92"
+    port: 443
+    udp: true
+    password: "IQ68037294"
+    network: "tcp"
+  - name: "🇭🇰_HK_中国香港->🇸🇬_SG_新加坡"
+    type: "vless"
+    server: "43.255.156.59"
+    port: 40118
+    udp: true
+    uuid: "57beeeb0-03fc-4fc9-94da-7604488a7134"
+    tls: true
+    servername: "www.lamer.com.sg"
   - name: "🇸🇬"
     type: "vless"
     server: "45.40.149.50"
@@ -607,42 +625,45 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇸🇬SG_2|2.1MB/s"
-      - "新加坡2|@ripaojiedian"
-      - "新加坡|@ripaojiedian"
-      - "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
-      - "新加坡|@ripaojiedian"
-      - "新加坡2|@ripaojiedian"
-      - "🇸🇬SG-167.150.100.133-0522"
-      - "🇸🇬SG-8.210.171.48-0263"
-      - "🇸🇬SG-15.235.147.186-0415"
-      - "🇸🇬SG-134.122.184.88-1049"
-      - "🇸🇬SG-139.99.61.154-1261"
-      - "🇸🇬SG-206.238.236.36-1620"
-      - "🇸🇬SG-157.245.152.136-1878"
-      - "🇸🇬SG-139.59.255.209-1879"
-      - "🇸🇬SG-213.35.113.150-1998"
-      - "🇸🇬SG-202.79.172.53-2591"
-      - "🇸🇬SG-143.198.219.182-2607"
-      - "🇸🇬SG-146.190.82.241-2644"
-      - "🇸🇬SG-13.215.49.89-3002"
-      - "🇸🇬SG-146.190.82.241-3057"
-      - "🇸🇬SG-139.99.61.154-3353"
-      - "🇸🇬SG-109.123.237.41-3380"
-      - "🇸🇬SG-109.123.237.41-3542"
-      - "🇸🇬SG-15.235.192.196-3634"
-      - "🇸🇬SG-157.230.36.235-3635"
-      - "🇸🇬SG-202.79.171.157-3803"
-      - "🇸🇬SG-159.223.94.156-5884"
-      - "🇸🇬SG-43.160.197.160-5894"
-      - "🇸🇬SG-18.140.67.76-6408"
-      - "🇸🇬SG-8.219.123.35-8003"
-      - "🇸🇬SG-51.79.161.232-8042"
-      - "🇸🇬SG-15.235.197.4-8635"
-      - "🇸🇬SG-15.235.197.4-8637"
-      - "🇸🇬SG-118.107.46.173-8733"
-      - "🇸🇬SG-118.107.46.173-8735"
-      - "SG 🇸🇬 | @Raydikalx | 3900"
+      - "🇸🇬 新加坡|@ripaojiedian"
+      - "🇸🇬 新加坡2|@ripaojiedian"
+      - "🇸🇬_SG_新加坡"
+      - "🇸🇬SG_1|2.9MB/s"
+      - "🇸🇬SG-103.36.91.32-6035"
+      - "🇸🇬SG-167.150.100.133-0268"
+      - "🇸🇬SG-15.235.147.186-0434"
+      - "🇸🇬SG-134.122.184.88-1120"
+      - "🇸🇬SG-139.99.61.154-1331"
+      - "🇸🇬SG-206.238.236.36-1689"
+      - "🇸🇬SG-157.245.152.136-1947"
+      - "🇸🇬SG-139.59.255.209-1948"
+      - "🇸🇬SG-213.35.113.150-2064"
+      - "🇸🇬SG-202.79.172.53-2668"
+      - "🇸🇬SG-143.198.219.182-2684"
+      - "🇸🇬SG-146.190.82.241-2721"
+      - "🇸🇬SG-13.215.49.89-3079"
+      - "🇸🇬SG-146.190.82.241-3134"
+      - "🇸🇬SG-139.99.61.154-3441"
+      - "🇸🇬SG-109.123.237.41-3468"
+      - "🇸🇬SG-109.123.237.41-3630"
+      - "🇸🇬SG-15.235.192.196-3722"
+      - "🇸🇬SG-157.230.36.235-3723"
+      - "🇸🇬SG-202.79.171.157-3891"
+      - "🇸🇬SG-159.223.94.156-5972"
+      - "🇸🇬SG-43.160.197.160-5982"
+      - "🇸🇬SG-18.140.67.76-6505"
+      - "🇸🇬SG-8.219.123.35-8100"
+      - "🇸🇬SG-51.79.161.232-8139"
+      - "🇸🇬SG-15.235.197.4-8732"
+      - "🇸🇬SG-15.235.197.4-8734"
+      - "🇸🇬SG-118.107.46.173-8830"
+      - "🇸🇬SG-118.107.46.173-8832"
+      - "🇸🇬SG新加坡"
+      - "🇸🇬SG新加坡2 879.4KB/s"
+      - "🇸🇬SG新加坡7"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 03"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 07"
+      - "🇭🇰_HK_中国香港->🇸🇬_SG_新加坡"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"

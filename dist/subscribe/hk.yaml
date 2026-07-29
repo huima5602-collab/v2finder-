@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "HK VLESS-1025 | free-nodes"
+  - name: "HK VLESS-1047 | free-nodes"
     type: "vless"
     server: "212.192.15.191"
     port: 443
@@ -12,38 +12,6 @@ proxies:
     tls: true
     servername: "u695099u36cf43b9s298.wagahaha.xyz"
     network: "tcp"
-  - name: "🇭🇰124259 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "ss"
-    server: "64.90.7.12"
-    port: 47509
-    cipher: "chacha20-ietf-poly1305"
-    password: "cgnu9tVCvDXc"
-    udp: true
-  - name: "HK【机场推荐：https://a9a.xyz】18"
-    type: "trojan"
-    server: "27.50.48.27"
-    port: 443
-    udp: true
-    password: "521314"
-    tls: true
-    servername: "hhtj.hhllfly.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "hhtj.hhllfly.kdns.fr"
-  - name: "香港5|@ripaojiedian"
-    type: "trojan"
-    server: "43.199.34.153"
-    port: 27161
-    udp: true
-    password: "BxceQaOe"
-  - name: "香港4|@ripaojiedian"
-    type: "trojan"
-    server: "95.40.61.23"
-    port: 11035
-    udp: true
-    password: "BxceQaOe"
   - name: "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
     type: "vmess"
     server: "47.244.120.197"
@@ -56,46 +24,66 @@ proxies:
     ws-opts:
       path: "/arki?ed=2048"
       headers:
-  - name: "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰|||14050506|farahvpn|V2rayCh"
+  - name: "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰"
     type: "vmess"
-    server: "85.113.71.85"
-    port: 2086
-    uuid: "ba58ca0c-0411-444e-80f7-e361ce49012d"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "ba58ca0c-0411-444e-80f7-e361ce49012d-vm"
+      path: "/arki?ed=2048"
       headers:
-        Host: "www.bing.com"
   - name: "香港4|@ripaojiedian"
     type: "trojan"
-    server: "95.40.61.23"
-    port: 11035
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian"
-    network: "tcp"
-  - name: "香港5|@ripaojiedian"
-    type: "trojan"
-    server: "43.199.34.153"
+    server: "54.46.75.237"
     port: 27161
     udp: true
     password: "BxceQaOe"
     tls: true
     servername: "t.me/ripaojiedian"
     network: "tcp"
-  - name: "🇭🇰HK-185.14.47.195-0203"
+  - name: "HK_speednode_0027"
     type: "trojan"
-    server: "185.14.47.195"
-    port: 443
+    server: "18.163.111.105"
+    port: 38937
     udp: true
-    password: "HW85960347"
+    password: "d1960ba9f0f6353353994fa844cf817b"
+  - name: "🇭🇰HK-18.163.180.201-3212"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 6357
+    udp: true
+    password: "d1960ba9f0f6353353994fa844cf817b"
     tls: true
-    servername: "eminent-lamb.rooster465.autos"
-  - name: "🇭🇰HK-85.113.71.85-0532"
+    servername: "www.nintendogames.net"
+  - name: "🇭🇰HK-47.244.120.197-6114"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-47.244.120.197-6113"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-85.113.71.85-0232"
     type: "vmess"
     server: "85.113.71.85"
     port: 2086
@@ -105,41 +93,17 @@ proxies:
     udp: true
     network: "ws"
     ws-opts:
-      path: "ba58ca0c-0411-444e-80f7-e361ce49012d-vm"
+      path: "/"
       headers:
         Host: "www.bing.com"
-  - name: "🇭🇰HK-103.149.182.105-0242"
+  - name: "🇭🇰HK-103.149.182.105-0253"
     type: "ss"
     server: "103.149.182.105"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
     udp: true
-  - name: "🇭🇰HK-47.244.120.197-6013"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-6012"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0255"
+  - name: "🇭🇰HK-47.244.120.197-0276"
     type: "vmess"
     server: "47.244.120.197"
     port: 44867
@@ -151,7 +115,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇭🇰HK-47.244.120.197-0257"
+  - name: "🇭🇰HK-47.244.120.197-0277"
     type: "vmess"
     server: "47.244.120.197"
     port: 36703
@@ -163,14 +127,15 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇭🇰HK-103.149.182.79-2339"
-    type: "ss"
-    server: "103.149.182.79"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
+  - name: "🇭🇰HK-18.163.180.201-3213"
+    type: "trojan"
+    server: "18.163.180.201"
+    port: 48738
     udp: true
-  - name: "🇭🇰HK-20.187.85.198-5470"
+    password: "d1960ba9f0f6353353994fa844cf817b"
+    tls: true
+    servername: "www.nintendogames.net"
+  - name: "🇭🇰HK-20.187.85.198-5558"
     type: "trojan"
     server: "20.187.85.198"
     port: 443
@@ -178,7 +143,21 @@ proxies:
     password: "b26e31e5-eac1-45b0-9069-83830bd69521"
     tls: true
     servername: "hkt.iamnotagoodman.com"
-  - name: "🇭🇰HK-219.76.13.181-7695"
+  - name: "🇭🇰HK-103.149.183.12-6034"
+    type: "ss"
+    server: "103.149.183.12"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+    udp: true
+  - name: "🇭🇰HK-103.149.183.80-6108"
+    type: "ss"
+    server: "103.149.183.80"
+    port: 8388
+    cipher: "chacha20-ietf"
+    password: "asd123456"
+    udp: true
+  - name: "🇭🇰HK-219.76.13.181-7792"
     type: "trojan"
     server: "219.76.13.181"
     port: 443
@@ -186,7 +165,7 @@ proxies:
     password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
     tls: true
     servername: "arbettp.freetrade.link"
-  - name: "🇭🇰 机场推荐:dafei.de 香港 02"
+  - name: "HK3 12.7KB/s"
     type: "vmess"
     server: "47.86.167.194"
     port: 800
@@ -198,25 +177,23 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "HK VLESS-1025 | free-nodes"
-      - "🇭🇰124259 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "HK【机场推荐：https://a9a.xyz】18"
-      - "香港5|@ripaojiedian"
-      - "香港4|@ripaojiedian"
+      - "HK VLESS-1047 | free-nodes"
       - "🇭🇰 Join+Telegram:@Farah_VPN 🇭🇰"
-      - "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰|||14050506|farahvpn|V2rayCh"
+      - "🇭🇰 Join+Telegram:@FarahVPN 🇭🇰"
       - "香港4|@ripaojiedian"
-      - "香港5|@ripaojiedian"
-      - "🇭🇰HK-185.14.47.195-0203"
-      - "🇭🇰HK-85.113.71.85-0532"
-      - "🇭🇰HK-103.149.182.105-0242"
-      - "🇭🇰HK-47.244.120.197-6013"
-      - "🇭🇰HK-47.244.120.197-6012"
-      - "🇭🇰HK-47.244.120.197-0255"
-      - "🇭🇰HK-47.244.120.197-0257"
-      - "🇭🇰HK-103.149.182.79-2339"
-      - "🇭🇰HK-20.187.85.198-5470"
-      - "🇭🇰HK-219.76.13.181-7695"
-      - "🇭🇰 机场推荐:dafei.de 香港 02"
+      - "HK_speednode_0027"
+      - "🇭🇰HK-18.163.180.201-3212"
+      - "🇭🇰HK-47.244.120.197-6114"
+      - "🇭🇰HK-47.244.120.197-6113"
+      - "🇭🇰HK-85.113.71.85-0232"
+      - "🇭🇰HK-103.149.182.105-0253"
+      - "🇭🇰HK-47.244.120.197-0276"
+      - "🇭🇰HK-47.244.120.197-0277"
+      - "🇭🇰HK-18.163.180.201-3213"
+      - "🇭🇰HK-20.187.85.198-5558"
+      - "🇭🇰HK-103.149.183.12-6034"
+      - "🇭🇰HK-103.149.183.80-6108"
+      - "🇭🇰HK-219.76.13.181-7792"
+      - "HK3 12.7KB/s"
 rules:
   - "MATCH,Proxy Select"
