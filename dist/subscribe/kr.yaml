@@ -5,45 +5,17 @@ log-level: "info"
 proxies:
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
-    server: "140.238.2.250"
-    port: 443
-    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-    type: "vmess"
-    server: "152.67.218.38"
-    port: 443
-    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/cctv13.m3u8"
       headers:
-  - name: "韓國丨yoyapai.comr"
-    type: "trojan"
-    server: "211.49.57.175"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-  - name: "KR韓國丨yoyapai.comr"
-    type: "trojan"
-    server: "211.49.57.179"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-  - name: "KR_speednode_0031"
-    type: "vless"
-    server: "154.193.55.183"
-    port: 443
-    udp: true
-    uuid: "f75814f6-8f81-4847-b792-168c41f2dc85"
-    tls: true
-    servername: "storage.yandex.net"
-  - name: "KR_speednode_0032"
+  - name: "KR_speednode_0007"
     type: "vless"
     server: "154.193.55.183"
     port: 443
@@ -51,35 +23,43 @@ proxies:
     uuid: "11e57eeb-ffdf-4983-a9fa-ad352dea7253"
     tls: true
     servername: "storage.yandex.net"
-  - name: "🇰🇷KR-141.164.45.187-0266"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
+  - name: "KR_speednode_0008"
+    type: "vless"
+    server: "154.193.55.183"
+    port: 443
     udp: true
-  - name: "🇰🇷KR-221.139.79.57-0275"
-    type: "ss"
-    server: "221.139.79.57"
-    port: 13979
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-218.237.185.230-0273"
-    type: "ss"
-    server: "218.237.185.230"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-211.178.105.134-0272"
+    uuid: "f75814f6-8f81-4847-b792-168c41f2dc85"
+    tls: true
+    servername: "storage.yandex.net"
+  - name: "🇰🇷KR-211.178.105.134-0141"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-152.67.218.38-0247"
+  - name: "🇰🇷KR-221.139.79.57-0127"
+    type: "ss"
+    server: "221.139.79.57"
+    port: 13979
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-141.164.45.187-0121"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
+    udp: true
+  - name: "🇰🇷KR-218.237.185.230-0138"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-152.67.218.38-0235"
     type: "vmess"
     server: "152.67.218.38"
     port: 443
@@ -91,7 +71,15 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-217.142.138.61-0636"
+  - name: "🇰🇷KR-82.117.226.92-0522"
+    type: "trojan"
+    server: "82.117.226.92"
+    port: 443
+    udp: true
+    password: "WG39087154"
+    tls: true
+    servername: "superb-dory.rooster465.autos"
+  - name: "🇰🇷KR-217.142.138.61-0625"
     type: "vmess"
     server: "217.142.138.61"
     port: 80
@@ -99,7 +87,7 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "🇰🇷KR-132.145.80.230-0694"
+  - name: "🇰🇷KR-132.145.80.230-0681"
     type: "vmess"
     server: "132.145.80.230"
     port: 80
@@ -114,7 +102,7 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "kr02.a0a.xyz"
-  - name: "🇰🇷KR-104.37.215.102-1118"
+  - name: "🇰🇷KR-104.37.215.102-1105"
     type: "vmess"
     server: "104.37.215.102"
     port: 443
@@ -129,7 +117,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.31733109.xyz"
-  - name: "🇰🇷KR-104.37.215.83-1144"
+  - name: "🇰🇷KR-104.37.215.83-1131"
     type: "vmess"
     server: "104.37.215.83"
     port: 30000
@@ -144,7 +132,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.19289243.xyz"
-  - name: "🇰🇷KR-211.49.57.175-2365"
+  - name: "🇰🇷KR-211.49.57.175-2342"
     type: "trojan"
     server: "211.49.57.175"
     port: 443
@@ -152,7 +140,7 @@ proxies:
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     tls: true
     servername: "hhcm.hhxaf.cc.cd"
-  - name: "🇰🇷KR-211.49.57.178-2369"
+  - name: "🇰🇷KR-211.49.57.178-2346"
     type: "trojan"
     server: "211.49.57.178"
     port: 443
@@ -160,7 +148,7 @@ proxies:
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     tls: true
     servername: "hhcm.hhxaf.cc.cd"
-  - name: "🇰🇷KR-211.49.57.179-2370"
+  - name: "🇰🇷KR-211.49.57.179-2347"
     type: "trojan"
     server: "211.49.57.179"
     port: 443
@@ -168,14 +156,14 @@ proxies:
     password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
     tls: true
     servername: "tjsp.hhxaf.cc.cd"
-  - name: "🇰🇷KR-43.201.48.212-3192"
+  - name: "🇰🇷KR-43.201.48.212-3172"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-4024"
+  - name: "🇰🇷KR-144.24.72.126-4013"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -183,7 +171,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-3.34.6.217-5083"
+  - name: "🇰🇷KR-3.34.6.217-5072"
     type: "trojan"
     server: "3.34.6.217"
     port: 443
@@ -191,14 +179,14 @@ proxies:
     password: "xxoo"
     tls: true
     servername: "3.34.6.217"
-  - name: "🇰🇷KR-141.164.45.187-6122"
+  - name: "🇰🇷KR-141.164.45.187-6113"
     type: "ss"
     server: "141.164.45.187"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
-  - name: "🇰🇷KR-150.109.240.179-6124"
+  - name: "🇰🇷KR-150.109.240.179-6116"
     type: "vmess"
     server: "150.109.240.179"
     port: 8443
@@ -212,6 +200,40 @@ proxies:
     ws-opts:
       path: "/wsproxy"
       headers:
+  - name: "KR 🇰🇷 | @Raydikalx | E5D9E5"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "KR 🇰🇷 | @Raydikalx | F49B02"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "KR 🇰🇷 | @Raydikalx | 323B94"
+    type: "vmess"
+    server: "146.56.112.110"
+    port: 8888
+    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -230,28 +252,29 @@ proxy-groups:
     type: "select"
     proxies:
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-      - "韓國丨yoyapai.comr"
-      - "KR韓國丨yoyapai.comr"
-      - "KR_speednode_0031"
-      - "KR_speednode_0032"
-      - "🇰🇷KR-141.164.45.187-0266"
-      - "🇰🇷KR-221.139.79.57-0275"
-      - "🇰🇷KR-218.237.185.230-0273"
-      - "🇰🇷KR-211.178.105.134-0272"
-      - "🇰🇷KR-152.67.218.38-0247"
-      - "🇰🇷KR-217.142.138.61-0636"
-      - "🇰🇷KR-132.145.80.230-0694"
-      - "🇰🇷KR-104.37.215.102-1118"
-      - "🇰🇷KR-104.37.215.83-1144"
-      - "🇰🇷KR-211.49.57.175-2365"
-      - "🇰🇷KR-211.49.57.178-2369"
-      - "🇰🇷KR-211.49.57.179-2370"
-      - "🇰🇷KR-43.201.48.212-3192"
-      - "🇰🇷KR-144.24.72.126-4024"
-      - "🇰🇷KR-3.34.6.217-5083"
-      - "🇰🇷KR-141.164.45.187-6122"
-      - "🇰🇷KR-150.109.240.179-6124"
+      - "KR_speednode_0007"
+      - "KR_speednode_0008"
+      - "🇰🇷KR-211.178.105.134-0141"
+      - "🇰🇷KR-221.139.79.57-0127"
+      - "🇰🇷KR-141.164.45.187-0121"
+      - "🇰🇷KR-218.237.185.230-0138"
+      - "🇰🇷KR-152.67.218.38-0235"
+      - "🇰🇷KR-82.117.226.92-0522"
+      - "🇰🇷KR-217.142.138.61-0625"
+      - "🇰🇷KR-132.145.80.230-0681"
+      - "🇰🇷KR-104.37.215.102-1105"
+      - "🇰🇷KR-104.37.215.83-1131"
+      - "🇰🇷KR-211.49.57.175-2342"
+      - "🇰🇷KR-211.49.57.178-2346"
+      - "🇰🇷KR-211.49.57.179-2347"
+      - "🇰🇷KR-43.201.48.212-3172"
+      - "🇰🇷KR-144.24.72.126-4013"
+      - "🇰🇷KR-3.34.6.217-5072"
+      - "🇰🇷KR-141.164.45.187-6113"
+      - "🇰🇷KR-150.109.240.179-6116"
+      - "KR 🇰🇷 | @Raydikalx | E5D9E5"
+      - "KR 🇰🇷 | @Raydikalx | F49B02"
+      - "KR 🇰🇷 | @Raydikalx | 323B94"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
