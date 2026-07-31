@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1109"
+  - name: "🇹🇼TW-211.22.180.68-1131"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +18,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6026"
+  - name: "🇹🇼TW-85.237.207.189-5954"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -26,34 +26,11 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "🇨🇳 机场推荐:dafei.de 台湾 01"
-    type: "vless"
-    server: "162.159.45.24"
-    port: 8443
-    udp: true
-    uuid: "29ca503d-e6b8-4509-b666-48133f450857"
-    tls: true
-    servername: "learn00.evany.de5.net"
-    network: "ws"
-    ws-opts:
-      path: "/fdip=tw.william.us.ci!txt"
-      headers:
-        Host: "learn00.evany.de5.net"
-  - name: "TW 🇹🇼 | @Raydikalx | BC68F6"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1109"
-      - "🇹🇼TW-85.237.207.189-6026"
-      - "🇨🇳 机场推荐:dafei.de 台湾 01"
-      - "TW 🇹🇼 | @Raydikalx | BC68F6"
+      - "🇹🇼TW-211.22.180.68-1131"
+      - "🇹🇼TW-85.237.207.189-5954"
 rules:
   - "MATCH,Proxy Select"
