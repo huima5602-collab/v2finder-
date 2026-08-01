@@ -3,85 +3,198 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇳🇱NL_4|2.6MB/s"
+  - name: "荷蘭節點丨yoyapai.com"
+    type: "trojan"
+    server: "152.53.200.89"
+    port: 8443
+    udp: true
+    password: "8r<[9'l6hAO#8ZQi"
+    tls: true
+    servername: "Koma-YT.PAGeS.Dev"
+    network: "ws"
+    ws-opts:
+      path: "/trTelegram🇨🇳 @WangCai2"
+      headers:
+        Host: "Koma-YT.PAGeS.Dev"
+  - name: "荷蘭節點丨yoyapai.com"
     type: "vless"
-    server: "147.45.185.27"
+    server: "185.229.191.22"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "荷蘭節點丨yoyapai.com"
+    type: "vless"
+    server: "185.229.191.93"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "荷蘭節點丨yoyapai.com"
+    type: "vless"
+    server: "185.229.191.96"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "荷蘭節點丨yoyapai.com"
+    type: "vless"
+    server: "185.229.191.46"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "荷蘭節點丨yoyapai.com"
+    type: "vless"
+    server: "185.229.191.68"
+    port: 8443
+    udp: true
+    uuid: "394f6981-a782-4779-9a85-e6cf22935d93"
+    tls: true
+    servername: "ams1.fromblancwithlove.com"
+    network: "tcp"
+  - name: "NL荷兰+阿姆斯特丹丨yoyapai.com"
+    type: "vless"
+    server: "151.101.38.151"
+    port: 80
+    udp: true
+    uuid: "0058c215-ab1e-400c-a403-b5b2fda7e846"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "max-gb1.global.ssl.fastly.net"
+  - name: "🇳🇱_NL荷蘭丨yoyapai.com"
+    type: "ss"
+    server: "82.38.31.35"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "荷兰丨yoyapai.com"
+    type: "trojan"
+    server: "188.164.248.122"
     port: 443
     udp: true
-    uuid: "9cddcc01-3dfb-46e0-85d8-e3c6818232cf"
+    password: "c206d543-023d-46cc-9d5a-1f0f2fc16323"
     tls: true
-    servername: "userapi.com"
-  - name: "🇳🇱NL-193.29.139.235-0065"
+    servername: "space.byu.id.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/in-pdr"
+      headers:
+  - name: "🇳🇱129006 | ⚡️Telegram = t.me/SOSkeyNET"
     type: "ss"
     server: "193.29.139.235"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-193.29.139.147-0155"
+  - name: "🇳🇱128943 | ⚡️Telegram = t.me/SOSkeyNET"
     type: "ss"
-    server: "193.29.139.147"
+    server: "82.38.31.7"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-109.201.152.181-0081"
+  - name: "🇳🇱128977 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "185.170.166.250"
+    port: 443
+    udp: true
+    uuid: "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5"
+    tls: true
+    servername: "cfed.tgzdyz2.top"
+    network: "ws"
+    ws-opts:
+      path: "tg@zdyz2"
+      headers:
+  - name: "🇳🇱128996 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "192.142.8.200"
+    port: 443
+    udp: true
+    uuid: "eb295947-24de-0001-9b8f-85431e5fe493"
+    network: "tcp"
+  - name: "🇳🇱NL-193.29.139.235-0081"
+    type: "ss"
+    server: "193.29.139.235"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.168-6049"
+    type: "ss"
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+    udp: true
+  - name: "🇳🇱NL-109.201.152.181-0096"
     type: "ss"
     server: "109.201.152.181"
     port: 443
     cipher: "aes-128-cfb"
     password: "shadowsocks"
     udp: true
-  - name: "🇳🇱NL-193.29.139.223-0082"
+  - name: "🇳🇱NL-193.29.139.223-0105"
     type: "ss"
     server: "193.29.139.223"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇳🇱NL-108.181.58.239-0105"
+  - name: "🇳🇱NL-193.29.139.147-0093"
     type: "ss"
-    server: "108.181.58.239"
-    port: 8388
+    server: "193.29.139.147"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇳🇱NL-108.181.126.122-0103"
-    type: "ss"
-    server: "108.181.126.122"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.151-0123"
+  - name: "🇳🇱NL-193.29.139.151-0126"
     type: "ss"
     server: "193.29.139.151"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-213.109.147.242-0122"
+  - name: "🇳🇱NL-108.181.58.239-0108"
     type: "ss"
-    server: "213.109.147.242"
-    port: 62685
+    server: "108.181.58.239"
+    port: 8388
     cipher: "chacha20-ietf-poly1305"
-    password: "VpKABcOpNNA0l5G2AVOmw8"
+    password: "CJmTCCx7Ltud"
     udp: true
-  - name: "🇳🇱NL-193.29.139.204-0093"
+  - name: "🇳🇱NL-108.181.126.122-0109"
+    type: "ss"
+    server: "108.181.126.122"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.204-0159"
     type: "ss"
     server: "193.29.139.204"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-158.173.20.171-0141"
+  - name: "🇳🇱NL-213.109.147.242-0137"
     type: "ss"
-    server: "158.173.20.171"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    server: "213.109.147.242"
+    port: 62685
+    cipher: "chacha20-ietf-poly1305"
+    password: "VpKABcOpNNA0l5G2AVOmw8"
     udp: true
-  - name: "🇳🇱NL-152.70.57.182-1175"
+  - name: "🇳🇱NL-152.70.57.182-1206"
     type: "vmess"
     server: "152.70.57.182"
     port: 443
@@ -96,7 +209,7 @@ proxies:
       path: "/linkws"
       headers:
         Host: "irvideo.cfd"
-  - name: "🇳🇱NL-194.124.216.192-6034"
+  - name: "🇳🇱NL-194.124.216.192-6102"
     type: "trojan"
     server: "194.124.216.192"
     port: 443
@@ -104,14 +217,14 @@ proxies:
     password: "M08tvzYWtUEJNtbpHp"
     tls: true
     servername: "194.124.216.192"
-  - name: "🇳🇱NL-172.99.188.71-6975"
+  - name: "🇳🇱NL-172.99.188.71-7032"
     type: "ss"
     server: "172.99.188.71"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇳🇱NL-51.158.146.183-8086"
+  - name: "🇳🇱NL-51.158.146.183-8143"
     type: "trojan"
     server: "51.158.146.183"
     port: 443
@@ -119,7 +232,7 @@ proxies:
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
     servername: "Speedtest.net"
-  - name: "🇳🇱NL-51.15.19.206-8088"
+  - name: "🇳🇱NL-51.15.19.206-8145"
     type: "vmess"
     server: "51.15.19.206"
     port: 80
@@ -131,7 +244,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-8089"
+  - name: "🇳🇱NL-51.15.19.206-8146"
     type: "vmess"
     server: "51.15.19.206"
     port: 8443
@@ -145,7 +258,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-8090"
+  - name: "🇳🇱NL-51.15.19.206-8147"
     type: "vmess"
     server: "51.15.19.206"
     port: 2083
@@ -165,46 +278,20 @@ proxies:
     port: 443
     udp: true
     password: "c206d543-023d-46cc-9d5a-1f0f2fc16323"
-    tls: true
-    servername: "space.byu.id.yxls.eu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/in-pdr"
-      headers:
-  - name: "🇳🇱 机场推荐:dafei.de 荷兰 04"
-    type: "vless"
-    server: "94.139.251.9"
-    port: 443
-    udp: true
-    uuid: "eadcacfa-ef1a-4901-a28b-8815fa1962a5"
-    network: "tcp"
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 05"
     type: "vless"
-    server: "94.139.251.23"
+    server: "94.139.251.191"
     port: 443
     udp: true
     uuid: "d6dc1358-1bb5-4a9d-92fd-3e255567e3fc"
     network: "tcp"
   - name: "🇳🇱 机场推荐:dafei.de 荷兰 06"
     type: "vless"
-    server: "77.221.151.158"
+    server: "94.139.251.23"
     port: 443
     udp: true
-    uuid: "6f40547a-1046-4194-8ca5-6f355897c3c6"
-    network: "grpc"
-  - name: "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰"
-    type: "vless"
-    server: "103.54.16.230"
-    port: 2053
-    udp: true
-    uuid: "c7e9c591-2764-423a-afca-efbd010fd396"
-    tls: true
-    servername: "forfreeuse.sub-flow.online"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "forfreeuse.sub-flow.online"
+    uuid: "64b6f905-94d5-4745-8f92-cafa107b7c16"
+    network: "tcp"
   - name: "🇳🇱"
     type: "vless"
     server: "77.246.109.191"
@@ -395,33 +482,71 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
+  - name: "🇳🇱 ShatakVPN 493389"
+    type: "vless"
+    server: "5.255.110.147"
+    port: 443
+    udp: true
+    uuid: "e2e1ddaa-1acf-4c4c-a211-92284f6440ed"
+    network: "tcp"
+  - name: "🇳🇱 ShatakVPN 277887"
+    type: "ss"
+    server: "82.38.31.212"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱 ShatakVPN 485172"
+    type: "vless"
+    server: "5.255.110.147"
+    port: 443
+    udp: true
+    uuid: "e2e1ddaa-1acf-4c4c-a211-92284f6440ed"
+    network: "tcp"
+  - name: "🇳🇱 ShatakVPN 897830"
+    type: "ss"
+    server: "82.38.31.212"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇳🇱NL_4|2.6MB/s"
-      - "🇳🇱NL-193.29.139.235-0065"
-      - "🇳🇱NL-193.29.139.147-0155"
-      - "🇳🇱NL-109.201.152.181-0081"
-      - "🇳🇱NL-193.29.139.223-0082"
-      - "🇳🇱NL-108.181.58.239-0105"
-      - "🇳🇱NL-108.181.126.122-0103"
-      - "🇳🇱NL-193.29.139.151-0123"
-      - "🇳🇱NL-213.109.147.242-0122"
-      - "🇳🇱NL-193.29.139.204-0093"
-      - "🇳🇱NL-158.173.20.171-0141"
-      - "🇳🇱NL-152.70.57.182-1175"
-      - "🇳🇱NL-194.124.216.192-6034"
-      - "🇳🇱NL-172.99.188.71-6975"
-      - "🇳🇱NL-51.158.146.183-8086"
-      - "🇳🇱NL-51.15.19.206-8088"
-      - "🇳🇱NL-51.15.19.206-8089"
-      - "🇳🇱NL-51.15.19.206-8090"
+      - "荷蘭節點丨yoyapai.com"
+      - "荷蘭節點丨yoyapai.com"
+      - "荷蘭節點丨yoyapai.com"
+      - "荷蘭節點丨yoyapai.com"
+      - "荷蘭節點丨yoyapai.com"
+      - "荷蘭節點丨yoyapai.com"
+      - "NL荷兰+阿姆斯特丹丨yoyapai.com"
+      - "🇳🇱_NL荷蘭丨yoyapai.com"
+      - "荷兰丨yoyapai.com"
+      - "🇳🇱129006 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱128943 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱128977 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱128996 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇳🇱NL-193.29.139.235-0081"
+      - "🇳🇱NL-193.29.139.168-6049"
+      - "🇳🇱NL-109.201.152.181-0096"
+      - "🇳🇱NL-193.29.139.223-0105"
+      - "🇳🇱NL-193.29.139.147-0093"
+      - "🇳🇱NL-193.29.139.151-0126"
+      - "🇳🇱NL-108.181.58.239-0108"
+      - "🇳🇱NL-108.181.126.122-0109"
+      - "🇳🇱NL-193.29.139.204-0159"
+      - "🇳🇱NL-213.109.147.242-0137"
+      - "🇳🇱NL-152.70.57.182-1206"
+      - "🇳🇱NL-194.124.216.192-6102"
+      - "🇳🇱NL-172.99.188.71-7032"
+      - "🇳🇱NL-51.158.146.183-8143"
+      - "🇳🇱NL-51.15.19.206-8145"
+      - "🇳🇱NL-51.15.19.206-8146"
+      - "🇳🇱NL-51.15.19.206-8147"
       - "🇳🇱NL荷兰"
-      - "🇳🇱 机场推荐:dafei.de 荷兰 04"
       - "🇳🇱 机场推荐:dafei.de 荷兰 05"
       - "🇳🇱 机场推荐:dafei.de 荷兰 06"
-      - "🇳🇱_NL_荷兰->🇫🇮_FI_芬兰"
       - "🇳🇱"
       - "🇳🇱"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
@@ -447,5 +572,9 @@ proxy-groups:
       - "🇳🇱  @v2ray313 کانالمون"
       - "🇳🇱"
       - "🇳🇱"
+      - "🇳🇱 ShatakVPN 493389"
+      - "🇳🇱 ShatakVPN 277887"
+      - "🇳🇱 ShatakVPN 485172"
+      - "🇳🇱 ShatakVPN 897830"
 rules:
   - "MATCH,Proxy Select"
