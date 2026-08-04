@@ -3,28 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼 Taiwan Yuanlin | ⏱1072ms | ⚡307KB/s | @NamazVPN"
-    type: "vless"
-    server: "60.249.101.14"
-    port: 10000
-    udp: true
-    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
-    network: "tcp"
-  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "TW_speednode_0240"
-    type: "vless"
-    server: "60.249.101.14"
-    port: 10000
-    udp: true
-    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
-  - name: "🇹🇼TW-211.22.180.68-1130"
+  - name: "🇹🇼TW-211.22.180.68-1106"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -39,7 +18,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6060"
+  - name: "🇹🇼TW-85.237.207.189-5966"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -59,11 +38,8 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼 Taiwan Yuanlin | ⏱1072ms | ⚡307KB/s | @NamazVPN"
-      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-      - "TW_speednode_0240"
-      - "🇹🇼TW-211.22.180.68-1130"
-      - "🇹🇼TW-85.237.207.189-6060"
+      - "🇹🇼TW-211.22.180.68-1106"
+      - "🇹🇼TW-85.237.207.189-5966"
       - "TW 🇹🇼 | @Raydikalx | 826527"
 rules:
   - "MATCH,Proxy Select"
