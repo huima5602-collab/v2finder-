@@ -3,14 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇰🇷KR_1|1.6MB/s"
-    type: "ss"
-    server: "27.255.82.134"
-    port: 2078
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-43.203.244.203-0186"
+  - name: "🇰🇷KR-43.203.244.203-0182"
     type: "trojan"
     server: "43.203.244.203"
     port: 443
@@ -18,7 +11,23 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "grateful-owl.rooster465.autos"
-  - name: "🇰🇷KR-43.203.119.20-0176"
+  - name: "🇰🇷KR-43.202.56.122-0512"
+    type: "trojan"
+    server: "43.202.56.122"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "striking-maggot.rooster465.autos"
+  - name: "🇰🇷KR-43.203.247.197-0516"
+    type: "trojan"
+    server: "43.203.247.197"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "definite-malamute.rooster465.autos"
+  - name: "🇰🇷KR-43.203.119.20-0186"
     type: "trojan"
     server: "43.203.119.20"
     port: 443
@@ -26,21 +35,67 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "uncommon-feline.rooster465.autos"
-  - name: "🇰🇷KR-218.237.185.230-0281"
-    type: "ss"
-    server: "218.237.185.230"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
+  - name: "🇰🇷KR-3.35.140.99-0515"
+    type: "trojan"
+    server: "3.35.140.99"
+    port: 443
     udp: true
-  - name: "🇰🇷KR-221.139.79.57-0220"
+    password: "ND91608427"
+    tls: true
+    servername: "moved-meerkat.rooster465.autos"
+  - name: "🇰🇷KR-3.38.106.2-0513"
+    type: "trojan"
+    server: "3.38.106.2"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "communal-sunbird.rooster465.autos"
+  - name: "🇰🇷KR-52.79.210.229-0514"
+    type: "trojan"
+    server: "52.79.210.229"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "chief-bluegill.rooster465.autos"
+  - name: "🇰🇷KR-3.36.131.218-0511"
+    type: "trojan"
+    server: "3.36.131.218"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "humorous-malamute.rooster465.autos"
+  - name: "🇰🇷KR-221.139.79.57-0233"
     type: "ss"
     server: "221.139.79.57"
     port: 13979
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-152.67.218.38-0204"
+  - name: "🇰🇷KR-218.237.185.230-0227"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-211.178.105.134-0278"
+    type: "ss"
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-141.164.45.187-0231"
+    type: "ss"
+    server: "141.164.45.187"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇰🇷KR-152.67.218.38-0267"
     type: "vmess"
     server: "152.67.218.38"
     port: 443
@@ -53,26 +108,14 @@ proxies:
       path: "/"
       headers:
         Host: "YouTube-aweikeji"
-  - name: "🇰🇷KR-211.178.105.134-0215"
+  - name: "🇰🇷KR-141.164.45.187-0276"
     type: "ss"
-    server: "211.178.105.134"
-    port: 6123
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
     udp: true
-  - name: "🇰🇷KR-152.67.218.38-0264"
-    type: "vmess"
-    server: "152.67.218.38"
-    port: 443
-    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇰🇷KR-132.145.80.230-0582"
+  - name: "🇰🇷KR-132.145.80.230-0602"
     type: "vmess"
     server: "132.145.80.230"
     port: 80
@@ -87,7 +130,7 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "kr02.a0a.xyz"
-  - name: "🇰🇷KR-217.142.138.61-0712"
+  - name: "🇰🇷KR-217.142.138.61-0749"
     type: "vmess"
     server: "217.142.138.61"
     port: 80
@@ -95,7 +138,7 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "🇰🇷KR-104.37.215.102-1157"
+  - name: "🇰🇷KR-104.37.215.102-1193"
     type: "vmess"
     server: "104.37.215.102"
     port: 443
@@ -110,7 +153,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.31733109.xyz"
-  - name: "🇰🇷KR-104.37.215.83-1183"
+  - name: "🇰🇷KR-104.37.215.83-1219"
     type: "vmess"
     server: "104.37.215.83"
     port: 30000
@@ -125,14 +168,26 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.19289243.xyz"
-  - name: "🇰🇷KR-43.201.48.212-3175"
+  - name: "🇰🇷KR-43.201.48.212-3192"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-3996"
+  - name: "🇰🇷KR-152.67.218.38-3454"
+    type: "vmess"
+    server: "152.67.218.38"
+    port: 443
+    uuid: "b5e9480a-b7aa-40a4-f9a7-5299b5e363b4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇰🇷KR-144.24.72.126-4017"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -140,7 +195,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-150.109.240.179-6252"
+  - name: "🇰🇷KR-150.109.240.179-6064"
     type: "vmess"
     server: "150.109.240.179"
     port: 8443
@@ -154,6 +209,60 @@ proxies:
     ws-opts:
       path: "/wsproxy"
       headers:
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "3.36.59.34"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "select-ferret.rooster465.autos"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "52.78.13.238"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "upward-puma.rooster465.autos"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "3.36.131.218"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "humorous-malamute.rooster465.autos"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "52.79.210.229"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "chief-bluegill.rooster465.autos"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "3.35.140.99"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "moved-meerkat.rooster465.autos"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇰🇷"
+    type: "trojan"
+    server: "43.203.203.244"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "main-whippet.rooster465.autos"
+    network: "tcp"
   - name: "KR 🇰🇷 | @Raydikalx | ED5343"
     type: "vmess"
     server: "146.56.112.110"
@@ -162,34 +271,79 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | 168118"
+  - name: "KR 🇰🇷 | @Raydikalx | A99D73"
     type: "vmess"
-    server: "217.142.138.61"
+    server: "132.145.80.230"
     port: 80
-    uuid: "ac1b933d-afff-4487-93ef-f57130a55dff"
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
     alterId: 0
     cipher: "auto"
     udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇰🇷KR_1|1.6MB/s"
-      - "🇰🇷KR-43.203.244.203-0186"
-      - "🇰🇷KR-43.203.119.20-0176"
-      - "🇰🇷KR-218.237.185.230-0281"
-      - "🇰🇷KR-221.139.79.57-0220"
-      - "🇰🇷KR-152.67.218.38-0204"
-      - "🇰🇷KR-211.178.105.134-0215"
-      - "🇰🇷KR-152.67.218.38-0264"
-      - "🇰🇷KR-132.145.80.230-0582"
-      - "🇰🇷KR-217.142.138.61-0712"
-      - "🇰🇷KR-104.37.215.102-1157"
-      - "🇰🇷KR-104.37.215.83-1183"
-      - "🇰🇷KR-43.201.48.212-3175"
-      - "🇰🇷KR-144.24.72.126-3996"
-      - "🇰🇷KR-150.109.240.179-6252"
+      - "🇰🇷KR-43.203.244.203-0182"
+      - "🇰🇷KR-43.202.56.122-0512"
+      - "🇰🇷KR-43.203.247.197-0516"
+      - "🇰🇷KR-43.203.119.20-0186"
+      - "🇰🇷KR-3.35.140.99-0515"
+      - "🇰🇷KR-3.38.106.2-0513"
+      - "🇰🇷KR-52.79.210.229-0514"
+      - "🇰🇷KR-3.36.131.218-0511"
+      - "🇰🇷KR-221.139.79.57-0233"
+      - "🇰🇷KR-218.237.185.230-0227"
+      - "🇰🇷KR-211.178.105.134-0278"
+      - "🇰🇷KR-141.164.45.187-0231"
+      - "🇰🇷KR-152.67.218.38-0267"
+      - "🇰🇷KR-141.164.45.187-0276"
+      - "🇰🇷KR-132.145.80.230-0602"
+      - "🇰🇷KR-217.142.138.61-0749"
+      - "🇰🇷KR-104.37.215.102-1193"
+      - "🇰🇷KR-104.37.215.83-1219"
+      - "🇰🇷KR-43.201.48.212-3192"
+      - "🇰🇷KR-152.67.218.38-3454"
+      - "🇰🇷KR-144.24.72.126-4017"
+      - "🇰🇷KR-150.109.240.179-6064"
+      - "Channel id: @ShadowProxy66 🇰🇷"
+      - "Channel id: @ShadowProxy66 🇰🇷"
+      - "Channel id: @ShadowProxy66 🇰🇷"
+      - "Channel id: @ShadowProxy66 🇰🇷"
+      - "Channel id: @ShadowProxy66 🇰🇷"
+      - "Channel id: @ShadowProxy66 🇰🇷"
       - "KR 🇰🇷 | @Raydikalx | ED5343"
-      - "KR 🇰🇷 | @Raydikalx | 168118"
+      - "KR 🇰🇷 | @Raydikalx | A99D73"
+      - "KR 🇰🇷 | @Raydikalx | C1BBF7"
+      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"

@@ -3,16 +3,18 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇸🇬 新加坡3|@ripaojiedian"
-    type: "trojan"
-    server: "43.198.209.68"
-    port: 41421
+  - name: "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
+    type: "vmess"
+    server: "149.88.23.202"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    password: "BxceQaOe"
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "43.198.209.68"
-    port: 41421
+    server: "18.166.178.40"
+    port: 45744
     udp: true
     password: "BxceQaOe"
     tls: true
@@ -20,18 +22,41 @@ proxies:
     network: "tcp"
   - name: "新加坡3|@ripaojiedian"
     type: "trojan"
-    server: "43.198.209.68"
-    port: 41421
+    server: "18.166.178.40"
+    port: 45744
     udp: true
     password: "BxceQaOe"
-  - name: "🇸🇬SG-103.36.91.32-6030"
+  - name: "🇸🇬SG_2|2.2MB/s"
+    type: "vless"
+    server: "172.64.146.86"
+    port: 443
+    udp: true
+    uuid: "4d10c997-4781-4cd9-82c3-15453523e12c"
+    tls: true
+    servername: "support.zoom.us.yxls.eu.cc"
+    network: "ws"
+    ws-opts:
+      path: "/sg-melbifp=chrome"
+      headers:
+        Host: "support.zoom.us.yxls.eu.cc"
+  - name: "🇸🇬SG_3|2.1MB/s"
+    type: "trojan"
+    server: "104.18.32.47"
+    port: 443
+    udp: true
+    password: "MiTiVPN"
+    network: "ws"
+    ws-opts:
+      path: "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls"
+      headers:
+  - name: "🇸🇬SG-103.36.91.32-0214"
     type: "ss"
     server: "103.36.91.32"
     port: 8388
     cipher: "chacha20-ietf"
     password: "asd123456"
     udp: true
-  - name: "🇸🇬SG-15.235.147.186-0417"
+  - name: "🇸🇬SG-15.235.147.186-0411"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -43,22 +68,7 @@ proxies:
     ws-opts:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
-  - name: "🇸🇬SG-134.122.184.88-1159"
-    type: "vmess"
-    server: "134.122.184.88"
-    port: 48885
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "www.13146165.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/path/191019072927"
-      headers:
-        Host: "www.13146165.xyz"
-  - name: "🇸🇬SG-139.99.61.154-1366"
+  - name: "🇸🇬SG-139.99.61.154-1402"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -71,7 +81,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "139.99.61.154"
-  - name: "🇸🇬SG-206.238.236.36-1715"
+  - name: "🇸🇬SG-206.238.236.36-1751"
     type: "vmess"
     server: "206.238.236.36"
     port: 2052
@@ -84,7 +94,7 @@ proxies:
       path: "/afrhms16v.bestxray.buzz/linkws"
       headers:
         Host: "mysan2.jaquay22.workers.dev"
-  - name: "🇸🇬SG-157.245.152.136-1969"
+  - name: "🇸🇬SG-157.245.152.136-2004"
     type: "vmess"
     server: "157.245.152.136"
     port: 80
@@ -97,7 +107,7 @@ proxies:
       path: "/kvw0870h/"
       headers:
         Host: "4gvpn.akamaized.net"
-  - name: "🇸🇬SG-139.59.255.209-1970"
+  - name: "🇸🇬SG-139.59.255.209-2005"
     type: "vmess"
     server: "139.59.255.209"
     port: 80
@@ -110,7 +120,7 @@ proxies:
       path: "/cloudfast"
       headers:
         Host: "4gvpn.akamaized.net"
-  - name: "🇸🇬SG-213.35.113.150-2078"
+  - name: "🇸🇬SG-213.35.113.150-2113"
     type: "vmess"
     server: "213.35.113.150"
     port: 80
@@ -123,7 +133,7 @@ proxies:
       path: "/"
       headers:
         Host: "dl.kgvn.garenanow.com"
-  - name: "🇸🇬SG-202.79.172.53-2651"
+  - name: "🇸🇬SG-202.79.172.53-2668"
     type: "vmess"
     server: "202.79.172.53"
     port: 443
@@ -137,7 +147,7 @@ proxies:
     ws-opts:
       path: "/path/220128071100"
       headers:
-  - name: "🇸🇬SG-143.198.219.182-2667"
+  - name: "🇸🇬SG-143.198.219.182-2684"
     type: "vmess"
     server: "143.198.219.182"
     port: 80
@@ -149,7 +159,7 @@ proxies:
     ws-opts:
       path: "/v2ray"
       headers:
-  - name: "🇸🇬SG-146.190.82.241-2704"
+  - name: "🇸🇬SG-146.190.82.241-2721"
     type: "vmess"
     server: "146.190.82.241"
     port: 80
@@ -161,26 +171,14 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-18.143.123.35-2740"
-    type: "vmess"
-    server: "18.143.123.35"
-    port: 80
-    uuid: "68df4838-46d0-4b5b-c3f0-a40ec7063245"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-13.215.49.89-3062"
+  - name: "🇸🇬SG-13.215.49.89-3079"
     type: "ss"
     server: "13.215.49.89"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-146.190.82.241-3117"
+  - name: "🇸🇬SG-146.190.82.241-3134"
     type: "vmess"
     server: "146.190.82.241"
     port: 443
@@ -194,7 +192,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-3413"
+  - name: "🇸🇬SG-139.99.61.154-3434"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -206,7 +204,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3440"
+  - name: "🇸🇬SG-109.123.237.41-3461"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -218,7 +216,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3602"
+  - name: "🇸🇬SG-109.123.237.41-3623"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -230,7 +228,7 @@ proxies:
     ws-opts:
       path: "/fastssh"
       headers:
-  - name: "🇸🇬SG-15.235.192.196-3694"
+  - name: "🇸🇬SG-15.235.192.196-3715"
     type: "vmess"
     server: "15.235.192.196"
     port: 80
@@ -242,7 +240,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-157.230.36.235-3695"
+  - name: "🇸🇬SG-157.230.36.235-3716"
     type: "vmess"
     server: "157.230.36.235"
     port: 80
@@ -254,7 +252,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇸🇬SG-159.223.94.156-5944"
+  - name: "🇸🇬SG-159.223.94.156-5965"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -266,7 +264,7 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "🇸🇬SG-43.160.197.160-5955"
+  - name: "🇸🇬SG-43.160.197.160-6137"
     type: "trojan"
     server: "43.160.197.160"
     port: 443
@@ -274,7 +272,7 @@ proxies:
     password: "38f169d6-d202-4b1b-8db8-e6eb1648f5cf"
     tls: true
     servername: "43.160.197.160"
-  - name: "🇸🇬SG-5.180.78.22-6147"
+  - name: "🇸🇬SG-5.180.78.22-6208"
     type: "trojan"
     server: "5.180.78.22"
     port: 443
@@ -282,7 +280,7 @@ proxies:
     password: "d30ab83dbde4480082048fb315bedebd"
     tls: true
     servername: "5.180.78.22"
-  - name: "🇸🇬SG-18.140.67.76-6690"
+  - name: "🇸🇬SG-18.140.67.76-6632"
     type: "trojan"
     server: "18.140.67.76"
     port: 443
@@ -290,7 +288,7 @@ proxies:
     password: "iyinglong"
     tls: true
     servername: "18.140.67.76"
-  - name: "🇸🇬SG-8.219.123.35-8285"
+  - name: "🇸🇬SG-8.219.123.35-8227"
     type: "vmess"
     server: "8.219.123.35"
     port: 80
@@ -302,14 +300,14 @@ proxies:
     ws-opts:
       path: "/2TokGE9A/"
       headers:
-  - name: "🇸🇬SG-51.79.161.232-8324"
+  - name: "🇸🇬SG-51.79.161.232-8266"
     type: "ss"
     server: "51.79.161.232"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "4Hub2f9JyhECyAq2Opm0NS"
     udp: true
-  - name: "🇸🇬SG-15.235.197.4-8917"
+  - name: "🇸🇬SG-15.235.197.4-8859"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -317,7 +315,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "15.235.197.4"
-  - name: "🇸🇬SG-15.235.197.4-8919"
+  - name: "🇸🇬SG-15.235.197.4-8861"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -325,7 +323,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "getandroid.com"
-  - name: "🇸🇬SG-118.107.46.173-9015"
+  - name: "🇸🇬SG-118.107.46.173-8957"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -339,7 +337,7 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "🇸🇬SG-118.107.46.173-9017"
+  - name: "🇸🇬SG-118.107.46.173-8959"
     type: "vmess"
     server: "118.107.46.173"
     port: 443
@@ -353,14 +351,6 @@ proxies:
     ws-opts:
       path: "/path/080712342310"
       headers:
-  - name: "SG 🇸🇬 | @Raydikalx | 8EEE09"
-    type: "vmess"
-    server: "149.88.23.202"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "🇸🇬"
     type: "vless"
     server: "45.40.149.50"
@@ -581,39 +571,38 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇸🇬 新加坡3|@ripaojiedian"
+      - "🇸🇬 Join+Telegram:@Farah_VPN 🇸🇬"
       - "新加坡3|@ripaojiedian"
       - "新加坡3|@ripaojiedian"
-      - "🇸🇬SG-103.36.91.32-6030"
-      - "🇸🇬SG-15.235.147.186-0417"
-      - "🇸🇬SG-134.122.184.88-1159"
-      - "🇸🇬SG-139.99.61.154-1366"
-      - "🇸🇬SG-206.238.236.36-1715"
-      - "🇸🇬SG-157.245.152.136-1969"
-      - "🇸🇬SG-139.59.255.209-1970"
-      - "🇸🇬SG-213.35.113.150-2078"
-      - "🇸🇬SG-202.79.172.53-2651"
-      - "🇸🇬SG-143.198.219.182-2667"
-      - "🇸🇬SG-146.190.82.241-2704"
-      - "🇸🇬SG-18.143.123.35-2740"
-      - "🇸🇬SG-13.215.49.89-3062"
-      - "🇸🇬SG-146.190.82.241-3117"
-      - "🇸🇬SG-139.99.61.154-3413"
-      - "🇸🇬SG-109.123.237.41-3440"
-      - "🇸🇬SG-109.123.237.41-3602"
-      - "🇸🇬SG-15.235.192.196-3694"
-      - "🇸🇬SG-157.230.36.235-3695"
-      - "🇸🇬SG-159.223.94.156-5944"
-      - "🇸🇬SG-43.160.197.160-5955"
-      - "🇸🇬SG-5.180.78.22-6147"
-      - "🇸🇬SG-18.140.67.76-6690"
-      - "🇸🇬SG-8.219.123.35-8285"
-      - "🇸🇬SG-51.79.161.232-8324"
-      - "🇸🇬SG-15.235.197.4-8917"
-      - "🇸🇬SG-15.235.197.4-8919"
-      - "🇸🇬SG-118.107.46.173-9015"
-      - "🇸🇬SG-118.107.46.173-9017"
-      - "SG 🇸🇬 | @Raydikalx | 8EEE09"
+      - "🇸🇬SG_2|2.2MB/s"
+      - "🇸🇬SG_3|2.1MB/s"
+      - "🇸🇬SG-103.36.91.32-0214"
+      - "🇸🇬SG-15.235.147.186-0411"
+      - "🇸🇬SG-139.99.61.154-1402"
+      - "🇸🇬SG-206.238.236.36-1751"
+      - "🇸🇬SG-157.245.152.136-2004"
+      - "🇸🇬SG-139.59.255.209-2005"
+      - "🇸🇬SG-213.35.113.150-2113"
+      - "🇸🇬SG-202.79.172.53-2668"
+      - "🇸🇬SG-143.198.219.182-2684"
+      - "🇸🇬SG-146.190.82.241-2721"
+      - "🇸🇬SG-13.215.49.89-3079"
+      - "🇸🇬SG-146.190.82.241-3134"
+      - "🇸🇬SG-139.99.61.154-3434"
+      - "🇸🇬SG-109.123.237.41-3461"
+      - "🇸🇬SG-109.123.237.41-3623"
+      - "🇸🇬SG-15.235.192.196-3715"
+      - "🇸🇬SG-157.230.36.235-3716"
+      - "🇸🇬SG-159.223.94.156-5965"
+      - "🇸🇬SG-43.160.197.160-6137"
+      - "🇸🇬SG-5.180.78.22-6208"
+      - "🇸🇬SG-18.140.67.76-6632"
+      - "🇸🇬SG-8.219.123.35-8227"
+      - "🇸🇬SG-51.79.161.232-8266"
+      - "🇸🇬SG-15.235.197.4-8859"
+      - "🇸🇬SG-15.235.197.4-8861"
+      - "🇸🇬SG-118.107.46.173-8957"
+      - "🇸🇬SG-118.107.46.173-8959"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
