@@ -3,7 +3,29 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1197"
+  - name: "🇹🇼 Taiwan Taipei | ⏱1072ms | ⚡331KB/s | @NamazVPN"
+    type: "vless"
+    server: "103.227.225.198"
+    port: 32355
+    udp: true
+    uuid: "a2f6da81-64bd-4b86-b806-5658e161b7e4"
+    network: "tcp"
+  - name: "🇹🇼 Taiwan Taipei | ⏱974ms | ⚡330KB/s | @NamazVPN"
+    type: "vless"
+    server: "103.227.225.198"
+    port: 32355
+    udp: true
+    uuid: "a2f6da81-64bd-4b86-b806-5658e161b7e4"
+    network: "tcp"
+  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇹🇼TW-211.22.180.68-1181"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -18,7 +40,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6149"
+  - name: "🇹🇼TW-85.237.207.189-6114"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -38,8 +60,11 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1197"
-      - "🇹🇼TW-85.237.207.189-6149"
+      - "🇹🇼 Taiwan Taipei | ⏱1072ms | ⚡331KB/s | @NamazVPN"
+      - "🇹🇼 Taiwan Taipei | ⏱974ms | ⚡330KB/s | @NamazVPN"
+      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
+      - "🇹🇼TW-211.22.180.68-1181"
+      - "🇹🇼TW-85.237.207.189-6114"
       - "TW 🇹🇼 | @Raydikalx | 826527"
 rules:
   - "MATCH,Proxy Select"
