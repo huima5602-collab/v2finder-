@@ -17,15 +17,7 @@ proxies:
     udp: true
     uuid: "a2f6da81-64bd-4b86-b806-5658e161b7e4"
     network: "tcp"
-  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇹🇼TW-211.22.180.68-1181"
+  - name: "🇹🇼TW-211.22.180.68-1213"
     type: "vmess"
     server: "211.22.180.68"
     port: 443
@@ -40,7 +32,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.82131333.xyz"
-  - name: "🇹🇼TW-85.237.207.189-6114"
+  - name: "🇹🇼TW-85.237.207.189-6078"
     type: "trojan"
     server: "85.237.207.189"
     port: 443
@@ -48,23 +40,13 @@ proxies:
     password: "3ac6a6ca99f74941b1eaf892818e2ddb"
     tls: true
     servername: "85.237.207.189"
-  - name: "TW 🇹🇼 | @Raydikalx | 826527"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
       - "🇹🇼 Taiwan Taipei | ⏱1072ms | ⚡331KB/s | @NamazVPN"
       - "🇹🇼 Taiwan Taipei | ⏱974ms | ⚡330KB/s | @NamazVPN"
-      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
-      - "🇹🇼TW-211.22.180.68-1181"
-      - "🇹🇼TW-85.237.207.189-6114"
-      - "TW 🇹🇼 | @Raydikalx | 826527"
+      - "🇹🇼TW-211.22.180.68-1213"
+      - "🇹🇼TW-85.237.207.189-6078"
 rules:
   - "MATCH,Proxy Select"
