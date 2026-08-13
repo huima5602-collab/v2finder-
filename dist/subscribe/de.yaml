@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "DE VLESS-1389 | free-nodes"
+  - name: "DE VLESS-1404 | free-nodes"
     type: "vless"
     server: "185.230.162.56"
     port: 443
@@ -45,91 +45,54 @@ proxies:
       path: "/GOrbEh"
       headers:
         Host: "rubifen.adaspoloandco.com"
-  - name: "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
+  - name: "DE德国(mibei77.com 米贝节点分享)r"
     type: "trojan"
     server: "151.101.56.7"
     port: 443
     udp: true
     password: "MiTiVPN"
-  - name: "🇩🇪DE_1|4.0MB/s"
-    type: "vless"
-    server: "5.75.202.32"
-    port: 7190
-    udp: true
-    uuid: "23bda1f5-da85-4de6-aacb-ce77acb88808"
-    tls: true
-    servername: "www.yahoo.com"
-  - name: "🇩🇪DE_2|1.9MB/s"
-    type: "vless"
-    server: "152.53.173.93"
-    port: 443
-    udp: true
-    uuid: "f4dbc770-016d-4a0f-82f0-d83ee6f45da3"
-    tls: true
-    servername: "fastsync.xyz"
-  - name: "🇩🇪DE_3|1.7MB/s"
-    type: "vless"
-    server: "104.27.110.37"
-    port: 80
-    udp: true
-    uuid: "50414e45-4c5f-5a45-5553-7bac159e3b40"
-    network: "ws"
-    ws-opts:
-      path: "/api/ws"
-      headers:
-        Host: "web-app-ji3j1z.app-wuuhuw.workers.dev"
-  - name: "🇩🇪DE_4|1016KB/s"
-    type: "vless"
-    server: "46.101.253.244"
-    port: 2083
-    udp: true
-    uuid: "bba95b1f-f48c-454b-897b-a6c6bc307df1"
-    tls: true
-    servername: "edge.yzkvm.top"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "edge.yzkvm.top"
-  - name: "🇩🇪DE_5|4.5MB/s"
+  - name: "🇩🇪DE_1|2.9MB/s"
     type: "vless"
     server: "95.163.232.183"
     port: 443
     udp: true
-    uuid: "1f0b6835-58e1-4448-a7db-1dcdd5ae9538"
+    uuid: "5329ce60-8b95-4439-95fb-62cca20bd109"
     tls: true
     servername: "5post-gate.x5.ru"
     network: "grpc"
-  - name: "🇩🇪DE-209.46.102.22-0175"
+  - name: "🇩🇪DE_2|1.7MB/s"
+    type: "vless"
+    server: "2.27.18.136"
+    port: 443
+    udp: true
+    uuid: "7bd8e88e-56d3-4396-87b3-854315db88f5"
+    tls: true
+    servername: "www.icloud.com"
+  - name: "🇩🇪DE_4|2.8MB/s"
+    type: "vless"
+    server: "2.56.178.136"
+    port: 443
+    udp: true
+    uuid: "47975fcf-1f4c-4808-9012-114569b081e4"
+    tls: true
+    servername: "userapi.com"
+  - name: "🇩🇪DE_8|1.7MB/s"
+    type: "vless"
+    server: "193.233.91.177"
+    port: 18443
+    udp: true
+    uuid: "499735db-03b7-47a7-8569-c8662a34ad56"
+    tls: true
+    servername: "5post-gate.x5.ru"
+    network: "grpc"
+  - name: "🇩🇪DE-209.46.102.22-0192"
     type: "ss"
     server: "209.46.102.22"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "1hhrqrokj3ag"
     udp: true
-  - name: "🇩🇪DE-104.105.28.164-0610"
-    type: "vmess"
-    server: "104.105.28.164"
-    port: 2053
-    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "deapp.jisuyun.top"
-    network: "ws"
-    ws-opts:
-      path: "/devm"
-      headers:
-        Host: "deapp.jisuyun.top"
-  - name: "🇩🇪DE-193.108.117.75-0014"
-    type: "ss"
-    server: "193.108.117.75"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "pKEW8JPByTVTLtM"
-    udp: true
-  - name: "🇩🇪DE-142.132.178.99-0576"
+  - name: "🇩🇪DE-142.132.178.99-0560"
     type: "vmess"
     server: "142.132.178.99"
     port: 443
@@ -144,7 +107,7 @@ proxies:
       path: "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
         Host: "apjhdggyx.com"
-  - name: "🇩🇪DE-159.89.29.136-0595"
+  - name: "🇩🇪DE-159.89.29.136-0579"
     type: "vmess"
     server: "159.89.29.136"
     port: 80
@@ -159,7 +122,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "cx.com"
-  - name: "🇩🇪DE-18.197.218.69-0699"
+  - name: "🇩🇪DE-18.197.218.69-0683"
     type: "vmess"
     server: "18.197.218.69"
     port: 443
@@ -174,209 +137,7 @@ proxies:
       path: "/"
       headers:
         Host: "apjhdggyx.com"
-  - name: "🇩🇪DE-38.180.219.131-0736"
-    type: "vmess"
-    server: "38.180.219.131"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "🇩🇪DE-130.61.253.111-0885"
-    type: "vmess"
-    server: "130.61.253.111"
-    port: 8080
-    uuid: "efb748ec-c921-42a1-ac9e-1d5485d6c447"
-    alterId: 1
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/download"
-      headers:
-        Host: "download.windowsupdate.com"
-  - name: "🇩🇪DE-57.129.59.195-0986"
-    type: "vmess"
-    server: "57.129.59.195"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "kampong.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "kampong.org"
-  - name: "🇩🇪DE-57.129.59.199-0987"
-    type: "vmess"
-    server: "57.129.59.199"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "kampong.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "kampong.org"
-  - name: "🇩🇪DE-57.129.59.201-0990"
-    type: "vmess"
-    server: "57.129.59.201"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "kampong.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "kampong.org"
-  - name: "🇩🇪DE-89.163.247.25-1228"
-    type: "vmess"
-    server: "89.163.247.25"
-    port: 30001
-    uuid: "b8aedf50-c4f5-4255-b73d-3779db661d70"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "www.50360235.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/path/191019072927"
-      headers:
-        Host: "www.50360235.xyz"
-  - name: "🇩🇪DE-157.90.20.18-1504"
-    type: "vmess"
-    server: "157.90.20.18"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-94.130.25.155-1506"
-    type: "vmess"
-    server: "94.130.25.155"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-167.235.136.155-1507"
-    type: "vmess"
-    server: "167.235.136.155"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-57.129.64.163-1582"
-    type: "vmess"
-    server: "57.129.64.163"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "yichueng.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "yichueng.org"
-  - name: "🇩🇪DE-132.145.232.171-1600"
-    type: "vmess"
-    server: "132.145.232.171"
-    port: 443
-    uuid: "9b456c2a-f2c1-45e1-87a9-b7628b04bb24"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "beyonddsz.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "beyonddsz.cfd"
-  - name: "🇩🇪DE-193.122.58.158-1604"
-    type: "vmess"
-    server: "193.122.58.158"
-    port: 443
-    uuid: "e537f2f5-2a0c-4f59-92c9-832ca6433bf3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "irvideo.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "irvideo.cfd"
-  - name: "🇩🇪DE-57.129.24.142-2074"
-    type: "vmess"
-    server: "57.129.24.142"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "harriscity.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "harriscity.com"
-  - name: "🇩🇪DE-23.158.56.227-2078"
-    type: "vmess"
-    server: "23.158.56.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.158.56.227"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "23.158.56.227"
-  - name: "🇩🇪DE-194.164.192.16-2193"
-    type: "vmess"
-    server: "194.164.192.16"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "🇩🇪DE-94.159.108.42-0719"
+  - name: "🇩🇪DE-94.159.108.42-0703"
     type: "vmess"
     server: "94.159.108.42"
     port: 443
@@ -391,7 +152,194 @@ proxies:
       path: "/"
       headers:
         Host: "apjhdggyx.com"
-  - name: "🇩🇪DE-94.130.184.57-4023"
+  - name: "🇩🇪DE-38.180.219.131-0720"
+    type: "vmess"
+    server: "38.180.219.131"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "🇩🇪DE-130.61.253.111-0869"
+    type: "vmess"
+    server: "130.61.253.111"
+    port: 8080
+    uuid: "efb748ec-c921-42a1-ac9e-1d5485d6c447"
+    alterId: 1
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/download"
+      headers:
+        Host: "download.windowsupdate.com"
+  - name: "🇩🇪DE-57.129.59.195-0970"
+    type: "vmess"
+    server: "57.129.59.195"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "kampong.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "kampong.org"
+  - name: "🇩🇪DE-57.129.59.199-0971"
+    type: "vmess"
+    server: "57.129.59.199"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "kampong.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "kampong.org"
+  - name: "🇩🇪DE-57.129.59.201-0974"
+    type: "vmess"
+    server: "57.129.59.201"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "kampong.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "kampong.org"
+  - name: "🇩🇪DE-89.163.247.25-1212"
+    type: "vmess"
+    server: "89.163.247.25"
+    port: 30001
+    uuid: "b8aedf50-c4f5-4255-b73d-3779db661d70"
+    alterId: 64
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "www.50360235.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/path/191019072927"
+      headers:
+        Host: "www.50360235.xyz"
+  - name: "🇩🇪DE-157.90.20.18-1488"
+    type: "vmess"
+    server: "157.90.20.18"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇩🇪DE-94.130.25.155-1490"
+    type: "vmess"
+    server: "94.130.25.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇩🇪DE-167.235.136.155-1491"
+    type: "vmess"
+    server: "167.235.136.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇩🇪DE-57.129.64.163-1566"
+    type: "vmess"
+    server: "57.129.64.163"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "yichueng.org"
+    network: "ws"
+    ws-opts:
+      path: "linkvws"
+      headers:
+        Host: "yichueng.org"
+  - name: "🇩🇪DE-193.122.58.158-1588"
+    type: "vmess"
+    server: "193.122.58.158"
+    port: 443
+    uuid: "e537f2f5-2a0c-4f59-92c9-832ca6433bf3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "irvideo.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "irvideo.cfd"
+  - name: "🇩🇪DE-57.129.24.142-2058"
+    type: "vmess"
+    server: "57.129.24.142"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "harriscity.com"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "harriscity.com"
+  - name: "🇩🇪DE-23.158.56.227-2062"
+    type: "vmess"
+    server: "23.158.56.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "23.158.56.227"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "23.158.56.227"
+  - name: "🇩🇪DE-194.164.192.16-2177"
+    type: "vmess"
+    server: "194.164.192.16"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "🇩🇪DE-94.130.184.57-4081"
     type: "vmess"
     server: "94.130.184.57"
     port: 80
@@ -403,7 +351,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-162.55.174.135-4141"
+  - name: "🇩🇪DE-162.55.174.135-4199"
     type: "vmess"
     server: "162.55.174.135"
     port: 80
@@ -415,7 +363,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-94.130.184.57-4199"
+  - name: "🇩🇪DE-94.130.184.57-4257"
     type: "vmess"
     server: "94.130.184.57"
     port: 80
@@ -427,7 +375,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-162.55.62.193-4259"
+  - name: "🇩🇪DE-162.55.62.193-4317"
     type: "vmess"
     server: "162.55.62.193"
     port: 80
@@ -439,7 +387,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-5.75.173.189-4279"
+  - name: "🇩🇪DE-5.75.173.189-4337"
     type: "vmess"
     server: "5.75.173.189"
     port: 80
@@ -451,7 +399,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-162.55.174.135-4299"
+  - name: "🇩🇪DE-162.55.174.135-4357"
     type: "vmess"
     server: "162.55.174.135"
     port: 80
@@ -463,7 +411,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-78.46.129.226-4315"
+  - name: "🇩🇪DE-78.46.129.226-4373"
     type: "vmess"
     server: "78.46.129.226"
     port: 80
@@ -475,7 +423,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-167.235.78.112-4357"
+  - name: "🇩🇪DE-167.235.78.112-4415"
     type: "vmess"
     server: "167.235.78.112"
     port: 80
@@ -487,7 +435,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-188.40.132.107-5207"
+  - name: "🇩🇪DE-188.40.132.107-5265"
     type: "vmess"
     server: "188.40.132.107"
     port: 80
@@ -499,7 +447,14 @@ proxies:
     ws-opts:
       path: "/p3573l6m92h1ham3q23t"
       headers:
-  - name: "🇩🇪DE-95.179.254.136-8307"
+  - name: "🇩🇪DE-193.108.117.75-6450"
+    type: "ss"
+    server: "193.108.117.75"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "pKEW8JPByTVTLtM"
+    udp: true
+  - name: "🇩🇪DE-95.179.254.136-8304"
     type: "trojan"
     server: "95.179.254.136"
     port: 443
@@ -508,7 +463,7 @@ proxies:
     tls: true
     servername: "frtgrpc.mainssh.xyz"
     network: "grpc"
-  - name: "🇩🇪DE-95.179.246.122-8309"
+  - name: "🇩🇪DE-95.179.246.122-8306"
     type: "trojan"
     server: "95.179.246.122"
     port: 443
@@ -517,7 +472,7 @@ proxies:
     tls: true
     servername: "getgrpc.mainssh.xyz"
     network: "grpc"
-  - name: "🇩🇪DE-209.250.236.93-8604"
+  - name: "🇩🇪DE-209.250.236.93-8601"
     type: "trojan"
     server: "209.250.236.93"
     port: 443
@@ -526,7 +481,7 @@ proxies:
     tls: true
     servername: "irancell-ir-4.mmdruby13.store"
     network: "grpc"
-  - name: "🇩🇪DE-108.61.171.167-9066"
+  - name: "🇩🇪DE-108.61.171.167-9063"
     type: "trojan"
     server: "108.61.171.167"
     port: 443
@@ -557,7 +512,7 @@ proxies:
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 03"
     type: "trojan"
-    server: "104.16.174.121"
+    server: "104.17.111.3"
     port: 443
     udp: true
     password: "humanity"
@@ -566,28 +521,15 @@ proxies:
       path: "/assignment"
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 05"
-    type: "trojan"
-    server: "104.18.152.204"
+    type: "ss"
+    server: "15.237.177.224"
     port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
     udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🇫🇷 机场推荐:dafei.de 法国 06"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 08"
     type: "trojan"
-    server: "104.16.7.70"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🇫🇷 机场推荐:dafei.de 法国 07"
-    type: "trojan"
-    server: "104.18.152.152"
+    server: "104.18.152.175"
     port: 443
     udp: true
     password: "humanity"
@@ -597,7 +539,7 @@ proxies:
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 09"
     type: "trojan"
-    server: "104.17.111.3"
+    server: "188.114.97.7"
     port: 443
     udp: true
     password: "humanity"
@@ -607,7 +549,7 @@ proxies:
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 10"
     type: "trojan"
-    server: "104.18.23.63"
+    server: "104.18.152.187"
     port: 443
     udp: true
     password: "humanity"
@@ -617,7 +559,17 @@ proxies:
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 11"
     type: "trojan"
-    server: "104.18.152.140"
+    server: "104.16.174.71"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+  - name: "🇫🇷 机场推荐:dafei.de 法国 12"
+    type: "trojan"
+    server: "104.18.152.179"
     port: 443
     udp: true
     password: "humanity"
@@ -627,7 +579,7 @@ proxies:
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 13"
     type: "trojan"
-    server: "8.6.112.6"
+    server: "216.24.57.1"
     port: 443
     udp: true
     password: "humanity"
@@ -635,57 +587,6 @@ proxies:
     ws-opts:
       path: "/assignment"
       headers:
-  - name: "🇫🇷 机场推荐:dafei.de 法国 14"
-    type: "vless"
-    server: "155.117.199.12"
-    port: 39395
-    udp: true
-    uuid: "53b59cb5-c741-3399-9065-93dc34685f5b"
-    network: "tcp"
-  - name: "🇫🇷 机场推荐:dafei.de 法国 15"
-    type: "trojan"
-    server: "104.16.174.34"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🇫🇷 机场推荐:dafei.de 法国 16"
-    type: "trojan"
-    server: "104.18.152.103"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🇫🇷 机场推荐:dafei.de 法国 17"
-    type: "trojan"
-    server: "104.17.111.4"
-    port: 443
-    udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "🇩🇪 机场推荐:dafei.de 德国 02"
-    type: "vless"
-    server: "152.53.173.90"
-    port: 443
-    udp: true
-    uuid: "f4dbc770-016d-4a0f-82f0-d83ee6f45da3"
-    network: "tcp"
-  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
-    type: "vless"
-    server: "94.249.225.83"
-    port: 443
-    udp: true
-    uuid: "f4dbc770-016d-4a0f-82f0-d83ee6f45da3"
-    network: "tcp"
   - name: "🇸🇪 机场推荐:dafei.de 瑞典 01"
     type: "vless"
     server: "164.37.105.38"
@@ -693,6 +594,71 @@ proxies:
     udp: true
     uuid: "f4dbc770-016d-4a0f-82f0-d83ee6f45da3"
     network: "tcp"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 01"
+    type: "vless"
+    server: "94.249.225.83"
+    port: 443
+    udp: true
+    uuid: "f4dbc770-016d-4a0f-82f0-d83ee6f45da3"
+    network: "tcp"
+  - name: "🇵🇱 机场推荐:dafei.de 波兰 01"
+    type: "vless"
+    server: "78.17.107.124"
+    port: 443
+    udp: true
+    uuid: "b2e66bc9-e9df-4d71-9ae8-b04727b1e617"
+    network: "tcp"
+  - name: "🇫🇮 机场推荐:dafei.de 芬兰 02"
+    type: "vless"
+    server: "159.194.226.13"
+    port: 443
+    udp: true
+    uuid: "b6c29ae7-4748-4049-b642-b695c0d2c776"
+    network: "raw"
+  - name: "🇸🇮 机场推荐:dafei.de 斯洛文尼亚 01"
+    type: "vless"
+    server: "2.27.56.109"
+    port: 443
+    udp: true
+    uuid: "5d577f62-28a8-4b7e-9441-9307b6132065"
+    network: "tcp"
+  - name: "🇪🇸 机场推荐:dafei.de 西班牙 01"
+    type: "vless"
+    server: "193.17.183.81"
+    port: 8433
+    udp: true
+    uuid: "3a4dbd51-72ea-4c20-a764-f51de001c0ab"
+    network: "tcp"
+  - name: "🇩🇪_DE_德国->🇧🇷_BR_巴西"
+    type: "vless"
+    server: "18.198.227.161"
+    port: 443
+    udp: true
+    uuid: "4f375fb4-3c95-425f-bc7b-8085487a6f3c"
+    tls: true
+    servername: "titandarkness.mooo.com"
+    network: "ws"
+    ws-opts:
+      path: "/21381/0kO2id8FMQ"
+      headers:
+        Host: "titandarkness.mooo.com"
+  - name: "🇩🇪_DE_德国"
+    type: "vmess"
+    server: "178.83.45.29"
+    port: 38998
+    uuid: "48422300-458f-4dbb-b0f5-96f45450ab9f"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
+    type: "vless"
+    server: "46.8.220.182"
+    port: 443
+    udp: true
+    uuid: "218fd696-e3a2-4c33-b397-a5f13a82969e"
+    tls: true
+    servername: "media2.tcpdoor.net"
+    network: "grpc"
   - name: "Channel id: @ShadowProxy66 🇩🇪"
     type: "vless"
     server: "88.216.220.87"
@@ -716,21 +682,48 @@ proxies:
     udp: true
     uuid: "859a537b-09cf-4bce-8da4-ecbb72950e3a"
     network: "tcp"
-  - name: "DE 🇩🇪 | @Raydikalx | B58501"
+  - name: "DE 🇩🇪 | @Raydikalx | 934065"
     type: "vmess"
-    server: "104.105.28.164"
-    port: 2053
-    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    server: "128.140.109.232"
+    port: 80
+    uuid: "05a178f9-e6ba-4006-93d7-3d980cdc3a76"
     alterId: 0
     cipher: "auto"
     udp: true
-    tls: true
-    servername: "deapp.jisuyun.top"
+  - name: "MY 🇲🇾 | @Raydikalx | E7C7DE"
+    type: "vmess"
+    server: "47.250.45.234"
+    port: 43063
+    uuid: "c77f48f5-4be3-4461-b52b-49998e7b897b"
+    alterId: 0
+    cipher: "auto"
+    udp: true
     network: "ws"
     ws-opts:
-      path: "/devm"
+      path: "/arki"
       headers:
-        Host: "deapp.jisuyun.top"
+        Host: "47.250.45.234"
+  - name: "DE 🇩🇪 | @Raydikalx | E68AAC"
+    type: "vmess"
+    server: "159.89.29.136"
+    port: 80
+    uuid: "d20d6ede-433c-11ed-b81f-cfd905df9958"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "cx.com"
+  - name: "DE 🇩🇪 | @Raydikalx | 16A916"
+    type: "vmess"
+    server: "91.107.139.186"
+    port: 15124
+    uuid: "8c209515-6de9-4890-ad69-738dc52a8732"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "DE 🇩🇪 | @Raydikalx | EFF254"
     type: "vmess"
     server: "142.132.178.99"
@@ -746,58 +739,21 @@ proxies:
       path: "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
         Host: "apjhdggyx.com"
-  - name: "✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪"
+  - name: "DE 🇩🇪 | @Raydikalx | 9CD654"
     type: "vmess"
-    server: "82.198.246.97"
-    port: 180
-    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | E68AAC"
-    type: "vmess"
-    server: "159.89.29.136"
-    port: 80
-    uuid: "d20d6ede-433c-11ed-b81f-cfd905df9958"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "cx.com"
-  - name: "DE 🇩🇪 | @Raydikalx | 934065"
-    type: "vmess"
-    server: "128.140.109.232"
-    port: 80
-    uuid: "05a178f9-e6ba-4006-93d7-3d980cdc3a76"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | D45ADC"
-    type: "vmess"
-    server: "91.107.139.186"
-    port: 15124
-    uuid: "27633813-aade-4dd1-9e22-5e114fe034cd"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | B8BE50"
-    type: "vmess"
-    server: "104.105.28.164"
-    port: 2053
-    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    server: "194.164.192.16"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "deapp.jisuyun.top"
+    servername: "apjhdggyx.com"
     network: "ws"
     ws-opts:
-      path: "/devm"
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
-        Host: "deapp.jisuyun.top"
+        Host: "apjhdggyx.com"
   - name: "🇩🇪All⁹"
     type: "vless"
     server: "104.16.72.101"
@@ -1268,78 +1224,76 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "DE VLESS-1389 | free-nodes"
+      - "DE VLESS-1404 | free-nodes"
       - "@ShadowProxy66🇩🇪|||14050520|shadowproxy66|V2rayCh"
       - "🇩🇪 Germany Frankfurt am Main | ⏱6317ms | ⚡98KB/s | @NamazVPN"
       - "🇩🇪 Germany Frankfurt am Main | ⏱6313ms | ⚡109KB/s | @NamazVPN"
-      - "🇩🇪 DE德国(mibei77.com 米贝节点分享)"
-      - "🇩🇪DE_1|4.0MB/s"
-      - "🇩🇪DE_2|1.9MB/s"
-      - "🇩🇪DE_3|1.7MB/s"
-      - "🇩🇪DE_4|1016KB/s"
-      - "🇩🇪DE_5|4.5MB/s"
-      - "🇩🇪DE-209.46.102.22-0175"
-      - "🇩🇪DE-104.105.28.164-0610"
-      - "🇩🇪DE-193.108.117.75-0014"
-      - "🇩🇪DE-142.132.178.99-0576"
-      - "🇩🇪DE-159.89.29.136-0595"
-      - "🇩🇪DE-18.197.218.69-0699"
-      - "🇩🇪DE-38.180.219.131-0736"
-      - "🇩🇪DE-130.61.253.111-0885"
-      - "🇩🇪DE-57.129.59.195-0986"
-      - "🇩🇪DE-57.129.59.199-0987"
-      - "🇩🇪DE-57.129.59.201-0990"
-      - "🇩🇪DE-89.163.247.25-1228"
-      - "🇩🇪DE-157.90.20.18-1504"
-      - "🇩🇪DE-94.130.25.155-1506"
-      - "🇩🇪DE-167.235.136.155-1507"
-      - "🇩🇪DE-57.129.64.163-1582"
-      - "🇩🇪DE-132.145.232.171-1600"
-      - "🇩🇪DE-193.122.58.158-1604"
-      - "🇩🇪DE-57.129.24.142-2074"
-      - "🇩🇪DE-23.158.56.227-2078"
-      - "🇩🇪DE-194.164.192.16-2193"
-      - "🇩🇪DE-94.159.108.42-0719"
-      - "🇩🇪DE-94.130.184.57-4023"
-      - "🇩🇪DE-162.55.174.135-4141"
-      - "🇩🇪DE-94.130.184.57-4199"
-      - "🇩🇪DE-162.55.62.193-4259"
-      - "🇩🇪DE-5.75.173.189-4279"
-      - "🇩🇪DE-162.55.174.135-4299"
-      - "🇩🇪DE-78.46.129.226-4315"
-      - "🇩🇪DE-167.235.78.112-4357"
-      - "🇩🇪DE-188.40.132.107-5207"
-      - "🇩🇪DE-95.179.254.136-8307"
-      - "🇩🇪DE-95.179.246.122-8309"
-      - "🇩🇪DE-209.250.236.93-8604"
-      - "🇩🇪DE-108.61.171.167-9066"
+      - "DE德国(mibei77.com 米贝节点分享)r"
+      - "🇩🇪DE_1|2.9MB/s"
+      - "🇩🇪DE_2|1.7MB/s"
+      - "🇩🇪DE_4|2.8MB/s"
+      - "🇩🇪DE_8|1.7MB/s"
+      - "🇩🇪DE-209.46.102.22-0192"
+      - "🇩🇪DE-142.132.178.99-0560"
+      - "🇩🇪DE-159.89.29.136-0579"
+      - "🇩🇪DE-18.197.218.69-0683"
+      - "🇩🇪DE-94.159.108.42-0703"
+      - "🇩🇪DE-38.180.219.131-0720"
+      - "🇩🇪DE-130.61.253.111-0869"
+      - "🇩🇪DE-57.129.59.195-0970"
+      - "🇩🇪DE-57.129.59.199-0971"
+      - "🇩🇪DE-57.129.59.201-0974"
+      - "🇩🇪DE-89.163.247.25-1212"
+      - "🇩🇪DE-157.90.20.18-1488"
+      - "🇩🇪DE-94.130.25.155-1490"
+      - "🇩🇪DE-167.235.136.155-1491"
+      - "🇩🇪DE-57.129.64.163-1566"
+      - "🇩🇪DE-193.122.58.158-1588"
+      - "🇩🇪DE-57.129.24.142-2058"
+      - "🇩🇪DE-23.158.56.227-2062"
+      - "🇩🇪DE-194.164.192.16-2177"
+      - "🇩🇪DE-94.130.184.57-4081"
+      - "🇩🇪DE-162.55.174.135-4199"
+      - "🇩🇪DE-94.130.184.57-4257"
+      - "🇩🇪DE-162.55.62.193-4317"
+      - "🇩🇪DE-5.75.173.189-4337"
+      - "🇩🇪DE-162.55.174.135-4357"
+      - "🇩🇪DE-78.46.129.226-4373"
+      - "🇩🇪DE-167.235.78.112-4415"
+      - "🇩🇪DE-188.40.132.107-5265"
+      - "🇩🇪DE-193.108.117.75-6450"
+      - "🇩🇪DE-95.179.254.136-8304"
+      - "🇩🇪DE-95.179.246.122-8306"
+      - "🇩🇪DE-209.250.236.93-8601"
+      - "🇩🇪DE-108.61.171.167-9063"
       - "🇫🇷 机场推荐:dafei.de 法国 01"
       - "🇫🇷 机场推荐:dafei.de 法国 02"
       - "🇫🇷 机场推荐:dafei.de 法国 03"
       - "🇫🇷 机场推荐:dafei.de 法国 05"
-      - "🇫🇷 机场推荐:dafei.de 法国 06"
-      - "🇫🇷 机场推荐:dafei.de 法国 07"
+      - "🇫🇷 机场推荐:dafei.de 法国 08"
       - "🇫🇷 机场推荐:dafei.de 法国 09"
       - "🇫🇷 机场推荐:dafei.de 法国 10"
       - "🇫🇷 机场推荐:dafei.de 法国 11"
+      - "🇫🇷 机场推荐:dafei.de 法国 12"
       - "🇫🇷 机场推荐:dafei.de 法国 13"
-      - "🇫🇷 机场推荐:dafei.de 法国 14"
-      - "🇫🇷 机场推荐:dafei.de 法国 15"
-      - "🇫🇷 机场推荐:dafei.de 法国 16"
-      - "🇫🇷 机场推荐:dafei.de 法国 17"
-      - "🇩🇪 机场推荐:dafei.de 德国 02"
-      - "🇩🇪 机场推荐:dafei.de 德国 03"
       - "🇸🇪 机场推荐:dafei.de 瑞典 01"
+      - "🇩🇪 机场推荐:dafei.de 德国 01"
+      - "🇵🇱 机场推荐:dafei.de 波兰 01"
+      - "🇫🇮 机场推荐:dafei.de 芬兰 02"
+      - "🇸🇮 机场推荐:dafei.de 斯洛文尼亚 01"
+      - "🇪🇸 机场推荐:dafei.de 西班牙 01"
+      - "🇩🇪_DE_德国->🇧🇷_BR_巴西"
+      - "🇩🇪_DE_德国"
+      - "🇷🇺_RU_俄罗斯->🇩🇪_DE_德国"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
-      - "DE 🇩🇪 | @Raydikalx | B58501"
-      - "DE 🇩🇪 | @Raydikalx | EFF254"
-      - "✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪"
-      - "DE 🇩🇪 | @Raydikalx | E68AAC"
       - "DE 🇩🇪 | @Raydikalx | 934065"
-      - "DE 🇩🇪 | @Raydikalx | D45ADC"
-      - "DE 🇩🇪 | @Raydikalx | B8BE50"
+      - "MY 🇲🇾 | @Raydikalx | E7C7DE"
+      - "DE 🇩🇪 | @Raydikalx | E68AAC"
+      - "DE 🇩🇪 | @Raydikalx | 16A916"
+      - "DE 🇩🇪 | @Raydikalx | EFF254"
+      - "DE 🇩🇪 | @Raydikalx | 9CD654"
       - "🇩🇪All⁹"
       - "🇩🇪All⁶"
       - "🇩🇪All³"
