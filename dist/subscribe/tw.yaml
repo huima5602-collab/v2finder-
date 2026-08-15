@@ -3,21 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW-211.22.180.68-1222"
-    type: "vmess"
-    server: "211.22.180.68"
-    port: 443
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "www.82131333.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/path/191019072927"
-      headers:
-        Host: "www.82131333.xyz"
   - name: "TW 🇹🇼 | @Raydikalx | 826527"
     type: "vmess"
     server: "165.154.195.38"
@@ -30,7 +15,6 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW-211.22.180.68-1222"
       - "TW 🇹🇼 | @Raydikalx | 826527"
 rules:
   - "MATCH,Proxy Select"
