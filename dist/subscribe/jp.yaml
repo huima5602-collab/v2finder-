@@ -3,34 +3,6 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇯🇵142674 | ⚡️Telegram = t.me/LonUp_M"
-    type: "vmess"
-    server: "47.245.42.92"
-    port: 443
-    uuid: "4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "n1753598452.wpg27.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "n1753598452.wpg27.xyz"
-  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "jp02.a0a.xyz"
   - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
     type: "trojan"
     server: "104.18.152.219"
@@ -55,148 +27,37 @@ proxies:
     port: 443
     udp: true
     password: "humanity"
-  - name: "🇯🇵JP-149.22.87.241-0128"
+  - name: "日本|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.146.58"
+    port: 16691
+    udp: true
+    password: "BxceQaOe"
+    tls: true
+    servername: "t.me%2Fripaojiedian"
+    network: "tcp"
+  - name: "日本|@ripaojiedian"
+    type: "trojan"
+    server: "16.163.146.58"
+    port: 16691
+    udp: true
+    password: "BxceQaOe"
+  - name: "🇯🇵JP_1|3.3MB/s"
+    type: "vless"
+    server: "206.237.120.221"
+    port: 443
+    udp: true
+    uuid: "9caa5a2d-371d-4eb9-8960-6ae3cc20ac37"
+    tls: true
+    servername: "www.cloudflare.com"
+  - name: "🇯🇵JP-149.22.87.241-0109"
     type: "ss"
     server: "149.22.87.241"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.204-0126"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-52.194.223.176-0145"
-    type: "trojan"
-    server: "52.194.223.176"
-    port: 443
-    udp: true
-    password: "AE62539071"
-    tls: true
-    servername: "clear-heron.rooster465.autos"
-  - name: "🇯🇵JP-3.112.223.141-0169"
-    type: "trojan"
-    server: "3.112.223.141"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "internal-sunbird.rooster465.autos"
-  - name: "🇯🇵JP-3.112.15.214-0151"
-    type: "trojan"
-    server: "3.112.15.214"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "adjusted-labrador.rooster465.autos"
-  - name: "🇯🇵JP-18.181.164.216-0156"
-    type: "trojan"
-    server: "18.181.164.216"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "upright-impala.rooster465.autos"
-  - name: "🇯🇵JP-13.114.122.131-0150"
-    type: "trojan"
-    server: "13.114.122.131"
-    port: 443
-    udp: true
-    password: "AE62539071"
-    tls: true
-    servername: "whole-grub.rooster465.autos"
-  - name: "🇯🇵JP-57.180.13.78-0160"
-    type: "trojan"
-    server: "57.180.13.78"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "healthy-louse.rooster465.autos"
-  - name: "🇯🇵JP-13.231.232.184-0162"
-    type: "trojan"
-    server: "13.231.232.184"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "better-molly.rooster465.autos"
-  - name: "🇯🇵JP-3.112.238.99-0167"
-    type: "trojan"
-    server: "3.112.238.99"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "stunning-mite.rooster465.autos"
-  - name: "🇯🇵JP-52.68.175.30-0143"
-    type: "trojan"
-    server: "52.68.175.30"
-    port: 443
-    udp: true
-    password: "AE62539071"
-    tls: true
-    servername: "on-roughy.rooster465.autos"
-  - name: "🇯🇵JP-54.64.255.224-0172"
-    type: "trojan"
-    server: "54.64.255.224"
-    port: 443
-    udp: true
-    password: "AE62539071"
-    tls: true
-    servername: "maximum-elk.rooster465.autos"
-  - name: "🇯🇵JP-54.65.167.167-0148"
-    type: "trojan"
-    server: "54.65.167.167"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "tough-robin.rooster465.autos"
-  - name: "🇯🇵JP-3.113.24.17-0153"
-    type: "trojan"
-    server: "3.113.24.17"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "nearby-egret.rooster465.autos"
-  - name: "🇯🇵JP-18.183.182.132-0139"
-    type: "trojan"
-    server: "18.183.182.132"
-    port: 443
-    udp: true
-    password: "AE62539071"
-    tls: true
-    servername: "exciting-grizzly.rooster465.autos"
-  - name: "🇯🇵JP-149.22.87.240-0127"
-    type: "ss"
-    server: "149.22.87.240"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇯🇵JP-54.249.34.120-0171"
-    type: "trojan"
-    server: "54.249.34.120"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "social-mutt.rooster465.autos"
-  - name: "🇯🇵JP-18.178.132.111-0170"
-    type: "trojan"
-    server: "18.178.132.111"
-    port: 443
-    udp: true
-    password: "ND91608427"
-    tls: true
-    servername: "devoted-heron.rooster465.autos"
-  - name: "🇯🇵JP-54.95.128.248-0132"
+  - name: "🇯🇵JP-54.95.128.248-0155"
     type: "trojan"
     server: "54.95.128.248"
     port: 443
@@ -204,7 +65,47 @@ proxies:
     password: "AE62539071"
     tls: true
     servername: "engaged-ram.rooster465.autos"
-  - name: "🇯🇵JP-57.180.27.225-0138"
+  - name: "🇯🇵JP-3.112.15.214-0119"
+    type: "trojan"
+    server: "3.112.15.214"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "adjusted-labrador.rooster465.autos"
+  - name: "🇯🇵JP-52.194.223.176-0112"
+    type: "trojan"
+    server: "52.194.223.176"
+    port: 443
+    udp: true
+    password: "AE62539071"
+    tls: true
+    servername: "clear-heron.rooster465.autos"
+  - name: "🇯🇵JP-18.178.132.111-0149"
+    type: "trojan"
+    server: "18.178.132.111"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "devoted-heron.rooster465.autos"
+  - name: "🇯🇵JP-3.112.238.99-0131"
+    type: "trojan"
+    server: "3.112.238.99"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "stunning-mite.rooster465.autos"
+  - name: "🇯🇵JP-54.64.255.224-0133"
+    type: "trojan"
+    server: "54.64.255.224"
+    port: 443
+    udp: true
+    password: "AE62539071"
+    tls: true
+    servername: "maximum-elk.rooster465.autos"
+  - name: "🇯🇵JP-57.180.27.225-0157"
     type: "trojan"
     server: "57.180.27.225"
     port: 443
@@ -212,7 +113,93 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "picked-guinea.rooster465.autos"
-  - name: "🇯🇵JP-18.181.194.227-0155"
+  - name: "🇯🇵JP-13.114.122.131-0121"
+    type: "trojan"
+    server: "13.114.122.131"
+    port: 443
+    udp: true
+    password: "AE62539071"
+    tls: true
+    servername: "whole-grub.rooster465.autos"
+  - name: "🇯🇵JP-3.112.223.141-0117"
+    type: "trojan"
+    server: "3.112.223.141"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "internal-sunbird.rooster465.autos"
+  - name: "🇯🇵JP-54.249.34.120-0146"
+    type: "trojan"
+    server: "54.249.34.120"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "social-mutt.rooster465.autos"
+  - name: "🇯🇵JP-3.113.24.17-0140"
+    type: "trojan"
+    server: "3.113.24.17"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "nearby-egret.rooster465.autos"
+  - name: "🇯🇵JP-149.22.87.240-0145"
+    type: "ss"
+    server: "149.22.87.240"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-57.180.13.78-0122"
+    type: "trojan"
+    server: "57.180.13.78"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "healthy-louse.rooster465.autos"
+  - name: "🇯🇵JP-149.22.87.204-0111"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-18.181.164.216-0120"
+    type: "trojan"
+    server: "18.181.164.216"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "upright-impala.rooster465.autos"
+  - name: "🇯🇵JP-52.68.175.30-0132"
+    type: "trojan"
+    server: "52.68.175.30"
+    port: 443
+    udp: true
+    password: "AE62539071"
+    tls: true
+    servername: "on-roughy.rooster465.autos"
+  - name: "🇯🇵JP-13.231.232.184-0126"
+    type: "trojan"
+    server: "13.231.232.184"
+    port: 443
+    udp: true
+    password: "ND91608427"
+    tls: true
+    servername: "better-molly.rooster465.autos"
+  - name: "🇯🇵JP-18.183.182.132-0143"
+    type: "trojan"
+    server: "18.183.182.132"
+    port: 443
+    udp: true
+    password: "AE62539071"
+    tls: true
+    servername: "exciting-grizzly.rooster465.autos"
+  - name: "🇯🇵JP-18.181.194.227-0192"
     type: "trojan"
     server: "18.181.194.227"
     port: 443
@@ -220,7 +207,14 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "moral-buzzard.rooster465.autos"
-  - name: "🇯🇵JP-13.192.168.51-0135"
+  - name: "🇯🇵JP-176.97.73.215-4627"
+    type: "ss"
+    server: "176.97.73.215"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "ma6zc4JoLRJA"
+    udp: true
+  - name: "🇯🇵JP-13.192.168.51-0252"
     type: "trojan"
     server: "13.192.168.51"
     port: 443
@@ -228,14 +222,7 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "learning-leopard.rooster465.autos"
-  - name: "🇯🇵JP-45.32.16.53-0071"
-    type: "ss"
-    server: "45.32.16.53"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "uTBjZhDmOMwBVAJI"
-    udp: true
-  - name: "🇯🇵JP-172.104.78.98-1393"
+  - name: "🇯🇵JP-172.104.78.98-1404"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -249,9 +236,29 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP日本"
+  - name: "🇯🇵JP-172.111.146.64-4545"
+    type: "vmess"
+    server: "172.111.146.64"
+    port: 80
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess/"
+      headers:
+  - name: "🇯🇵JP-160.16.110.77-4636"
     type: "trojan"
-    server: "104.18.152.97"
+    server: "160.16.110.77"
+    port: 55682
+    udp: true
+    password: "7d8e6db4-96cc-4710-afc0-619edde2d7a1"
+    tls: true
+    servername: "160.16.110.77"
+  - name: "🇯🇵JP日本4"
+    type: "trojan"
+    server: "104.16.174.44"
     port: 443
     udp: true
     password: "humanity"
@@ -336,18 +343,19 @@ proxies:
     tls: true
     servername: "moral-buzzard.rooster465.autos"
     network: "tcp"
-  - name: "JP 🇯🇵 | @Raydikalx | 7B4ED8"
+  - name: "JP 🇯🇵 | @Raydikalx | 368E3D"
     type: "vmess"
-    server: "172.111.146.64"
-    port: 80
-    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    server: "140.83.51.161"
+    port: 25686
+    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/vmess/"
+      path: "/cctv13.m3u8"
       headers:
+        Host: "140.83.51.161"
   - name: "JP 🇯🇵 | @Raydikalx | 23C275"
     type: "vmess"
     server: "172.111.146.64"
@@ -361,18 +369,36 @@ proxies:
       path: "/vmess/"
       headers:
         Host: "172.111.146.64"
-  - name: "JP 🇯🇵 | @Raydikalx | A9F5E8"
+  - name: "JP 🇯🇵 | @Raydikalx | C618D3"
     type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
+    server: "47.245.42.92"
+    port: 443
+    uuid: "4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5"
     alterId: 0
     cipher: "auto"
     udp: true
+    tls: true
+    servername: "n1753598452.wpg27.xyz"
     network: "ws"
     ws-opts:
-      path: "/cctv13.m3u8"
+      path: "/"
       headers:
+        Host: "n1753598452.wpg27.xyz"
+  - name: "JP 🇯🇵 | @Raydikalx | 4F9D7D"
+    type: "vmess"
+    server: "140.83.57.20"
+    port: 13118
+    uuid: "1f01e389-fbcb-494c-e46a-210ec36329c2"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "sg.11160321.de5.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sg.11160321.de5.net"
   - name: "JP 🇯🇵 | @Raydikalx | A1ADDE"
     type: "vmess"
     server: "207.56.229.202"
@@ -410,6 +436,18 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
+  - name: "JP 🇯🇵 | @Raydikalx | 74A719"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
   - name: "JP 🇯🇵 | @Raydikalx | 7D7435"
     type: "vmess"
     server: "140.83.51.161"
@@ -422,44 +460,6 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
-  - name: "JP 🇯🇵 | @Raydikalx | 61B423"
-    type: "vmess"
-    server: "207.56.229.202"
-    port: 2052
-    uuid: "9bb81a28-00d0-4dcc-bf81-369721d208c9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "9bb81a28-00d0-4dcc-bf81-369721d208c9-vm"
-      headers:
-  - name: "JP 🇯🇵 | @Raydikalx | A940D6"
-    type: "vmess"
-    server: "168.138.43.75"
-    port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "168.138.43.75"
-  - name: "JP 🇯🇵 | @Raydikalx | 368E3D"
-    type: "vmess"
-    server: "140.83.51.161"
-    port: 25686
-    uuid: "6733c357-ba11-4e9f-f00f-7d87f2776ff9"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "140.83.51.161"
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
     server: "172.111.146.64"
@@ -472,41 +472,56 @@ proxies:
     ws-opts:
       path: "/vmess/"
       headers:
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "jp01.a0a.xyz"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇯🇵142674 | ⚡️Telegram = t.me/LonUp_M"
-      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-      - "🇯🇵JP-149.22.87.241-0128"
-      - "🇯🇵JP-149.22.87.204-0126"
-      - "🇯🇵JP-52.194.223.176-0145"
-      - "🇯🇵JP-3.112.223.141-0169"
-      - "🇯🇵JP-3.112.15.214-0151"
-      - "🇯🇵JP-18.181.164.216-0156"
-      - "🇯🇵JP-13.114.122.131-0150"
-      - "🇯🇵JP-57.180.13.78-0160"
-      - "🇯🇵JP-13.231.232.184-0162"
-      - "🇯🇵JP-3.112.238.99-0167"
-      - "🇯🇵JP-52.68.175.30-0143"
-      - "🇯🇵JP-54.64.255.224-0172"
-      - "🇯🇵JP-54.65.167.167-0148"
-      - "🇯🇵JP-3.113.24.17-0153"
-      - "🇯🇵JP-18.183.182.132-0139"
-      - "🇯🇵JP-149.22.87.240-0127"
-      - "🇯🇵JP-54.249.34.120-0171"
-      - "🇯🇵JP-18.178.132.111-0170"
-      - "🇯🇵JP-54.95.128.248-0132"
-      - "🇯🇵JP-57.180.27.225-0138"
-      - "🇯🇵JP-18.181.194.227-0155"
-      - "🇯🇵JP-13.192.168.51-0135"
-      - "🇯🇵JP-45.32.16.53-0071"
-      - "🇯🇵JP-172.104.78.98-1393"
-      - "🇯🇵JP日本"
+      - "日本|@ripaojiedian"
+      - "日本|@ripaojiedian"
+      - "🇯🇵JP_1|3.3MB/s"
+      - "🇯🇵JP-149.22.87.241-0109"
+      - "🇯🇵JP-54.95.128.248-0155"
+      - "🇯🇵JP-3.112.15.214-0119"
+      - "🇯🇵JP-52.194.223.176-0112"
+      - "🇯🇵JP-18.178.132.111-0149"
+      - "🇯🇵JP-3.112.238.99-0131"
+      - "🇯🇵JP-54.64.255.224-0133"
+      - "🇯🇵JP-57.180.27.225-0157"
+      - "🇯🇵JP-13.114.122.131-0121"
+      - "🇯🇵JP-3.112.223.141-0117"
+      - "🇯🇵JP-54.249.34.120-0146"
+      - "🇯🇵JP-3.113.24.17-0140"
+      - "🇯🇵JP-149.22.87.240-0145"
+      - "🇯🇵JP-57.180.13.78-0122"
+      - "🇯🇵JP-149.22.87.204-0111"
+      - "🇯🇵JP-18.181.164.216-0120"
+      - "🇯🇵JP-52.68.175.30-0132"
+      - "🇯🇵JP-13.231.232.184-0126"
+      - "🇯🇵JP-18.183.182.132-0143"
+      - "🇯🇵JP-18.181.194.227-0192"
+      - "🇯🇵JP-176.97.73.215-4627"
+      - "🇯🇵JP-13.192.168.51-0252"
+      - "🇯🇵JP-172.104.78.98-1404"
+      - "🇯🇵JP-172.111.146.64-4545"
+      - "🇯🇵JP-160.16.110.77-4636"
+      - "🇯🇵JP日本4"
       - "Channel id: @ShadowProxy66 🇯🇵"
       - "Channel id: @ShadowProxy66 🇯🇵"
       - "Channel id: @ShadowProxy66 🇯🇵"
@@ -516,16 +531,16 @@ proxy-groups:
       - "Channel id: @ShadowProxy66 🇯🇵"
       - "Channel id: @ShadowProxy66 🇯🇵"
       - "Channel id: @ShadowProxy66 🇯🇵"
-      - "JP 🇯🇵 | @Raydikalx | 7B4ED8"
+      - "JP 🇯🇵 | @Raydikalx | 368E3D"
       - "JP 🇯🇵 | @Raydikalx | 23C275"
-      - "JP 🇯🇵 | @Raydikalx | A9F5E8"
+      - "JP 🇯🇵 | @Raydikalx | C618D3"
+      - "JP 🇯🇵 | @Raydikalx | 4F9D7D"
       - "JP 🇯🇵 | @Raydikalx | A1ADDE"
       - "JP 🇯🇵 | @Raydikalx | 69CF0D"
       - "JP 🇯🇵 | @Raydikalx | 75C7ED"
+      - "JP 🇯🇵 | @Raydikalx | 74A719"
       - "JP 🇯🇵 | @Raydikalx | 7D7435"
-      - "JP 🇯🇵 | @Raydikalx | 61B423"
-      - "JP 🇯🇵 | @Raydikalx | A940D6"
-      - "JP 🇯🇵 | @Raydikalx | 368E3D"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
 rules:
   - "MATCH,Proxy Select"
