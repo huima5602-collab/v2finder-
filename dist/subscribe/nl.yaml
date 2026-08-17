@@ -3,38 +3,13 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇳🇱143418 | ⚡️Telegram = t.me/SOSkeyNET"
+  - name: "🇳🇱 t.me/Natrixo AA"
     type: "vless"
-    server: "51.158.206.96"
-    port: 23576
-    udp: true
-    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
-    network: "tcp"
-  - name: "🇳🇱 The Netherlands Dronten | ⏱519ms | ⚡1.0MB/s | @NamazVPN"
-    type: "vless"
-    server: "130.185.122.175"
-    port: 8888
-    udp: true
-    uuid: "b10a6e5e-3743-43ab-b32f-cd4a9643567f"
-    tls: true
-    servername: "130.185.122.175"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇫🇮 荷蘭"
-    type: "vmess"
-    server: "185.246.152.159"
+    server: "64.188.77.13"
     port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    network: "tcp"
   - name: "🇳🇱_荷兰"
     type: "vmess"
     server: "185.246.152.159"
@@ -54,106 +29,198 @@ proxies:
     port: 443
     udp: true
     password: "humanity"
-  - name: "🇳🇱NL_1|1.8MB/s"
-    type: "vless"
-    server: "199.232.78.159"
+  - name: "🇳🇱_NL_荷兰"
+    type: "vmess"
+    server: "185.246.152.159"
     port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "be42674a-296a-43d8-bf04-b8314d65ff63"
-    tls: true
-    servername: "ssl.fastly.com"
     network: "ws"
     ws-opts:
-      path: "/TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTERfp=chrome"
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
-        Host: "pane2.global.ssl.fastly.net"
-  - name: "🇳🇱NL_4|1.1MB/s"
-    type: "vless"
-    server: "186.246.44.78"
-    port: 5000
+        Host: "apjhdggyx.com"
+  - name: "荷兰 V2CROSS.COM"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "1cfb00ea-fcd0-580e-b9b1-f9b83ef8897d"
     tls: true
-    servername: "www.vk.com"
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
   - name: "🇳🇱NL_5|2.2MB/s"
     type: "vless"
-    server: "45.92.1.131"
-    port: 443
+    server: "185.227.70.121"
+    port: 8082
     udp: true
-    uuid: "32fff625-bdaa-4aad-8b45-14a02b1d5f9d"
+    uuid: "53b7fdec-4ccb-481a-8d98-83aa19509330"
     tls: true
-    servername: "www.ray-balance.space"
-  - name: "🇳🇱NL-109.201.152.181-0088"
-    type: "ss"
-    server: "109.201.152.181"
-    port: 443
-    cipher: "aes-128-cfb"
-    password: "shadowsocks"
+    servername: "id.vk.com"
+    network: "grpc"
+  - name: "🇳🇱NL_6|1.3MB/s"
+    type: "vless"
+    server: "185.227.70.40"
+    port: 8082
     udp: true
-  - name: "🇳🇱NL-193.29.139.168-0089"
+    uuid: "53b7fdec-4ccb-481a-8d98-83aa19509330"
+    tls: true
+    servername: "id.vk.com"
+    network: "grpc"
+  - name: "🇳🇱NL_7|2.3MB/s"
+    type: "vless"
+    server: "185.227.70.43"
+    port: 8082
+    udp: true
+    uuid: "53b7fdec-4ccb-481a-8d98-83aa19509330"
+    tls: true
+    servername: "id.vk.com"
+    network: "grpc"
+  - name: "🇳🇱NL_8|1.1MB/s"
+    type: "vless"
+    server: "185.227.70.99"
+    port: 8082
+    udp: true
+    uuid: "53b7fdec-4ccb-481a-8d98-83aa19509330"
+    tls: true
+    servername: "id.vk.com"
+    network: "grpc"
+  - name: "🇳🇱NL_9|2.2MB/s"
+    type: "vless"
+    server: "91.84.106.109"
+    port: 40443
+    udp: true
+    uuid: "b297855a-c832-40cc-88e7-766d43f20bcf"
+    tls: true
+    servername: "deepl.com"
+  - name: "🇳🇱NL_10|1.8MB/s"
+    type: "vless"
+    server: "82.26.74.5"
+    port: 443
+    udp: true
+    uuid: "c5c76051-abad-4dfe-bf16-1ee0ee3aca31"
+    tls: true
+    servername: "cdn.byteark.com"
+  - name: "🇳🇱NL-193.29.139.168-0122"
     type: "ss"
     server: "193.29.139.168"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "QCXDxuDlTTMD7jtgHUjIoj"
     udp: true
-  - name: "🇳🇱NL-193.29.139.223-0061"
-    type: "ss"
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.235-0065"
+  - name: "🇳🇱NL-193.29.139.235-0124"
     type: "ss"
     server: "193.29.139.235"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-193.29.139.151-0099"
+  - name: "🇳🇱NL-193.29.139.151-0130"
     type: "ss"
     server: "193.29.139.151"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-193.29.139.147-0072"
+  - name: "🇳🇱NL-193.29.139.223-0123"
     type: "ss"
-    server: "193.29.139.147"
+    server: "193.29.139.223"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
-  - name: "🇳🇱NL-108.181.126.122-0210"
-    type: "ss"
-    server: "108.181.126.122"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-108.181.58.239-0211"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-213.109.147.242-0228"
-    type: "ss"
-    server: "213.109.147.242"
-    port: 62685
-    cipher: "chacha20-ietf-poly1305"
-    password: "VpKABcOpNNA0l5G2AVOmw8"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.204-0087"
+  - name: "🇳🇱NL-193.29.139.204-4718"
     type: "ss"
     server: "193.29.139.204"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-104.248.80.136-3777"
+  - name: "🇳🇱NL-193.29.139.147-0132"
+    type: "ss"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱NL-109.201.152.181-0119"
+    type: "ss"
+    server: "109.201.152.181"
+    port: 443
+    cipher: "aes-128-cfb"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇳🇱NL-108.181.58.239-0249"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-108.181.126.122-0247"
+    type: "ss"
+    server: "108.181.126.122"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-213.109.147.242-0282"
+    type: "ss"
+    server: "213.109.147.242"
+    port: 62685
+    cipher: "chacha20-ietf-poly1305"
+    password: "VpKABcOpNNA0l5G2AVOmw8"
+    udp: true
+  - name: "🇳🇱NL-185.246.152.159-0433"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "🇳🇱NL-23.137.249.110-0508"
+    type: "vmess"
+    server: "23.137.249.110"
+    port: 26230
+    uuid: "21b2345e-b817-4285-9e0e-af0dbfa4a165"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "23.137.249.110"
+  - name: "🇳🇱NL-185.246.152.159-0770"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "🇳🇱NL-104.248.80.136-3947"
     type: "vmess"
     server: "104.248.80.136"
     port: 80
@@ -165,7 +232,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇳🇱NL-2.26.96.251-4629"
+  - name: "🇳🇱NL-2.26.96.251-4697"
     type: "trojan"
     server: "2.26.96.251"
     port: 443
@@ -173,7 +240,7 @@ proxies:
     password: "581e14a5fcc14107b9326cc54f047891"
     tls: true
     servername: "2.26.96.251"
-  - name: "🇳🇱NL-194.124.216.192-4651"
+  - name: "🇳🇱NL-194.124.216.192-4754"
     type: "trojan"
     server: "194.124.216.192"
     port: 443
@@ -181,14 +248,35 @@ proxies:
     password: "M08tvzYWtUEJNtbpHp"
     tls: true
     servername: "194.124.216.192"
-  - name: "🇳🇱NL-172.99.188.71-5555"
+  - name: "🇳🇱NL-158.173.20.171-4759"
+    type: "ss"
+    server: "158.173.20.171"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇳🇱NL-185.246.152.159-4805"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+  - name: "🇳🇱NL-172.99.188.71-5736"
     type: "ss"
     server: "172.99.188.71"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇳🇱NL-51.158.146.183-6666"
+  - name: "🇳🇱NL-51.158.146.183-6847"
     type: "trojan"
     server: "51.158.146.183"
     port: 443
@@ -196,7 +284,7 @@ proxies:
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
     servername: "Speedtest.net"
-  - name: "🇳🇱NL-51.15.19.206-6668"
+  - name: "🇳🇱NL-51.15.19.206-6849"
     type: "vmess"
     server: "51.15.19.206"
     port: 80
@@ -208,7 +296,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-6669"
+  - name: "🇳🇱NL-51.15.19.206-6850"
     type: "vmess"
     server: "51.15.19.206"
     port: 8443
@@ -222,7 +310,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-6670"
+  - name: "🇳🇱NL-51.15.19.206-6851"
     type: "vmess"
     server: "51.15.19.206"
     port: 2083
@@ -321,64 +409,108 @@ proxies:
     udp: true
     uuid: "39c42b0a-b823-4c93-bb99-74b4183e518d"
     network: "tcp"
-  - name: "🇳🇱_NL_荷兰"
-    type: "vmess"
-    server: "185.246.152.159"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "vless"
+    server: "144.31.65.68"
     port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    udp: true
+    uuid: "564082ff-cf3c-48db-9e10-8ad2312847b4"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "vless"
+    server: "185.207.196.48"
+    port: 443
+    udp: true
+    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
+    tls: true
+    servername: "rubifen.adaspoloandco.com"
+    network: "ws"
+    ws-opts:
+      path: "/GOrbEh"
+      headers:
+        Host: "rubifen.adaspoloandco.com"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "vless"
+    server: "195.63.138.112"
+    port: 443
+    udp: true
+    uuid: "9aff0732-7ce4-4b34-ba20-e67c6df64fdd"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "vless"
+    server: "51.158.206.26"
+    port: 23576
+    udp: true
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    network: "tcp"
+  - name: "Channel id: @ShadowProxy66 🇳🇱"
+    type: "vless"
+    server: "91.232.114.148"
+    port: 443
+    udp: true
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    tls: true
+    servername: "vod.ensf.top"
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/irc"
+      headers:
+        Host: "vod.ensf.top"
+  - name: "NL 🇳🇱 | @Raydikalx | 4B1A4C"
+    type: "vmess"
+    server: "176.120.17.21"
+    port: 1015
+    uuid: "5af8c5cc-7317-4542-8908-81be05ea1d1b"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "NL 🇳🇱 | @Raydikalx | BD9896"
+    servername: "astra.iraniangamersclub.ir"
+  - name: "NL 🇳🇱 | @Raydikalx | 728A09"
     type: "vmess"
-    server: "89.150.35.155"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    server: "176.120.17.21"
+    port: 1016
+    uuid: "30988d4d-3fae-48cd-a4ef-5157f55a4de1"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "NL 🇳🇱 | @Raydikalx | 5B78AA"
-    type: "vmess"
-    server: "23.137.249.110"
-    port: 30010
-    uuid: "2cf705df-227b-49ad-8bea-71a47efbd292"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "NL 🇳🇱 | @Raydikalx | 9A3482"
-    type: "vmess"
-    server: "89.150.35.155"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
+    servername: "astra.iraniangamersclub.ir"
   - name: "NL 🇳🇱 | @Raydikalx | 5F0CF8"
     type: "vmess"
     server: "176.120.17.21"
     port: 1015
     uuid: "358679fb-5d9f-4ac2-b0b2-47e6593a11d8"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "astra.iraniangamersclub.ir"
+  - name: "NL 🇳🇱 | @Raydikalx | 1ECA70"
+    type: "vmess"
+    server: "176.120.17.21"
+    port: 1015
+    uuid: "ce194110-a895-4e54-9441-6e707ed8ab31"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "astra.iraniangamersclub.ir"
+  - name: "NL 🇳🇱 | @Raydikalx | C59ACB"
+    type: "vmess"
+    server: "23.137.249.110"
+    port: 30011
+    uuid: "18eebad4-796b-4e22-b930-5f46abefbdd3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "23.137.249.110"
+  - name: "NL 🇳🇱 | @Raydikalx | 1F0BB4"
+    type: "vmess"
+    server: "176.120.17.21"
+    port: 1016
+    uuid: "40de0de7-0edc-4959-9ec2-86d938b50f0c"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -397,26 +529,16 @@ proxies:
       path: "/ws"
       headers:
         Host: "23.137.249.110"
-  - name: "NL 🇳🇱 | @Raydikalx | 728A09"
+  - name: "NL 🇳🇱 | @Raydikalx | B4A5A2"
     type: "vmess"
-    server: "176.120.17.21"
-    port: 1016
-    uuid: "30988d4d-3fae-48cd-a4ef-5157f55a4de1"
+    server: "159.223.13.109"
+    port: 1234
+    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
     alterId: 0
-    cipher: "auto"
+    cipher: "aes-128-gcm"
     udp: true
     tls: true
-    servername: "astra.iraniangamersclub.ir"
-  - name: "NL 🇳🇱 | @Raydikalx | 4B1A4C"
-    type: "vmess"
-    server: "176.120.17.21"
-    port: 1015
-    uuid: "5af8c5cc-7317-4542-8908-81be05ea1d1b"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "astra.iraniangamersclub.ir"
+    servername: "supervpn.super.com"
   - name: "🇳🇱"
     type: "vless"
     server: "77.246.109.191"
@@ -597,32 +719,40 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇳🇱143418 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱 The Netherlands Dronten | ⏱519ms | ⚡1.0MB/s | @NamazVPN"
-      - "🇫🇮 荷蘭"
+      - "🇳🇱 t.me/Natrixo AA"
       - "🇳🇱_荷兰"
       - "🇳🇱 NL荷兰(mibei77.com 米贝节点分享)"
-      - "🇳🇱NL_1|1.8MB/s"
-      - "🇳🇱NL_4|1.1MB/s"
+      - "🇳🇱_NL_荷兰"
+      - "荷兰 V2CROSS.COM"
       - "🇳🇱NL_5|2.2MB/s"
-      - "🇳🇱NL-109.201.152.181-0088"
-      - "🇳🇱NL-193.29.139.168-0089"
-      - "🇳🇱NL-193.29.139.223-0061"
-      - "🇳🇱NL-193.29.139.235-0065"
-      - "🇳🇱NL-193.29.139.151-0099"
-      - "🇳🇱NL-193.29.139.147-0072"
-      - "🇳🇱NL-108.181.126.122-0210"
-      - "🇳🇱NL-108.181.58.239-0211"
-      - "🇳🇱NL-213.109.147.242-0228"
-      - "🇳🇱NL-193.29.139.204-0087"
-      - "🇳🇱NL-104.248.80.136-3777"
-      - "🇳🇱NL-2.26.96.251-4629"
-      - "🇳🇱NL-194.124.216.192-4651"
-      - "🇳🇱NL-172.99.188.71-5555"
-      - "🇳🇱NL-51.158.146.183-6666"
-      - "🇳🇱NL-51.15.19.206-6668"
-      - "🇳🇱NL-51.15.19.206-6669"
-      - "🇳🇱NL-51.15.19.206-6670"
+      - "🇳🇱NL_6|1.3MB/s"
+      - "🇳🇱NL_7|2.3MB/s"
+      - "🇳🇱NL_8|1.1MB/s"
+      - "🇳🇱NL_9|2.2MB/s"
+      - "🇳🇱NL_10|1.8MB/s"
+      - "🇳🇱NL-193.29.139.168-0122"
+      - "🇳🇱NL-193.29.139.235-0124"
+      - "🇳🇱NL-193.29.139.151-0130"
+      - "🇳🇱NL-193.29.139.223-0123"
+      - "🇳🇱NL-193.29.139.204-4718"
+      - "🇳🇱NL-193.29.139.147-0132"
+      - "🇳🇱NL-109.201.152.181-0119"
+      - "🇳🇱NL-108.181.58.239-0249"
+      - "🇳🇱NL-108.181.126.122-0247"
+      - "🇳🇱NL-213.109.147.242-0282"
+      - "🇳🇱NL-185.246.152.159-0433"
+      - "🇳🇱NL-23.137.249.110-0508"
+      - "🇳🇱NL-185.246.152.159-0770"
+      - "🇳🇱NL-104.248.80.136-3947"
+      - "🇳🇱NL-2.26.96.251-4697"
+      - "🇳🇱NL-194.124.216.192-4754"
+      - "🇳🇱NL-158.173.20.171-4759"
+      - "🇳🇱NL-185.246.152.159-4805"
+      - "🇳🇱NL-172.99.188.71-5736"
+      - "🇳🇱NL-51.158.146.183-6847"
+      - "🇳🇱NL-51.15.19.206-6849"
+      - "🇳🇱NL-51.15.19.206-6850"
+      - "🇳🇱NL-51.15.19.206-6851"
       - "🇳🇱 机场推荐:dafei.de 荷兰 10"
       - "🇳🇱 机场推荐:dafei.de 荷兰 11"
       - "🇳🇱 机场推荐:dafei.de 荷兰 12"
@@ -634,14 +764,19 @@ proxy-groups:
       - "🇳🇱 机场推荐:dafei.de 荷兰 18"
       - "🇳🇱 机场推荐:dafei.de 荷兰 19"
       - "🇳🇱 机场推荐:dafei.de 荷兰 20"
-      - "🇳🇱_NL_荷兰"
-      - "NL 🇳🇱 | @Raydikalx | BD9896"
-      - "NL 🇳🇱 | @Raydikalx | 5B78AA"
-      - "NL 🇳🇱 | @Raydikalx | 9A3482"
-      - "NL 🇳🇱 | @Raydikalx | 5F0CF8"
-      - "NL 🇳🇱 | @Raydikalx | FA82DC"
-      - "NL 🇳🇱 | @Raydikalx | 728A09"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "Channel id: @ShadowProxy66 🇳🇱"
+      - "Channel id: @ShadowProxy66 🇳🇱"
       - "NL 🇳🇱 | @Raydikalx | 4B1A4C"
+      - "NL 🇳🇱 | @Raydikalx | 728A09"
+      - "NL 🇳🇱 | @Raydikalx | 5F0CF8"
+      - "NL 🇳🇱 | @Raydikalx | 1ECA70"
+      - "NL 🇳🇱 | @Raydikalx | C59ACB"
+      - "NL 🇳🇱 | @Raydikalx | 1F0BB4"
+      - "NL 🇳🇱 | @Raydikalx | FA82DC"
+      - "NL 🇳🇱 | @Raydikalx | B4A5A2"
       - "🇳🇱"
       - "🇳🇱"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
