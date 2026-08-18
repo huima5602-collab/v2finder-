@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "DE VLESS-1483 | free-nodes"
+  - name: "DE VLESS-1498 | free-nodes"
     type: "vless"
     server: "185.230.162.56"
     port: 443
@@ -12,14 +12,75 @@ proxies:
     tls: true
     servername: "u643766ueb789917s660.gogocs.xyz"
     network: "tcp"
-  - name: "🇩🇪 Germany Nuremberg | ⏱275ms | ⚡1.4MB/s | @NamazVPN"
+  - name: "🇩🇪17@shadowsockskeys"
     type: "ss"
-    server: "91.107.155.114"
-    port: 1943
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "LdewnHOjD7LbxZlcpSX0ENfaUxeNONZsz0U6sLHQSJo=:A4vc1zvEPBMit4jajC/zjeeGLIAgazyPorE2owKXZcg="
+    server: "144.31.168.176"
+    port: 45640
+    cipher: "chacha20-ietf-poly1305"
+    password: "eQvKkykBEbCky5p4BVghO0"
     udp: true
-  - name: "🇩🇪 Germany Frankfurt am Main | ⏱736ms | ⚡1.1MB/s | @NamazVPN"
+  - name: "🇩🇪DE_1|2.7MB/s"
+    type: "vless"
+    server: "138.124.255.20"
+    port: 443
+    udp: true
+    uuid: "423b1d79-08c4-0003-9d5e-c541f791b55f"
+    tls: true
+    servername: "russia.cendora.ru"
+  - name: "🇩🇪145111 | ⚡️Telegram = t.me/LonUp_M"
+    type: "vless"
+    server: "185.113.10.45"
+    port: 2017
+    udp: true
+    uuid: "4502c4e4-6632-49b8-a69f-282f0d5c0696"
+    network: "tcp"
+  - name: "🇩🇪DE_2|1.5MB/s"
+    type: "vless"
+    server: "2.26.71.73"
+    port: 443
+    udp: true
+    uuid: "4e7eb9d5-022a-4b0a-ba37-2d1be458947b"
+    tls: true
+    servername: "www.cloudflare.com"
+  - name: "DE【机场推荐：https://a9a.xyz】1"
+    type: "vless"
+    server: "108.138.26.70"
+    port: 443
+    udp: true
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    tls: true
+    servername: "d1yxsk0zprgivr.cloudfront.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "d1yxsk0zprgivr.cloudfront.net"
+  - name: "🇩🇪DE_4|1.2MB/s"
+    type: "vless"
+    server: "85.117.243.4"
+    port: 443
+    udp: true
+    uuid: "8b761240-0022-42ab-b549-5714d51e8011"
+    tls: true
+    servername: "de2.jailever.org"
+  - name: "🇩🇪DE_5|1.0MB/s"
+    type: "vless"
+    server: "85.117.243.4"
+    port: 443
+    udp: true
+    uuid: "ad4ff080-3c09-432c-a31b-70043b0925fe"
+    tls: true
+    servername: "de2.jailever.org"
+  - name: "🇩🇪DE_3|1.1MB/s"
+    type: "vless"
+    server: "95.163.232.183"
+    port: 443
+    udp: true
+    uuid: "c1902cb0-b6de-4d82-99b2-8e3d8ac19da0"
+    tls: true
+    servername: "5post-gate.x5.ru"
+    network: "grpc"
+  - name: "🇩🇪 Germany Frankfurt am Main | ⏱955ms | ⚡623KB/s | @NamazVPN"
     type: "vless"
     server: "104.26.14.85"
     port: 443
@@ -32,54 +93,66 @@ proxies:
       path: "/GOrbEh"
       headers:
         Host: "rubifen.adaspoloandco.com"
-  - name: "🇩🇪 Germany Frankfurt am Main | ⏱329ms | ⚡1.3MB/s | @NamazVPN"
-    type: "vless"
-    server: "63.185.140.9"
-    port: 22222
+  - name: "🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو"
+    type: "vmess"
+    server: "82.198.246.233"
+    port: 180
+    uuid: "d13fc2f5-3e05-4795-81eb-44143a09e552"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "e4514801-0d5a-42ba-869f-39bd605aef9e"
-    network: "tcp"
-  - name: "🇩🇪DE_1|3.2MB/s"
-    type: "vless"
-    server: "50.7.90.188"
-    port: 2053
+  - name: "🇩🇪DE_1|1.2MB/s"
+    type: "vmess"
+    server: "68.183.209.180"
+    port: 80
+    uuid: "d5121154-ced6-460d-a9fd-5892027ab4a0"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "629f88a6-b20b-4489-a22f-4d8b418c0488"
+    network: "ws"
+    ws-opts:
+      path: "/graphql"
+      headers:
+  - name: "🇩🇪DE_3|1.7MB/s"
+    type: "vless"
+    server: "78.159.247.253"
+    port: 2027
+    udp: true
+    uuid: "851ed0d8-a37b-452d-8ef2-5b6c2d28a060"
     tls: true
-    servername: "de-t2.vinnypuxtomoon.today"
-  - name: "🇩🇪DE_2|1.1MB/s"
-    type: "vless"
-    server: "46.8.221.218"
-    port: 443
-    udp: true
-    uuid: "218fd696-e3a2-4c33-b397-a5f13a82969e"
-    tls: true
-    servername: "media2.tcpdoor.net"
-    network: "grpc"
-  - name: "🇩🇪DE_3|1.8MB/s"
-    type: "vless"
-    server: "151.244.72.41"
-    port: 38443
-    udp: true
-    uuid: "48aca1e4-fc30-4ac4-9042-9992cc0cd99f"
-    tls: true
-    servername: "fleshas.lt"
-  - name: "🇩🇪DE-209.46.102.22-0142"
+    servername: "storage.yandex.net"
+  - name: "🇩🇪DE-209.46.102.22-0280"
     type: "ss"
     server: "209.46.102.22"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "1hhrqrokj3ag"
     udp: true
-  - name: "🇩🇪DE-87.121.218.169-1830"
-    type: "trojan"
-    server: "87.121.218.169"
+  - name: "🇩🇪DE-157.90.20.18-0830"
+    type: "vmess"
+    server: "157.90.20.18"
     port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    password: "bptHV5U91mWneB61rRKhCQ8f"
-    tls: true
-    servername: "87.121.218.169"
-  - name: "🇩🇪DE-94.130.184.57-2540"
+  - name: "🇩🇪DE-94.130.25.155-0832"
+    type: "vmess"
+    server: "94.130.25.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇩🇪DE-167.235.136.155-0833"
+    type: "vmess"
+    server: "167.235.136.155"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇩🇪DE-94.130.184.57-2983"
     type: "vmess"
     server: "94.130.184.57"
     port: 80
@@ -91,7 +164,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-162.55.174.135-2658"
+  - name: "🇩🇪DE-162.55.174.135-3101"
     type: "vmess"
     server: "162.55.174.135"
     port: 80
@@ -103,7 +176,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-94.130.184.57-2716"
+  - name: "🇩🇪DE-94.130.184.57-3159"
     type: "vmess"
     server: "94.130.184.57"
     port: 80
@@ -115,7 +188,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-162.55.62.193-2776"
+  - name: "🇩🇪DE-162.55.62.193-3219"
     type: "vmess"
     server: "162.55.62.193"
     port: 80
@@ -127,7 +200,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-5.75.173.189-2796"
+  - name: "🇩🇪DE-5.75.173.189-3239"
     type: "vmess"
     server: "5.75.173.189"
     port: 80
@@ -139,7 +212,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-162.55.174.135-2816"
+  - name: "🇩🇪DE-162.55.174.135-3259"
     type: "vmess"
     server: "162.55.174.135"
     port: 80
@@ -151,7 +224,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇩🇪DE-78.46.129.226-2832"
+  - name: "🇩🇪DE-78.46.129.226-3275"
     type: "vmess"
     server: "78.46.129.226"
     port: 80
@@ -163,7 +236,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-167.235.78.112-2874"
+  - name: "🇩🇪DE-167.235.78.112-3317"
     type: "vmess"
     server: "167.235.78.112"
     port: 80
@@ -175,31 +248,7 @@ proxies:
     ws-opts:
       path: "/telegram-id-@privatevpns"
       headers:
-  - name: "🇩🇪DE-157.90.20.18-3217"
-    type: "vmess"
-    server: "157.90.20.18"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-94.130.25.155-3220"
-    type: "vmess"
-    server: "94.130.25.155"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-167.235.136.155-3271"
-    type: "vmess"
-    server: "167.235.136.155"
-    port: 443
-    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇩🇪DE-188.40.132.107-3724"
+  - name: "🇩🇪DE-188.40.132.107-4167"
     type: "vmess"
     server: "188.40.132.107"
     port: 80
@@ -211,14 +260,14 @@ proxies:
     ws-opts:
       path: "/p3573l6m92h1ham3q23t"
       headers:
-  - name: "🇩🇪DE-193.108.117.75-4920"
+  - name: "🇩🇪DE-193.108.117.75-5372"
     type: "ss"
     server: "193.108.117.75"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇩🇪DE-95.179.254.136-6774"
+  - name: "🇩🇪DE-95.179.254.136-7226"
     type: "trojan"
     server: "95.179.254.136"
     port: 443
@@ -227,7 +276,7 @@ proxies:
     tls: true
     servername: "frtgrpc.mainssh.xyz"
     network: "grpc"
-  - name: "🇩🇪DE-95.179.246.122-6776"
+  - name: "🇩🇪DE-95.179.246.122-7228"
     type: "trojan"
     server: "95.179.246.122"
     port: 443
@@ -236,7 +285,7 @@ proxies:
     tls: true
     servername: "getgrpc.mainssh.xyz"
     network: "grpc"
-  - name: "🇩🇪DE-209.250.236.93-7071"
+  - name: "🇩🇪DE-209.250.236.93-7523"
     type: "trojan"
     server: "209.250.236.93"
     port: 443
@@ -245,7 +294,7 @@ proxies:
     tls: true
     servername: "irancell-ir-4.mmdruby13.store"
     network: "grpc"
-  - name: "🇩🇪DE-108.61.171.167-7533"
+  - name: "🇩🇪DE-108.61.171.167-7985"
     type: "trojan"
     server: "108.61.171.167"
     port: 443
@@ -254,7 +303,7 @@ proxies:
     tls: true
     servername: "getgrpc.mainssh.xyz"
     network: "grpc"
-  - name: "🇫🇷 机场推荐:dafei.de 法国 03"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 01"
     type: "trojan"
     server: "172.67.149.60"
     port: 443
@@ -265,18 +314,22 @@ proxies:
       path: "/assignment"
       headers:
   - name: "🇫🇷 机场推荐:dafei.de 法国 04"
-    type: "trojan"
-    server: "104.18.152.155"
+    type: "vless"
+    server: "163.5.153.153"
     port: 443
     udp: true
-    password: "humanity"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
+    uuid: "0a76a766-d141-44b8-944e-dff757d7116f"
+    network: "tcp"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 09"
+    type: "vless"
+    server: "159.194.230.94"
+    port: 443
+    udp: true
+    uuid: "670decfe-68cc-499e-8cb1-22b39c20acbb"
+    network: "raw"
   - name: "🇫🇷 机场推荐:dafei.de 法国 10"
     type: "trojan"
-    server: "104.18.23.63"
+    server: "86.38.214.205"
     port: 443
     udp: true
     password: "humanity"
@@ -284,150 +337,76 @@ proxies:
     ws-opts:
       path: "/assignment"
       headers:
-  - name: "🇩🇪 机场推荐:dafei.de 德国 05"
+  - name: "🇫🇷 机场推荐:dafei.de 法国 12"
+    type: "trojan"
+    server: "104.16.174.44"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+  - name: "🇫🇷 机场推荐:dafei.de 法国 13"
+    type: "trojan"
+    server: "104.18.152.97"
+    port: 443
+    udp: true
+    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/assignment"
+      headers:
+  - name: "🇩🇪 机场推荐:dafei.de 德国 01"
     type: "vless"
     server: "78.159.247.253"
     port: 2027
     udp: true
     uuid: "851ed0d8-a37b-452d-8ef2-5b6c2d28a060"
-    network: "raw"
-  - name: "🇮🇩 机场推荐:dafei.de 印尼 03"
-    type: "vmess"
-    server: "202.47.89.133"
-    port: 53548
-    uuid: "3a03613b-bbac-4a22-bee6-2c9a751a2761"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/dkfjh222"
-      headers:
-  - name: "🇨🇿 机场推荐:dafei.de 捷克 01"
-    type: "vless"
-    server: "103.119.18.115"
-    port: 443
-    udp: true
-    uuid: "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac"
     network: "tcp"
-  - name: "🇫🇮 机场推荐:dafei.de 芬兰 01"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 03"
     type: "vless"
-    server: "185.109.48.13"
+    server: "87.120.84.32"
+    port: 33843
+    udp: true
+    uuid: "93dac4b8-3879-4179-abdb-9666a9e2ca8d"
+    tls: true
+    servername: "deproxy2.lckdwn.ru"
+    network: "tcp"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 04"
+    type: "vless"
+    server: "50.7.90.188"
     port: 2053
     udp: true
-    uuid: "c7e9c591-2764-423a-afca-efbd010fd396"
+    uuid: "629f88a6-b20b-4489-a22f-4d8b418c0488"
+    network: "tcp"
+  - name: "🇩🇪 机场推荐:dafei.de 德国 07"
+    type: "vless"
+    server: "199.232.78.159"
+    port: 443
+    udp: true
+    uuid: "e0454af2-6fe9-4983-a55d-05e1da202602"
     tls: true
-    servername: "forfreeuse.rtqa.ru"
+    servername: "ssl.fastly.com"
     network: "ws"
     ws-opts:
       path: "/"
       headers:
-        Host: "forfreeuse.rtqa.ru"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 01"
+        Host: "lsjaoijji.global.ssl.fastly.neT."
+  - name: "🇹🇭 机场推荐:dafei.de 泰国 01"
     type: "vless"
-    server: "82.115.6.21"
+    server: "18.239.83.52"
     port: 443
     udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
     tls: true
-    servername: "vod.ensf.top"
+    servername: "d1yxsk0zprgivr.cloudfront.net"
     network: "ws"
     ws-opts:
-      path: "/api/v1/irc"
+      path: "/"
       headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 02"
-    type: "vless"
-    server: "185.36.143.71"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 03"
-    type: "vless"
-    server: "95.168.174.248"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 04"
-    type: "vless"
-    server: "37.27.11.192"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 05"
-    type: "vless"
-    server: "57.128.181.125"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 06"
-    type: "vless"
-    server: "194.146.24.240"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 07"
-    type: "vless"
-    server: "77.221.136.148"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇦🇹 机场推荐:dafei.de 奥地利 08"
-    type: "vless"
-    server: "158.180.231.216"
-    port: 443
-    udp: true
-    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
-    tls: true
-    servername: "vod.ensf.top"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/irc"
-      headers:
-        Host: "vod.ensf.top"
-  - name: "🇹🇭 机场推荐:dafei.de 泰国 02"
+        Host: "d1yxsk0zprgivr.cloudfront.net"
+  - name: "🇹🇭 机场推荐:dafei.de 泰国 03"
     type: "vless"
     server: "18.239.134.69"
     port: 80
@@ -438,9 +417,9 @@ proxies:
       path: "/"
       headers:
         Host: "d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com"
-  - name: "🇹🇭 机场推荐:dafei.de 泰国 03"
+  - name: "🇹🇭 机场推荐:dafei.de 泰国 04"
     type: "vless"
-    server: "108.138.26.70"
+    server: "18.154.132.116"
     port: 443
     udp: true
     uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
@@ -451,19 +430,26 @@ proxies:
       path: "/"
       headers:
         Host: "d1yxsk0zprgivr.cloudfront.net"
-  - name: "🇩🇪_DE_德国"
+  - name: "🇸🇪 机场推荐:dafei.de 瑞典 01"
     type: "vless"
-    server: "108.138.26.70"
+    server: "144.31.171.143"
     port: 443
     udp: true
-    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    network: "tcp"
+  - name: "🇸🇰 机场推荐:dafei.de 斯洛伐克 01"
+    type: "vless"
+    server: "185.112.249.201"
+    port: 8443
+    udp: true
+    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
     tls: true
-    servername: "d1yxsk0zprgivr.cloudfront.net"
+    servername: "web-socket.tgdaosheng.ggff.net"
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/proxyip=bpb.yousef.isegaro.com"
       headers:
-        Host: "d1yxsk0zprgivr.cloudfront.net"
+        Host: "web-socket.tgdaosheng.ggff.net"
   - name: "Channel id: @ShadowProxy66 🇩🇪"
     type: "vless"
     server: "77.239.123.224"
@@ -477,13 +463,6 @@ proxies:
     port: 443
     udp: true
     uuid: "859a537b-09cf-4bce-8da4-ecbb72950e3a"
-    network: "tcp"
-  - name: "Channel id: @ShadowProxy66 🇩🇪"
-    type: "vless"
-    server: "45.145.56.163"
-    port: 443
-    udp: true
-    uuid: "76713d07-5a6b-49c2-abd8-bc450a2fa7fc"
     network: "tcp"
   - name: "Channel id: @ShadowProxy66 🇩🇪"
     type: "vless"
@@ -515,17 +494,17 @@ proxies:
     tls: true
     servername: "deu683.lackerdeu.org"
     network: "xhttp"
-  - name: "DE 🇩🇪 | @Raydikalx | A93900"
+  - name: "DE 🇩🇪 | @Raydikalx | 934065"
     type: "vmess"
-    server: "178.83.45.29"
-    port: 38998
-    uuid: "48422300-458f-4dbb-b0f5-96f45450ab9f"
+    server: "128.140.109.232"
+    port: 80
+    uuid: "05a178f9-e6ba-4006-93d7-3d980cdc3a76"
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "DE 🇩🇪 | @Raydikalx | EFF254"
+  - name: "DE 🇩🇪 | @Raydikalx | 9CD654"
     type: "vmess"
-    server: "142.132.178.99"
+    server: "194.164.192.16"
     port: 443
     uuid: "5f72f180-b21b-4b7a-8484-240759012604"
     alterId: 0
@@ -538,19 +517,6 @@ proxies:
       path: "/5f72f180-b21b-4b7a-8484-240759096785"
       headers:
         Host: "apjhdggyx.com"
-  - name: "DE 🇩🇪 | @Raydikalx | E68AAC"
-    type: "vmess"
-    server: "159.89.29.136"
-    port: 80
-    uuid: "d20d6ede-433c-11ed-b81f-cfd905df9958"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "cx.com"
   - name: "DE 🇩🇪 | @Raydikalx | 4BC697"
     type: "vmess"
     server: "178.83.45.29"
@@ -559,6 +525,56 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "DE 🇩🇪 | @Raydikalx | 4769A2"
+    type: "vmess"
+    server: "167.235.28.242"
+    port: 443
+    uuid: "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "DE 🇩🇪 | @Raydikalx | 23474C"
+    type: "vmess"
+    server: "104.105.18.214"
+    port: 2053
+    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "deapp.jisuyun.top"
+    network: "ws"
+    ws-opts:
+      path: "/devm"
+      headers:
+        Host: "deapp.jisuyun.top"
+  - name: "DE 🇩🇪 | @Raydikalx | 2267F7"
+    type: "vmess"
+    server: "68.183.209.180"
+    port: 80
+    uuid: "d5121154-ced6-460d-a9fd-5892027ab4a0"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/graphql"
+      headers:
+  - name: "DE 🇩🇪 | @Raydikalx | 226785"
+    type: "vmess"
+    server: "104.105.18.214"
+    port: 2053
+    uuid: "9a1a05d9-69be-45d3-e326-c6621edf7b31"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "deapp.jisuyun.top"
+    network: "ws"
+    ws-opts:
+      path: "/devm"
+      headers:
+        Host: "deapp.jisuyun.top"
   - name: "🇩🇪All⁹"
     type: "vless"
     server: "104.16.72.101"
@@ -650,13 +666,6 @@ proxies:
       path: "/udfyfws"
       headers:
         Host: "octopusss5.info"
-  - name: "🇩🇪"
-    type: "vless"
-    server: "95.85.233.181"
-    port: 443
-    udp: true
-    uuid: "e0bb3250-1873-4b9d-b9b5-7aa6c863885f"
-    network: "grpc"
   - name: "✔︎𝐜𝐡𝐚𝐧𝐧𝐞𝐥➪@ConfigV2rayForFree 🇩🇪🇩🇪"
     type: "vless"
     server: "173.245.59.191"
@@ -755,13 +764,6 @@ proxies:
       path: "/poiuyws"
       headers:
         Host: "amoosamiii.net"
-  - name: "🇩🇪  @v2ray313 کانالمون"
-    type: "vless"
-    server: "37.9.4.224"
-    port: 443
-    udp: true
-    uuid: "2b285251-1c04-404e-bea8-e1489920e853"
-    network: "tcp"
   - name: "🇩🇪"
     type: "vless"
     server: "159.195.22.155"
@@ -834,16 +836,6 @@ proxies:
       path: "/poiuyws"
       headers:
         Host: "amoosamiii.net"
-  - name: "🇩🇪"
-    type: "vless"
-    server: "57.129.41.216"
-    port: 80
-    udp: true
-    uuid: "18535741-e8b3-4b43-9348-785b55936751"
-    network: "ws"
-    ws-opts:
-      path: "/vless/"
-      headers:
   - name: "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
     type: "vless"
     server: "104.16.72.41"
@@ -857,13 +849,6 @@ proxies:
       path: "/poiuyws"
       headers:
         Host: "amoosamiii.net"
-  - name: "🇩🇪"
-    type: "ss"
-    server: "57.129.41.216"
-    port: 80
-    cipher: "��w�5��\u001b��\u001b��ߏ>��[�w�"
-    password: "��w�5��\u001b��\u001b��ߏ>��[�w�u"
-    udp: true
   - name: "@JavidanNet🇩🇪"
     type: "ss"
     server: "188.114.97.4"
@@ -877,13 +862,6 @@ proxies:
     port: 443
     cipher: "�Z�~��O\\�\u001bq�u�>y���oy��"
     password: "�Z�~��O\\�\u001bq�u�>y���oy���"
-    udp: true
-  - name: "🇩🇪  @v2ray313 کانالمون"
-    type: "ss"
-    server: "37.9.4.224"
-    port: 443
-    cipher: "ٽ��nu�W4��4��y�>{^<�ݴ{�"
-    password: "ٽ��nu�W4��4��y�>{^<�ݴ{�w"
     udp: true
   - name: "🇩🇪"
     type: "ss"
@@ -1018,13 +996,6 @@ proxies:
     cipher: "��5ߞ���|o�\u001bӏ���~��vm�\\�v"
     password: "��5ߞ���|o�\u001bӏ���~��vm�\\�v�"
     udp: true
-  - name: "🇩🇪"
-    type: "ss"
-    server: "95.85.233.181"
-    port: 443
-    cipher: "{F��nt�_;��\u001b�ߛ��~���sη��"
-    password: "{F��nt�_;��\u001b�ߛ��~���sη��_"
-    udp: true
   - name: "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
     type: "ss"
     server: "141.193.213.21"
@@ -1050,68 +1021,71 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "DE VLESS-1483 | free-nodes"
-      - "🇩🇪 Germany Nuremberg | ⏱275ms | ⚡1.4MB/s | @NamazVPN"
-      - "🇩🇪 Germany Frankfurt am Main | ⏱736ms | ⚡1.1MB/s | @NamazVPN"
-      - "🇩🇪 Germany Frankfurt am Main | ⏱329ms | ⚡1.3MB/s | @NamazVPN"
-      - "🇩🇪DE_1|3.2MB/s"
-      - "🇩🇪DE_2|1.1MB/s"
-      - "🇩🇪DE_3|1.8MB/s"
-      - "🇩🇪DE-209.46.102.22-0142"
-      - "🇩🇪DE-87.121.218.169-1830"
-      - "🇩🇪DE-94.130.184.57-2540"
-      - "🇩🇪DE-162.55.174.135-2658"
-      - "🇩🇪DE-94.130.184.57-2716"
-      - "🇩🇪DE-162.55.62.193-2776"
-      - "🇩🇪DE-5.75.173.189-2796"
-      - "🇩🇪DE-162.55.174.135-2816"
-      - "🇩🇪DE-78.46.129.226-2832"
-      - "🇩🇪DE-167.235.78.112-2874"
-      - "🇩🇪DE-157.90.20.18-3217"
-      - "🇩🇪DE-94.130.25.155-3220"
-      - "🇩🇪DE-167.235.136.155-3271"
-      - "🇩🇪DE-188.40.132.107-3724"
-      - "🇩🇪DE-193.108.117.75-4920"
-      - "🇩🇪DE-95.179.254.136-6774"
-      - "🇩🇪DE-95.179.246.122-6776"
-      - "🇩🇪DE-209.250.236.93-7071"
-      - "🇩🇪DE-108.61.171.167-7533"
-      - "🇫🇷 机场推荐:dafei.de 法国 03"
+      - "DE VLESS-1498 | free-nodes"
+      - "🇩🇪17@shadowsockskeys"
+      - "🇩🇪DE_1|2.7MB/s"
+      - "🇩🇪145111 | ⚡️Telegram = t.me/LonUp_M"
+      - "🇩🇪DE_2|1.5MB/s"
+      - "DE【机场推荐：https://a9a.xyz】1"
+      - "🇩🇪DE_4|1.2MB/s"
+      - "🇩🇪DE_5|1.0MB/s"
+      - "🇩🇪DE_3|1.1MB/s"
+      - "🇩🇪 Germany Frankfurt am Main | ⏱955ms | ⚡623KB/s | @NamazVPN"
+      - "🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو"
+      - "🇩🇪DE_1|1.2MB/s"
+      - "🇩🇪DE_3|1.7MB/s"
+      - "🇩🇪DE-209.46.102.22-0280"
+      - "🇩🇪DE-157.90.20.18-0830"
+      - "🇩🇪DE-94.130.25.155-0832"
+      - "🇩🇪DE-167.235.136.155-0833"
+      - "🇩🇪DE-94.130.184.57-2983"
+      - "🇩🇪DE-162.55.174.135-3101"
+      - "🇩🇪DE-94.130.184.57-3159"
+      - "🇩🇪DE-162.55.62.193-3219"
+      - "🇩🇪DE-5.75.173.189-3239"
+      - "🇩🇪DE-162.55.174.135-3259"
+      - "🇩🇪DE-78.46.129.226-3275"
+      - "🇩🇪DE-167.235.78.112-3317"
+      - "🇩🇪DE-188.40.132.107-4167"
+      - "🇩🇪DE-193.108.117.75-5372"
+      - "🇩🇪DE-95.179.254.136-7226"
+      - "🇩🇪DE-95.179.246.122-7228"
+      - "🇩🇪DE-209.250.236.93-7523"
+      - "🇩🇪DE-108.61.171.167-7985"
+      - "🇫🇷 机场推荐:dafei.de 法国 01"
       - "🇫🇷 机场推荐:dafei.de 法国 04"
+      - "🇫🇷 机场推荐:dafei.de 法国 09"
       - "🇫🇷 机场推荐:dafei.de 法国 10"
-      - "🇩🇪 机场推荐:dafei.de 德国 05"
-      - "🇮🇩 机场推荐:dafei.de 印尼 03"
-      - "🇨🇿 机场推荐:dafei.de 捷克 01"
-      - "🇫🇮 机场推荐:dafei.de 芬兰 01"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 01"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 02"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 03"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 04"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 05"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 06"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 07"
-      - "🇦🇹 机场推荐:dafei.de 奥地利 08"
-      - "🇹🇭 机场推荐:dafei.de 泰国 02"
+      - "🇫🇷 机场推荐:dafei.de 法国 12"
+      - "🇫🇷 机场推荐:dafei.de 法国 13"
+      - "🇩🇪 机场推荐:dafei.de 德国 01"
+      - "🇩🇪 机场推荐:dafei.de 德国 03"
+      - "🇩🇪 机场推荐:dafei.de 德国 04"
+      - "🇩🇪 机场推荐:dafei.de 德国 07"
+      - "🇹🇭 机场推荐:dafei.de 泰国 01"
       - "🇹🇭 机场推荐:dafei.de 泰国 03"
-      - "🇩🇪_DE_德国"
+      - "🇹🇭 机场推荐:dafei.de 泰国 04"
+      - "🇸🇪 机场推荐:dafei.de 瑞典 01"
+      - "🇸🇰 机场推荐:dafei.de 斯洛伐克 01"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
       - "Channel id: @ShadowProxy66 🇩🇪"
-      - "Channel id: @ShadowProxy66 🇩🇪"
-      - "DE 🇩🇪 | @Raydikalx | A93900"
-      - "DE 🇩🇪 | @Raydikalx | EFF254"
-      - "DE 🇩🇪 | @Raydikalx | E68AAC"
+      - "DE 🇩🇪 | @Raydikalx | 934065"
+      - "DE 🇩🇪 | @Raydikalx | 9CD654"
       - "DE 🇩🇪 | @Raydikalx | 4BC697"
+      - "DE 🇩🇪 | @Raydikalx | 4769A2"
+      - "DE 🇩🇪 | @Raydikalx | 23474C"
+      - "DE 🇩🇪 | @Raydikalx | 2267F7"
+      - "DE 🇩🇪 | @Raydikalx | 226785"
       - "🇩🇪All⁹"
       - "🇩🇪All⁶"
       - "🇩🇪All³"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇩🇪"
       - "@JavidanNet🇩🇪"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇩🇪"
-      - "🇩🇪"
       - "🇩🇪"
       - "✔︎𝐜𝐡𝐚𝐧𝐧𝐞𝐥➪@ConfigV2rayForFree 🇩🇪🇩🇪"
       - "🇩🇪"
@@ -1121,19 +1095,15 @@ proxy-groups:
       - "🇩🇪"
       - "🇩🇪All¹"
       - "🇩🇪"
-      - "🇩🇪  @v2ray313 کانالمون"
       - "🇩🇪"
       - "🇩🇪 | @WhiteDNS | DE46|1.6MB/s|DNSOK|GPT⁺-DE|CL-DE|SP-DE"
       - "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
       - "🇩🇪All⁴"
       - "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇩🇪"
-      - "🇩🇪"
       - "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
-      - "🇩🇪"
       - "@JavidanNet🇩🇪"
       - "🇩🇪"
-      - "🇩🇪  @v2ray313 کانالمون"
       - "🇩🇪"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇩🇪"
       - "🇩🇪All¹"
@@ -1153,7 +1123,6 @@ proxy-groups:
       - "🇩🇪All⁸"
       - "🇩🇪"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇩🇪"
-      - "🇩🇪"
       - "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
       - "🇩🇪 ⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn"
       - ">>@V2rayNG3::DE"
