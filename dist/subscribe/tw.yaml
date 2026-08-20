@@ -1,0 +1,19 @@
+mixed-port: 7890
+allow-lan: false
+mode: "rule"
+log-level: "info"
+proxies:
+  - name: "🇹🇼TW_1|1.3MB/s"
+    type: "ss"
+    server: "120.232.253.94"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+    udp: true
+proxy-groups:
+  - name: "Proxy Select"
+    type: "select"
+    proxies:
+      - "🇹🇼TW_1|1.3MB/s"
+rules:
+  - "MATCH,Proxy Select"
