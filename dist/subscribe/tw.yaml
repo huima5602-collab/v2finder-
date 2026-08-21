@@ -3,17 +3,52 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼TW_1|1.3MB/s"
-    type: "ss"
-    server: "120.232.253.94"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
+  - name: "🇹🇼TW-211.22.180.68-1204"
+    type: "vmess"
+    server: "211.22.180.68"
+    port: 443
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "www.82131333.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/path/191019072927"
+      headers:
+        Host: "www.82131333.xyz"
+  - name: "TW 735.0KB/s"
+    type: "vmess"
+    server: "2.27.174.110"
+    port: 794
+    uuid: "fd2c3c77-1984-4f7c-befe-efba034e1f3c"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "TW 🇹🇼 | @Raydikalx | 826527"
+    type: "vmess"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "TW 🇹🇼 | @Raydikalx | 224E00"
+    type: "vmess"
+    server: "2.27.174.110"
+    port: 794
+    uuid: "fd2c3c77-1984-4f7c-befe-efba034e1f3c"
+    alterId: 0
+    cipher: "auto"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼TW_1|1.3MB/s"
+      - "🇹🇼TW-211.22.180.68-1204"
+      - "TW 735.0KB/s"
+      - "TW 🇹🇼 | @Raydikalx | 826527"
+      - "TW 🇹🇼 | @Raydikalx | 224E00"
 rules:
   - "MATCH,Proxy Select"
