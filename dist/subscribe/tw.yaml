@@ -11,14 +11,6 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "TW 🇹🇼 | @Raydikalx | 826527"
-    type: "vmess"
-    server: "165.154.195.38"
-    port: 35034
-    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "TW 🇹🇼 | @Raydikalx | 224E00"
     type: "vmess"
     server: "2.27.174.110"
@@ -32,7 +24,6 @@ proxy-groups:
     type: "select"
     proxies:
       - "TW"
-      - "TW 🇹🇼 | @Raydikalx | 826527"
       - "TW 🇹🇼 | @Raydikalx | 224E00"
 rules:
   - "MATCH,Proxy Select"

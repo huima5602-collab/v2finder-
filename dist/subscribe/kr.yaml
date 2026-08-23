@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "KR VLESS-1606 | free-nodes"
+  - name: "KR VLESS-1608 | free-nodes"
     type: "vless"
     server: "158.247.201.96"
     port: 443
@@ -12,68 +12,42 @@ proxies:
     tls: true
     servername: "u643766u17cc9b82s180.kukuss.top"
     network: "tcp"
-  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-    type: "vmess"
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-  - name: "🇰🇷KR_1|5.3MB/s"
+  - name: "🇰🇷KR_1|1.4MB/s"
     type: "ss"
     server: "121.46.230.138"
     port: 65443
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
     udp: true
-  - name: "🇰🇷KR-141.164.45.187-4736"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-    udp: true
-  - name: "🇰🇷KR-141.164.45.187-4731"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-    udp: true
-  - name: "🇰🇷KR-221.139.79.57-4733"
-    type: "ss"
-    server: "221.139.79.57"
-    port: 13979
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-218.237.185.230-4734"
-    type: "ss"
-    server: "218.237.185.230"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-211.178.105.134-4735"
+  - name: "🇰🇷KR-211.178.105.134-4904"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-43.201.48.212-1811"
+  - name: "🇰🇷KR-218.237.185.230-4903"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-221.139.79.57-4906"
+    type: "ss"
+    server: "221.139.79.57"
+    port: 13979
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-43.201.48.212-1999"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-2637"
+  - name: "🇰🇷KR-144.24.72.126-2815"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -88,13 +62,18 @@ proxies:
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
     udp: true
-  - name: "🇨🇳_CN_中国->🇰🇷_KR_韩国"
-    type: "ss"
-    server: "121.46.230.138"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
+  - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
     udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -112,18 +91,15 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "KR VLESS-1606 | free-nodes"
-      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
-      - "🇰🇷KR_1|5.3MB/s"
-      - "🇰🇷KR-141.164.45.187-4736"
-      - "🇰🇷KR-141.164.45.187-4731"
-      - "🇰🇷KR-221.139.79.57-4733"
-      - "🇰🇷KR-218.237.185.230-4734"
-      - "🇰🇷KR-211.178.105.134-4735"
-      - "🇰🇷KR-43.201.48.212-1811"
-      - "🇰🇷KR-144.24.72.126-2637"
+      - "KR VLESS-1608 | free-nodes"
+      - "🇰🇷KR_1|1.4MB/s"
+      - "🇰🇷KR-211.178.105.134-4904"
+      - "🇰🇷KR-218.237.185.230-4903"
+      - "🇰🇷KR-221.139.79.57-4906"
+      - "🇰🇷KR-43.201.48.212-1999"
+      - "🇰🇷KR-144.24.72.126-2815"
       - "🇰🇷 机场推荐:dafei.de 韩国 01"
-      - "🇨🇳_CN_中国->🇰🇷_KR_韩国"
+      - "KR 🇰🇷 | @Raydikalx | C1BBF7"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
