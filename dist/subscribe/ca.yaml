@@ -3,20 +3,157 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇨🇦 Join+Telegram:@FarahVPN 🇨🇦"
-    type: "vmess"
-    server: "134.195.198.147"
+  - name: "🇨🇦150453 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "ss"
+    server: "51.79.49.116"
+    port: 8882
+    cipher: "aes-256-gcm"
+    password: "kDWvXYZoTBcGkC4"
+    udp: true
+  - name: "🇨🇦150501 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "104.17.124.251"
+    port: 80
+    udp: true
+    uuid: "435bda4c-fe5e-42c9-a3ad-15334943b38a"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "us3.rtacg.com"
+  - name: "🇨🇦150459 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "104.16.117.43"
     port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    udp: true
+    uuid: "83afd88f-200f-4d89-bfc7-66eff160c1d8"
+    tls: true
+    servername: "josni.hoyes.cloudns.ch"
+    network: "ws"
+    ws-opts:
+      path: "/?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512"
+      headers:
+        Host: "josni.hoyes.cloudns.ch"
+  - name: "🇨🇦150417 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "172.66.46.251"
+    port: 443
+    udp: true
+    uuid: "89b3cbba-e6ac-485a-9481-976a0415eab9"
+    tls: true
+    servername: "bBF9c21A.tECHNeTbpb.paGEs.Dev"
+    network: "ws"
+    ws-opts:
+      path: "/Telegram-proxy_mtm/?ed=2560"
+      headers:
+        Host: "BbF9c21a.TecHNETbpB.paGEs.dEv"
+  - name: "🇨🇦150462 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "172.66.47.69"
+    port: 80
+    udp: true
+    uuid: "9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "free-hzr26-cdn.sabzi.name.ng."
+  - name: "🇨🇦150486 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vless"
+    server: "104.17.147.22"
+    port: 8080
+    udp: true
+    uuid: "f2bf488a-72fc-420f-bd5e-35a5884f55b0"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "Mainv.2.r.a.r.mralpha-vpn.COM."
+  - name: "🇨🇦150421 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "23.227.38.6"
+    port: 2086
+    uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip005.dtku47.xyz"
+  - name: "🇨🇦150485 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "104.19.46.233"
+    port: 2086
+    uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip005.dtku47.xyz"
+  - name: "🇨🇦150564 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "104.19.47.77"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "🇨🇦150590 | ⚡️Telegram = t.me/LonUp_M"
+    type: "vmess"
+    server: "104.19.47.237"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "🇨🇦150565 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "172.64.32.154"
+    port: 2087
+    uuid: "2a3263e2-891c-4446-b474-a8c63acb6e25"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "134.195.198.147"
+    servername: "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb664280189.gqisb.info"
+  - name: "🇨🇦150419 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "172.67.138.140"
+    port: 443
+    uuid: "441da342-ce90-441e-bff9-d2ceb55e68ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "ivideos.sbs"
     network: "ws"
     ws-opts:
-      path: "/linkvws"
+      path: "/linkws"
       headers:
+        Host: "ivideos.sbs"
+  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
+    type: "vmess"
+    server: "134.195.196.211"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
     type: "vmess"
     server: "134.195.198.147"
@@ -32,7 +169,15 @@ proxies:
       path: "/linkvws"
       headers:
         Host: "inna.cfd"
-  - name: "🇨🇦 Join+Telegram:@FarahVPN 🇨🇦"
+  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
+    type: "vmess"
+    server: "23.162.200.198"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
     type: "vmess"
     server: "23.162.200.227"
     port: 443
@@ -66,6 +211,30 @@ proxies:
     password: "humanity"
   - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
     type: "trojan"
+    server: "104.18.22.63"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "104.17.111.8"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "104.16.174.12"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "104.16.174.34"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
     server: "104.18.152.73"
     port: 443
     udp: true
@@ -78,43 +247,78 @@ proxies:
     password: "humanity"
   - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
     type: "trojan"
+    server: "104.16.174.14"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+    type: "trojan"
     server: "104.16.174.117"
     port: 443
     udp: true
     password: "humanity"
-  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "104.16.174.12"
-    port: 443
+  - name: "A - 🇨🇦 CA 01 TG: @nodpai"
+    type: "vless"
+    server: "50.62.195.50"
+    port: 8880
     udp: true
-    password: "humanity"
-  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "104.17.111.8"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime38.workers.dev"
+  - name: "🇨🇦CA_1|2.5MB/s"
+    type: "ss"
+    server: "3.97.15.59"
     port: 443
+    cipher: "aes-256-cfb"
+    password: "amazonskr05"
     udp: true
-    password: "humanity"
-  - name: "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "104.18.22.63"
-    port: 443
-    udp: true
-    password: "humanity"
-  - name: "🇨🇦CA-108.181.118.10-0075"
+  - name: "🇨🇦CA-108.181.118.10-0053"
     type: "ss"
     server: "108.181.118.10"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "G5p6ww4o67HB"
     udp: true
-  - name: "🇨🇦CA-149.22.95.183-0119"
+  - name: "🇨🇦CA-137.184.174.93-0194"
+    type: "ss"
+    server: "137.184.174.93"
+    port: 8080
+    cipher: "rc4-md5"
+    password: "14fFPrbezE3HDZzsMOr6"
+    udp: true
+  - name: "🇨🇦CA-149.22.95.183-0060"
     type: "ss"
     server: "149.22.95.183"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇨🇦CA-134.195.198.147-0680"
+  - name: "🇨🇦CA-51.222.155.113-0131"
+    type: "ss"
+    server: "51.222.155.113"
+    port: 5601
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+    udp: true
+  - name: "🇨🇦CA-23.162.200.227-0659"
+    type: "vmess"
+    server: "23.162.200.227"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "vk.com"
+    network: "ws"
+    ws-opts:
+      path: "/linkvws"
+      headers:
+        Host: "vk.com"
+  - name: "🇨🇦CA-134.195.198.147-0658"
     type: "vmess"
     server: "134.195.198.147"
     port: 443
@@ -129,43 +333,14 @@ proxies:
       path: "/linkvws"
       headers:
         Host: "vk.com"
-  - name: "🇨🇦CA-23.162.200.227-0681"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "vk.com"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
-        Host: "vk.com"
-  - name: "🇨🇦CA-51.222.155.113-0407"
-    type: "ss"
-    server: "51.222.155.113"
-    port: 5601
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-    udp: true
-  - name: "🇨🇦CA-142.4.216.225-4812"
+  - name: "🇨🇦CA-142.4.216.225-0139"
     type: "ss"
     server: "142.4.216.225"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "ytw2awn"
     udp: true
-  - name: "🇨🇦CA-137.184.174.93-0071"
-    type: "ss"
-    server: "137.184.174.93"
-    port: 8080
-    cipher: "rc4-md5"
-    password: "14fFPrbezE3HDZzsMOr6"
-    udp: true
-  - name: "🇨🇦CA-23.162.200.227-0268"
+  - name: "🇨🇦CA-23.162.200.227-0124"
     type: "vmess"
     server: "23.162.200.227"
     port: 443
@@ -180,7 +355,22 @@ proxies:
       path: "/"
       headers:
         Host: "vk.com"
-  - name: "🇨🇦CA-148.113.141.99-0813"
+  - name: "🇨🇦CA-134.195.198.147-0122"
+    type: "vmess"
+    server: "134.195.198.147"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "vk.com"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vk.com"
+  - name: "🇨🇦CA-148.113.141.99-0792"
     type: "trojan"
     server: "148.113.141.99"
     port: 443
@@ -188,7 +378,7 @@ proxies:
     password: "HdsUZmsHQW"
     tls: true
     servername: "148.113.141.99"
-  - name: "🇨🇦CA-158.51.121.36-2113"
+  - name: "🇨🇦CA-158.51.121.36-2122"
     type: "vmess"
     server: "158.51.121.36"
     port: 443
@@ -202,7 +392,7 @@ proxies:
     ws-opts:
       path: "/linkvws"
       headers:
-  - name: "🇨🇦CA-149.56.141.11-2739"
+  - name: "🇨🇦CA-149.56.141.11-2748"
     type: "trojan"
     server: "149.56.141.11"
     port: 443
@@ -210,7 +400,7 @@ proxies:
     password: "8b6daf15-8342-482d-b894-1239fd98ce7f"
     tls: true
     servername: "149.56.141.11"
-  - name: "🇨🇦CA-149.56.141.11-3451"
+  - name: "🇨🇦CA-149.56.141.11-3460"
     type: "trojan"
     server: "149.56.141.11"
     port: 443
@@ -218,7 +408,7 @@ proxies:
     password: "8b6daf15-8342-482d-b894-1239fd98ce7f"
     tls: true
     servername: "149.56.141.11"
-  - name: "🇨🇦CA-137.184.164.233-6643"
+  - name: "🇨🇦CA-137.184.164.233-6641"
     type: "vmess"
     server: "137.184.164.233"
     port: 80
@@ -232,55 +422,11 @@ proxies:
       headers:
   - name: "🇨🇦CA加拿大"
     type: "trojan"
-    server: "104.16.73.213"
+    server: "104.17.111.8"
     port: 443
     udp: true
     password: "humanity"
-  - name: "🇨🇦CA加拿大2"
-    type: "trojan"
-    server: "104.18.22.63"
-    port: 443
-    udp: true
-    password: "humanity"
-  - name: "🇨🇦CA加拿大3"
-    type: "trojan"
-    server: "130.250.137.171"
-    port: 443
-    udp: true
-    password: "humanity"
-  - name: "🇨🇦CA加拿大4"
-    type: "trojan"
-    server: "104.18.152.140"
-    port: 443
-    udp: true
-    password: "humanity"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 443
-    udp: true
-    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
-    tls: true
-    servername: "terazhediii.info"
-    network: "ws"
-    ws-opts:
-      path: "/hdgrbws"
-      headers:
-        Host: "terazhediii.info"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "188.114.97.6"
-    port: 443
-    udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    tls: true
-    servername: "rubifen.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/GOrbEh"
-      headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
+  - name: "[OpenRay] 🇨🇦 CA-12045"
     type: "trojan"
     server: "188.114.98.0"
     port: 443
@@ -293,238 +439,9 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "172.64.80.1"
-    port: 443
-    udp: true
-    uuid: "c0f16ee2-a909-4890-ab1c-96489230658a"
-    tls: true
-    servername: "admin.jikebet.com"
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: "admin.jikebet.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "172.64.80.1"
-    port: 443
-    udp: true
-    uuid: "c0f16ee2-a909-4890-ab1c-96489230658a"
-    tls: true
-    servername: "admin.jikebet.com"
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: "admin.jikebet.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "172.67.178.251"
-    port: 443
-    udp: true
-    uuid: "c0f16ee2-a909-4890-ab1c-96489230658a"
-    tls: true
-    servername: "admin.jikebet.com"
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: "admin.jikebet.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "172.64.150.28"
-    port: 443
-    udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    tls: true
-    servername: "hhlfy.twiladaphne.ndjp.net"
-    network: "ws"
-    ws-opts:
-      path: "/fp"
-      headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.26.14.85"
-    port: 443
-    udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    tls: true
-    servername: "rubifen.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/GOrbEh"
-      headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "158.69.112.254"
-    port: 443
-    udp: true
-    uuid: "661f395d-b153-4199-a04b-693f5fe7f261"
-    network: "tcp"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "trojan"
-    server: "188.114.97.7"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "trojan"
-    server: "104.16.174.117"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "trojan"
-    server: "104.16.174.22"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.ignitelimit.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.17.121.110"
-    port: 443
-    udp: true
-    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
-    tls: true
-    servername: "terazhediii.info"
-    network: "ws"
-    ws-opts:
-      path: "/hdgrbws"
-      headers:
-        Host: "terazhediii.info"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "188.114.97.3"
-    port: 443
-    udp: true
-    uuid: "5aafc2be-9348-4dec-b896-f4a91253bbca"
-    tls: true
-    servername: "support.zoom.us.yxls.eu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/id-tksi?ed=2048"
-      headers:
-        Host: "support.zoom.us.yxls.eu.cc"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "188.114.97.3"
-    port: 443
-    udp: true
-    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
-    tls: true
-    servername: "terazhediii.info"
-    network: "ws"
-    ws-opts:
-      path: "/hdgrbws"
-      headers:
-        Host: "terazhediii.info"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.26.14.85"
-    port: 443
-    udp: true
-    uuid: "cf39fab0-bb85-42cb-9945-2ad69d78e575"
-    tls: true
-    servername: "rubifen.adaspoloandco.com"
-    network: "ws"
-    ws-opts:
-      path: "/GOrbEh"
-      headers:
-        Host: "rubifen.adaspoloandco.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.21.67.171"
-    port: 443
-    udp: true
-    uuid: "c0f16ee2-a909-4890-ab1c-96489230658a"
-    tls: true
-    servername: "admin.jikebet.com"
-    network: "ws"
-    ws-opts:
-      path: "/vless"
-      headers:
-        Host: "admin.jikebet.com"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.16.75.44"
-    port: 443
-    udp: true
-    uuid: "03707fb7-0990-440f-88f6-b0e0f7242a38"
-    tls: true
-    servername: "de-new-1.ariyuz.org"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "vless"
-    server: "104.16.6.70"
-    port: 443
-    udp: true
-    uuid: "83afd88f-200f-4d89-bfc7-66eff160c1d8"
-    tls: true
-    servername: "josni.hoyes.cloudns.ch"
-    network: "ws"
-    ws-opts:
-      path: "musiclovers85?ed=512"
-      headers:
-        Host: "josni.hoyes.cloudns.ch"
-  - name: "Channel id: @ShadowProxy66 🇨🇦"
-    type: "trojan"
-    server: "104.18.22.63"
-    port: 443
-    udp: true
-    password: "humanity"
-    tls: true
-    servername: "www.ignitelimit.com"
-    network: "ws"
-    ws-opts:
-      path: "/assignment"
-      headers:
-  - name: "CA 🇨🇦 | @Raydikalx | F98E51"
+  - name: "CA 🇨🇦 | @Raydikalx | 2C0839"
     type: "vmess"
-    server: "172.64.32.154"
-    port: 2087
-    uuid: "2a3263e2-891c-4446-b474-a8c63acb6e25"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb15513822497.6ssssssssssssssssssrinlvk.info"
-  - name: "CA 🇨🇦 | @Raydikalx | 81927A"
-    type: "vmess"
-    server: "172.66.44.97"
-    port: 8080
-    uuid: "81705ff8-eff0-412b-a31f-1c434a218113"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | D8D897"
-    type: "vmess"
-    server: "104.21.237.88"
+    server: "104.21.224.174"
     port: 80
     uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
     alterId: 0
@@ -535,22 +452,9 @@ proxies:
       path: "/?ed=2048&Telegram🇨🇳"
       headers:
         Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | E03695"
+  - name: "CA 🇨🇦 | @Raydikalx | 93C870"
     type: "vmess"
-    server: "172.67.130.140"
-    port: 2082
-    uuid: "112ac36f-3f53-4e26-8371-d25c028e1b9a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "s1c.v2.v001sss.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | F8F1E6"
-    type: "vmess"
-    server: "104.21.235.76"
+    server: "104.21.229.47"
     port: 80
     uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
     alterId: 0
@@ -558,25 +462,12 @@ proxies:
     udp: true
     network: "ws"
     ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai08"
+      path: "/?ed=2048&Telegram🇨🇳"
       headers:
         Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 76F99C"
+  - name: "CA 🇨🇦 | @Raydikalx | 4C914F"
     type: "vmess"
-    server: "23.227.38.22"
-    port: 8080
-    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
-      headers:
-        Host: "per-essex-patterns-bowling.trycloudflare.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 014451"
-    type: "vmess"
-    server: "172.67.199.187"
+    server: "104.19.47.158"
     port: 8080
     uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
     alterId: 0
@@ -584,79 +475,33 @@ proxies:
     udp: true
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
       headers:
         Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 2BAF8B"
+  - name: "CA 🇨🇦 | @Raydikalx | 72A3E2"
     type: "vmess"
-    server: "172.67.136.12"
-    port: 8080
-    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.ywnouvbale.biz"
-  - name: "CA 🇨🇦 | @Raydikalx | A5A135"
-    type: "vmess"
-    server: "188.114.96.3"
-    port: 443
-    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "sy4.620720.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "sy4.620720.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 83D32E"
-    type: "vmess"
-    server: "104.19.45.70"
-    port: 2095
-    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "onea.flha.ru"
-  - name: "CA 🇨🇦 | @Raydikalx | 277FF9"
-    type: "vmess"
-    server: "172.67.74.122"
+    server: "172.66.44.97"
     port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    uuid: "80c6a4e4-3b99-4ae8-9681-c24d551e444d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | 63B270"
+    type: "vmess"
+    server: "104.19.58.175"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "github.com/Alvin9999"
       headers:
-        Host: "cdn3.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 6382CE"
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 4CC7E8"
     type: "vmess"
-    server: "162.159.137.249"
-    port: 8080
-    uuid: "028c8131-9e3e-4836-94ac-ea7f24d4d05a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm"
-      headers:
-        Host: "nest-emily-healing-h.trycloudflare.com"
-  - name: "CA 🇨🇦 | @Raydikalx | FFFE89"
-    type: "vmess"
-    server: "104.21.237.87"
+    server: "104.21.224.24"
     port: 80
     uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
     alterId: 0
@@ -680,259 +525,19 @@ proxies:
       path: "9b196b50-37f2-4f4b-b175-06273adc6207-vm"
       headers:
         Host: "championship-bidding-oxygen-brochure.trycloudflare.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 3DADCE"
+  - name: "CA 🇨🇦 | @Raydikalx | 76F99C"
     type: "vmess"
-    server: "104.19.47.186"
+    server: "23.227.38.22"
     port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
       headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | ADDAD1"
-    type: "vmess"
-    server: "104.17.121.43"
-    port: 443
-    uuid: "e9947b42-27ed-401e-b75e-c9ebd357c0f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "omkuzygiv.com"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "omkuzygiv.com"
-  - name: "CA 🇨🇦 | @Raydikalx | B4FBAF"
-    type: "vmess"
-    server: "104.19.47.104"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | D6A3D3"
-    type: "vmess"
-    server: "104.21.238.92"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | FDA7C6"
-    type: "vmess"
-    server: "104.21.224.23"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | D6072B"
-    type: "vmess"
-    server: "104.19.46.56"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 111EA8"
-    type: "vmess"
-    server: "188.114.96.9"
-    port: 80
-    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
-      headers:
-        Host: "tr1-smart.adelping.com"
-  - name: "CA 🇨🇦 | @Raydikalx | DC1A27"
-    type: "vmess"
-    server: "188.114.96.221"
-    port: 80
-    uuid: "310fabb7-2abc-4301-b302-22aa49c954fb"
-    alterId: 0
-    cipher: "none"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "dl2.127.0.0.1.pикерл.里克爾.kлексaкадемия.kl3ksacad3my.克萊克斯學院.wonkacapitano.buzz."
-  - name: "CA 🇨🇦 | @Raydikalx | F1E93D"
-    type: "vmess"
-    server: "104.21.230.31"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 7FB232"
-    type: "vmess"
-    server: "104.19.47.254"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 97EC8A"
-    type: "vmess"
-    server: "104.19.45.19"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 8A67CF"
-    type: "vmess"
-    server: "104.19.46.123"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn2.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 87DD51"
-    type: "vmess"
-    server: "104.19.38.18"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "cdn3.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 86BBF6"
-    type: "vmess"
-    server: "188.114.96.145"
-    port: 80
-    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
-      headers:
-        Host: "tr1-smart.adelping.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 63B270"
-    type: "vmess"
-    server: "104.19.58.175"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | AED6E3"
-    type: "vmess"
-    server: "198.41.208.172"
-    port: 443
-    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "sg-gcore-2.sharecentre.online"
-    network: "ws"
-    ws-opts:
-      path: "/shirker"
-      headers:
-        Host: "sg-gcore-2.sharecentre.online"
-  - name: "CA 🇨🇦 | @Raydikalx | 617AF5"
-    type: "vmess"
-    server: "104.21.230.51"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 "
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 59E623"
-    type: "vmess"
-    server: "104.16.68.38"
-    port: 2052
-    uuid: "1052f24e-7b09-45eb-b0c5-d858eb124192"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/glweidf.cfd/linkws"
-      headers:
-        Host: "worker-divine-hat-02d6.savofir317.workers.dev"
-  - name: "CA 🇨🇦 | @Raydikalx | 5F6BDE"
-    type: "vmess"
-    server: "188.114.96.3"
-    port: 8443
-    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "t1.620720.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "t1.620720.xyz"
+        Host: "per-essex-patterns-bowling.trycloudflare.com"
   - name: "CA 🇨🇦 | @Raydikalx | ECC985"
     type: "vmess"
     server: "104.21.224.157"
@@ -946,246 +551,9 @@ proxies:
       path: "/?ed=2048&Telegram🇨🇳"
       headers:
         Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | B676D1"
+  - name: "CA 🇨🇦 | @Raydikalx | BDE039"
     type: "vmess"
-    server: "216.128.176.166"
-    port: 28809
-    uuid: "ebca559c-a4a1-4062-9453-6412d8ff5255"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/ebca559c-a4a1-4062-9453-6412d8ff5255"
-      headers:
-  - name: "CA 🇨🇦 | @Raydikalx | DCB5A9"
-    type: "vmess"
-    server: "104.21.221.135"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | AED0D9"
-    type: "vmess"
-    server: "216.128.176.166"
-    port: 28809
-    uuid: "ebca559c-a4a1-4062-9453-6412d8ff5255"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/ebca559c-a4a1-4062-9453-6412d8ff5255"
-      headers:
-        Host: "216.128.176.166"
-  - name: "CA 🇨🇦 | @Raydikalx | 4BA3A6"
-    type: "vmess"
-    server: "23.162.200.198"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 6AC66E"
-    type: "vmess"
-    server: "104.21.221.215"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 4D8AC9"
-    type: "vmess"
-    server: "104.21.30.221"
-    port: 8080
-    uuid: "3a630a4a-7986-4a87-b016-489c3824440a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 212946"
-    type: "vmess"
-    server: "104.17.77.77"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 85668D"
-    type: "vmess"
-    server: "188.114.96.42"
-    port: 80
-    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
-      headers:
-        Host: "tr1-smart.adelping.com"
-  - name: "CA 🇨🇦 | @Raydikalx | CACDAD"
-    type: "vmess"
-    server: "172.67.171.43"
-    port: 80
-    uuid: "b79a6959-6feb-43ba-b3c7-f1afae9ea32c"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "Uk2.vmess.site."
-  - name: "CA 🇨🇦 | @Raydikalx | 0E0071"
-    type: "vmess"
-    server: "172.67.71.160"
-    port: 443
-    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "obdii.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "obdii.cfd"
-  - name: "CA 🇨🇦 | @Raydikalx | A40763"
-    type: "vmess"
-    server: "172.67.220.83"
-    port: 443
-    uuid: "39cec18f-a439-427c-9a4e-aeb6fcdf6f53"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "linja05.hwcar.sbs"
-    network: "ws"
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "linja05.hwcar.sbs"
-  - name: "CA 🇨🇦 | @Raydikalx | 786728"
-    type: "vmess"
-    server: "104.21.224.16"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳@WangCai_8"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | D9640A"
-    type: "vmess"
-    server: "151.101.193.57"
-    port: 80
-    uuid: "b7dae211-7472-48bf-996c-57d6538d1ef4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "ws/?ed=2048"
-      headers:
-        Host: "Dbdjhiw72ebsu272hs519j.com"
-  - name: "CA 🇨🇦 | @Raydikalx | D8003D"
-    type: "vmess"
-    server: "104.18.32.47"
-    port: 8080
-    uuid: "5ba0defa-bd3c-43b1-8800-1d61887a07c4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 2650AB"
-    type: "vmess"
-    server: "104.21.8.157"
-    port: 2082
-    uuid: "112ac36f-3f53-4e26-8371-d25c028e1b9a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "s1c.v2.v001sss.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | FED561"
-    type: "vmess"
-    server: "104.19.46.17"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip13.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 9D4B1F"
-    type: "vmess"
-    server: "172.67.185.3"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | E22403"
-    type: "vmess"
-    server: "104.19.42.79"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn2.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 59CBE7"
-    type: "vmess"
-    server: "162.159.1.33"
-    port: 8080
-    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
-      headers:
-        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 283220"
-    type: "vmess"
-    server: "104.19.47.186"
+    server: "104.19.47.158"
     port: 8080
     uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
     alterId: 0
@@ -1196,492 +564,6 @@ proxies:
       path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
       headers:
         Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | BCD7D5"
-    type: "vmess"
-    server: "172.64.233.17"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 72A3E2"
-    type: "vmess"
-    server: "172.66.44.97"
-    port: 2052
-    uuid: "80c6a4e4-3b99-4ae8-9681-c24d551e444d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 84297A"
-    type: "vmess"
-    server: "104.21.224.56"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | DCFD2B"
-    type: "vmess"
-    server: "104.21.232.63"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 9B454C"
-    type: "vmess"
-    server: "104.26.4.57"
-    port: 2095
-    uuid: "6658a3a6-225a-4d33-a5d2-82cfde565b4e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/api/v3/download.getFile"
-      headers:
-        Host: "ssrsub.v03.ssrsub.com"
-  - name: "CA 🇨🇦 | @Raydikalx | CD6E0E"
-    type: "vmess"
-    server: "104.19.21.81"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn3.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | A53DAC"
-    type: "vmess"
-    server: "134.195.196.211"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | FBD0E2"
-    type: "vmess"
-    server: "104.19.45.85"
-    port: 2095
-    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "onea.flha.ru"
-  - name: "CA 🇨🇦 | @Raydikalx | 8C89EF"
-    type: "vmess"
-    server: "104.16.61.8"
-    port: 2083
-    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "6ba6-sound-6ba6.siliy37818.workers.dev"
-    network: "ws"
-    ws-opts:
-      path: "/obdii.cfd/linkws"
-      headers:
-        Host: "6ba6-sound-6ba6.siliy37818.workers.dev"
-  - name: "CA 🇨🇦 | @Raydikalx | 0558BC"
-    type: "vmess"
-    server: "104.21.230.50"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 4CC7E8"
-    type: "vmess"
-    server: "104.21.224.24"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 012CFD"
-    type: "vmess"
-    server: "104.19.45.15"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip13.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 22EF42"
-    type: "vmess"
-    server: "104.21.228.41"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | DB0669"
-    type: "vmess"
-    server: "104.19.45.48"
-    port: 2095
-    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "onea.flha.ru"
-  - name: "CA 🇨🇦 | @Raydikalx | 1F174B"
-    type: "vmess"
-    server: "104.16.90.120"
-    port: 8443
-    uuid: "01c0530f-168d-4645-a74c-f2b3b015c217"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "node-de-1.e4e3e2.top"
-    network: "ws"
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "node-de-1.e4e3e2.top"
-  - name: "CA 🇨🇦 | @Raydikalx | D6A01D"
-    type: "vmess"
-    server: "104.21.228.20"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 86170F"
-    type: "vmess"
-    server: "104.21.234.52"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 3EC78F"
-    type: "vmess"
-    server: "104.21.226.14"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai08"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 51C037"
-    type: "vmess"
-    server: "104.17.77.77"
-    port: 8443
-    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "v2ray1.dozapp.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/lMnsZUN4/"
-      headers:
-        Host: "v2ray1.dozapp.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 0F47DC"
-    type: "vmess"
-    server: "104.19.45.11"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | AFD624"
-    type: "vmess"
-    server: "172.67.169.212"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | EB6DD7"
-    type: "vmess"
-    server: "104.26.15.85"
-    port: 8080
-    uuid: "e8b1500b-e9e8-5492-8312-f4eadf7d0767"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/nasnet/cdn"
-      headers:
-        Host: "nasnet-571296497.iranpress.co"
-  - name: "CA 🇨🇦 | @Raydikalx | C69481"
-    type: "vmess"
-    server: "104.19.47.26"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 577620"
-    type: "vmess"
-    server: "158.51.121.63"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "seribus.org"
-    network: "ws"
-    ws-opts:
-      path: "linkvws"
-      headers:
-        Host: "seribus.org"
-  - name: "CA 🇨🇦 | @Raydikalx | 5FA781"
-    type: "vmess"
-    server: "104.21.228.40"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 94513B"
-    type: "vmess"
-    server: "104.18.32.47"
-    port: 8080
-    uuid: "ab160de5-0bcb-4968-a8d1-aef594a3da43"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 2C0839"
-    type: "vmess"
-    server: "104.21.224.174"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | F17016"
-    type: "vmess"
-    server: "104.19.123.31"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn3.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 0E459A"
-    type: "vmess"
-    server: "104.19.47.39"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 490025"
-    type: "vmess"
-    server: "104.19.47.26"
-    port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | BA7BB4"
-    type: "vmess"
-    server: "172.66.44.97"
-    port: 8080
-    uuid: "be6134da-f1c7-4a0a-90cc-de639082f64b"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "CA 🇨🇦 | @Raydikalx | 8FCB19"
-    type: "vmess"
-    server: "104.21.54.252"
-    port: 8080
-    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.velvetmountain.shop"
-  - name: "CA 🇨🇦 | @Raydikalx | 527009"
-    type: "vmess"
-    server: "104.19.38.8"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 1BFB90"
-    type: "vmess"
-    server: "172.67.164.164"
-    port: 443
-    uuid: "a1655f51-1e20-4a92-8a11-b7ca30a7a353"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "afrhms07.xfixedfloat.cfd"
-    network: "ws"
-    ws-opts:
-      path: "/linkws"
-      headers:
-        Host: "afrhms07.xfixedfloat.cfd"
-  - name: "CA 🇨🇦 | @Raydikalx | FE080F"
-    type: "vmess"
-    server: "104.21.235.57"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai08"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 04773F"
-    type: "vmess"
-    server: "104.26.0.56"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "ip14.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 46BE56"
-    type: "vmess"
-    server: "104.21.69.44"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | D78D1A"
-    type: "vmess"
-    server: "104.19.48.29"
-    port: 8443
-    uuid: "39135a39-e6ca-43df-a360-d859eea58d86"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "hk01.linkitnow.net"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "hk01.linkitnow.net"
   - name: "CA 🇨🇦 | @Raydikalx | 3F4E6C"
     type: "vmess"
     server: "104.21.230.53"
@@ -1695,76 +577,17 @@ proxies:
       path: "/?ed=2048&Telegram🇨🇳"
       headers:
         Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 447415"
+  - name: "CA 🇨🇦 | @Raydikalx | 0EEFFB"
     type: "vmess"
-    server: "104.21.82.39"
-    port: 2052
-    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "mahilu.site"
-  - name: "CA 🇨🇦 | @Raydikalx | A6DBA7"
-    type: "vmess"
-    server: "104.19.45.80"
-    port: 2095
-    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "onea.flha.ru"
-  - name: "CA 🇨🇦 | @Raydikalx | 4C914F"
-    type: "vmess"
-    server: "104.19.47.158"
+    server: "172.66.44.97"
     port: 8080
-    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    uuid: "4b9cee18-8a9c-45f2-be2b-8e585783c4b5"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "oiictw.yydsii.com"
-  - name: "CA 🇨🇦 | @Raydikalx | 32C3CC"
+  - name: "CA 🇨🇦 | @Raydikalx | 5FA781"
     type: "vmess"
-    server: "198.41.193.181"
-    port: 80
-    uuid: "92791642-1471-4b93-980a-81030985f3ce"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess"
-      headers:
-        Host: "127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz."
-  - name: "CA 🇨🇦 | @Raydikalx | C711CE"
-    type: "vmess"
-    server: "104.19.47.20"
-    port: 8443
-    uuid: "39135a39-e6ca-43df-a360-d859eea58d86"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "hk01.linkitnow.net"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "hk01.linkitnow.net"
-  - name: "CA 🇨🇦 | @Raydikalx | E9AD25"
-    type: "vmess"
-    server: "104.21.229.26"
+    server: "104.21.228.40"
     port: 80
     uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
     alterId: 0
@@ -1775,6 +598,92 @@ proxies:
       path: "/"
       headers:
         Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 4181CF"
+    type: "vmess"
+    server: "104.19.46.59"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | A9CC45"
+    type: "vmess"
+    server: "104.19.47.254"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 4DA474"
+    type: "vmess"
+    server: "104.19.47.39"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 58F9B2"
+    type: "vmess"
+    server: "104.19.46.27"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | C505DC"
+    type: "vmess"
+    server: "104.20.17.186"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip11.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | BA7BB4"
+    type: "vmess"
+    server: "172.66.44.97"
+    port: 8080
+    uuid: "be6134da-f1c7-4a0a-90cc-de639082f64b"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | C4AAEC"
+    type: "vmess"
+    server: "104.21.238.90"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
   - name: "CA 🇨🇦 | @Raydikalx | B26A65"
     type: "vmess"
     server: "104.21.224.129"
@@ -1788,24 +697,27 @@ proxies:
       path: "/?ed=2048&Telegram🇨🇳@WangCai_8"
       headers:
         Host: "a.prapt1.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | 798278"
+  - name: "CA 🇨🇦 | @Raydikalx | 8849FE"
     type: "vmess"
-    server: "104.21.237.65"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    server: "172.66.44.97"
+    port: 8080
+    uuid: "96d88304-6bc1-4ef1-b26e-845e7c1cc38e"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"
-      headers:
-        Host: "a.prapt4.ir"
-  - name: "CA 🇨🇦 | @Raydikalx | A56E50"
+  - name: "CA 🇨🇦 | @Raydikalx | A53DAC"
     type: "vmess"
-    server: "104.19.45.13"
-    port: 2086
-    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    server: "134.195.196.211"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | CD6E0E"
+    type: "vmess"
+    server: "104.19.21.81"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -1813,25 +725,23 @@ proxies:
     ws-opts:
       path: "github.com/Alvin9999"
       headers:
-        Host: "ip13.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 7B082A"
+        Host: "cdn3.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 44B0D6"
     type: "vmess"
-    server: "172.67.198.187"
-    port: 443
-    uuid: "93ea486a-bada-42a4-ac38-d088b320fa1e"
+    server: "23.227.38.13"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
     alterId: 0
     cipher: "auto"
     udp: true
-    tls: true
-    servername: "xmivideo.cfd"
     network: "ws"
     ws-opts:
-      path: "/linkws"
+      path: "github.com/Alvin9999"
       headers:
-        Host: "xmivideo.cfd"
-  - name: "CA 🇨🇦 | @Raydikalx | 0680C1"
+        Host: "cdn3.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 86170F"
     type: "vmess"
-    server: "104.21.239.76"
+    server: "104.21.234.52"
     port: 80
     uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
     alterId: 0
@@ -1855,32 +765,16 @@ proxies:
       path: "github.com/Alvin9999"
       headers:
         Host: "ip2.1457230.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | 44B0D6"
+  - name: "CA 🇨🇦 | @Raydikalx | F98E51"
     type: "vmess"
-    server: "23.227.38.13"
-    port: 2052
-    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    server: "172.64.32.154"
+    port: 2087
+    uuid: "2a3263e2-891c-4446-b474-a8c63acb6e25"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "github.com/Alvin9999"
-      headers:
-        Host: "cdn3.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | C4AAEC"
-    type: "vmess"
-    server: "104.21.238.90"
-    port: 80
-    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048&Telegram🇨🇳"
-      headers:
-        Host: "a.prapt1.ir"
+    tls: true
+    servername: "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb15513822497.6ssssssssssssssssssrinlvk.info"
   - name: "CA 🇨🇦 | @Raydikalx | 62CF41"
     type: "vmess"
     server: "104.19.32.216"
@@ -1894,24 +788,11 @@ proxies:
       path: "github.com/Alvin9999"
       headers:
         Host: "ip14.freegradely.xyz"
-  - name: "CA 🇨🇦 | @Raydikalx | DAF507"
+  - name: "CA 🇨🇦 | @Raydikalx | 83D32E"
     type: "vmess"
-    server: "162.159.130.208"
-    port: 8080
-    uuid: "55021a7c-bd6c-418e-be95-ceac8ba27b45"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "55021a7c-bd6c-418e-be95-ceac8ba27b45-vm"
-      headers:
-        Host: "widescreen-instruction-breakdown-postage.trycloudflare.com"
-  - name: "CA 🇨🇦 | @Raydikalx | AE33B4"
-    type: "vmess"
-    server: "172.67.116.48"
-    port: 80
-    uuid: "22a13aa2-4854-44cb-e090-ec71ab84b1ff"
+    server: "104.19.45.70"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -1919,7 +800,1101 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "wap.hostmjj.com"
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | 51C037"
+    type: "vmess"
+    server: "104.17.77.77"
+    port: 8443
+    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "v2ray1.dozapp.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/lMnsZUN4/"
+      headers:
+        Host: "v2ray1.dozapp.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 212946"
+    type: "vmess"
+    server: "104.17.77.77"
+    port: 8443
+    uuid: "60441548-b68e-43b2-8191-e3b884be4b3c"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "v2ray1.dozapp.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/lMnsZUN4/"
+      headers:
+        Host: "v2ray1.dozapp.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 04773F"
+    type: "vmess"
+    server: "104.26.0.56"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip14.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 87DD51"
+    type: "vmess"
+    server: "104.19.38.18"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cdn3.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 283220"
+    type: "vmess"
+    server: "104.19.47.186"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | FBD0E2"
+    type: "vmess"
+    server: "104.19.45.85"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | D8D897"
+    type: "vmess"
+    server: "104.21.237.88"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 9B855B"
+    type: "vmess"
+    server: "104.21.7.101"
+    port: 80
+    uuid: "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/iSRWSKUJKNuXvVzsYHmsMrnO"
+      headers:
+        Host: "gbnh.0nn.ccwu.cc"
+  - name: "CA 🇨🇦 | @Raydikalx | A6DBA7"
+    type: "vmess"
+    server: "104.19.45.80"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "BZ 🇧🇿 | @Raydikalx | CA9ABE"
+    type: "vmess"
+    server: "45.131.208.228"
+    port: 80
+    uuid: "f491cbe4-7548-446c-8d3e-64008e3b1325"
+    alterId: 0
+    cipher: "none"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz."
+  - name: "CA 🇨🇦 | @Raydikalx | 8FCB19"
+    type: "vmess"
+    server: "104.21.54.252"
+    port: 8080
+    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "www.velvetmountain.shop"
+  - name: "CA 🇨🇦 | @Raydikalx | C711CE"
+    type: "vmess"
+    server: "104.19.47.20"
+    port: 8443
+    uuid: "39135a39-e6ca-43df-a360-d859eea58d86"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "hk01.linkitnow.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hk01.linkitnow.net"
+  - name: "CA 🇨🇦 | @Raydikalx | 6309D0"
+    type: "vmess"
+    server: "23.227.39.24"
+    port: 8080
+    uuid: "9258153a-dc97-4e39-9037-009abfc4fed0"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "9258153a-dc97-4e39-9037-009abfc4fed0-vm"
+      headers:
+        Host: "per-essex-patterns-bowling.trycloudflare.com"
+  - name: "CA 🇨🇦 | @Raydikalx | CBE6C9"
+    type: "vmess"
+    server: "104.19.47.45"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | DCFD2B"
+    type: "vmess"
+    server: "104.21.232.63"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 9B58DB"
+    type: "vmess"
+    server: "172.67.152.170"
+    port: 2052
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "mahilu.site"
+  - name: "CA 🇨🇦 | @Raydikalx | ADDAD1"
+    type: "vmess"
+    server: "104.17.121.43"
+    port: 443
+    uuid: "e9947b42-27ed-401e-b75e-c9ebd357c0f3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "omkuzygiv.com"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "omkuzygiv.com"
+  - name: "CA 🇨🇦 | @Raydikalx | AFD624"
+    type: "vmess"
+    server: "172.67.169.212"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 91B783"
+    type: "vmess"
+    server: "104.21.227.15"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳@WangCai_8"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 84297A"
+    type: "vmess"
+    server: "104.21.224.56"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 295371"
+    type: "vmess"
+    server: "172.64.32.154"
+    port: 2087
+    uuid: "2a3263e2-891c-4446-b474-a8c63acb6e25"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb9630193211.oenxi.info"
+  - name: "CA 🇨🇦 | @Raydikalx | D78D1A"
+    type: "vmess"
+    server: "104.19.48.29"
+    port: 8443
+    uuid: "39135a39-e6ca-43df-a360-d859eea58d86"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "hk01.linkitnow.net"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "hk01.linkitnow.net"
+  - name: "CA 🇨🇦 | @Raydikalx | 0E459A"
+    type: "vmess"
+    server: "104.19.47.39"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | B4FBAF"
+    type: "vmess"
+    server: "104.19.47.104"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 111EA8"
+    type: "vmess"
+    server: "188.114.96.9"
+    port: 80
+    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+      headers:
+        Host: "tr1-smart.adelping.com"
+  - name: "CA 🇨🇦 | @Raydikalx | BE1521"
+    type: "vmess"
+    server: "104.19.47.237"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 9D4B1F"
+    type: "vmess"
+    server: "172.67.185.3"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 94513B"
+    type: "vmess"
+    server: "104.18.32.47"
+    port: 8080
+    uuid: "ab160de5-0bcb-4968-a8d1-aef594a3da43"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | 0E0071"
+    type: "vmess"
+    server: "172.67.71.160"
+    port: 443
+    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "obdii.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "obdii.cfd"
+  - name: "CA 🇨🇦 | @Raydikalx | 3278D1"
+    type: "vmess"
+    server: "104.19.47.16"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 5F6BDE"
+    type: "vmess"
+    server: "188.114.96.3"
+    port: 8443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "t1.620720.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "t1.620720.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 0F47DC"
+    type: "vmess"
+    server: "104.19.45.11"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 4F61F5"
+    type: "vmess"
+    server: "104.18.57.121"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "cdn2.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | F3196E"
+    type: "vmess"
+    server: "172.67.138.140"
+    port: 443
+    uuid: "441da342-ce90-441e-bff9-d2ceb55e68ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "ivideos.sbs"
+    network: "ws"
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "ivideos.sbs"
+  - name: "CA 🇨🇦 | @Raydikalx | 8A67CF"
+    type: "vmess"
+    server: "104.19.46.123"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "cdn2.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 253945"
+    type: "vmess"
+    server: "104.21.234.74"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 798278"
+    type: "vmess"
+    server: "104.21.237.65"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai_8"
+      headers:
+        Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 85668D"
+    type: "vmess"
+    server: "188.114.96.42"
+    port: 80
+    uuid: "43dcdce1-3cea-4193-bc8d-90b92071d779"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1"
+      headers:
+        Host: "tr1-smart.adelping.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 97EC8A"
+    type: "vmess"
+    server: "104.19.45.19"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 3DADCE"
+    type: "vmess"
+    server: "104.19.47.186"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 74B31F"
+    type: "vmess"
+    server: "104.18.202.250"
+    port: 8080
+    uuid: "950db6aa-4926-4616-816e-ec0312dcb87b"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/jahfkjha.cfd/linkws"
+      headers:
+        Host: "erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev"
+  - name: "CA 🇨🇦 | @Raydikalx | 94B6A1"
+    type: "vmess"
+    server: "104.21.224.46"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 4BA3A6"
+    type: "vmess"
+    server: "23.162.200.198"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | DB0669"
+    type: "vmess"
+    server: "104.19.45.48"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | 12D92A"
+    type: "vmess"
+    server: "104.19.45.240"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | 52A333"
+    type: "vmess"
+    server: "104.19.45.34"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | C69481"
+    type: "vmess"
+    server: "104.19.47.26"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 1BFB90"
+    type: "vmess"
+    server: "172.67.164.164"
+    port: 443
+    uuid: "a1655f51-1e20-4a92-8a11-b7ca30a7a353"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "afrhms07.xfixedfloat.cfd"
+    network: "ws"
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "afrhms07.xfixedfloat.cfd"
+  - name: "CA 🇨🇦 | @Raydikalx | 15D015"
+    type: "vmess"
+    server: "104.19.47.16"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 59CBE7"
+    type: "vmess"
+    server: "162.159.1.33"
+    port: 8080
+    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
+      headers:
+        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
+  - name: "CA 🇨🇦 | @Raydikalx | D6A01D"
+    type: "vmess"
+    server: "104.21.228.20"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 2BAF8B"
+    type: "vmess"
+    server: "172.67.136.12"
+    port: 8080
+    uuid: "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "www.ywnouvbale.biz"
+  - name: "CA 🇨🇦 | @Raydikalx | FBDDF6"
+    type: "vmess"
+    server: "104.19.46.233"
+    port: 2086
+    uuid: "29eebb60-b27b-4a9d-bba5-947763d9205e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip005.dtku47.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 81927A"
+    type: "vmess"
+    server: "172.66.44.97"
+    port: 8080
+    uuid: "81705ff8-eff0-412b-a31f-1c434a218113"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | C36C2A"
+    type: "vmess"
+    server: "104.19.47.77"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | FDA7C6"
+    type: "vmess"
+    server: "104.21.224.23"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | DCB5A9"
+    type: "vmess"
+    server: "104.21.221.135"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | A56E50"
+    type: "vmess"
+    server: "104.19.45.13"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip13.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 3E64F8"
+    type: "vmess"
+    server: "104.19.47.238"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | D8003D"
+    type: "vmess"
+    server: "104.18.32.47"
+    port: 8080
+    uuid: "5ba0defa-bd3c-43b1-8800-1d61887a07c4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "CA 🇨🇦 | @Raydikalx | 574B6B"
+    type: "vmess"
+    server: "104.21.224.8"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 1C6DB0"
+    type: "vmess"
+    server: "104.19.45.33"
+    port: 2095
+    uuid: "7a737f41-b792-4260-94ff-3d864da67b80"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "onea.flha.ru"
+  - name: "CA 🇨🇦 | @Raydikalx | D6A3D3"
+    type: "vmess"
+    server: "104.21.238.92"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | A24458"
+    type: "vmess"
+    server: "104.21.221.95"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | F8F1E6"
+    type: "vmess"
+    server: "104.21.235.76"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai08"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 1462E3"
+    type: "vmess"
+    server: "162.159.5.6"
+    port: 8080
+    uuid: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm"
+      headers:
+        Host: "pcs-referenced-camera-concerns.trycloudflare.com"
+  - name: "CA 🇨🇦 | @Raydikalx | EF8A57"
+    type: "vmess"
+    server: "172.64.32.154"
+    port: 2087
+    uuid: "2a3263e2-891c-4446-b474-a8c63acb6e25"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb664280189.gqisb.info"
+  - name: "CA 🇨🇦 | @Raydikalx | C71551"
+    type: "vmess"
+    server: "104.16.53.5"
+    port: 80
+    uuid: "5ea4a644-07e9-4ad0-860d-50bd9b6e7f94"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess"
+      headers:
+        Host: "dl2.升級.3скалация.mальчикицапля.男孩與蒼鷺.wonkacapitano.buzz."
+  - name: "CA 🇨🇦 | @Raydikalx | A40763"
+    type: "vmess"
+    server: "172.67.220.83"
+    port: 443
+    uuid: "39cec18f-a439-427c-9a4e-aeb6fcdf6f53"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "linja05.hwcar.sbs"
+    network: "ws"
+    ws-opts:
+      path: "/linkws"
+      headers:
+        Host: "linja05.hwcar.sbs"
+  - name: "CA 🇨🇦 | @Raydikalx | C5497C"
+    type: "vmess"
+    server: "104.21.236.60"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 490025"
+    type: "vmess"
+    server: "104.19.47.26"
+    port: 8080
+    uuid: "b551aa22-22af-11ee-b8d8-f23c932eb68d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "oiictw.yydsii.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 012CFD"
+    type: "vmess"
+    server: "104.19.45.15"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip13.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | FFFE89"
+    type: "vmess"
+    server: "104.21.237.87"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | E22403"
+    type: "vmess"
+    server: "104.19.42.79"
+    port: 2052
+    uuid: "d6b6d982-d52f-465a-b988-85670b23f64a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "cdn2.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 786728"
+    type: "vmess"
+    server: "104.21.224.16"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳@WangCai_8"
+      headers:
+        Host: "a.prapt1.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | 77D712"
+    type: "vmess"
+    server: "104.19.47.27"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip14.freegradely.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | D9640A"
+    type: "vmess"
+    server: "151.101.193.57"
+    port: 80
+    uuid: "b7dae211-7472-48bf-996c-57d6538d1ef4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "ws/?ed=2048"
+      headers:
+        Host: "Dbdjhiw72ebsu272hs519j.com"
+  - name: "CA 🇨🇦 | @Raydikalx | 59E623"
+    type: "vmess"
+    server: "104.16.68.38"
+    port: 2052
+    uuid: "1052f24e-7b09-45eb-b0c5-d858eb124192"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/glweidf.cfd/linkws"
+      headers:
+        Host: "worker-divine-hat-02d6.savofir317.workers.dev"
+  - name: "CA 🇨🇦 | @Raydikalx | AED6E3"
+    type: "vmess"
+    server: "198.41.208.172"
+    port: 443
+    uuid: "20e92881-5fb4-4b05-bc77-57929476dc69"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "sg-gcore-2.sharecentre.online"
+    network: "ws"
+    ws-opts:
+      path: "/shirker"
+      headers:
+        Host: "sg-gcore-2.sharecentre.online"
+  - name: "CA 🇨🇦 | @Raydikalx | 3EC78F"
+    type: "vmess"
+    server: "104.21.226.14"
+    port: 80
+    uuid: "7022982f-da4c-48c9-c660-b2315abdcf7e"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/?ed=2048&Telegram🇨🇳 @WangCai08"
+      headers:
+        Host: "a.prapt4.ir"
+  - name: "CA 🇨🇦 | @Raydikalx | A5A135"
+    type: "vmess"
+    server: "188.114.96.3"
+    port: 443
+    uuid: "516d8a7a-3f0b-41d3-bad0-246116381516"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "sy4.620720.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sy4.620720.xyz"
+  - name: "CA 🇨🇦 | @Raydikalx | 8C89EF"
+    type: "vmess"
+    server: "104.16.61.8"
+    port: 2083
+    uuid: "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "6ba6-sound-6ba6.siliy37818.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/obdii.cfd/linkws"
+      headers:
+        Host: "6ba6-sound-6ba6.siliy37818.workers.dev"
+  - name: "CA 🇨🇦 | @Raydikalx | A81306"
+    type: "vmess"
+    server: "188.114.98.121"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "day16.lfebdxj3mh.workers.dev"
+    network: "ws"
+    ws-opts:
+      path: "/rush-6it6b.teeopp.quest/"
+      headers:
+        Host: "day16.lfebdxj3mh.workers.dev"
+  - name: "CA 🇨🇦 | @Raydikalx | D6072B"
+    type: "vmess"
+    server: "104.19.46.56"
+    port: 2086
+    uuid: "e9e3cc13-db48-4cc1-8c24-7626439a5339"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "github.com/Alvin9999"
+      headers:
+        Host: "ip2.1457230.xyz"
   - name: "🇨🇦"
     type: "vless"
     server: "162.159.12.41"
@@ -2046,20 +2021,6 @@ proxies:
       path: "/"
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-    type: "vmess"
-    server: "23.162.200.227"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "23.162.200.227"
-    network: "ws"
-    ws-opts:
-      path: "/linkvws"
-      headers:
   - name: "@MARAMBASHI 🇨🇦"
     type: "ss"
     server: "188.114.97.4"
@@ -2141,9 +2102,22 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇨🇦 Join+Telegram:@FarahVPN 🇨🇦"
+      - "🇨🇦150453 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150501 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150459 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150417 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150462 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150486 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150421 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150485 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150564 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150590 | ⚡️Telegram = t.me/LonUp_M"
+      - "🇨🇦150565 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇨🇦150419 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
-      - "🇨🇦 Join+Telegram:@FarahVPN 🇨🇦"
+      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
+      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
+      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
       - "🇨🇦CA加拿大丨yoyapai.comr"
       - "🇨🇦CA加拿大丨yoyapai.comr"
       - "🇨🇦CA加拿大丨yoyapai.comr"
@@ -2153,153 +2127,140 @@ proxy-groups:
       - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
       - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
       - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
-      - "🇨🇦CA-108.181.118.10-0075"
-      - "🇨🇦CA-149.22.95.183-0119"
-      - "🇨🇦CA-134.195.198.147-0680"
-      - "🇨🇦CA-23.162.200.227-0681"
-      - "🇨🇦CA-51.222.155.113-0407"
-      - "🇨🇦CA-142.4.216.225-4812"
-      - "🇨🇦CA-137.184.174.93-0071"
-      - "🇨🇦CA-23.162.200.227-0268"
-      - "🇨🇦CA-148.113.141.99-0813"
-      - "🇨🇦CA-158.51.121.36-2113"
-      - "🇨🇦CA-149.56.141.11-2739"
-      - "🇨🇦CA-149.56.141.11-3451"
-      - "🇨🇦CA-137.184.164.233-6643"
+      - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+      - "🇨🇦 CA加拿大(mibei77.com 米贝节点分享)"
+      - "A - 🇨🇦 CA 01 TG: @nodpai"
+      - "🇨🇦CA_1|2.5MB/s"
+      - "🇨🇦CA-108.181.118.10-0053"
+      - "🇨🇦CA-137.184.174.93-0194"
+      - "🇨🇦CA-149.22.95.183-0060"
+      - "🇨🇦CA-51.222.155.113-0131"
+      - "🇨🇦CA-23.162.200.227-0659"
+      - "🇨🇦CA-134.195.198.147-0658"
+      - "🇨🇦CA-142.4.216.225-0139"
+      - "🇨🇦CA-23.162.200.227-0124"
+      - "🇨🇦CA-134.195.198.147-0122"
+      - "🇨🇦CA-148.113.141.99-0792"
+      - "🇨🇦CA-158.51.121.36-2122"
+      - "🇨🇦CA-149.56.141.11-2748"
+      - "🇨🇦CA-149.56.141.11-3460"
+      - "🇨🇦CA-137.184.164.233-6641"
       - "🇨🇦CA加拿大"
-      - "🇨🇦CA加拿大2"
-      - "🇨🇦CA加拿大3"
-      - "🇨🇦CA加拿大4"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "Channel id: @ShadowProxy66 🇨🇦"
-      - "CA 🇨🇦 | @Raydikalx | F98E51"
-      - "CA 🇨🇦 | @Raydikalx | 81927A"
-      - "CA 🇨🇦 | @Raydikalx | D8D897"
-      - "CA 🇨🇦 | @Raydikalx | E03695"
-      - "CA 🇨🇦 | @Raydikalx | F8F1E6"
-      - "CA 🇨🇦 | @Raydikalx | 76F99C"
-      - "CA 🇨🇦 | @Raydikalx | 014451"
-      - "CA 🇨🇦 | @Raydikalx | 2BAF8B"
-      - "CA 🇨🇦 | @Raydikalx | A5A135"
-      - "CA 🇨🇦 | @Raydikalx | 83D32E"
-      - "CA 🇨🇦 | @Raydikalx | 277FF9"
-      - "CA 🇨🇦 | @Raydikalx | 6382CE"
-      - "CA 🇨🇦 | @Raydikalx | FFFE89"
-      - "CA 🇨🇦 | @Raydikalx | 046E6C"
-      - "CA 🇨🇦 | @Raydikalx | 3DADCE"
-      - "CA 🇨🇦 | @Raydikalx | ADDAD1"
-      - "CA 🇨🇦 | @Raydikalx | B4FBAF"
-      - "CA 🇨🇦 | @Raydikalx | D6A3D3"
-      - "CA 🇨🇦 | @Raydikalx | FDA7C6"
-      - "CA 🇨🇦 | @Raydikalx | D6072B"
-      - "CA 🇨🇦 | @Raydikalx | 111EA8"
-      - "CA 🇨🇦 | @Raydikalx | DC1A27"
-      - "CA 🇨🇦 | @Raydikalx | F1E93D"
-      - "CA 🇨🇦 | @Raydikalx | 7FB232"
-      - "CA 🇨🇦 | @Raydikalx | 97EC8A"
-      - "CA 🇨🇦 | @Raydikalx | 8A67CF"
-      - "CA 🇨🇦 | @Raydikalx | 87DD51"
-      - "CA 🇨🇦 | @Raydikalx | 86BBF6"
-      - "CA 🇨🇦 | @Raydikalx | 63B270"
-      - "CA 🇨🇦 | @Raydikalx | AED6E3"
-      - "CA 🇨🇦 | @Raydikalx | 617AF5"
-      - "CA 🇨🇦 | @Raydikalx | 59E623"
-      - "CA 🇨🇦 | @Raydikalx | 5F6BDE"
-      - "CA 🇨🇦 | @Raydikalx | ECC985"
-      - "CA 🇨🇦 | @Raydikalx | B676D1"
-      - "CA 🇨🇦 | @Raydikalx | DCB5A9"
-      - "CA 🇨🇦 | @Raydikalx | AED0D9"
-      - "CA 🇨🇦 | @Raydikalx | 4BA3A6"
-      - "CA 🇨🇦 | @Raydikalx | 6AC66E"
-      - "CA 🇨🇦 | @Raydikalx | 4D8AC9"
-      - "CA 🇨🇦 | @Raydikalx | 212946"
-      - "CA 🇨🇦 | @Raydikalx | 85668D"
-      - "CA 🇨🇦 | @Raydikalx | CACDAD"
-      - "CA 🇨🇦 | @Raydikalx | 0E0071"
-      - "CA 🇨🇦 | @Raydikalx | A40763"
-      - "CA 🇨🇦 | @Raydikalx | 786728"
-      - "CA 🇨🇦 | @Raydikalx | D9640A"
-      - "CA 🇨🇦 | @Raydikalx | D8003D"
-      - "CA 🇨🇦 | @Raydikalx | 2650AB"
-      - "CA 🇨🇦 | @Raydikalx | FED561"
-      - "CA 🇨🇦 | @Raydikalx | 9D4B1F"
-      - "CA 🇨🇦 | @Raydikalx | E22403"
-      - "CA 🇨🇦 | @Raydikalx | 59CBE7"
-      - "CA 🇨🇦 | @Raydikalx | 283220"
-      - "CA 🇨🇦 | @Raydikalx | BCD7D5"
-      - "CA 🇨🇦 | @Raydikalx | 72A3E2"
-      - "CA 🇨🇦 | @Raydikalx | 84297A"
-      - "CA 🇨🇦 | @Raydikalx | DCFD2B"
-      - "CA 🇨🇦 | @Raydikalx | 9B454C"
-      - "CA 🇨🇦 | @Raydikalx | CD6E0E"
-      - "CA 🇨🇦 | @Raydikalx | A53DAC"
-      - "CA 🇨🇦 | @Raydikalx | FBD0E2"
-      - "CA 🇨🇦 | @Raydikalx | 8C89EF"
-      - "CA 🇨🇦 | @Raydikalx | 0558BC"
-      - "CA 🇨🇦 | @Raydikalx | 4CC7E8"
-      - "CA 🇨🇦 | @Raydikalx | 012CFD"
-      - "CA 🇨🇦 | @Raydikalx | 22EF42"
-      - "CA 🇨🇦 | @Raydikalx | DB0669"
-      - "CA 🇨🇦 | @Raydikalx | 1F174B"
-      - "CA 🇨🇦 | @Raydikalx | D6A01D"
-      - "CA 🇨🇦 | @Raydikalx | 86170F"
-      - "CA 🇨🇦 | @Raydikalx | 3EC78F"
-      - "CA 🇨🇦 | @Raydikalx | 51C037"
-      - "CA 🇨🇦 | @Raydikalx | 0F47DC"
-      - "CA 🇨🇦 | @Raydikalx | AFD624"
-      - "CA 🇨🇦 | @Raydikalx | EB6DD7"
-      - "CA 🇨🇦 | @Raydikalx | C69481"
-      - "CA 🇨🇦 | @Raydikalx | 577620"
-      - "CA 🇨🇦 | @Raydikalx | 5FA781"
-      - "CA 🇨🇦 | @Raydikalx | 94513B"
+      - "[OpenRay] 🇨🇦 CA-12045"
       - "CA 🇨🇦 | @Raydikalx | 2C0839"
-      - "CA 🇨🇦 | @Raydikalx | F17016"
-      - "CA 🇨🇦 | @Raydikalx | 0E459A"
-      - "CA 🇨🇦 | @Raydikalx | 490025"
-      - "CA 🇨🇦 | @Raydikalx | BA7BB4"
-      - "CA 🇨🇦 | @Raydikalx | 8FCB19"
-      - "CA 🇨🇦 | @Raydikalx | 527009"
-      - "CA 🇨🇦 | @Raydikalx | 1BFB90"
-      - "CA 🇨🇦 | @Raydikalx | FE080F"
-      - "CA 🇨🇦 | @Raydikalx | 04773F"
-      - "CA 🇨🇦 | @Raydikalx | 46BE56"
-      - "CA 🇨🇦 | @Raydikalx | D78D1A"
-      - "CA 🇨🇦 | @Raydikalx | 3F4E6C"
-      - "CA 🇨🇦 | @Raydikalx | 447415"
-      - "CA 🇨🇦 | @Raydikalx | A6DBA7"
+      - "CA 🇨🇦 | @Raydikalx | 93C870"
       - "CA 🇨🇦 | @Raydikalx | 4C914F"
-      - "CA 🇨🇦 | @Raydikalx | 32C3CC"
-      - "CA 🇨🇦 | @Raydikalx | C711CE"
-      - "CA 🇨🇦 | @Raydikalx | E9AD25"
-      - "CA 🇨🇦 | @Raydikalx | B26A65"
-      - "CA 🇨🇦 | @Raydikalx | 798278"
-      - "CA 🇨🇦 | @Raydikalx | A56E50"
-      - "CA 🇨🇦 | @Raydikalx | 7B082A"
-      - "CA 🇨🇦 | @Raydikalx | 0680C1"
-      - "CA 🇨🇦 | @Raydikalx | 8D8A7D"
-      - "CA 🇨🇦 | @Raydikalx | 44B0D6"
+      - "CA 🇨🇦 | @Raydikalx | 72A3E2"
+      - "CA 🇨🇦 | @Raydikalx | 63B270"
+      - "CA 🇨🇦 | @Raydikalx | 4CC7E8"
+      - "CA 🇨🇦 | @Raydikalx | 046E6C"
+      - "CA 🇨🇦 | @Raydikalx | 76F99C"
+      - "CA 🇨🇦 | @Raydikalx | ECC985"
+      - "CA 🇨🇦 | @Raydikalx | BDE039"
+      - "CA 🇨🇦 | @Raydikalx | 3F4E6C"
+      - "CA 🇨🇦 | @Raydikalx | 0EEFFB"
+      - "CA 🇨🇦 | @Raydikalx | 5FA781"
+      - "CA 🇨🇦 | @Raydikalx | 4181CF"
+      - "CA 🇨🇦 | @Raydikalx | A9CC45"
+      - "CA 🇨🇦 | @Raydikalx | 4DA474"
+      - "CA 🇨🇦 | @Raydikalx | 58F9B2"
+      - "CA 🇨🇦 | @Raydikalx | C505DC"
+      - "CA 🇨🇦 | @Raydikalx | BA7BB4"
       - "CA 🇨🇦 | @Raydikalx | C4AAEC"
+      - "CA 🇨🇦 | @Raydikalx | B26A65"
+      - "CA 🇨🇦 | @Raydikalx | 8849FE"
+      - "CA 🇨🇦 | @Raydikalx | A53DAC"
+      - "CA 🇨🇦 | @Raydikalx | CD6E0E"
+      - "CA 🇨🇦 | @Raydikalx | 44B0D6"
+      - "CA 🇨🇦 | @Raydikalx | 86170F"
+      - "CA 🇨🇦 | @Raydikalx | 8D8A7D"
+      - "CA 🇨🇦 | @Raydikalx | F98E51"
       - "CA 🇨🇦 | @Raydikalx | 62CF41"
-      - "CA 🇨🇦 | @Raydikalx | DAF507"
-      - "CA 🇨🇦 | @Raydikalx | AE33B4"
+      - "CA 🇨🇦 | @Raydikalx | 83D32E"
+      - "CA 🇨🇦 | @Raydikalx | 51C037"
+      - "CA 🇨🇦 | @Raydikalx | 212946"
+      - "CA 🇨🇦 | @Raydikalx | 04773F"
+      - "CA 🇨🇦 | @Raydikalx | 87DD51"
+      - "CA 🇨🇦 | @Raydikalx | 283220"
+      - "CA 🇨🇦 | @Raydikalx | FBD0E2"
+      - "CA 🇨🇦 | @Raydikalx | D8D897"
+      - "CA 🇨🇦 | @Raydikalx | 9B855B"
+      - "CA 🇨🇦 | @Raydikalx | A6DBA7"
+      - "BZ 🇧🇿 | @Raydikalx | CA9ABE"
+      - "CA 🇨🇦 | @Raydikalx | 8FCB19"
+      - "CA 🇨🇦 | @Raydikalx | C711CE"
+      - "CA 🇨🇦 | @Raydikalx | 6309D0"
+      - "CA 🇨🇦 | @Raydikalx | CBE6C9"
+      - "CA 🇨🇦 | @Raydikalx | DCFD2B"
+      - "CA 🇨🇦 | @Raydikalx | 9B58DB"
+      - "CA 🇨🇦 | @Raydikalx | ADDAD1"
+      - "CA 🇨🇦 | @Raydikalx | AFD624"
+      - "CA 🇨🇦 | @Raydikalx | 91B783"
+      - "CA 🇨🇦 | @Raydikalx | 84297A"
+      - "CA 🇨🇦 | @Raydikalx | 295371"
+      - "CA 🇨🇦 | @Raydikalx | D78D1A"
+      - "CA 🇨🇦 | @Raydikalx | 0E459A"
+      - "CA 🇨🇦 | @Raydikalx | B4FBAF"
+      - "CA 🇨🇦 | @Raydikalx | 111EA8"
+      - "CA 🇨🇦 | @Raydikalx | BE1521"
+      - "CA 🇨🇦 | @Raydikalx | 9D4B1F"
+      - "CA 🇨🇦 | @Raydikalx | 94513B"
+      - "CA 🇨🇦 | @Raydikalx | 0E0071"
+      - "CA 🇨🇦 | @Raydikalx | 3278D1"
+      - "CA 🇨🇦 | @Raydikalx | 5F6BDE"
+      - "CA 🇨🇦 | @Raydikalx | 0F47DC"
+      - "CA 🇨🇦 | @Raydikalx | 4F61F5"
+      - "CA 🇨🇦 | @Raydikalx | F3196E"
+      - "CA 🇨🇦 | @Raydikalx | 8A67CF"
+      - "CA 🇨🇦 | @Raydikalx | 253945"
+      - "CA 🇨🇦 | @Raydikalx | 798278"
+      - "CA 🇨🇦 | @Raydikalx | 85668D"
+      - "CA 🇨🇦 | @Raydikalx | 97EC8A"
+      - "CA 🇨🇦 | @Raydikalx | 3DADCE"
+      - "CA 🇨🇦 | @Raydikalx | 74B31F"
+      - "CA 🇨🇦 | @Raydikalx | 94B6A1"
+      - "CA 🇨🇦 | @Raydikalx | 4BA3A6"
+      - "CA 🇨🇦 | @Raydikalx | DB0669"
+      - "CA 🇨🇦 | @Raydikalx | 12D92A"
+      - "CA 🇨🇦 | @Raydikalx | 52A333"
+      - "CA 🇨🇦 | @Raydikalx | C69481"
+      - "CA 🇨🇦 | @Raydikalx | 1BFB90"
+      - "CA 🇨🇦 | @Raydikalx | 15D015"
+      - "CA 🇨🇦 | @Raydikalx | 59CBE7"
+      - "CA 🇨🇦 | @Raydikalx | D6A01D"
+      - "CA 🇨🇦 | @Raydikalx | 2BAF8B"
+      - "CA 🇨🇦 | @Raydikalx | FBDDF6"
+      - "CA 🇨🇦 | @Raydikalx | 81927A"
+      - "CA 🇨🇦 | @Raydikalx | C36C2A"
+      - "CA 🇨🇦 | @Raydikalx | FDA7C6"
+      - "CA 🇨🇦 | @Raydikalx | DCB5A9"
+      - "CA 🇨🇦 | @Raydikalx | A56E50"
+      - "CA 🇨🇦 | @Raydikalx | 3E64F8"
+      - "CA 🇨🇦 | @Raydikalx | D8003D"
+      - "CA 🇨🇦 | @Raydikalx | 574B6B"
+      - "CA 🇨🇦 | @Raydikalx | 1C6DB0"
+      - "CA 🇨🇦 | @Raydikalx | D6A3D3"
+      - "CA 🇨🇦 | @Raydikalx | A24458"
+      - "CA 🇨🇦 | @Raydikalx | F8F1E6"
+      - "CA 🇨🇦 | @Raydikalx | 1462E3"
+      - "CA 🇨🇦 | @Raydikalx | EF8A57"
+      - "CA 🇨🇦 | @Raydikalx | C71551"
+      - "CA 🇨🇦 | @Raydikalx | A40763"
+      - "CA 🇨🇦 | @Raydikalx | C5497C"
+      - "CA 🇨🇦 | @Raydikalx | 490025"
+      - "CA 🇨🇦 | @Raydikalx | 012CFD"
+      - "CA 🇨🇦 | @Raydikalx | FFFE89"
+      - "CA 🇨🇦 | @Raydikalx | E22403"
+      - "CA 🇨🇦 | @Raydikalx | 786728"
+      - "CA 🇨🇦 | @Raydikalx | 77D712"
+      - "CA 🇨🇦 | @Raydikalx | D9640A"
+      - "CA 🇨🇦 | @Raydikalx | 59E623"
+      - "CA 🇨🇦 | @Raydikalx | AED6E3"
+      - "CA 🇨🇦 | @Raydikalx | 3EC78F"
+      - "CA 🇨🇦 | @Raydikalx | A5A135"
+      - "CA 🇨🇦 | @Raydikalx | 8C89EF"
+      - "CA 🇨🇦 | @Raydikalx | A81306"
+      - "CA 🇨🇦 | @Raydikalx | D6072B"
       - "🇨🇦"
       - "🇨🇦"
       - "@MARAMBASHI 🇨🇦"
@@ -2310,7 +2271,6 @@ proxy-groups:
       - "@MARAMBASHI 🇨🇦"
       - "🇨🇦"
       - "🇨🇦"
-      - "🇨🇦 Join+Telegram:@Farah_VPN 🇨🇦"
       - "@MARAMBASHI 🇨🇦"
       - "@MARAMBASHI 🇨🇦"
       - "🇨🇦"

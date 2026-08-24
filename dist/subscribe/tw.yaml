@@ -3,19 +3,11 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "TW"
+  - name: "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
     type: "vmess"
-    server: "2.27.174.110"
-    port: 794
-    uuid: "fd2c3c77-1984-4f7c-befe-efba034e1f3c"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "TW 🇹🇼 | @Raydikalx | 224E00"
-    type: "vmess"
-    server: "2.27.174.110"
-    port: 794
-    uuid: "fd2c3c77-1984-4f7c-befe-efba034e1f3c"
+    server: "165.154.195.38"
+    port: 35034
+    uuid: "959a8caf-4cea-43d0-a548-3628e7ddfafc"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -23,7 +15,6 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "TW"
-      - "TW 🇹🇼 | @Raydikalx | 224E00"
+      - "🇹🇼 Join+Telegram:@Farah_VPN 🇹🇼"
 rules:
   - "MATCH,Proxy Select"

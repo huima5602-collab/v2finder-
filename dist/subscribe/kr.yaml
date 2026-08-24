@@ -3,51 +3,57 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "KR VLESS-1608 | free-nodes"
+  - name: "A - 🇰🇷 KR 01 TG: @nodpai"
     type: "vless"
-    server: "158.247.201.96"
-    port: 443
+    server: "108.162.196.30"
+    port: 8880
     udp: true
-    uuid: "41f4cb15-5a3f-3934-89fe-b4177146adf4"
-    tls: true
-    servername: "u643766u17cc9b82s180.kukuss.top"
-    network: "tcp"
-  - name: "🇰🇷KR_1|1.4MB/s"
-    type: "ss"
-    server: "121.46.230.138"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime59.workers.dev"
+  - name: "A - 🇰🇷 KR 02 TG: @nodpai"
+    type: "vless"
+    server: "72.167.230.30"
+    port: 8880
     udp: true
-  - name: "🇰🇷KR-211.178.105.134-4904"
-    type: "ss"
-    server: "211.178.105.134"
-    port: 6123
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-218.237.185.230-4903"
-    type: "ss"
-    server: "218.237.185.230"
-    port: 4652
-    cipher: "aes-256-cfb"
-    password: "qwerREWQ@@"
-    udp: true
-  - name: "🇰🇷KR-221.139.79.57-4906"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime51.workers.dev"
+  - name: "🇰🇷KR-221.139.79.57-0149"
     type: "ss"
     server: "221.139.79.57"
     port: 13979
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-43.201.48.212-1999"
+  - name: "🇰🇷KR-218.237.185.230-0147"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-211.178.105.134-0145"
+    type: "ss"
+    server: "211.178.105.134"
+    port: 6123
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
+    udp: true
+  - name: "🇰🇷KR-43.201.48.212-1958"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-2815"
+  - name: "🇰🇷KR-144.24.72.126-2824"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -55,6 +61,14 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
+  - name: "🇰🇷KR-3.34.6.217-3883"
+    type: "trojan"
+    server: "3.34.6.217"
+    port: 443
+    udp: true
+    password: "xxoo"
+    tls: true
+    servername: "3.34.6.217"
   - name: "🇰🇷 机场推荐:dafei.de 韩国 01"
     type: "ss"
     server: "121.46.230.138"
@@ -62,44 +76,44 @@ proxies:
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
     udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
+  - name: "🇨🇳_CN_中国->🇰🇷_KR_韩国"
+    type: "ss"
+    server: "121.46.230.138"
+    port: 65443
+    cipher: "aes-256-cfb"
+    password: "7eadc6dbe2ae"
+    udp: true
+  - name: "KR 🇰🇷 | @Raydikalx | E9F97A"
     type: "vmess"
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    server: "140.238.2.250"
+    port: 443
+    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+  - name: "KR 🇰🇷 | @Raydikalx | 168118"
     type: "vmess"
-    server: "132.145.80.230"
+    server: "217.142.138.61"
     port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    uuid: "ac1b933d-afff-4487-93ef-f57130a55dff"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "kr02.a0a.xyz"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "KR VLESS-1608 | free-nodes"
-      - "🇰🇷KR_1|1.4MB/s"
-      - "🇰🇷KR-211.178.105.134-4904"
-      - "🇰🇷KR-218.237.185.230-4903"
-      - "🇰🇷KR-221.139.79.57-4906"
-      - "🇰🇷KR-43.201.48.212-1999"
-      - "🇰🇷KR-144.24.72.126-2815"
+      - "A - 🇰🇷 KR 01 TG: @nodpai"
+      - "A - 🇰🇷 KR 02 TG: @nodpai"
+      - "🇰🇷KR-221.139.79.57-0149"
+      - "🇰🇷KR-218.237.185.230-0147"
+      - "🇰🇷KR-211.178.105.134-0145"
+      - "🇰🇷KR-43.201.48.212-1958"
+      - "🇰🇷KR-144.24.72.126-2824"
+      - "🇰🇷KR-3.34.6.217-3883"
       - "🇰🇷 机场推荐:dafei.de 韩国 01"
-      - "KR 🇰🇷 | @Raydikalx | C1BBF7"
-      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+      - "🇨🇳_CN_中国->🇰🇷_KR_韩国"
+      - "KR 🇰🇷 | @Raydikalx | E9F97A"
+      - "KR 🇰🇷 | @Raydikalx | 168118"
 rules:
   - "MATCH,Proxy Select"

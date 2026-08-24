@@ -3,62 +3,114 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇯🇵JP|||14050601|zdyz2|V2rayCh"
-    type: "ss"
-    server: "121.46.230.136"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
     udp: true
-  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-    type: "trojan"
-    server: "104.18.152.219"
-    port: 443
-    udp: true
-    password: "humanity"
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "None"
   - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
     type: "trojan"
     server: "104.18.152.97"
     port: 443
     udp: true
     password: "humanity"
-  - name: "🇯🇵JP_1|1.3MB/s"
+  - name: "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
+    type: "trojan"
+    server: "104.18.152.219"
+    port: 443
+    udp: true
+    password: "humanity"
+  - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
     type: "ss"
     server: "121.46.230.136"
     port: 65443
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
     udp: true
-  - name: "🇯🇵JP-149.22.87.204-4839"
-    type: "ss"
-    server: "149.22.87.204"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+  - name: "日本+V2CROSS.COM"
+    type: "vless"
+    server: "150.40.117.221"
+    port: 8443
     udp: true
-  - name: "🇯🇵JP-149.22.87.241-4831"
+    uuid: "47388561-cf0c-4cfc-91f8-fdfd9fa3d756"
+    network: "tcp"
+  - name: "日本2|@ripaojiedian"
+    type: "ss"
+    server: "103.236.66.4"
+    port: 40001
+    cipher: "aes-256-gcm"
+    password: "Butterfly123@qwe9527"
+    udp: true
+  - name: "日本3|@ripaojiedian"
+    type: "ss"
+    server: "103.236.66.4"
+    port: 40002
+    cipher: "aes-256-gcm"
+    password: "Butterfly123@qwe9527"
+    udp: true
+  - name: "A - 🇯🇵 JP 05 TG: @nodpai"
+    type: "vless"
+    server: "176.124.223.30"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime38.workers.dev"
+  - name: "日本2|@ripaojiedian"
+    type: "ss"
+    server: "103.236.66.4"
+    port: 40001
+    cipher: "aes-256-gcm"
+    password: "Butterfly123@qwe9527"
+    udp: true
+  - name: "日本3|@ripaojiedian"
+    type: "ss"
+    server: "103.236.66.4"
+    port: 40002
+    cipher: "aes-256-gcm"
+    password: "Butterfly123@qwe9527"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.241-0138"
     type: "ss"
     server: "149.22.87.241"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.240-4688"
+  - name: "🇯🇵JP-149.22.87.204-0136"
+    type: "ss"
+    server: "149.22.87.204"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.240-0140"
     type: "ss"
     server: "149.22.87.240"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-3.113.24.17-0218"
+  - name: "🇯🇵JP-18.178.132.111-0161"
     type: "trojan"
-    server: "3.113.24.17"
+    server: "18.178.132.111"
     port: 443
     udp: true
     password: "ND91608427"
     tls: true
-    servername: "nearby-egret.rooster465.autos"
-  - name: "🇯🇵JP-172.104.78.98-1789"
+    servername: "devoted-heron.rooster465.autos"
+  - name: "🇯🇵JP-172.104.78.98-1748"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -72,7 +124,7 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP-172.111.146.64-4889"
+  - name: "🇯🇵JP-172.111.146.64-4893"
     type: "vmess"
     server: "172.111.146.64"
     port: 80
@@ -91,28 +143,18 @@ proxies:
     cipher: "aes-256-cfb"
     password: "7eadc6dbe2ae"
     udp: true
-  - name: "🇨🇳_CN_中国->🇯🇵_JP_日本"
-    type: "ss"
-    server: "121.46.230.136"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-    udp: true
-  - name: "JP 🇯🇵 | @Raydikalx | 102B75"
+  - name: "JP 🇯🇵 | @Raydikalx | 7B4ED8"
     type: "vmess"
-    server: "140.83.57.20"
-    port: 13118
-    uuid: "1f01e389-fbcb-494c-e46a-210ec36329c2"
+    server: "172.111.146.64"
+    port: 80
+    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
     alterId: 0
     cipher: "auto"
     udp: true
-    tls: true
-    servername: "sg.11160321.de5.net"
     network: "ws"
     ws-opts:
-      path: "/"
+      path: "/vmess/"
       headers:
-        Host: "sg.11160321.de5.net"
   - name: "JP 🇯🇵 | @Raydikalx | 1E1C14"
     type: "vmess"
     server: "168.138.43.75"
@@ -126,34 +168,6 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp01.a0a.xyz"
-  - name: "JP 🇯🇵 | @Raydikalx | A940D6"
-    type: "vmess"
-    server: "168.138.43.75"
-    port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "168.138.43.75"
-  - name: "JP 🇯🇵 | @Raydikalx | 4F9D7D"
-    type: "vmess"
-    server: "140.83.57.20"
-    port: 13118
-    uuid: "1f01e389-fbcb-494c-e46a-210ec36329c2"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "sg.11160321.de5.net"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "sg.11160321.de5.net"
   - name: "JP 🇯🇵 | @Raydikalx | 23C275"
     type: "vmess"
     server: "172.111.146.64"
@@ -167,18 +181,32 @@ proxies:
       path: "/vmess/"
       headers:
         Host: "172.111.146.64"
-  - name: "JP 🇯🇵 | @Raydikalx | 7B4ED8"
+  - name: "JP 🇯🇵 | @Raydikalx | 75C7ED"
     type: "vmess"
-    server: "172.111.146.64"
+    server: "168.138.43.75"
     port: 80
-    uuid: "05b8c783-7f59-47f9-9923-06a465679f6a"
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
     alterId: 0
     cipher: "auto"
     udp: true
     network: "ws"
     ws-opts:
-      path: "/vmess/"
+      path: "/cctv13.m3u8"
       headers:
+        Host: "None"
+  - name: "JP 🇯🇵 | @Raydikalx | A940D6"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "168.138.43.75"
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
     server: "172.111.146.64"
@@ -204,29 +232,41 @@ proxies:
       path: "/cctv13.m3u8"
       headers:
         Host: "jp01.a0a.xyz"
+  - name: ">>@V2rayNG3::JP"
+    type: "ss"
+    server: "84.247.155.196"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "3eOFeNssde7PYYMv"
+    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇯🇵JP|||14050601|zdyz2|V2rayCh"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
       - "🇯🇵 JP日本(mibei77.com 米贝节点分享)"
-      - "🇯🇵JP_1|1.3MB/s"
-      - "🇯🇵JP-149.22.87.204-4839"
-      - "🇯🇵JP-149.22.87.241-4831"
-      - "🇯🇵JP-149.22.87.240-4688"
-      - "🇯🇵JP-3.113.24.17-0218"
-      - "🇯🇵JP-172.104.78.98-1789"
-      - "🇯🇵JP-172.111.146.64-4889"
-      - "🇯🇵 机场推荐:dafei.de 日本 03"
       - "🇨🇳_CN_中国->🇯🇵_JP_日本"
-      - "JP 🇯🇵 | @Raydikalx | 102B75"
-      - "JP 🇯🇵 | @Raydikalx | 1E1C14"
-      - "JP 🇯🇵 | @Raydikalx | A940D6"
-      - "JP 🇯🇵 | @Raydikalx | 4F9D7D"
-      - "JP 🇯🇵 | @Raydikalx | 23C275"
+      - "日本+V2CROSS.COM"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
+      - "A - 🇯🇵 JP 05 TG: @nodpai"
+      - "日本2|@ripaojiedian"
+      - "日本3|@ripaojiedian"
+      - "🇯🇵JP-149.22.87.241-0138"
+      - "🇯🇵JP-149.22.87.204-0136"
+      - "🇯🇵JP-149.22.87.240-0140"
+      - "🇯🇵JP-18.178.132.111-0161"
+      - "🇯🇵JP-172.104.78.98-1748"
+      - "🇯🇵JP-172.111.146.64-4893"
+      - "🇯🇵 机场推荐:dafei.de 日本 03"
       - "JP 🇯🇵 | @Raydikalx | 7B4ED8"
+      - "JP 🇯🇵 | @Raydikalx | 1E1C14"
+      - "JP 🇯🇵 | @Raydikalx | 23C275"
+      - "JP 🇯🇵 | @Raydikalx | 75C7ED"
+      - "JP 🇯🇵 | @Raydikalx | A940D6"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+      - ">>@V2rayNG3::JP"
 rules:
   - "MATCH,Proxy Select"
