@@ -3,7 +3,7 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇨🇳 TW台湾(mibei77.com 米贝节点分享)"
+  - name: "TW台湾(mibei77.com 米贝节点分享)r"
     type: "trojan"
     server: "176.97.66.175"
     port: 443
@@ -21,7 +21,7 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇨🇳 TW台湾(mibei77.com 米贝节点分享)"
+      - "TW台湾(mibei77.com 米贝节点分享)r"
       - "TW 🇹🇼 | @Raydikalx | 826527"
 rules:
   - "MATCH,Proxy Select"

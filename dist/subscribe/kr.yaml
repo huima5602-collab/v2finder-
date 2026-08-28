@@ -3,42 +3,35 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇰🇷KR-218.237.185.230-0188"
+  - name: "🇰🇷KR-218.237.185.230-0169"
     type: "ss"
     server: "218.237.185.230"
     port: 4652
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-211.178.105.134-0224"
+  - name: "🇰🇷KR-211.178.105.134-0170"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-221.139.79.57-0189"
+  - name: "🇰🇷KR-221.139.79.57-0173"
     type: "ss"
     server: "221.139.79.57"
     port: 13979
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-141.164.45.187-0183"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-    udp: true
-  - name: "🇰🇷KR-43.201.48.212-1804"
+  - name: "🇰🇷KR-43.201.48.212-2283"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-2677"
+  - name: "🇰🇷KR-144.24.72.126-3137"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -46,7 +39,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-3.34.6.217-3736"
+  - name: "🇰🇷KR-3.34.6.217-4196"
     type: "trojan"
     server: "3.34.6.217"
     port: 443
@@ -54,25 +47,35 @@ proxies:
     password: "xxoo"
     tls: true
     servername: "3.34.6.217"
-  - name: "🇰🇷 机场推荐:dafei.de 韩国 01"
-    type: "ss"
-    server: "121.46.230.138"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-    udp: true
-  - name: "🇨🇳_CN_中国->🇰🇷_KR_韩国"
-    type: "ss"
-    server: "121.46.230.138"
-    port: 65443
-    cipher: "aes-256-cfb"
-    password: "7eadc6dbe2ae"
-    udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | E9F97A"
+  - name: "KR 🇰🇷 | @Raydikalx | D518F1"
     type: "vmess"
-    server: "140.238.2.250"
-    port: 443
-    uuid: "41a7089a-040b-4538-8b8d-010902405bde"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+  - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+  - name: "KR 🇰🇷 | @Raydikalx | 168118"
+    type: "vmess"
+    server: "217.142.138.61"
+    port: 80
+    uuid: "ac1b933d-afff-4487-93ef-f57130a55dff"
     alterId: 0
     cipher: "auto"
     udp: true
@@ -106,16 +109,15 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇰🇷KR-218.237.185.230-0188"
-      - "🇰🇷KR-211.178.105.134-0224"
-      - "🇰🇷KR-221.139.79.57-0189"
-      - "🇰🇷KR-141.164.45.187-0183"
-      - "🇰🇷KR-43.201.48.212-1804"
-      - "🇰🇷KR-144.24.72.126-2677"
-      - "🇰🇷KR-3.34.6.217-3736"
-      - "🇰🇷 机场推荐:dafei.de 韩国 01"
-      - "🇨🇳_CN_中国->🇰🇷_KR_韩国"
-      - "KR 🇰🇷 | @Raydikalx | E9F97A"
+      - "🇰🇷KR-218.237.185.230-0169"
+      - "🇰🇷KR-211.178.105.134-0170"
+      - "🇰🇷KR-221.139.79.57-0173"
+      - "🇰🇷KR-43.201.48.212-2283"
+      - "🇰🇷KR-144.24.72.126-3137"
+      - "🇰🇷KR-3.34.6.217-4196"
+      - "KR 🇰🇷 | @Raydikalx | D518F1"
+      - "KR 🇰🇷 | @Raydikalx | C1BBF7"
+      - "KR 🇰🇷 | @Raydikalx | 168118"
       - "KR 🇰🇷 | @Raydikalx | A99D73"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
