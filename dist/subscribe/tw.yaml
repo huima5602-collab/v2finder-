@@ -3,6 +3,19 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "🇹🇼TW_1|2.1MB/s"
+    type: "vless"
+    server: "83.147.13.193"
+    port: 443
+    udp: true
+    uuid: "b5ea4dcb-cd04-466c-bd43-f9ea10953803"
+    tls: true
+    servername: "youxuan.xiaosa.kdns.fr"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "youxuan.xiaosa.kdns.fr"
   - name: "TW 🇹🇼 | @Raydikalx | 826527"
     type: "vmess"
     server: "165.154.195.38"
@@ -15,6 +28,7 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇹🇼TW_1|2.1MB/s"
       - "TW 🇹🇼 | @Raydikalx | 826527"
 rules:
   - "MATCH,Proxy Select"
