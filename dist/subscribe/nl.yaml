@@ -3,151 +3,84 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇳🇱179232 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "ss"
-    server: "146.190.236.129"
-    port: 17000
-    cipher: "aes-256-gcm"
-    password: "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
-    udp: true
-  - name: "🇳🇱179328 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "130.78.191.25"
-    port: 443
-    udp: true
-    uuid: "11f21602-47aa-42e2-9149-69120f2e6df6"
-    network: "tcp"
-  - name: "🇳🇱179241 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "138.124.30.28"
-    port: 46443
-    udp: true
-    uuid: "82804f53-f9cd-49b1-a2d2-23f17b29d671"
-    network: "tcp"
-  - name: "🇳🇱179148 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "185.6.13.18"
-    port: 443
-    udp: true
-    uuid: "c18b978e-1c4e-415c-8bea-07942b563a64"
-    tls: true
-    servername: "shuma.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "shuma.ccwu.cc"
-  - name: "🇳🇱179157 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "194.87.0.196"
-    port: 443
-    udp: true
-    uuid: "c18b978e-1c4e-415c-8bea-07942b563a64"
-    tls: true
-    servername: "shuma.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "shuma.ccwu.cc"
-  - name: "🇳🇱179149 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "45.132.107.196"
-    port: 443
-    udp: true
-    uuid: "c18b978e-1c4e-415c-8bea-07942b563a64"
-    tls: true
-    servername: "shuma.ccwu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "shuma.ccwu.cc"
-  - name: "🇳🇱179200 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "157.228.133.86"
-    port: 443
-    udp: true
-    uuid: "fc47db0c-c6f2-4665-bdb2-8f717822ce9d"
-    network: "raw"
-  - name: "🇳🇱NL-193.29.139.235-0103"
-    type: "ss"
-    server: "193.29.139.235"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.147-0075"
-    type: "ss"
-    server: "193.29.139.147"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.168-0105"
-    type: "ss"
-    server: "193.29.139.168"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "QCXDxuDlTTMD7jtgHUjIoj"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.223-0089"
-    type: "ss"
-    server: "193.29.139.223"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "k1dBOmOB4oqi7Ump37a1bQ"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.204-0116"
-    type: "ss"
-    server: "193.29.139.204"
-    port: 8080
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
-    udp: true
-  - name: "🇳🇱NL-108.181.58.239-0124"
-    type: "ss"
-    server: "108.181.58.239"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "CJmTCCx7Ltud"
-    udp: true
-  - name: "🇳🇱NL-109.201.152.181-0112"
-    type: "ss"
-    server: "109.201.152.181"
-    port: 443
-    cipher: "aes-128-cfb"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇳🇱NL-193.29.139.151-0106"
+  - name: "🇳🇱NL-193.29.139.151-0118"
     type: "ss"
     server: "193.29.139.151"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇳🇱NL-108.181.126.122-0125"
+  - name: "🇳🇱NL-193.29.139.147-0066"
+    type: "ss"
+    server: "193.29.139.147"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.223-0085"
+    type: "ss"
+    server: "193.29.139.223"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.204-0103"
+    type: "ss"
+    server: "193.29.139.204"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇳🇱NL-109.201.152.181-0116"
+    type: "ss"
+    server: "109.201.152.181"
+    port: 443
+    cipher: "aes-128-cfb"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.168-0079"
+    type: "ss"
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+    udp: true
+  - name: "🇳🇱NL-193.29.139.235-0063"
+    type: "ss"
+    server: "193.29.139.235"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
+  - name: "🇳🇱NL-108.181.126.122-0119"
     type: "ss"
     server: "108.181.126.122"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "CJmTCCx7Ltud"
     udp: true
-  - name: "🇳🇱NL-158.173.221.214-0137"
+  - name: "🇳🇱NL-108.181.58.239-0115"
+    type: "ss"
+    server: "108.181.58.239"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "CJmTCCx7Ltud"
+    udp: true
+  - name: "🇳🇱NL-158.173.221.214-0146"
     type: "ss"
     server: "158.173.221.214"
     port: 11001
     cipher: "chacha20-ietf-poly1305"
     password: "c58d16e593d44f42"
     udp: true
-  - name: "🇳🇱NL-158.173.20.171-0114"
+  - name: "🇳🇱NL-158.173.20.171-0157"
     type: "ss"
     server: "158.173.20.171"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇳🇱NL-104.248.80.136-4505"
+  - name: "🇳🇱NL-104.248.80.136-4055"
     type: "vmess"
     server: "104.248.80.136"
     port: 80
@@ -159,14 +92,14 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇳🇱NL-172.99.188.71-6249"
+  - name: "🇳🇱NL-172.99.188.71-5926"
     type: "ss"
     server: "172.99.188.71"
     port: 443
     cipher: "aes-256-gcm"
     password: "pKEW8JPByTVTLtM"
     udp: true
-  - name: "🇳🇱NL-51.158.146.183-7360"
+  - name: "🇳🇱NL-51.158.146.183-7037"
     type: "trojan"
     server: "51.158.146.183"
     port: 443
@@ -174,7 +107,7 @@ proxies:
     password: "f6a0a650-306e-11ee-b692-1239d0255272"
     tls: true
     servername: "Speedtest.net"
-  - name: "🇳🇱NL-51.15.19.206-7362"
+  - name: "🇳🇱NL-51.15.19.206-7039"
     type: "vmess"
     server: "51.15.19.206"
     port: 80
@@ -186,7 +119,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-7363"
+  - name: "🇳🇱NL-51.15.19.206-7040"
     type: "vmess"
     server: "51.15.19.206"
     port: 8443
@@ -200,7 +133,7 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱NL-51.15.19.206-7364"
+  - name: "🇳🇱NL-51.15.19.206-7041"
     type: "vmess"
     server: "51.15.19.206"
     port: 2083
@@ -214,19 +147,42 @@ proxies:
     ws-opts:
       path: "/V2RayyNGvpn"
       headers:
-  - name: "🇳🇱 荷兰 | NLD"
+  - name: "🇳🇱NL_1|4.2MB/s"
     type: "vless"
-    server: "34.147.59.126"
+    server: "194.127.179.125"
+    port: 8443
+    udp: true
+    uuid: "e6695d9b-3663-4421-9893-de7f641a9f3a"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇳🇱NL_9|1.1MB/s"
+    type: "vless"
+    server: "144.31.203.152"
     port: 443
     udp: true
-    uuid: "f76627ae-2626-4c53-ab57-da0e4d377a53"
-    network: "tcp"
+    uuid: "8ec1a004-34f5-4c2b-88f5-42c27c887c04"
+    tls: true
+    servername: "account.amd.com"
+  - name: "🇳🇱NL_10|2.7MB/s"
+    type: "ss"
+    server: "193.123.39.109"
+    port: 45819
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI="
+    udp: true
+  - name: "🇳🇱 荷兰 | NLD"
+    type: "ss"
+    server: "193.123.39.109"
+    port: 45819
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "t0Ao+u9a5WcyKcSJOhC2R1IXIKxEcBD411OI3G5YicI="
+    udp: true
   - name: "🇳🇱 荷兰 | NLD"
     type: "vless"
-    server: "141.144.201.224"
-    port: 62145
+    server: "150.251.143.3"
+    port: 16857
     udp: true
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    uuid: "44ff6d71-319e-4bcb-a956-58d31290e45b"
     network: "tcp"
   - name: "[OpenRay] 🇳🇱 NL-1899"
     type: "ss"
@@ -270,9 +226,9 @@ proxies:
     udp: true
     uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
     network: "tcp"
-  - name: "NL 🇳🇱 | @Raydikalx | 309A9A"
+  - name: "NL 🇳🇱 | @Raydikalx | D5A63E"
     type: "vmess"
-    server: "45.144.154.149"
+    server: "193.23.118.195"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -300,39 +256,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | F2727B"
+  - name: "NL 🇳🇱 | @Raydikalx | 3BC4CB"
     type: "vmess"
-    server: "185.246.152.159"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "NL 🇳🇱 | @Raydikalx | 9A3482"
-    type: "vmess"
-    server: "89.150.35.155"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "NL 🇳🇱 | @Raydikalx | F6C485"
-    type: "vmess"
-    server: "185.233.203.113"
+    server: "109.172.93.20"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -345,21 +271,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | BD477F"
+  - name: "NL 🇳🇱 | @Raydikalx | E7550E"
     type: "vmess"
-    server: "151.243.173.119"
-    port: 33736
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/vmess-ws"
-      headers:
-  - name: "NL 🇳🇱 | @Raydikalx | 41C7D7"
-    type: "vmess"
-    server: "168.100.9.81"
+    server: "64.188.97.153"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -372,9 +286,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | D0A03E"
+  - name: "NL 🇳🇱 | @Raydikalx | E4EB4D"
     type: "vmess"
-    server: "212.87.220.98"
+    server: "80.74.25.110"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -387,22 +301,7 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | C6CC24"
-    type: "vmess"
-    server: "5.255.109.47"
-    port: 443
-    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "renderer-stream-2-62.mirra.now"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | AAAFDB"
+  - name: "NL 🇳🇱 | @Raydikalx | 6635E0"
     type: "vmess"
     server: "212.80.218.89"
     port: 443
@@ -417,9 +316,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | 669691"
+  - name: "NL 🇳🇱 | @Raydikalx | 43EBC4"
     type: "vmess"
-    server: "64.188.117.165"
+    server: "188.253.25.172"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -432,9 +331,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | D5A63E"
+  - name: "NL 🇳🇱 | @Raydikalx | 9713FF"
     type: "vmess"
-    server: "193.23.118.195"
+    server: "80.74.25.110"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -447,16 +346,6 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | B4A5A2"
-    type: "vmess"
-    server: "159.223.13.109"
-    port: 1234
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
-    alterId: 0
-    cipher: "aes-128-gcm"
-    udp: true
-    tls: true
-    servername: "supervpn.super.com"
   - name: "NL 🇳🇱 | @Raydikalx | 723C7A"
     type: "vmess"
     server: "193.23.118.195"
@@ -472,54 +361,9 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | 33AD76"
+  - name: "NL 🇳🇱 | @Raydikalx | BBE9D1"
     type: "vmess"
-    server: "89.42.142.63"
-    port: 443
-    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "renderer-stream-2-62.mirra.now"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | 45FF25"
-    type: "vmess"
-    server: "64.188.97.153"
-    port: 443
-    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "renderer-stream-2-62.mirra.now"
-    network: "ws"
-    ws-opts:
-      path: "/api/v1/gpu-stream/socket"
-      headers:
-        Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | BD9896"
-    type: "vmess"
-    server: "89.150.35.155"
-    port: 443
-    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "apjhdggyx.com"
-    network: "ws"
-    ws-opts:
-      path: "/5f72f180-b21b-4b7a-8484-240759096785"
-      headers:
-        Host: "apjhdggyx.com"
-  - name: "NL 🇳🇱 | @Raydikalx | ED6CA8"
-    type: "vmess"
-    server: "185.36.143.71"
+    server: "185.233.203.113"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -547,16 +391,28 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | D31478"
+  - name: "NL 🇳🇱 | @Raydikalx | 7A5C88"
     type: "vmess"
-    server: "45.90.106.24"
-    port: 1234
-    uuid: "5c040f1d-45db-43bd-8d46-e4950e433735"
+    server: "23.137.249.110"
+    port: 30011
+    uuid: "a7aee69e-6e02-47d1-8172-701866bbb28c"
     alterId: 0
-    cipher: "aes-128-gcm"
+    cipher: "auto"
     udp: true
     tls: true
-    servername: "45.90.106.24"
+    servername: "23.137.249.110"
+  - name: "NL 🇳🇱 | @Raydikalx | BD477F"
+    type: "vmess"
+    server: "151.243.173.119"
+    port: 33736
+    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/vmess-ws"
+      headers:
   - name: "NL 🇳🇱 | @Raydikalx | 6343C8"
     type: "vmess"
     server: "168.100.9.81"
@@ -572,9 +428,84 @@ proxies:
       path: "/api/v1/gpu-stream/socket"
       headers:
         Host: "renderer-stream-2-62.mirra.now"
-  - name: "NL 🇳🇱 | @Raydikalx | E1C2EB"
+  - name: "NL 🇳🇱 | @Raydikalx | F2727B"
     type: "vmess"
-    server: "45.144.154.149"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "NL 🇳🇱 | @Raydikalx | AAAFDB"
+    type: "vmess"
+    server: "212.80.218.89"
+    port: 443
+    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "renderer-stream-2-62.mirra.now"
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-62.mirra.now"
+  - name: "NL 🇳🇱 | @Raydikalx | F318A1"
+    type: "vmess"
+    server: "212.43.156.143"
+    port: 443
+    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "renderer-stream-2-62.mirra.now"
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-62.mirra.now"
+  - name: "NL 🇳🇱 | @Raydikalx | D0A03E"
+    type: "vmess"
+    server: "212.87.220.98"
+    port: 443
+    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "renderer-stream-2-62.mirra.now"
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-62.mirra.now"
+  - name: "NL 🇳🇱 | @Raydikalx | 45FF25"
+    type: "vmess"
+    server: "64.188.97.153"
+    port: 443
+    uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "renderer-stream-2-62.mirra.now"
+    network: "ws"
+    ws-opts:
+      path: "/api/v1/gpu-stream/socket"
+      headers:
+        Host: "renderer-stream-2-62.mirra.now"
+  - name: "NL 🇳🇱 | @Raydikalx | 0B5254"
+    type: "vmess"
+    server: "95.164.90.133"
     port: 443
     uuid: "db50a20e-7ff5-4e70-948f-17cc9ca7c154"
     alterId: 0
@@ -742,34 +673,116 @@ proxies:
     cipher: "chacha20-ietf-poly1305"
     password: "k1dBOmOB4oqi7Ump37a1bQ"
     udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "185.170.211.194"
+    port: 443
+    udp: true
+    uuid: "8d2196c0-2ec7-4867-8d66-d5d19bf8fb23"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vmess"
+    server: "185.246.152.159"
+    port: 443
+    uuid: "5f72f180-b21b-4b7a-8484-240759012604"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "apjhdggyx.com"
+    network: "ws"
+    ws-opts:
+      path: "/5f72f180-b21b-4b7a-8484-240759096785"
+      headers:
+        Host: "apjhdggyx.com"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "31.56.222.61"
+    port: 32848
+    udp: true
+    uuid: "ef6a9d5d-d50c-4d14-abda-e9178b9965ba"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "51.158.206.98"
+    port: 23576
+    udp: true
+    uuid: "48ff2b70-e180-582f-8866-d9a2edeed5f5"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "ss"
+    server: "82.38.31.203"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "k1dBOmOB4oqi7Ump37a1bQ"
+    udp: true
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "217.19.122.65"
+    port: 443
+    udp: true
+    uuid: "bc5ec86c-3e65-4272-994c-59a924c72a68"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "165.231.99.52"
+    port: 8443
+    udp: true
+    uuid: "6b03ffdd-6646-410b-b575-6c05eafdaf60"
+    tls: true
+    servername: "vusr-6aa2cf2b.adhil.uk"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "13.143.232.103"
+    port: 443
+    udp: true
+    uuid: "e48e4377-1f29-485b-80d4-85fd4fa27bfa"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "31.56.222.61"
+    port: 30696
+    udp: true
+    uuid: "ef6a9d5d-d50c-4d14-abda-e9178b9965ba"
+    network: "tcp"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "vless"
+    server: "195.189.97.12"
+    port: 443
+    udp: true
+    uuid: "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f"
+    network: "grpc"
+  - name: "🔥Join+Telegram:@Farah_VPN🟣"
+    type: "ss"
+    server: "82.38.31.47"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
+    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇳🇱179232 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179328 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179241 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179148 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179157 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179149 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱179200 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇳🇱NL-193.29.139.235-0103"
-      - "🇳🇱NL-193.29.139.147-0075"
-      - "🇳🇱NL-193.29.139.168-0105"
-      - "🇳🇱NL-193.29.139.223-0089"
-      - "🇳🇱NL-193.29.139.204-0116"
-      - "🇳🇱NL-108.181.58.239-0124"
-      - "🇳🇱NL-109.201.152.181-0112"
-      - "🇳🇱NL-193.29.139.151-0106"
-      - "🇳🇱NL-108.181.126.122-0125"
-      - "🇳🇱NL-158.173.221.214-0137"
-      - "🇳🇱NL-158.173.20.171-0114"
-      - "🇳🇱NL-104.248.80.136-4505"
-      - "🇳🇱NL-172.99.188.71-6249"
-      - "🇳🇱NL-51.158.146.183-7360"
-      - "🇳🇱NL-51.15.19.206-7362"
-      - "🇳🇱NL-51.15.19.206-7363"
-      - "🇳🇱NL-51.15.19.206-7364"
+      - "🇳🇱NL-193.29.139.151-0118"
+      - "🇳🇱NL-193.29.139.147-0066"
+      - "🇳🇱NL-193.29.139.223-0085"
+      - "🇳🇱NL-193.29.139.204-0103"
+      - "🇳🇱NL-109.201.152.181-0116"
+      - "🇳🇱NL-193.29.139.168-0079"
+      - "🇳🇱NL-193.29.139.235-0063"
+      - "🇳🇱NL-108.181.126.122-0119"
+      - "🇳🇱NL-108.181.58.239-0115"
+      - "🇳🇱NL-158.173.221.214-0146"
+      - "🇳🇱NL-158.173.20.171-0157"
+      - "🇳🇱NL-104.248.80.136-4055"
+      - "🇳🇱NL-172.99.188.71-5926"
+      - "🇳🇱NL-51.158.146.183-7037"
+      - "🇳🇱NL-51.15.19.206-7039"
+      - "🇳🇱NL-51.15.19.206-7040"
+      - "🇳🇱NL-51.15.19.206-7041"
+      - "🇳🇱NL_1|4.2MB/s"
+      - "🇳🇱NL_9|1.1MB/s"
+      - "🇳🇱NL_10|2.7MB/s"
       - "🇳🇱 荷兰 | NLD"
       - "🇳🇱 荷兰 | NLD"
       - "[OpenRay] 🇳🇱 NL-1899"
@@ -778,28 +791,26 @@ proxy-groups:
       - "[OpenRay] 🇳🇱 NL-623"
       - "[OpenRay] 🇳🇱 NL-633"
       - "[OpenRay] 🇳🇱 NL-13"
-      - "NL 🇳🇱 | @Raydikalx | 309A9A"
-      - "NL 🇳🇱 | @Raydikalx | 09C0DB"
-      - "NL 🇳🇱 | @Raydikalx | F2727B"
-      - "NL 🇳🇱 | @Raydikalx | 9A3482"
-      - "NL 🇳🇱 | @Raydikalx | F6C485"
-      - "NL 🇳🇱 | @Raydikalx | BD477F"
-      - "NL 🇳🇱 | @Raydikalx | 41C7D7"
-      - "NL 🇳🇱 | @Raydikalx | D0A03E"
-      - "NL 🇳🇱 | @Raydikalx | C6CC24"
-      - "NL 🇳🇱 | @Raydikalx | AAAFDB"
-      - "NL 🇳🇱 | @Raydikalx | 669691"
       - "NL 🇳🇱 | @Raydikalx | D5A63E"
-      - "NL 🇳🇱 | @Raydikalx | B4A5A2"
+      - "NL 🇳🇱 | @Raydikalx | 09C0DB"
+      - "NL 🇳🇱 | @Raydikalx | 3BC4CB"
+      - "NL 🇳🇱 | @Raydikalx | E7550E"
+      - "NL 🇳🇱 | @Raydikalx | E4EB4D"
+      - "NL 🇳🇱 | @Raydikalx | 6635E0"
+      - "NL 🇳🇱 | @Raydikalx | 43EBC4"
+      - "NL 🇳🇱 | @Raydikalx | 9713FF"
       - "NL 🇳🇱 | @Raydikalx | 723C7A"
-      - "NL 🇳🇱 | @Raydikalx | 33AD76"
-      - "NL 🇳🇱 | @Raydikalx | 45FF25"
-      - "NL 🇳🇱 | @Raydikalx | BD9896"
-      - "NL 🇳🇱 | @Raydikalx | ED6CA8"
+      - "NL 🇳🇱 | @Raydikalx | BBE9D1"
       - "NL 🇳🇱 | @Raydikalx | 686389"
-      - "NL 🇳🇱 | @Raydikalx | D31478"
+      - "NL 🇳🇱 | @Raydikalx | 7A5C88"
+      - "NL 🇳🇱 | @Raydikalx | BD477F"
       - "NL 🇳🇱 | @Raydikalx | 6343C8"
-      - "NL 🇳🇱 | @Raydikalx | E1C2EB"
+      - "NL 🇳🇱 | @Raydikalx | F2727B"
+      - "NL 🇳🇱 | @Raydikalx | AAAFDB"
+      - "NL 🇳🇱 | @Raydikalx | F318A1"
+      - "NL 🇳🇱 | @Raydikalx | D0A03E"
+      - "NL 🇳🇱 | @Raydikalx | 45FF25"
+      - "NL 🇳🇱 | @Raydikalx | 0B5254"
       - "🇳🇱"
       - "🇳🇱"
       - "⚜️𝗝𝗼𝗶𝗻 ➠ @tik7net_vpn 🇳🇱"
@@ -820,5 +831,16 @@ proxy-groups:
       - "🇳🇱"
       - "🇳🇱"
       - "🇳🇱"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
+      - "🔥Join+Telegram:@Farah_VPN🟣"
 rules:
   - "MATCH,Proxy Select"

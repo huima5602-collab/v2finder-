@@ -3,28 +3,28 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇰🇷KR-211.178.105.134-0177"
+  - name: "🇰🇷KR-211.178.105.134-0152"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-49.254.204.134-0160"
+  - name: "🇰🇷KR-49.254.204.134-0179"
     type: "ss"
     server: "49.254.204.134"
     port: 1774
     cipher: "aes-256-cfb"
     password: "1234!@#$"
     udp: true
-  - name: "🇰🇷KR-43.201.48.212-2352"
+  - name: "🇰🇷KR-43.201.48.212-1964"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-3217"
+  - name: "🇰🇷KR-144.24.72.126-2767"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -32,29 +32,26 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷 韩国 | KOR"
-    type: "vless"
-    server: "34.22.64.72"
-    port: 443
+  - name: "🇰🇷KR-218.237.185.230-5010"
+    type: "ss"
+    server: "218.237.185.230"
+    port: 4652
+    cipher: "aes-256-cfb"
+    password: "qwerREWQ@@"
     udp: true
-    uuid: "cb2abff3-5fe6-4b5a-aa19-5739deb285b6"
-    network: "tcp"
-  - name: "KR 🇰🇷 | @Raydikalx | ED5343"
+  - name: "KR 🇰🇷 | @Raydikalx | A99D73"
     type: "vmess"
-    server: "146.56.112.110"
-    port: 8888
-    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | 168118"
-    type: "vmess"
-    server: "217.142.138.61"
+    server: "132.145.80.230"
     port: 80
-    uuid: "ac1b933d-afff-4487-93ef-f57130a55dff"
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
     alterId: 0
     cipher: "auto"
     udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
   - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
     type: "vmess"
     server: "132.145.80.230"
@@ -79,6 +76,14 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
+  - name: "KR 🇰🇷 | @Raydikalx | ED5343"
+    type: "vmess"
+    server: "146.56.112.110"
+    port: 8888
+    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -96,15 +101,15 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇰🇷KR-211.178.105.134-0177"
-      - "🇰🇷KR-49.254.204.134-0160"
-      - "🇰🇷KR-43.201.48.212-2352"
-      - "🇰🇷KR-144.24.72.126-3217"
-      - "🇰🇷 韩国 | KOR"
-      - "KR 🇰🇷 | @Raydikalx | ED5343"
-      - "KR 🇰🇷 | @Raydikalx | 168118"
+      - "🇰🇷KR-211.178.105.134-0152"
+      - "🇰🇷KR-49.254.204.134-0179"
+      - "🇰🇷KR-43.201.48.212-1964"
+      - "🇰🇷KR-144.24.72.126-2767"
+      - "🇰🇷KR-218.237.185.230-5010"
+      - "KR 🇰🇷 | @Raydikalx | A99D73"
       - "KR 🇰🇷 | @Raydikalx | C1BBF7"
       - "KR 🇰🇷 | @Raydikalx | D518F1"
+      - "KR 🇰🇷 | @Raydikalx | ED5343"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
