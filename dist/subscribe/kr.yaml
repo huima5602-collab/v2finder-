@@ -3,25 +3,19 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "韩国+V2CROSS.COM"
-    type: "vless"
-    server: "45.138.100.248"
-    port: 10444
+  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+    type: "vmess"
+    server: "183.109.131.75"
+    port: 20086
+    uuid: "b26c4803-0bca-467c-a245-c9a80bdd72ec"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
-    network: "tcp"
-  - name: "韩国+V2CROSS.COM"
-    type: "vless"
-    server: "45.138.100.248"
-    port: 14430
-    udp: true
-    uuid: "ae908ff5-f749-402c-af25-e6e9aef4d6bb"
     network: "ws"
     ws-opts:
-      path: "/vless"
+      path: "/"
       headers:
-        Host: "45.138.100.248"
-  - name: "🇰🇷 韩国 | KOR #2"
+  - name: "🇰🇷KR_2|2.3MB/s"
     type: "vless"
     server: "158.247.222.168"
     port: 443
@@ -34,48 +28,49 @@ proxies:
       path: "/fp=chrome"
       headers:
         Host: "snip.edgeoneai.cc.cd"
-  - name: "🇰🇷KR-141.164.45.187-0235"
-    type: "ss"
-    server: "141.164.45.187"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
+  - name: "🇰🇷 韩国 | KOR #1"
+    type: "vless"
+    server: "54.180.151.244"
+    port: 443
     udp: true
-  - name: "🇰🇷KR-141.164.45.187-0237"
+    uuid: "7e68e32f-8015-4f37-9082-70e8b0b58043"
+    tls: true
+    servername: "www.wawabit.com"
+  - name: "🇰🇷 韩国 | KOR #2"
+    type: "vless"
+    server: "3.38.190.222"
+    port: 443
+    udp: true
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    servername: "snip.edgeoneai.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇰🇷KR-141.164.45.187-0174"
     type: "ss"
     server: "141.164.45.187"
     port: 6679
     cipher: "aes-256-gcm"
     password: "TEzjfAYq2IjtuoS"
     udp: true
-  - name: "🇰🇷KR-211.178.105.134-0208"
+  - name: "🇰🇷KR-211.178.105.134-0184"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-193.122.119.64-0283"
-    type: "vmess"
-    server: "193.122.119.64"
-    port: 80
-    uuid: "fa0702f4-8ec9-48e5-9b53-a0afb7c3717e"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "dm.toutiao.com"
-  - name: "🇰🇷KR-43.201.48.212-2451"
+  - name: "🇰🇷KR-43.201.48.212-1868"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-3346"
+  - name: "🇰🇷KR-144.24.72.126-2757"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -83,7 +78,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-3.34.6.217-4405"
+  - name: "🇰🇷KR-3.34.6.217-3816"
     type: "trojan"
     server: "3.34.6.217"
     port: 443
@@ -91,9 +86,29 @@ proxies:
     password: "xxoo"
     tls: true
     servername: "3.34.6.217"
-  - name: "🇰🇷 韩国 | KOR"
+  - name: "🇰🇷KR_1|1.5MB/s"
     type: "vless"
     server: "158.247.222.168"
+    port: 443
+    udp: true
+    uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
+    tls: true
+    servername: "snip.edgeoneai.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "snip.edgeoneai.cc.cd"
+  - name: "🇰🇷 韩国 | KOR"
+    type: "vless"
+    server: "54.180.151.244"
+    port: 443
+    udp: true
+    uuid: "7e68e32f-8015-4f37-9082-70e8b0b58043"
+    network: "tcp"
+  - name: "🇰🇷 韩国 | KOR"
+    type: "vless"
+    server: "3.38.190.222"
     port: 443
     udp: true
     uuid: "495c7195-85b8-498a-bf20-2ea9ce9175b5"
@@ -104,6 +119,40 @@ proxies:
       path: "/"
       headers:
         Host: "snip.edgeoneai.cc.cd"
+  - name: "KR 🇰🇷 | @Raydikalx | ED5343"
+    type: "vmess"
+    server: "146.56.112.110"
+    port: 8888
+    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "KR 🇰🇷 | @Raydikalx | 9F3BE6"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "132.145.80.230"
+  - name: "KR 🇰🇷 | @Raydikalx | A99D73"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -121,17 +170,21 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "韩国+V2CROSS.COM"
-      - "韩国+V2CROSS.COM"
+      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+      - "🇰🇷KR_2|2.3MB/s"
+      - "🇰🇷 韩国 | KOR #1"
       - "🇰🇷 韩国 | KOR #2"
-      - "🇰🇷KR-141.164.45.187-0235"
-      - "🇰🇷KR-141.164.45.187-0237"
-      - "🇰🇷KR-211.178.105.134-0208"
-      - "🇰🇷KR-193.122.119.64-0283"
-      - "🇰🇷KR-43.201.48.212-2451"
-      - "🇰🇷KR-144.24.72.126-3346"
-      - "🇰🇷KR-3.34.6.217-4405"
+      - "🇰🇷KR-141.164.45.187-0174"
+      - "🇰🇷KR-211.178.105.134-0184"
+      - "🇰🇷KR-43.201.48.212-1868"
+      - "🇰🇷KR-144.24.72.126-2757"
+      - "🇰🇷KR-3.34.6.217-3816"
+      - "🇰🇷KR_1|1.5MB/s"
       - "🇰🇷 韩国 | KOR"
+      - "🇰🇷 韩国 | KOR"
+      - "KR 🇰🇷 | @Raydikalx | ED5343"
+      - "KR 🇰🇷 | @Raydikalx | 9F3BE6"
+      - "KR 🇰🇷 | @Raydikalx | A99D73"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
