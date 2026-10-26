@@ -3,36 +3,28 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇰🇷[www.v2nodes.com] vless-KR-1..."
-    type: "vless"
-    server: "64.176.231.183"
-    port: 443
-    udp: true
-    uuid: "583cc910-b57c-4dd0-a4a7-cea51a30b032"
-    tls: true
-    servername: "www.apple.com"
-  - name: "🇰🇷KR-211.178.105.134-0166"
+  - name: "🇰🇷KR-211.178.105.134-0194"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-141.164.45.187-0156"
+  - name: "🇰🇷KR-141.164.45.187-0192"
     type: "ss"
     server: "141.164.45.187"
     port: 6679
     cipher: "aes-256-gcm"
     password: "TEzjfAYq2IjtuoS"
     udp: true
-  - name: "🇰🇷KR-43.201.48.212-1910"
+  - name: "🇰🇷KR-43.201.48.212-2315"
     type: "ss"
     server: "43.201.48.212"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇰🇷KR-144.24.72.126-2787"
+  - name: "🇰🇷KR-144.24.72.126-3213"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -40,7 +32,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-3.34.6.217-3846"
+  - name: "🇰🇷KR-3.34.6.217-4272"
     type: "trojan"
     server: "3.34.6.217"
     port: 443
@@ -48,66 +40,13 @@ proxies:
     password: "xxoo"
     tls: true
     servername: "3.34.6.217"
-  - name: "🇰🇷KR-141.164.45.187-4972"
+  - name: "🇰🇷KR-141.164.45.187-5313"
     type: "ss"
     server: "141.164.45.187"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | ED5343"
-    type: "vmess"
-    server: "146.56.112.110"
-    port: 8888
-    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | 9F3BE6"
-    type: "vmess"
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
-        Host: "132.145.80.230"
-  - name: "KR 🇰🇷 | @Raydikalx | 6C9897"
-    type: "vmess"
-    server: "183.109.131.75"
-    port: 20086
-    uuid: "b26c4803-0bca-467c-a245-c9a80bdd72ec"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN"
-      headers:
-  - name: "KR 🇰🇷 | @Raydikalx | 9652E1"
-    type: "vmess"
-    server: "43.108.103.167"
-    port: 123
-    uuid: "35aa0fda-175a-4aec-c468-0231dee1a121"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "KR 🇰🇷 | @Raydikalx | C1BBF7"
-    type: "vmess"
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/cctv13.m3u8"
-      headers:
   - name: "KR 🇰🇷 | @Raydikalx | 168118"
     type: "vmess"
     server: "217.142.138.61"
@@ -116,6 +55,18 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "KR 🇰🇷 | @Raydikalx | D518F1"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
   - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
     type: "vmess"
     server: "132.145.80.230"
@@ -133,19 +84,14 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇰🇷[www.v2nodes.com] vless-KR-1..."
-      - "🇰🇷KR-211.178.105.134-0166"
-      - "🇰🇷KR-141.164.45.187-0156"
-      - "🇰🇷KR-43.201.48.212-1910"
-      - "🇰🇷KR-144.24.72.126-2787"
-      - "🇰🇷KR-3.34.6.217-3846"
-      - "🇰🇷KR-141.164.45.187-4972"
-      - "KR 🇰🇷 | @Raydikalx | ED5343"
-      - "KR 🇰🇷 | @Raydikalx | 9F3BE6"
-      - "KR 🇰🇷 | @Raydikalx | 6C9897"
-      - "KR 🇰🇷 | @Raydikalx | 9652E1"
-      - "KR 🇰🇷 | @Raydikalx | C1BBF7"
+      - "🇰🇷KR-211.178.105.134-0194"
+      - "🇰🇷KR-141.164.45.187-0192"
+      - "🇰🇷KR-43.201.48.212-2315"
+      - "🇰🇷KR-144.24.72.126-3213"
+      - "🇰🇷KR-3.34.6.217-4272"
+      - "🇰🇷KR-141.164.45.187-5313"
       - "KR 🇰🇷 | @Raydikalx | 168118"
+      - "KR 🇰🇷 | @Raydikalx | D518F1"
       - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
