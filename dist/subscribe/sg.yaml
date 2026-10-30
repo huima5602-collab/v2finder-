@@ -3,33 +3,19 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "سنگاپور 🇸🇬 | @GetXConfig | #10717"
-    type: "vless"
-    server: "206.206.76.75"
-    port: 443
-    udp: true
-    uuid: "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309"
-    network: "tcp"
-  - name: "🇸🇬202352 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "164.37.224.228"
-    port: 25445
-    udp: true
-    uuid: "5a519754-a673-4462-83f6-5eb25d2af141"
-    network: "tcp"
-  - name: "🇸🇬202378 | ⚡️Telegram = t.me/SOSkeyNET"
-    type: "vless"
-    server: "50.7.252.50"
-    port: 2091
-    udp: true
-    uuid: "76b6a658-ce80-4500-b24d-404c94639ac6"
-    network: "tcp"
   - name: "🇸🇬[www.v2nodes.com] vless-SG"
     type: "vless"
-    server: "104.17.154.123"
+    server: "172.64.153.153"
     port: 443
     udp: true
     uuid: "d342d11e-d224-4463-b982-532309285094"
+    tls: true
+    servername: "ccc.010304.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "ccc.010304.xyz"
   - name: "🇸🇬[www.v2nodes.com] vless-SG #1"
     type: "vless"
     server: "172.67.76.40"
@@ -58,17 +44,17 @@ proxies:
         Host: "ccc.010304.xyz"
   - name: "🇸🇬[www.v2nodes.com] vless-SG #3"
     type: "vless"
-    server: "188.164.248.123"
-    port: 8443
+    server: "104.18.35.15"
+    port: 443
     udp: true
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    uuid: "d342d11e-d224-4463-b982-532309285094"
     tls: true
-    servername: "vp21.cc.cd"
+    servername: "ccc.010304.xyz"
     network: "ws"
     ws-opts:
-      path: "/fp=chrome"
+      path: "/fp=chromefp=chrome"
       headers:
-        Host: "vp21.cc.cd"
+        Host: "ccc.010304.xyz"
   - name: "🇸🇬[www.v2nodes.com] vless-SG #4"
     type: "vless"
     server: "67.159.52.81"
@@ -115,11 +101,9 @@ proxies:
     port: 2096
     udp: true
     uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    tls: true
-    servername: "free-server.techsonic.dev"
     network: "ws"
     ws-opts:
-      path: "/free-server.techsonic.devfp=chrome"
+      path: "/free-server.techsonic.devsecurity=tls"
       headers:
         Host: "free-server.techsonic.dev"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
@@ -152,20 +136,9 @@ proxies:
     port: 12512
     udp: true
     uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
-    type: "vless"
-    server: "104.18.40.100"
-    port: 443
-    udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
     tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #12"
+    servername: "www.intel.com"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
     type: "vless"
     server: "3.0.111.82"
     port: 12972
@@ -175,23 +148,40 @@ proxies:
     servername: "www.apple.com"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-9..."
     type: "vless"
-    server: "104.26.4.2"
+    server: "43.174.193.1"
     port: 443
     udp: true
     uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
     network: "ws"
     ws-opts:
-      path: "/fp=chromefp=chrome"
+      path: "/fp=chromesecurity=tls"
       headers:
         Host: "ccc.010304.xyz"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-9... #1"
+    type: "vless"
+    server: "172.64.150.28"
+    port: 2082
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    network: "ws"
+    ws-opts:
+      path: "/fpfp=chrome"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
   - name: "🇸🇬[www.v2nodes.com] trojan-SG-..."
     type: "trojan"
     server: "139.180.146.200"
     port: 8886
     udp: true
     password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
+  - name: "🇸🇬 新加坡 | SGP #1"
+    type: "vless"
+    server: "213.152.180.104"
+    port: 2089
+    udp: true
+    uuid: "492e3bca-472f-406f-8bbb-2fdcc1560508"
+    tls: true
+    servername: "www.apple.com"
   - name: "🇸🇬 新加坡 | SGP #2"
     type: "vless"
     server: "104.18.35.86"
@@ -203,54 +193,14 @@ proxies:
       path: "/fp"
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇸🇬 新加坡 | SGP #3"
-    type: "vless"
-    server: "164.37.224.228"
-    port: 25445
-    udp: true
-    uuid: "5a519754-a673-4462-83f6-5eb25d2af141"
-    tls: true
-    servername: "www.cloudflare.com"
-  - name: "🇸🇬SG-103.36.91.32-5455"
-    type: "ss"
-    server: "103.36.91.32"
-    port: 8388
-    cipher: "chacha20-ietf"
-    password: "asd123456"
-    udp: true
-  - name: "🇸🇬SG-68.183.227.4-0224"
+  - name: "🇸🇬SG-68.183.227.4-0205"
     type: "ss"
     server: "68.183.227.4"
     port: 8080
     cipher: "rc4-md5"
     password: "14fFPrbezE3HDZzsMOr6"
     udp: true
-  - name: "🇸🇬SG-15.235.147.186-0301"
-    type: "vmess"
-    server: "15.235.147.186"
-    port: 80
-    uuid: "6fea1649-425b-4092-bf53-29792152c925"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-15.235.147.186-0312"
-    type: "vmess"
-    server: "15.235.147.186"
-    port: 80
-    uuid: "6fea1649-425b-4092-bf53-29792152c925"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "15.235.147.186"
-  - name: "🇸🇬SG-139.99.61.53-0364"
+  - name: "🇸🇬SG-139.99.61.53-0380"
     type: "vmess"
     server: "139.99.61.53"
     port: 80
@@ -262,7 +212,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-15.235.147.186-0450"
+  - name: "🇸🇬SG-15.235.147.186-0466"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -274,7 +224,7 @@ proxies:
     ws-opts:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
-  - name: "🇸🇬SG-139.180.146.200-0520"
+  - name: "🇸🇬SG-139.180.146.200-0543"
     type: "trojan"
     server: "139.180.146.200"
     port: 8886
@@ -282,7 +232,7 @@ proxies:
     password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
     tls: true
     servername: "139.180.146.200"
-  - name: "🇸🇬SG-139.99.61.154-1310"
+  - name: "🇸🇬SG-139.99.61.154-1392"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -295,7 +245,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "139.99.61.154"
-  - name: "🇸🇬SG-139.99.61.53-1863"
+  - name: "🇸🇬SG-139.99.61.53-1945"
     type: "vmess"
     server: "139.99.61.53"
     port: 80
@@ -308,7 +258,7 @@ proxies:
       path: "/"
       headers:
         Host: "139.99.61.53"
-  - name: "🇸🇬SG-202.79.172.53-2006"
+  - name: "🇸🇬SG-202.79.172.53-2088"
     type: "vmess"
     server: "202.79.172.53"
     port: 443
@@ -322,7 +272,7 @@ proxies:
     ws-opts:
       path: "/path/220128071100"
       headers:
-  - name: "🇸🇬SG-143.198.219.182-2022"
+  - name: "🇸🇬SG-143.198.219.182-2104"
     type: "vmess"
     server: "143.198.219.182"
     port: 80
@@ -334,7 +284,7 @@ proxies:
     ws-opts:
       path: "/v2ray"
       headers:
-  - name: "🇸🇬SG-146.190.82.241-2472"
+  - name: "🇸🇬SG-146.190.82.241-2554"
     type: "vmess"
     server: "146.190.82.241"
     port: 443
@@ -348,7 +298,14 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-15.235.184.36-2817"
+  - name: "🇸🇬SG-139.180.220.175-2662"
+    type: "ss"
+    server: "139.180.220.175"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "qpSevKaUXYQKvSjp"
+    udp: true
+  - name: "🇸🇬SG-15.235.184.36-2911"
     type: "vmess"
     server: "15.235.184.36"
     port: 80
@@ -360,7 +317,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-2822"
+  - name: "🇸🇬SG-139.99.61.154-2916"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -372,7 +329,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-2849"
+  - name: "🇸🇬SG-109.123.237.41-2943"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -384,7 +341,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3011"
+  - name: "🇸🇬SG-109.123.237.41-3105"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -396,7 +353,7 @@ proxies:
     ws-opts:
       path: "/fastssh"
       headers:
-  - name: "🇸🇬SG-157.230.36.235-3104"
+  - name: "🇸🇬SG-157.230.36.235-3198"
     type: "vmess"
     server: "157.230.36.235"
     port: 80
@@ -408,7 +365,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇸🇬SG-139.99.61.53-5169"
+  - name: "🇸🇬SG-139.99.61.53-5263"
     type: "vmess"
     server: "139.99.61.53"
     port: 80
@@ -420,7 +377,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-159.223.94.156-5386"
+  - name: "🇸🇬SG-159.223.94.156-5480"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -432,15 +389,7 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "🇸🇬SG-43.160.197.160-5398"
-    type: "trojan"
-    server: "43.160.197.160"
-    port: 443
-    udp: true
-    password: "38f169d6-d202-4b1b-8db8-e6eb1648f5cf"
-    tls: true
-    servername: "43.160.197.160"
-  - name: "🇸🇬SG-18.140.67.76-5970"
+  - name: "🇸🇬SG-18.140.67.76-6069"
     type: "trojan"
     server: "18.140.67.76"
     port: 443
@@ -448,21 +397,21 @@ proxies:
     password: "iyinglong"
     tls: true
     servername: "18.140.67.76"
-  - name: "🇸🇬SG-54.254.129.246-7588"
+  - name: "🇸🇬SG-54.254.129.246-7687"
     type: "ss"
     server: "54.254.129.246"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-51.79.161.232-7604"
+  - name: "🇸🇬SG-51.79.161.232-7703"
     type: "ss"
     server: "51.79.161.232"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "4Hub2f9JyhECyAq2Opm0NS"
     udp: true
-  - name: "🇸🇬SG-15.235.197.4-8197"
+  - name: "🇸🇬SG-15.235.197.4-8296"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -470,7 +419,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "15.235.197.4"
-  - name: "🇸🇬SG-15.235.197.4-8199"
+  - name: "🇸🇬SG-15.235.197.4-8298"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -478,126 +427,31 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "getandroid.com"
-  - name: "🇸🇬SG-118.107.46.173-8295"
-    type: "vmess"
-    server: "118.107.46.173"
-    port: 443
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "118.107.46.173"
-    network: "ws"
-    ws-opts:
-      path: "/path/080712342310"
-      headers:
-  - name: "🇸🇬SG-118.107.46.173-8297"
-    type: "vmess"
-    server: "118.107.46.173"
-    port: 443
-    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
-    alterId: 64
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "118.107.46.173"
-    network: "ws"
-    ws-opts:
-      path: "/path/080712342310"
-      headers:
   - name: "🇸🇬[www.v2nodes.com] vless-SG"
     type: "vless"
-    server: "104.18.33.141"
-    port: 443
-    udp: true
-    uuid: "0575005f-0ba9-4d6d-85e0-4a6a8cbafc1b"
-    tls: true
-    servername: "kclx.eu.org"
-    network: "ws"
-    ws-opts:
-      path: "/154.16.10.34-8080fp=chrome"
-      headers:
-        Host: "kclx.eu.org"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG #1"
-    type: "vless"
-    server: "172.66.0.162"
+    server: "172.64.153.153"
     port: 443
     udp: true
     uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG #3"
+    type: "vless"
+    server: "185.162.229.50"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     network: "ws"
     ws-opts:
-      path: "/fp=chrome"
+      path: "/"
       headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG #2"
-    type: "vless"
-    server: "188.164.248.123"
-    port: 8443
-    udp: true
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    tls: true
-    servername: "vp21.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "vp21.cc.cd"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
-    type: "vless"
-    server: "5.34.177.164"
-    port: 443
-    udp: true
-    uuid: "ca678d26-5435-4d13-b378-06c4c3b070ff"
-    tls: true
-    servername: "gateway.icloud.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
-    type: "vless"
-    server: "45.132.75.213"
-    port: 2053
-    udp: true
-    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
-    tls: true
-    servername: "www.cloudflare.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
-    type: "vless"
-    server: "147.93.173.45"
-    port: 10444
-    udp: true
-    uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
-    tls: true
-    servername: "video.yandex.ru"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-    type: "vless"
-    server: "206.206.76.75"
-    port: 443
-    udp: true
-    uuid: "1e3d3634-36ac-43ac-a439-9665d885238f"
-    tls: true
-    servername: "www.cloudflare.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
-    type: "vless"
-    server: "54.169.200.246"
-    port: 41688
-    udp: true
-    uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
-    tls: true
-    servername: "www.intel.com"
+        Host: "vms.lifetime61.workers.dev"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
     type: "vless"
-    server: "104.18.40.100"
-    port: 443
+    server: "46.137.202.178"
+    port: 12512
     udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
+    uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
     tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "ccc.010304.xyz"
+    servername: "www.intel.com"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
     type: "vless"
     server: "3.0.111.82"
@@ -606,12 +460,71 @@ proxies:
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     tls: true
     servername: "www.apple.com"
-  - name: "🇸🇬[www.v2nodes.com] trojan-SG-..."
-    type: "trojan"
-    server: "139.180.146.200"
-    port: 8886
+  - name: "🇸🇬 新加坡 | SGP #2"
+    type: "vless"
+    server: "213.152.180.104"
+    port: 2089
     udp: true
-    password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
+    uuid: "492e3bca-472f-406f-8bbb-2fdcc1560508"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬 新加坡 | SGP #3"
+    type: "vless"
+    server: "172.64.144.37"
+    port: 443
+    udp: true
+    uuid: "cf92529d-9c4a-4d71-ab87-ae784a2da6bb"
+    tls: true
+    servername: "gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/game/acg/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560fp=chrome"
+      headers:
+        Host: "gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev"
+  - name: "🇸🇬 新加坡 | SGP #4"
+    type: "vless"
+    server: "104.18.35.86"
+    port: 8080
+    udp: true
+    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    network: "ws"
+    ws-opts:
+      path: "/sg-melbi"
+      headers:
+        Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇸🇬 新加坡 | SGP #5"
+    type: "vless"
+    server: "172.64.151.94"
+    port: 443
+    udp: true
+    uuid: "cf92529d-9c4a-4d71-ab87-ae784a2da6bb"
+    tls: true
+    servername: "gy-cffc6-node-project-lb5p6r204ts3xuoz.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/documents/download/readme/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560fp=chrome"
+      headers:
+        Host: "gy-cffc6-node-project-lb5p6r204ts3xuoz.pages.dev"
+  - name: "🇸🇬 新加坡 | SGP #6"
+    type: "vless"
+    server: "8.39.125.54"
+    port: 443
+    udp: true
+    uuid: "cf92529d-9c4a-4d71-ab87-ae784a2da6bb"
+    tls: true
+    servername: "gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/jump.html/about/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560fp=chrome"
+      headers:
+        Host: "gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev"
+  - name: "🇸🇬 新加坡 | SGP"
+    type: "vless"
+    server: "213.152.180.104"
+    port: 2089
+    udp: true
+    uuid: "492e3bca-472f-406f-8bbb-2fdcc1560508"
+    network: "tcp"
   - name: "🇸🇬 新加坡 | SGP"
     type: "vless"
     server: "104.18.35.86"
@@ -623,13 +536,6 @@ proxies:
       path: "/fp"
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇸🇬 新加坡 | SGP"
-    type: "vless"
-    server: "164.37.224.228"
-    port: 25445
-    udp: true
-    uuid: "5a519754-a673-4462-83f6-5eb25d2af141"
-    network: "tcp"
   - name: "Channel id: @ShadowProxy66 🇸🇬"
     type: "vless"
     server: "46.137.202.178"
@@ -637,14 +543,6 @@ proxies:
     udp: true
     uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
     network: "tcp"
-  - name: "SG 🇸🇬 | @Raydikalx | 8B6F73"
-    type: "vmess"
-    server: "149.88.23.202"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "SG 🇸🇬 | @Raydikalx | 32C65E"
     type: "vmess"
     server: "149.88.23.202"
@@ -653,22 +551,21 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | 4DD190"
+  - name: "SG 🇸🇬 | @Raydikalx | 9DDCC3"
     type: "vmess"
-    server: "149.88.23.207"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | 6358C7"
-    type: "vmess"
-    server: "45.32.120.173"
+    server: "8.219.97.17"
     port: 443
-    uuid: "XEXEVIL"
+    uuid: "a9f4de8b-68f1-44b6-b6a2-1db60940503a"
     alterId: 0
     cipher: "auto"
     udp: true
+    tls: true
+    servername: "wjofhsqteueywxeq.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "wjofhsqteueywxeq.v.3dns.vip"
   - name: "SG 🇸🇬 | @Raydikalx | F0FF0E"
     type: "vmess"
     server: "206.238.238.222"
@@ -684,7 +581,7 @@ proxies:
       path: "/London31"
       headers:
         Host: "uk.frnhk.xyz"
-  - name: "SG 🇸🇬 | @Raydikalx | CE47F7"
+  - name: "SG 🇸🇬 | @Raydikalx | 5DA107"
     type: "vmess"
     server: "149.88.23.207"
     port: 18000
@@ -692,21 +589,6 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | C62756"
-    type: "vmess"
-    server: "206.238.239.109"
-    port: 8443
-    uuid: "f5f0babe-aea2-4f07-a1fc-3c9820253f49"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "uk.frnhk.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/London31"
-      headers:
-        Host: "uk.frnhk.xyz"
   - name: "🇸🇬"
     type: "vless"
     server: "45.40.149.50"
@@ -907,9 +789,6 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "سنگاپور 🇸🇬 | @GetXConfig | #10717"
-      - "🇸🇬202352 | ⚡️Telegram = t.me/SOSkeyNET"
-      - "🇸🇬202378 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇸🇬[www.v2nodes.com] vless-SG"
       - "🇸🇬[www.v2nodes.com] vless-SG #1"
       - "🇸🇬[www.v2nodes.com] vless-SG #2"
@@ -925,59 +804,49 @@ proxy-groups:
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #12"
       - "🇸🇬[www.v2nodes.com] vless-SG-9..."
+      - "🇸🇬[www.v2nodes.com] vless-SG-9... #1"
       - "🇸🇬[www.v2nodes.com] trojan-SG-..."
+      - "🇸🇬 新加坡 | SGP #1"
       - "🇸🇬 新加坡 | SGP #2"
-      - "🇸🇬 新加坡 | SGP #3"
-      - "🇸🇬SG-103.36.91.32-5455"
-      - "🇸🇬SG-68.183.227.4-0224"
-      - "🇸🇬SG-15.235.147.186-0301"
-      - "🇸🇬SG-15.235.147.186-0312"
-      - "🇸🇬SG-139.99.61.53-0364"
-      - "🇸🇬SG-15.235.147.186-0450"
-      - "🇸🇬SG-139.180.146.200-0520"
-      - "🇸🇬SG-139.99.61.154-1310"
-      - "🇸🇬SG-139.99.61.53-1863"
-      - "🇸🇬SG-202.79.172.53-2006"
-      - "🇸🇬SG-143.198.219.182-2022"
-      - "🇸🇬SG-146.190.82.241-2472"
-      - "🇸🇬SG-15.235.184.36-2817"
-      - "🇸🇬SG-139.99.61.154-2822"
-      - "🇸🇬SG-109.123.237.41-2849"
-      - "🇸🇬SG-109.123.237.41-3011"
-      - "🇸🇬SG-157.230.36.235-3104"
-      - "🇸🇬SG-139.99.61.53-5169"
-      - "🇸🇬SG-159.223.94.156-5386"
-      - "🇸🇬SG-43.160.197.160-5398"
-      - "🇸🇬SG-18.140.67.76-5970"
-      - "🇸🇬SG-54.254.129.246-7588"
-      - "🇸🇬SG-51.79.161.232-7604"
-      - "🇸🇬SG-15.235.197.4-8197"
-      - "🇸🇬SG-15.235.197.4-8199"
-      - "🇸🇬SG-118.107.46.173-8295"
-      - "🇸🇬SG-118.107.46.173-8297"
+      - "🇸🇬SG-68.183.227.4-0205"
+      - "🇸🇬SG-139.99.61.53-0380"
+      - "🇸🇬SG-15.235.147.186-0466"
+      - "🇸🇬SG-139.180.146.200-0543"
+      - "🇸🇬SG-139.99.61.154-1392"
+      - "🇸🇬SG-139.99.61.53-1945"
+      - "🇸🇬SG-202.79.172.53-2088"
+      - "🇸🇬SG-143.198.219.182-2104"
+      - "🇸🇬SG-146.190.82.241-2554"
+      - "🇸🇬SG-139.180.220.175-2662"
+      - "🇸🇬SG-15.235.184.36-2911"
+      - "🇸🇬SG-139.99.61.154-2916"
+      - "🇸🇬SG-109.123.237.41-2943"
+      - "🇸🇬SG-109.123.237.41-3105"
+      - "🇸🇬SG-157.230.36.235-3198"
+      - "🇸🇬SG-139.99.61.53-5263"
+      - "🇸🇬SG-159.223.94.156-5480"
+      - "🇸🇬SG-18.140.67.76-6069"
+      - "🇸🇬SG-54.254.129.246-7687"
+      - "🇸🇬SG-51.79.161.232-7703"
+      - "🇸🇬SG-15.235.197.4-8296"
+      - "🇸🇬SG-15.235.197.4-8298"
       - "🇸🇬[www.v2nodes.com] vless-SG"
-      - "🇸🇬[www.v2nodes.com] vless-SG #1"
-      - "🇸🇬[www.v2nodes.com] vless-SG #2"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
+      - "🇸🇬[www.v2nodes.com] vless-SG #3"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
-      - "🇸🇬[www.v2nodes.com] trojan-SG-..."
+      - "🇸🇬 新加坡 | SGP #2"
+      - "🇸🇬 新加坡 | SGP #3"
+      - "🇸🇬 新加坡 | SGP #4"
+      - "🇸🇬 新加坡 | SGP #5"
+      - "🇸🇬 新加坡 | SGP #6"
       - "🇸🇬 新加坡 | SGP"
       - "🇸🇬 新加坡 | SGP"
       - "Channel id: @ShadowProxy66 🇸🇬"
-      - "SG 🇸🇬 | @Raydikalx | 8B6F73"
       - "SG 🇸🇬 | @Raydikalx | 32C65E"
-      - "SG 🇸🇬 | @Raydikalx | 4DD190"
-      - "SG 🇸🇬 | @Raydikalx | 6358C7"
+      - "SG 🇸🇬 | @Raydikalx | 9DDCC3"
       - "SG 🇸🇬 | @Raydikalx | F0FF0E"
-      - "SG 🇸🇬 | @Raydikalx | CE47F7"
-      - "SG 🇸🇬 | @Raydikalx | C62756"
+      - "SG 🇸🇬 | @Raydikalx | 5DA107"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
