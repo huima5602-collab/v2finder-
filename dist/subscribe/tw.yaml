@@ -3,7 +3,15 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼 🇨🇳 台湾 | TWN #1"
+  - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
+    type: "vless"
+    server: "152.32.167.33"
+    port: 443
+    udp: true
+    uuid: "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a"
+    tls: true
+    servername: "www.amazon.com"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN #2"
     type: "vless"
     server: "59.125.69.22"
     port: 443
@@ -16,21 +24,7 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
       headers:
         Host: "tse1.mm.bing.net"
-  - name: "🇹🇼[www.v2nodes.com] trojan-TW-..."
-    type: "trojan"
-    server: "188.253.7.44"
-    port: 24999
-    udp: true
-    password: "29086912-33e4-4e06-ba2b-60f1a195864f"
-  - name: "🇹🇼TW-188.253.7.44-0544"
-    type: "trojan"
-    server: "188.253.7.44"
-    port: 24999
-    udp: true
-    password: "29086912-33e4-4e06-ba2b-60f1a195864f"
-    tls: true
-    servername: "188.253.7.44"
-  - name: "🇹🇼[www.v2nodes.com] vless-TW-1... #1"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN #1"
     type: "vless"
     server: "59.125.69.23"
     port: 443
@@ -41,6 +35,47 @@ proxies:
     network: "ws"
     ws-opts:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
+      headers:
+        Host: "ty986gfazs.cainiaohub.xyz"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN #3"
+    type: "vless"
+    server: "60.248.219.53"
+    port: 443
+    udp: true
+    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
+    tls: true
+    servername: "ty986gfazs.cainiaohub.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
+      headers:
+        Host: "ty986gfazs.cainiaohub.xyz"
+  - name: "🇹🇼TW-188.253.7.44-0487"
+    type: "trojan"
+    server: "188.253.7.44"
+    port: 24999
+    udp: true
+    password: "29086912-33e4-4e06-ba2b-60f1a195864f"
+    tls: true
+    servername: "188.253.7.44"
+  - name: "🇨🇳 机场推荐:dafei.de 台湾 02"
+    type: "vless"
+    server: "141.11.87.77"
+    port: 443
+    udp: true
+    uuid: "4a270d3e-27b4-497d-8c8c-28f1f54958d9"
+    network: "tcp"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    type: "vless"
+    server: "59.125.69.23"
+    port: 443
+    udp: true
+    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
+    tls: true
+    servername: "ty986gfazs.cainiaohub.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
   - name: "🇹🇼 🇨🇳 台湾 | TWN"
@@ -56,14 +91,31 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "tse1.mm.bing.net"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    type: "vless"
+    server: "60.248.219.53"
+    port: 443
+    udp: true
+    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
+    tls: true
+    servername: "ty986gfazs.cainiaohub.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
+      headers:
+        Host: "ty986gfazs.cainiaohub.xyz"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇹🇼[www.v2nodes.com] vless-TW-1..."
+      - "🇹🇼 🇨🇳 台湾 | TWN #2"
       - "🇹🇼 🇨🇳 台湾 | TWN #1"
-      - "🇹🇼[www.v2nodes.com] trojan-TW-..."
-      - "🇹🇼TW-188.253.7.44-0544"
-      - "🇹🇼[www.v2nodes.com] vless-TW-1... #1"
+      - "🇹🇼 🇨🇳 台湾 | TWN #3"
+      - "🇹🇼TW-188.253.7.44-0487"
+      - "🇨🇳 机场推荐:dafei.de 台湾 02"
+      - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "🇹🇼 🇨🇳 台湾 | TWN"
       - "🇹🇼 🇨🇳 台湾 | TWN"
 rules:
   - "MATCH,Proxy Select"
