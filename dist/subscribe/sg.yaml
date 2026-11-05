@@ -3,9 +3,168 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "45.40.149.50"
+    port: 8880
+    udp: true
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime39.workers.dev"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "47.131.189.221"
+    port: 443
+    udp: true
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    tls: true
+    servername: "mia7.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/TG:@MiaChatChannel"
+      headers:
+        Host: "mia7.pages.dev"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "104.17.191.15"
+    port: 8880
+    udp: true
+    uuid: "adcce8be-9de7-41bd-abcd-52939cec108b"
+    network: "ws"
+    ws-opts:
+      path: "/pyip=ProxyIP.SG.CMLiussss.net"
+      headers:
+        Host: "fancy-haze-ab00.236-68b.workers.dev"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "172.65.90.53"
+    port: 8880
+    udp: true
+    uuid: "30a2a9a6-6a03-4353-a7fb-63831d64f718"
+    network: "ws"
+    ws-opts:
+      path: "/pyip=ProxyIP.SG.CMLiussss.net"
+      headers:
+        Host: "orange-lab-896e.365-80b.workers.dev"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "172.64.94.251"
+    port: 8880
+    udp: true
+    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    network: "ws"
+    ws-opts:
+      path: "/pyip=ProxyIP.SG.CMLiussss.net"
+      headers:
+        Host: "old-violet-a5ce.29-440.workers.dev"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "103.25.202.102"
+    port: 443
+    udp: true
+    uuid: "a853e120-3570-462b-aec1-e8f3d4f92d24"
+    tls: true
+    servername: "asia.csmaster.site"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "asia.csmaster.site"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "104.21.28.176"
+    port: 443
+    udp: true
+    uuid: "f5f0babe-aea2-4f07-a1fc-3c9820253f49"
+    tls: true
+    servername: "104.21.28.176"
+    network: "ws"
+    ws-opts:
+      path: "/Singapore1"
+      headers:
+        Host: "sg.lovehk.xyz"
+  - name: "🇸🇬SG新加坡丨yoyapai.com"
+    type: "vless"
+    server: "43.174.195.1"
+    port: 443
+    udp: true
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    tls: true
+    servername: "kv.074167.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇸🇬SG01|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.36"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG02|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.38"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG03|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.28"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG04|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.35"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG05|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.29"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG06|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.37"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG07|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.27"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG08|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.30"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
+  - name: "🇸🇬SG09|@ripaojiedian"
+    type: "vless"
+    server: "50.7.252.50"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    network: "tcp"
   - name: "🇸🇬[www.v2nodes.com] vless-SG"
     type: "vless"
-    server: "172.67.138.17"
+    server: "104.16.34.14"
     port: 443
     udp: true
     uuid: "d342d11e-d224-4463-b982-532309285094"
@@ -13,55 +172,10 @@ proxies:
     servername: "ccc.010304.xyz"
     network: "ws"
     ws-opts:
-      path: "/fp=chrome"
+      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHIfp=chrome"
       headers:
         Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG #1"
-    type: "vless"
-    server: "8.47.69.60"
-    port: 443
-    udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/fp=unsafe"
-      headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG #2"
-    type: "vless"
-    server: "67.159.52.81"
-    port: 443
-    udp: true
-    uuid: "a16bd0e2-ff2e-4e4c-a955-0c684255a065"
-    tls: true
-    servername: "sg.fasti.win"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
-    type: "vless"
-    server: "134.185.81.5"
-    port: 47881
-    udp: true
-    uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
-    tls: true
-    servername: "www.tesla.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
-    type: "vless"
-    server: "45.77.243.143"
-    port: 443
-    udp: true
-    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
-    tls: true
-    servername: "sg003.zestapp778.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-    type: "vless"
-    server: "45.132.75.213"
-    port: 2053
-    udp: true
-    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
-    tls: true
-    servername: "www.cloudflare.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
     type: "vless"
     server: "147.93.173.45"
     port: 10444
@@ -69,20 +183,7 @@ proxies:
     uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
     tls: true
     servername: "video.yandex.ru"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
-    type: "vless"
-    server: "139.162.27.96"
-    port: 2096
-    udp: true
-    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    tls: true
-    servername: "free-server.techsonic.dev"
-    network: "ws"
-    ws-opts:
-      path: "/free-server.techsonic.devfp=chrome"
-      headers:
-        Host: "free-server.techsonic.dev"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
     type: "vless"
     server: "206.206.76.75"
     port: 443
@@ -90,15 +191,7 @@ proxies:
     uuid: "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309"
     tls: true
     servername: "www.cloudflare.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
-    type: "vless"
-    server: "54.251.9.130"
-    port: 24146
-    udp: true
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
-    tls: true
-    servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
     type: "vless"
     server: "54.169.200.246"
     port: 41688
@@ -106,28 +199,26 @@ proxies:
     uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
     tls: true
     servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #10"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
     type: "vless"
     server: "46.137.202.178"
     port: 12512
     udp: true
     uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-    tls: true
-    servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
     type: "vless"
-    server: "104.18.60.55"
-    port: 443
+    server: "190.93.244.166"
+    port: 2096
     udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
+    uuid: "b2853d19-fada-44dc-8d44-967d1af122e0"
     tls: true
-    servername: "ccc.010304.xyz"
+    servername: "wQa3mioJJR8fYoZhIui--su3-UCG1GDx.pages.DEv"
     network: "ws"
     ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome"
+      path: "/eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=fp=chrome"
       headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #12"
+        Host: "wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
     type: "vless"
     server: "3.0.111.82"
     port: 17623
@@ -137,15 +228,32 @@ proxies:
     servername: "www.apple.com"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-9..."
     type: "vless"
-    server: "104.18.35.86"
+    server: "172.64.150.43"
     port: 2082
     udp: true
     uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
     network: "ws"
     ws-opts:
-      path: "/fp"
+      path: "/"
       headers:
         Host: "hhlfy.twiladaphne.ndjp.net"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-9... #1"
+    type: "vless"
+    server: "190.93.245.187"
+    port: 8443
+    udp: true
+    uuid: "b2853d19-fada-44dc-8d44-967d1af122e0"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-8..."
+    type: "vless"
+    server: "172.67.231.28"
+    port: 443
+    udp: true
+    uuid: "d342d11e-d224-4463-b982-532309285094"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chromefp=unsafesecurity=tls"
+      headers:
+        Host: "ccc.010304.xyz"
   - name: "🇸🇬[www.v2nodes.com] trojan-SG-... #1"
     type: "trojan"
     server: "149.28.130.108"
@@ -158,7 +266,87 @@ proxies:
     port: 8886
     udp: true
     password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
-  - name: "🇸🇬SG-149.28.130.108-0206"
+  - name: "🇸🇬SG01|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.36"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG02|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.38"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG03|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.28"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG04|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.35"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG05|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.29"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG06|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.37"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG07|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.27"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG08|@ripaojiedian"
+    type: "vless"
+    server: "67.159.49.30"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬SG09|@ripaojiedian"
+    type: "vless"
+    server: "50.7.252.50"
+    port: 443
+    udp: true
+    uuid: "9efe4030-ba38-4fd3-a424-a41beeb462d1"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇸🇬 新加坡 | SGP #3"
+    type: "vless"
+    server: "43.163.112.174"
+    port: 443
+    udp: true
+    uuid: "0dedd47d-47b9-4ed1-9c9f-cbeecad57a68"
+    tls: true
+    servername: "www.cloudflare.com"
+  - name: "🇸🇬SG-149.28.130.108-0158"
     type: "trojan"
     server: "149.28.130.108"
     port: 443
@@ -166,14 +354,14 @@ proxies:
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     tls: true
     servername: "searchcreativejobsandshowcaseyourartistictalents.com"
-  - name: "🇸🇬SG-68.183.227.4-0249"
+  - name: "🇸🇬SG-68.183.227.4-0182"
     type: "ss"
     server: "68.183.227.4"
     port: 8080
     cipher: "rc4-md5"
     password: "14fFPrbezE3HDZzsMOr6"
     udp: true
-  - name: "🇸🇬SG-8.219.208.69-0119"
+  - name: "🇸🇬SG-8.219.208.69-0259"
     type: "vmess"
     server: "8.219.208.69"
     port: 443
@@ -188,7 +376,7 @@ proxies:
       path: "/"
       headers:
         Host: "crude-franklin-favors-outsourcing.trycloudflare.com"
-  - name: "🇸🇬SG-8.219.219.179-0113"
+  - name: "🇸🇬SG-8.219.219.179-0265"
     type: "vmess"
     server: "8.219.219.179"
     port: 443
@@ -203,7 +391,7 @@ proxies:
       path: "/"
       headers:
         Host: "crude-franklin-favors-outsourcing.trycloudflare.com"
-  - name: "🇸🇬SG-15.235.147.186-0465"
+  - name: "🇸🇬SG-15.235.147.186-0407"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -215,7 +403,351 @@ proxies:
     ws-opts:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
-  - name: "🇸🇬SG-15.235.147.186-0030"
+  - name: "🇸🇬SG-139.180.146.200-0503"
+    type: "trojan"
+    server: "139.180.146.200"
+    port: 8886
+    udp: true
+    password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
+    tls: true
+    servername: "139.180.146.200"
+  - name: "🇸🇬SG-103.25.202.114-0839"
+    type: "trojan"
+    server: "103.25.202.114"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-188.253.12.92-0842"
+    type: "trojan"
+    server: "188.253.12.92"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0843"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.93-0845"
+    type: "trojan"
+    server: "188.253.12.93"
+    port: 48697
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-0846"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 48697
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0849"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 48697
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.91-0851"
+    type: "trojan"
+    server: "188.253.12.91"
+    port: 47909
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "is.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.93-0854"
+    type: "trojan"
+    server: "188.253.12.93"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0855"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-0856"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0858"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 45553
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "ch.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.91-0859"
+    type: "trojan"
+    server: "188.253.12.91"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0861"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 47909
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "is.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-0862"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 45553
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "ch.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-0866"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 47909
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "is.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.92-0867"
+    type: "trojan"
+    server: "188.253.12.92"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.93-0868"
+    type: "trojan"
+    server: "188.253.12.93"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-0869"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-0870"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 48697
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "gh.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-0871"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 45553
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "ch.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-0872"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 45619
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "fr.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-0874"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.93-0875"
+    type: "trojan"
+    server: "188.253.12.93"
+    port: 45553
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "ch.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.91-0879"
+    type: "trojan"
+    server: "188.253.12.91"
+    port: 41943
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "az.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.90-0880"
+    type: "trojan"
+    server: "188.253.12.90"
+    port: 46424
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "de.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-43.169.19.179-0916"
+    type: "trojan"
+    server: "43.169.19.179"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-43.170.8.95-0946"
+    type: "trojan"
+    server: "43.170.8.95"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-45.128.222.55-1032"
+    type: "trojan"
+    server: "45.128.222.55"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-168.144.109.68-1033"
+    type: "trojan"
+    server: "168.144.109.68"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-139.162.62.195-1044"
+    type: "trojan"
+    server: "139.162.62.195"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-168.144.96.147-1055"
+    type: "trojan"
+    server: "168.144.96.147"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-159.223.41.212-1071"
+    type: "trojan"
+    server: "159.223.41.212"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇸🇬SG-188.253.12.91-1077"
+    type: "trojan"
+    server: "188.253.12.91"
+    port: 46424
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "de.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.92-1079"
+    type: "trojan"
+    server: "188.253.12.92"
+    port: 46424
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "de.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-1080"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 47909
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "is.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.94-1085"
+    type: "trojan"
+    server: "188.253.12.94"
+    port: 46424
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "de.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.15-1087"
+    type: "trojan"
+    server: "188.253.12.15"
+    port: 46424
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "de.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-188.253.12.93-1095"
+    type: "trojan"
+    server: "188.253.12.93"
+    port: 47909
+    udp: true
+    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
+    tls: true
+    servername: "is.01.naiun.bilibili.com"
+  - name: "🇸🇬SG-15.235.147.186-1167"
     type: "vmess"
     server: "15.235.147.186"
     port: 80
@@ -228,411 +760,7 @@ proxies:
       path: "/sshkit/Ertusg86/635014638c264/"
       headers:
         Host: "15.235.147.186"
-  - name: "🇸🇬SG-139.180.146.200-0566"
-    type: "trojan"
-    server: "139.180.146.200"
-    port: 8886
-    udp: true
-    password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
-    tls: true
-    servername: "139.180.146.200"
-  - name: "🇸🇬SG-103.25.202.114-0881"
-    type: "trojan"
-    server: "103.25.202.114"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-188.253.12.92-0884"
-    type: "trojan"
-    server: "188.253.12.92"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0885"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-0887"
-    type: "trojan"
-    server: "188.253.12.93"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-0888"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0891"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.91-0893"
-    type: "trojan"
-    server: "188.253.12.91"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-0896"
-    type: "trojan"
-    server: "188.253.12.93"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0897"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-0898"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0900"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.91-0901"
-    type: "trojan"
-    server: "188.253.12.91"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0903"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-0904"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-0908"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.92-0909"
-    type: "trojan"
-    server: "188.253.12.92"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-0910"
-    type: "trojan"
-    server: "188.253.12.93"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-0911"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-0912"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 48697
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "gh.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-0913"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-0914"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 45619
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "fr.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-0916"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-0917"
-    type: "trojan"
-    server: "188.253.12.93"
-    port: 45553
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "ch.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.91-0921"
-    type: "trojan"
-    server: "188.253.12.91"
-    port: 41943
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "az.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.90-0922"
-    type: "trojan"
-    server: "188.253.12.90"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-43.169.19.179-0958"
-    type: "trojan"
-    server: "43.169.19.179"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-43.170.8.95-0988"
-    type: "trojan"
-    server: "43.170.8.95"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-45.128.222.55-1074"
-    type: "trojan"
-    server: "45.128.222.55"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-168.144.109.68-1075"
-    type: "trojan"
-    server: "168.144.109.68"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-139.162.62.195-1086"
-    type: "trojan"
-    server: "139.162.62.195"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-168.144.96.147-1097"
-    type: "trojan"
-    server: "168.144.96.147"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-159.223.41.212-1113"
-    type: "trojan"
-    server: "159.223.41.212"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇸🇬SG-188.253.12.91-1119"
-    type: "trojan"
-    server: "188.253.12.91"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.92-1121"
-    type: "trojan"
-    server: "188.253.12.92"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-1122"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.94-1127"
-    type: "trojan"
-    server: "188.253.12.94"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.15-1129"
-    type: "trojan"
-    server: "188.253.12.15"
-    port: 46424
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "de.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-188.253.12.93-1137"
-    type: "trojan"
-    server: "188.253.12.93"
-    port: 47909
-    udp: true
-    password: "4f4d1167-ef14-4304-9bce-0740472503ef"
-    tls: true
-    servername: "is.01.naiun.bilibili.com"
-  - name: "🇸🇬SG-8.219.122.121-1169"
-    type: "vmess"
-    server: "8.219.122.121"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lg30.cfcdn3.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/ray"
-      headers:
-        Host: "lg30.cfcdn3.xyz"
-  - name: "🇸🇬SG-8.219.173.2-1182"
-    type: "vmess"
-    server: "8.219.173.2"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lg30.cfcdn3.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "lg30.cfcdn3.xyz"
-  - name: "🇸🇬SG-8.219.108.81-1183"
-    type: "vmess"
-    server: "8.219.108.81"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lg30.cfcdn3.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "lg30.cfcdn3.xyz"
-  - name: "🇸🇬SG-8.219.71.163-1321"
-    type: "vmess"
-    server: "8.219.71.163"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lg30.cfcdn3.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "lg30.cfcdn3.xyz"
-  - name: "🇸🇬SG-139.99.61.154-1733"
+  - name: "🇸🇬SG-139.99.61.154-1605"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -645,7 +773,7 @@ proxies:
       path: "/vmess"
       headers:
         Host: "139.99.61.154"
-  - name: "🇸🇬SG-202.79.172.53-2448"
+  - name: "🇸🇬SG-202.79.172.53-2327"
     type: "vmess"
     server: "202.79.172.53"
     port: 443
@@ -659,7 +787,7 @@ proxies:
     ws-opts:
       path: "/path/220128071100"
       headers:
-  - name: "🇸🇬SG-143.198.219.182-2464"
+  - name: "🇸🇬SG-143.198.219.182-2343"
     type: "vmess"
     server: "143.198.219.182"
     port: 80
@@ -671,7 +799,7 @@ proxies:
     ws-opts:
       path: "/v2ray"
       headers:
-  - name: "🇸🇬SG-146.190.82.241-2914"
+  - name: "🇸🇬SG-146.190.82.241-2793"
     type: "vmess"
     server: "146.190.82.241"
     port: 443
@@ -685,23 +813,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-172.236.139.181-3125"
-    type: "trojan"
-    server: "172.236.139.181"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    tls: true
-    servername: "api.85s.me"
-  - name: "🇸🇬SG-172.104.161.198-3127"
-    type: "trojan"
-    server: "172.104.161.198"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    tls: true
-    servername: "api.85s.me"
-  - name: "🇸🇬SG-15.235.184.36-3359"
+  - name: "🇸🇬SG-15.235.184.36-3145"
     type: "vmess"
     server: "15.235.184.36"
     port: 80
@@ -713,7 +825,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-139.99.61.154-3364"
+  - name: "🇸🇬SG-139.99.61.154-3150"
     type: "vmess"
     server: "139.99.61.154"
     port: 80
@@ -725,7 +837,7 @@ proxies:
     ws-opts:
       path: "/vmess"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3391"
+  - name: "🇸🇬SG-109.123.237.41-3177"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -737,7 +849,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇸🇬SG-109.123.237.41-3553"
+  - name: "🇸🇬SG-109.123.237.41-3339"
     type: "vmess"
     server: "109.123.237.41"
     port: 80
@@ -749,7 +861,7 @@ proxies:
     ws-opts:
       path: "/fastssh"
       headers:
-  - name: "🇸🇬SG-157.230.36.235-3646"
+  - name: "🇸🇬SG-157.230.36.235-3432"
     type: "vmess"
     server: "157.230.36.235"
     port: 80
@@ -761,7 +873,7 @@ proxies:
     ws-opts:
       path: "/graphql"
       headers:
-  - name: "🇸🇬SG-139.162.45.139-4219"
+  - name: "🇸🇬SG-139.162.45.139-4005"
     type: "trojan"
     server: "139.162.45.139"
     port: 443
@@ -769,7 +881,7 @@ proxies:
     password: "FLpONjB2Lb"
     tls: true
     servername: "139.162.45.139"
-  - name: "🇸🇬SG-159.223.94.156-5928"
+  - name: "🇸🇬SG-159.223.94.156-5714"
     type: "vmess"
     server: "159.223.94.156"
     port: 80
@@ -781,7 +893,15 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "🇸🇬SG-18.140.67.76-6467"
+  - name: "🇸🇬SG-43.160.197.160-5725"
+    type: "trojan"
+    server: "43.160.197.160"
+    port: 443
+    udp: true
+    password: "38f169d6-d202-4b1b-8db8-e6eb1648f5cf"
+    tls: true
+    servername: "43.160.197.160"
+  - name: "🇸🇬SG-18.140.67.76-6305"
     type: "trojan"
     server: "18.140.67.76"
     port: 443
@@ -789,7 +909,7 @@ proxies:
     password: "iyinglong"
     tls: true
     servername: "18.140.67.76"
-  - name: "🇸🇬SG-8.219.123.35-8062"
+  - name: "🇸🇬SG-8.219.123.35-7900"
     type: "vmess"
     server: "8.219.123.35"
     port: 80
@@ -801,21 +921,21 @@ proxies:
     ws-opts:
       path: "/2TokGE9A/"
       headers:
-  - name: "🇸🇬SG-54.254.129.246-8085"
+  - name: "🇸🇬SG-54.254.129.246-7923"
     type: "ss"
     server: "54.254.129.246"
     port: 443
     cipher: "aes-256-cfb"
     password: "amazonskr05"
     udp: true
-  - name: "🇸🇬SG-51.79.161.232-8101"
+  - name: "🇸🇬SG-51.79.161.232-7939"
     type: "ss"
     server: "51.79.161.232"
     port: 443
     cipher: "chacha20-ietf-poly1305"
     password: "4Hub2f9JyhECyAq2Opm0NS"
     udp: true
-  - name: "🇸🇬SG-15.235.197.4-8694"
+  - name: "🇸🇬SG-15.235.197.4-8532"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -823,7 +943,7 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "15.235.197.4"
-  - name: "🇸🇬SG-15.235.197.4-8696"
+  - name: "🇸🇬SG-15.235.197.4-8534"
     type: "trojan"
     server: "15.235.197.4"
     port: 80
@@ -831,72 +951,14 @@ proxies:
     password: "16bcc187-a1a0-4b8a-8b69-627f38b7cc0d"
     tls: true
     servername: "getandroid.com"
-  - name: "🇸🇬_SG_新加坡_IPV4 (2)"
+  - name: "🇸🇬 机场推荐:dafei.de 新加坡 06"
     type: "vless"
-    server: "85.137.51.53"
+    server: "43.163.112.174"
     port: 443
     udp: true
-    uuid: "26524cce-d514-4014-a426-365fb266a14d"
-    tls: true
-    servername: "t5pmr.mail-node.gfw.kdns.fr"
-    network: "ws"
-    ws-opts:
-      path: "/danfeng?ed=2560"
-      headers:
-        Host: "t5pmr.mail-node.gfw.kdns.fr"
-  - name: "🇸🇬_SG_新加坡_IPV4 (3)"
-    type: "trojan"
-    server: "45.127.34.109"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    tls: true
-    servername: "api.85s.me"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "api.85s.me"
-  - name: "🇸🇬_SG_新加坡_IPV4 (4)"
-    type: "trojan"
-    server: "69.8.133.223"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    tls: true
-    servername: "api.85s.me"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "api.85s.me"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG"
-    type: "vless"
-    server: "104.18.37.127"
-    port: 443
-    udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG #1"
-    type: "vless"
-    server: "104.18.45.38"
-    port: 443
-    udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=unsafe"
-      headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
+    uuid: "0dedd47d-47b9-4ed1-9c9f-cbeecad57a68"
+    network: "tcp"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
     type: "vless"
     server: "134.185.81.5"
     port: 47881
@@ -904,14 +966,14 @@ proxies:
     uuid: "59b203b2-b1bc-4e9c-a9e5-ccb8f691bf72"
     tls: true
     servername: "www.tesla.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
     type: "vless"
-    server: "45.132.75.213"
-    port: 2053
+    server: "45.77.243.143"
+    port: 443
     udp: true
-    uuid: "f46182d1-e13b-47d3-97e2-fa5426a93e7c"
+    uuid: "e9a8144e-5237-488a-afb1-9ca3d8d54c80"
     tls: true
-    servername: "www.cloudflare.com"
+    servername: "sg003.zestapp778.com"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
     type: "vless"
     server: "147.93.173.45"
@@ -920,28 +982,15 @@ proxies:
     uuid: "75c5f51b-d548-4eab-a26e-aa10fc3dbc7b"
     tls: true
     servername: "video.yandex.ru"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-    type: "vless"
-    server: "139.162.27.96"
-    port: 2096
-    udp: true
-    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
-    tls: true
-    servername: "free-server.techsonic.dev"
-    network: "ws"
-    ws-opts:
-      path: "/free-server.techsonic.devfp=chrome"
-      headers:
-        Host: "free-server.techsonic.dev"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
     type: "vless"
-    server: "54.251.9.130"
-    port: 24146
+    server: "206.206.76.75"
+    port: 443
     udp: true
-    uuid: "9d9a048b-3aea-4b3e-b106-1106bf301feb"
+    uuid: "32cf52f4-b8d2-4ed5-a37c-0d0a8e743309"
     tls: true
-    servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
+    servername: "www.cloudflare.com"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
     type: "vless"
     server: "54.169.200.246"
     port: 41688
@@ -949,114 +998,32 @@ proxies:
     uuid: "49c0aac1-5e05-4f04-b624-248fc59e03c4"
     tls: true
     servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
+  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
     type: "vless"
     server: "46.137.202.178"
     port: 12512
     udp: true
     uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
-    tls: true
-    servername: "www.intel.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
-    type: "vless"
-    server: "172.66.154.57"
-    port: 443
-    udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
-    tls: true
-    servername: "ccc.010304.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chromefp=chrome"
-      headers:
-        Host: "ccc.010304.xyz"
   - name: "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
     type: "vless"
-    server: "3.0.111.82"
-    port: 10574
+    server: "190.93.244.166"
+    port: 2096
     udp: true
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    uuid: "b2853d19-fada-44dc-8d44-967d1af122e0"
     tls: true
-    servername: "www.apple.com"
-  - name: "🇸🇬[www.v2nodes.com] vless-SG-9..."
-    type: "vless"
-    server: "172.67.71.187"
-    port: 8080
-    udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
+    servername: "wQa3mioJJR8fYoZhIui--su3-UCG1GDx.pages.DEv"
     network: "ws"
     ws-opts:
-      path: "/sg-melbi"
+      path: "/eyJqdW5rIjoiWmFzVk5rd2siLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=fp=chrome"
       headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇸🇬[www.v2nodes.com] trojan-SG-... #1"
-    type: "trojan"
-    server: "139.180.146.200"
-    port: 8886
-    udp: true
-    password: "e26a229d-e8f2-4ff9-8c7d-58a9d83ee437"
+        Host: "wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev"
   - name: "🇸🇬 新加坡 | SGP"
-    type: "trojan"
-    server: "172.104.57.237"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "api.85s.me"
-  - name: "🇸🇬 新加坡 | SGP 3"
-    type: "trojan"
-    server: "172.236.139.181"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "api.85s.me"
-  - name: "🇸🇬 新加坡 | SGP 4"
-    type: "trojan"
-    server: "172.237.90.144"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "api.85s.me"
-  - name: "🇸🇬 新加坡 | SGP #5"
     type: "vless"
-    server: "104.18.35.86"
-    port: 8080
-    udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    network: "ws"
-    ws-opts:
-      path: "/sg-melbi"
-      headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇸🇬 新加坡 | SGP #1"
-    type: "trojan"
-    server: "172.104.57.237"
+    server: "43.163.112.174"
     port: 443
     udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-  - name: "🇸🇬 新加坡 | SGP #3"
-    type: "trojan"
-    server: "172.236.139.181"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
-  - name: "🇸🇬 新加坡 | SGP #4"
-    type: "trojan"
-    server: "172.237.90.144"
-    port: 443
-    udp: true
-    password: "8deb189a-3aed-4865-843b-b72dae954c46"
+    uuid: "0dedd47d-47b9-4ed1-9c9f-cbeecad57a68"
+    network: "tcp"
   - name: "Channel id: @ShadowProxy66 🇸🇬"
     type: "vless"
     server: "46.137.202.178"
@@ -1064,46 +1031,7 @@ proxies:
     udp: true
     uuid: "2a6c617d-98e4-49c3-95ab-76f02fcf0150"
     network: "tcp"
-  - name: "SG 🇸🇬 | @Raydikalx | CE47F7"
-    type: "vmess"
-    server: "149.88.23.207"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | C62756"
-    type: "vmess"
-    server: "206.238.239.109"
-    port: 8443
-    uuid: "f5f0babe-aea2-4f07-a1fc-3c9820253f49"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "uk.frnhk.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/London31"
-      headers:
-        Host: "uk.frnhk.xyz"
-  - name: "SG 🇸🇬 | @Raydikalx | 32C65E"
-    type: "vmess"
-    server: "149.88.23.202"
-    port: 18000
-    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | 6358C7"
-    type: "vmess"
-    server: "45.32.120.173"
-    port: 443
-    uuid: "XEXEVIL"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "SG 🇸🇬 | @Raydikalx | CAF34F"
+  - name: "SG 🇸🇬 | @Raydikalx | 5DA107"
     type: "vmess"
     server: "149.88.23.207"
     port: 18000
@@ -1123,21 +1051,68 @@ proxies:
     ws-opts:
       path: "/anti13.zingfast.vn"
       headers:
-  - name: "SG 🇸🇬 | @Raydikalx | F0FF0E"
+  - name: "SG 🇸🇬 | @Raydikalx | 32C65E"
     type: "vmess"
-    server: "206.238.238.222"
-    port: 8443
-    uuid: "f5f0babe-aea2-4f07-a1fc-3c9820253f49"
+    server: "149.88.23.202"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "SG 🇸🇬 | @Raydikalx | 8EEE09"
+    type: "vmess"
+    server: "149.88.23.202"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "SG 🇸🇬 | @Raydikalx | 8DCEC7"
+    type: "vmess"
+    server: "47.237.85.7"
+    port: 443
+    uuid: "284c8008-5a85-4451-a8d1-b79c62f74d32"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "uk.frnhk.xyz"
+    servername: "gathered-fat-gsm-weekend.trycloudflare.com"
     network: "ws"
     ws-opts:
-      path: "/London31"
+      path: "/vmess-argo"
       headers:
-        Host: "uk.frnhk.xyz"
+        Host: "gathered-fat-gsm-weekend.trycloudflare.com"
+  - name: "SG 🇸🇬 | @Raydikalx | CE47F7"
+    type: "vmess"
+    server: "149.88.23.207"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "SG 🇸🇬 | @Raydikalx | 9DDCC3"
+    type: "vmess"
+    server: "8.219.97.17"
+    port: 443
+    uuid: "a9f4de8b-68f1-44b6-b6a2-1db60940503a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "wjofhsqteueywxeq.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "wjofhsqteueywxeq.v.3dns.vip"
+  - name: "SG 🇸🇬 | @Raydikalx | 4692CE"
+    type: "vmess"
+    server: "149.88.23.207"
+    port: 18000
+    uuid: "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇸🇬"
     type: "vless"
     server: "45.40.149.50"
@@ -1338,122 +1313,126 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG新加坡丨yoyapai.com"
+      - "🇸🇬SG01|@ripaojiedian"
+      - "🇸🇬SG02|@ripaojiedian"
+      - "🇸🇬SG03|@ripaojiedian"
+      - "🇸🇬SG04|@ripaojiedian"
+      - "🇸🇬SG05|@ripaojiedian"
+      - "🇸🇬SG06|@ripaojiedian"
+      - "🇸🇬SG07|@ripaojiedian"
+      - "🇸🇬SG08|@ripaojiedian"
+      - "🇸🇬SG09|@ripaojiedian"
       - "🇸🇬[www.v2nodes.com] vless-SG"
-      - "🇸🇬[www.v2nodes.com] vless-SG #1"
-      - "🇸🇬[www.v2nodes.com] vless-SG #2"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #10"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #11"
-      - "🇸🇬[www.v2nodes.com] vless-SG-1... #12"
-      - "🇸🇬[www.v2nodes.com] vless-SG-9..."
-      - "🇸🇬[www.v2nodes.com] trojan-SG-... #1"
-      - "🇸🇬[www.v2nodes.com] trojan-SG-... #2"
-      - "🇸🇬SG-149.28.130.108-0206"
-      - "🇸🇬SG-68.183.227.4-0249"
-      - "🇸🇬SG-8.219.208.69-0119"
-      - "🇸🇬SG-8.219.219.179-0113"
-      - "🇸🇬SG-15.235.147.186-0465"
-      - "🇸🇬SG-15.235.147.186-0030"
-      - "🇸🇬SG-139.180.146.200-0566"
-      - "🇸🇬SG-103.25.202.114-0881"
-      - "🇸🇬SG-188.253.12.92-0884"
-      - "🇸🇬SG-188.253.12.90-0885"
-      - "🇸🇬SG-188.253.12.93-0887"
-      - "🇸🇬SG-188.253.12.94-0888"
-      - "🇸🇬SG-188.253.12.90-0891"
-      - "🇸🇬SG-188.253.12.91-0893"
-      - "🇸🇬SG-188.253.12.93-0896"
-      - "🇸🇬SG-188.253.12.90-0897"
-      - "🇸🇬SG-188.253.12.94-0898"
-      - "🇸🇬SG-188.253.12.90-0900"
-      - "🇸🇬SG-188.253.12.91-0901"
-      - "🇸🇬SG-188.253.12.90-0903"
-      - "🇸🇬SG-188.253.12.94-0904"
-      - "🇸🇬SG-188.253.12.94-0908"
-      - "🇸🇬SG-188.253.12.92-0909"
-      - "🇸🇬SG-188.253.12.93-0910"
-      - "🇸🇬SG-188.253.12.94-0911"
-      - "🇸🇬SG-188.253.12.15-0912"
-      - "🇸🇬SG-188.253.12.15-0913"
-      - "🇸🇬SG-188.253.12.15-0914"
-      - "🇸🇬SG-188.253.12.15-0916"
-      - "🇸🇬SG-188.253.12.93-0917"
-      - "🇸🇬SG-188.253.12.91-0921"
-      - "🇸🇬SG-188.253.12.90-0922"
-      - "🇸🇬SG-43.169.19.179-0958"
-      - "🇸🇬SG-43.170.8.95-0988"
-      - "🇸🇬SG-45.128.222.55-1074"
-      - "🇸🇬SG-168.144.109.68-1075"
-      - "🇸🇬SG-139.162.62.195-1086"
-      - "🇸🇬SG-168.144.96.147-1097"
-      - "🇸🇬SG-159.223.41.212-1113"
-      - "🇸🇬SG-188.253.12.91-1119"
-      - "🇸🇬SG-188.253.12.92-1121"
-      - "🇸🇬SG-188.253.12.15-1122"
-      - "🇸🇬SG-188.253.12.94-1127"
-      - "🇸🇬SG-188.253.12.15-1129"
-      - "🇸🇬SG-188.253.12.93-1137"
-      - "🇸🇬SG-8.219.122.121-1169"
-      - "🇸🇬SG-8.219.173.2-1182"
-      - "🇸🇬SG-8.219.108.81-1183"
-      - "🇸🇬SG-8.219.71.163-1321"
-      - "🇸🇬SG-139.99.61.154-1733"
-      - "🇸🇬SG-202.79.172.53-2448"
-      - "🇸🇬SG-143.198.219.182-2464"
-      - "🇸🇬SG-146.190.82.241-2914"
-      - "🇸🇬SG-172.236.139.181-3125"
-      - "🇸🇬SG-172.104.161.198-3127"
-      - "🇸🇬SG-15.235.184.36-3359"
-      - "🇸🇬SG-139.99.61.154-3364"
-      - "🇸🇬SG-109.123.237.41-3391"
-      - "🇸🇬SG-109.123.237.41-3553"
-      - "🇸🇬SG-157.230.36.235-3646"
-      - "🇸🇬SG-139.162.45.139-4219"
-      - "🇸🇬SG-159.223.94.156-5928"
-      - "🇸🇬SG-18.140.67.76-6467"
-      - "🇸🇬SG-8.219.123.35-8062"
-      - "🇸🇬SG-54.254.129.246-8085"
-      - "🇸🇬SG-51.79.161.232-8101"
-      - "🇸🇬SG-15.235.197.4-8694"
-      - "🇸🇬SG-15.235.197.4-8696"
-      - "🇸🇬_SG_新加坡_IPV4 (2)"
-      - "🇸🇬_SG_新加坡_IPV4 (3)"
-      - "🇸🇬_SG_新加坡_IPV4 (4)"
-      - "🇸🇬[www.v2nodes.com] vless-SG"
-      - "🇸🇬[www.v2nodes.com] vless-SG #1"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #4"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #6"
+      - "🇸🇬[www.v2nodes.com] vless-SG-9..."
+      - "🇸🇬[www.v2nodes.com] vless-SG-9... #1"
+      - "🇸🇬[www.v2nodes.com] vless-SG-8..."
+      - "🇸🇬[www.v2nodes.com] trojan-SG-... #1"
+      - "🇸🇬[www.v2nodes.com] trojan-SG-... #2"
+      - "🇸🇬SG01|@ripaojiedian"
+      - "🇸🇬SG02|@ripaojiedian"
+      - "🇸🇬SG03|@ripaojiedian"
+      - "🇸🇬SG04|@ripaojiedian"
+      - "🇸🇬SG05|@ripaojiedian"
+      - "🇸🇬SG06|@ripaojiedian"
+      - "🇸🇬SG07|@ripaojiedian"
+      - "🇸🇬SG08|@ripaojiedian"
+      - "🇸🇬SG09|@ripaojiedian"
+      - "🇸🇬 新加坡 | SGP #3"
+      - "🇸🇬SG-149.28.130.108-0158"
+      - "🇸🇬SG-68.183.227.4-0182"
+      - "🇸🇬SG-8.219.208.69-0259"
+      - "🇸🇬SG-8.219.219.179-0265"
+      - "🇸🇬SG-15.235.147.186-0407"
+      - "🇸🇬SG-139.180.146.200-0503"
+      - "🇸🇬SG-103.25.202.114-0839"
+      - "🇸🇬SG-188.253.12.92-0842"
+      - "🇸🇬SG-188.253.12.90-0843"
+      - "🇸🇬SG-188.253.12.93-0845"
+      - "🇸🇬SG-188.253.12.94-0846"
+      - "🇸🇬SG-188.253.12.90-0849"
+      - "🇸🇬SG-188.253.12.91-0851"
+      - "🇸🇬SG-188.253.12.93-0854"
+      - "🇸🇬SG-188.253.12.90-0855"
+      - "🇸🇬SG-188.253.12.94-0856"
+      - "🇸🇬SG-188.253.12.90-0858"
+      - "🇸🇬SG-188.253.12.91-0859"
+      - "🇸🇬SG-188.253.12.90-0861"
+      - "🇸🇬SG-188.253.12.94-0862"
+      - "🇸🇬SG-188.253.12.94-0866"
+      - "🇸🇬SG-188.253.12.92-0867"
+      - "🇸🇬SG-188.253.12.93-0868"
+      - "🇸🇬SG-188.253.12.94-0869"
+      - "🇸🇬SG-188.253.12.15-0870"
+      - "🇸🇬SG-188.253.12.15-0871"
+      - "🇸🇬SG-188.253.12.15-0872"
+      - "🇸🇬SG-188.253.12.15-0874"
+      - "🇸🇬SG-188.253.12.93-0875"
+      - "🇸🇬SG-188.253.12.91-0879"
+      - "🇸🇬SG-188.253.12.90-0880"
+      - "🇸🇬SG-43.169.19.179-0916"
+      - "🇸🇬SG-43.170.8.95-0946"
+      - "🇸🇬SG-45.128.222.55-1032"
+      - "🇸🇬SG-168.144.109.68-1033"
+      - "🇸🇬SG-139.162.62.195-1044"
+      - "🇸🇬SG-168.144.96.147-1055"
+      - "🇸🇬SG-159.223.41.212-1071"
+      - "🇸🇬SG-188.253.12.91-1077"
+      - "🇸🇬SG-188.253.12.92-1079"
+      - "🇸🇬SG-188.253.12.15-1080"
+      - "🇸🇬SG-188.253.12.94-1085"
+      - "🇸🇬SG-188.253.12.15-1087"
+      - "🇸🇬SG-188.253.12.93-1095"
+      - "🇸🇬SG-15.235.147.186-1167"
+      - "🇸🇬SG-139.99.61.154-1605"
+      - "🇸🇬SG-202.79.172.53-2327"
+      - "🇸🇬SG-143.198.219.182-2343"
+      - "🇸🇬SG-146.190.82.241-2793"
+      - "🇸🇬SG-15.235.184.36-3145"
+      - "🇸🇬SG-139.99.61.154-3150"
+      - "🇸🇬SG-109.123.237.41-3177"
+      - "🇸🇬SG-109.123.237.41-3339"
+      - "🇸🇬SG-157.230.36.235-3432"
+      - "🇸🇬SG-139.162.45.139-4005"
+      - "🇸🇬SG-159.223.94.156-5714"
+      - "🇸🇬SG-43.160.197.160-5725"
+      - "🇸🇬SG-18.140.67.76-6305"
+      - "🇸🇬SG-8.219.123.35-7900"
+      - "🇸🇬SG-54.254.129.246-7923"
+      - "🇸🇬SG-51.79.161.232-7939"
+      - "🇸🇬SG-15.235.197.4-8532"
+      - "🇸🇬SG-15.235.197.4-8534"
+      - "🇸🇬 机场推荐:dafei.de 新加坡 06"
+      - "🇸🇬[www.v2nodes.com] vless-SG-1... #2"
+      - "🇸🇬[www.v2nodes.com] vless-SG-1... #1"
+      - "🇸🇬[www.v2nodes.com] vless-SG-1... #3"
+      - "🇸🇬[www.v2nodes.com] vless-SG-1... #5"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #7"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #8"
       - "🇸🇬[www.v2nodes.com] vless-SG-1... #9"
-      - "🇸🇬[www.v2nodes.com] vless-SG-9..."
-      - "🇸🇬[www.v2nodes.com] trojan-SG-... #1"
       - "🇸🇬 新加坡 | SGP"
-      - "🇸🇬 新加坡 | SGP 3"
-      - "🇸🇬 新加坡 | SGP 4"
-      - "🇸🇬 新加坡 | SGP #5"
-      - "🇸🇬 新加坡 | SGP #1"
-      - "🇸🇬 新加坡 | SGP #3"
-      - "🇸🇬 新加坡 | SGP #4"
       - "Channel id: @ShadowProxy66 🇸🇬"
-      - "SG 🇸🇬 | @Raydikalx | CE47F7"
-      - "SG 🇸🇬 | @Raydikalx | C62756"
-      - "SG 🇸🇬 | @Raydikalx | 32C65E"
-      - "SG 🇸🇬 | @Raydikalx | 6358C7"
-      - "SG 🇸🇬 | @Raydikalx | CAF34F"
+      - "SG 🇸🇬 | @Raydikalx | 5DA107"
       - "SG 🇸🇬 | @Raydikalx | 7E884C"
-      - "SG 🇸🇬 | @Raydikalx | F0FF0E"
+      - "SG 🇸🇬 | @Raydikalx | 32C65E"
+      - "SG 🇸🇬 | @Raydikalx | 8EEE09"
+      - "SG 🇸🇬 | @Raydikalx | 8DCEC7"
+      - "SG 🇸🇬 | @Raydikalx | CE47F7"
+      - "SG 🇸🇬 | @Raydikalx | 9DDCC3"
+      - "SG 🇸🇬 | @Raydikalx | 4692CE"
       - "🇸🇬"
       - "🇸🇬"
       - "🇸🇬"
