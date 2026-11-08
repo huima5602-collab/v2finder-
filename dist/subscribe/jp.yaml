@@ -3,6 +3,15 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "JP VLESS-29 | free-nodes"
+    type: "vless"
+    server: "s2480.okgfwbackxyz.xyz"
+    port: 443
+    udp: true
+    uuid: "30e52776-55ac-3cb4-8d36-e2910f07e2c3"
+    tls: true
+    servername: "u695098u5ee03bdds2472.xxti.top"
+    network: "xhttp"
   - name: "🇯🇵JP日本丨yoyapai.com"
     type: "vless"
     server: "38.47.96.220"
@@ -57,13 +66,19 @@ proxies:
     udp: true
     uuid: "b47cc98c-54f4-4ab2-acb9-b493a04ccc6b"
     network: "tcp"
-  - name: "日本+V2CROSS.COM"
-    type: "vless"
-    server: "43.163.112.174"
-    port: 443
+  - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "0dedd47d-47b9-4ed1-9c9f-cbeecad57a68"
-    network: "tcp"
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "jp01.a0a.xyz"
   - name: "JP1@ripaojiedian"
     type: "vless"
     server: "104.194.83.133"
@@ -90,19 +105,6 @@ proxies:
       path: "/danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st"
       headers:
         Host: "speedtest.danfengno1.kdns.fr"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP"
-    type: "vless"
-    server: "188.114.98.0"
-    port: 443
-    udp: true
-    uuid: "22424ee2-6fe3-42ca-9749-6d4c5a8acc82"
-    tls: true
-    servername: "tn1r.eu.cc"
-    network: "ws"
-    ws-opts:
-      path: "/id-pusatfp=chrome"
-      headers:
-        Host: "tn1r.eu.cc"
   - name: "🇯🇵[www.v2nodes.com] vless-JP-1..."
     type: "vless"
     server: "104.21.70.21"
@@ -116,29 +118,13 @@ proxies:
         Host: "nautica-cff.kloningstrife002.workers.dev"
   - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #1"
     type: "vless"
-    server: "207.148.115.152"
+    server: "31.76.91.98"
     port: 443
     udp: true
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    network: "ws"
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080fp=chromesecurity=tls"
-      headers:
-        Host: "vlso5.1d.mom"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #2"
-    type: "vless"
-    server: "207.148.115.152"
-    port: 443
-    udp: true
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    uuid: "7072eeba-94fd-4fb3-92f2-a4506dd84cd8"
     tls: true
-    servername: "vlso5.1d.mom"
-    network: "ws"
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080fp=chrome"
-      headers:
-        Host: "vlso5.1d.mom"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #3"
+    servername: "fuji.etherhub.cc"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #2"
     type: "vless"
     server: "156.246.88.125"
     port: 26518
@@ -146,9 +132,9 @@ proxies:
     uuid: "e01fcb68-3112-49da-b85d-dffb799cfc9b"
     tls: true
     servername: "github.com"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #4"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #3"
     type: "vless"
-    server: "104.16.10.234"
+    server: "104.17.210.74"
     port: 443
     udp: true
     uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
@@ -159,7 +145,7 @@ proxies:
       path: "/tyxywsfp=chrome"
       headers:
         Host: "jp3.yohototo.top"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #5"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #4"
     type: "vless"
     server: "103.75.118.228"
     port: 11452
@@ -167,7 +153,7 @@ proxies:
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     tls: true
     servername: "www.apple.com"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #6"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #5"
     type: "vless"
     server: "3.114.220.22"
     port: 19645
@@ -175,13 +161,13 @@ proxies:
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     tls: true
     servername: "www.apple.com"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #7"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #6"
     type: "vless"
     server: "152.69.195.67"
     port: 47878
     udp: true
     uuid: "eb8613e3-8393-4cff-a3ad-6501fd4adc63"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #7"
     type: "vless"
     server: "188.114.97.6"
     port: 443
@@ -207,17 +193,17 @@ proxies:
       path: "/api/wsfp=ios"
       headers:
         Host: "web-app-ji3j1z.app-wuuhuw.workers.dev"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
     type: "vless"
-    server: "38.47.96.220"
-    port: 11424
+    server: "207.148.115.152"
+    port: 443
     udp: true
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
     network: "ws"
     ws-opts:
-      path: "Telegram-WangCai2🇨🇳security=tls"
+      path: "/socks5=888:888@hkip.1d.mom:1080fp=chromesecurity=tls"
       headers:
-        Host: "notls.lukongtou.eu.org"
+        Host: "vlso5.1d.mom"
   - name: "🇯🇵[www.v2nodes.com] ss-JP-1599..."
     type: "ss"
     server: "154.36.158.197"
@@ -253,6 +239,18 @@ proxies:
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-..."
+    type: "trojan"
+    server: "160.21.74.183"
+    port: 8443
+    udp: true
+    password: "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh"
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-... #1"
+    type: "trojan"
+    server: "167.179.108.225"
+    port: 443
+    udp: true
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
   - name: "JP1@ripaojiedian"
     type: "vless"
     server: "104.194.83.133"
@@ -279,62 +277,68 @@ proxies:
       path: "/danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5stflow="
       headers:
         Host: "speedtest.danfengno1.kdns.fr"
-  - name: "🇯🇵JP-149.22.87.204-0236"
+  - name: "🇯🇵 日本 | JPN #1"
+    type: "vless"
+    server: "62.106.75.86"
+    port: 443
+    udp: true
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
+    tls: true
+    servername: "jp3.yohototo.top"
+    network: "ws"
+    ws-opts:
+      path: "/tyxywsfp=unsafe"
+      headers:
+        Host: "jp3.yohototo.top"
+  - name: "🇯🇵 日本 | JPN #2"
+    type: "trojan"
+    server: "150.230.217.160"
+    port: 27777
+    udp: true
+    password: "e79bb958-2a79-4eea-87a3-7e73d0059ebf"
+  - name: "🇯🇵JP-84.247.155.196-0265"
+    type: "ss"
+    server: "84.247.155.196"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "3eOFeNssde7PYYMv"
+    udp: true
+  - name: "🇯🇵JP-84.247.155.196-0276"
+    type: "ss"
+    server: "84.247.155.196"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "3eOFeNssde7PYYMv"
+    udp: true
+  - name: "🇯🇵JP-149.22.87.204-0208"
     type: "ss"
     server: "149.22.87.204"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.240-0232"
+  - name: "🇯🇵JP-149.22.87.240-0205"
     type: "ss"
     server: "149.22.87.240"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-149.22.87.241-0227"
+  - name: "🇯🇵JP-149.22.87.241-0204"
     type: "ss"
     server: "149.22.87.241"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇯🇵JP-84.247.155.196-0278"
-    type: "ss"
-    server: "84.247.155.196"
-    port: 80
-    cipher: "aes-256-gcm"
-    password: "3eOFeNssde7PYYMv"
-    udp: true
-  - name: "🇯🇵JP-84.247.155.196-0288"
-    type: "ss"
-    server: "84.247.155.196"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "3eOFeNssde7PYYMv"
-    udp: true
-  - name: "🇯🇵JP-154.36.158.197-0291"
+  - name: "🇯🇵JP-154.36.158.197-0471"
     type: "ss"
     server: "154.36.158.197"
     port: 8388
     cipher: "aes-256-gcm"
     password: "BeaUf9c0AEWH40Pu"
     udp: true
-  - name: "🇯🇵JP-168.138.43.75-0326"
-    type: "vmess"
-    server: "168.138.43.75"
-    port: 80
-    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "168.138.43.75"
-  - name: "🇯🇵JP-154.31.114.10-0775"
+  - name: "🇯🇵JP-154.31.114.10-0754"
     type: "trojan"
     server: "154.31.114.10"
     port: 443
@@ -342,7 +346,7 @@ proxies:
     password: "an70aOaIjcCF43gOlSB6eKER53Z38DYDx8l9RCSCpYTwXS3pueyAqyFZx2zDNA"
     tls: true
     servername: "plowman.meijireform.com"
-  - name: "🇯🇵JP-172.104.120.92-0844"
+  - name: "🇯🇵JP-172.104.120.92-0823"
     type: "trojan"
     server: "172.104.120.92"
     port: 443
@@ -354,7 +358,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-172.104.86.229-0845"
+  - name: "🇯🇵JP-172.104.86.229-0824"
     type: "trojan"
     server: "172.104.86.229"
     port: 443
@@ -366,7 +370,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-156.246.91.9-0846"
+  - name: "🇯🇵JP-156.246.91.9-0825"
     type: "trojan"
     server: "156.246.91.9"
     port: 443
@@ -378,7 +382,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-172.104.81.253-0907"
+  - name: "🇯🇵JP-172.104.81.253-0886"
     type: "trojan"
     server: "172.104.81.253"
     port: 443
@@ -390,7 +394,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-172.104.80.248-0912"
+  - name: "🇯🇵JP-172.104.80.248-0891"
     type: "trojan"
     server: "172.104.80.248"
     port: 443
@@ -402,7 +406,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-150.230.212.247-0914"
+  - name: "🇯🇵JP-150.230.212.247-0893"
     type: "trojan"
     server: "150.230.212.247"
     port: 443
@@ -414,7 +418,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-124.156.208.160-0915"
+  - name: "🇯🇵JP-124.156.208.160-0894"
     type: "trojan"
     server: "124.156.208.160"
     port: 443
@@ -426,7 +430,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-172.237.13.221-0916"
+  - name: "🇯🇵JP-172.237.13.221-0895"
     type: "trojan"
     server: "172.237.13.221"
     port: 443
@@ -438,7 +442,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-133.18.140.38-0919"
+  - name: "🇯🇵JP-133.18.140.38-0898"
     type: "trojan"
     server: "133.18.140.38"
     port: 443
@@ -450,7 +454,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-45.77.129.86-0920"
+  - name: "🇯🇵JP-45.77.129.86-0899"
     type: "trojan"
     server: "45.77.129.86"
     port: 2053
@@ -462,7 +466,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-198.13.60.163-0943"
+  - name: "🇯🇵JP-198.13.60.163-0922"
     type: "trojan"
     server: "198.13.60.163"
     port: 443
@@ -474,7 +478,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-149.28.21.106-0956"
+  - name: "🇯🇵JP-149.28.21.106-0935"
     type: "trojan"
     server: "149.28.21.106"
     port: 443
@@ -486,7 +490,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-96.126.130.217-0979"
+  - name: "🇯🇵JP-96.126.130.217-0958"
     type: "trojan"
     server: "96.126.130.217"
     port: 443
@@ -498,7 +502,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-168.138.212.80-1064"
+  - name: "🇯🇵JP-168.138.212.80-1043"
     type: "trojan"
     server: "168.138.212.80"
     port: 443
@@ -510,7 +514,20 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇯🇵JP-172.104.78.98-2167"
+  - name: "🇯🇵JP-168.138.43.75-1763"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "168.138.43.75"
+  - name: "🇯🇵JP-172.104.78.98-2574"
     type: "vmess"
     server: "172.104.78.98"
     port: 443
@@ -524,23 +541,7 @@ proxies:
     ws-opts:
       path: "/chat"
       headers:
-  - name: "🇯🇵JP-43.206.225.188-5280"
-    type: "trojan"
-    server: "43.206.225.188"
-    port: 443
-    udp: true
-    password: "UX82473651"
-    tls: true
-    servername: "43.206.225.188"
-  - name: "🇯🇵JP-54.65.177.190-5327"
-    type: "trojan"
-    server: "54.65.177.190"
-    port: 443
-    udp: true
-    password: "UX82473651"
-    tls: true
-    servername: "54.65.177.190"
-  - name: "🇯🇵JP-167.179.108.225-5328"
+  - name: "🇯🇵JP-167.179.108.225-2916"
     type: "trojan"
     server: "167.179.108.225"
     port: 443
@@ -548,7 +549,31 @@ proxies:
     password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
     tls: true
     servername: "167.179.108.225"
-  - name: "🇯🇵JP-18.179.31.199-5329"
+  - name: "🇯🇵JP-160.21.74.183-2933"
+    type: "trojan"
+    server: "160.21.74.183"
+    port: 8443
+    udp: true
+    password: "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh"
+    tls: true
+    servername: "160.21.74.183"
+  - name: "🇯🇵JP-43.206.225.188-5704"
+    type: "trojan"
+    server: "43.206.225.188"
+    port: 443
+    udp: true
+    password: "UX82473651"
+    tls: true
+    servername: "43.206.225.188"
+  - name: "🇯🇵JP-54.65.177.190-5762"
+    type: "trojan"
+    server: "54.65.177.190"
+    port: 443
+    udp: true
+    password: "UX82473651"
+    tls: true
+    servername: "54.65.177.190"
+  - name: "🇯🇵JP-18.179.31.199-5766"
     type: "trojan"
     server: "18.179.31.199"
     port: 443
@@ -556,37 +581,63 @@ proxies:
     password: "ND91608427"
     tls: true
     servername: "18.179.31.199"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #3"
+  - name: "🇯🇵_JP_日本_IPV4"
+    type: "trojan"
+    server: "160.21.74.183"
+    port: 8443
+    udp: true
+    password: "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh"
+    tls: true
+    servername: "160.21.74.183"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
     type: "vless"
-    server: "31.76.91.70"
+    server: "207.148.115.152"
     port: 443
     udp: true
-    uuid: "7072eeba-94fd-4fb3-92f2-a4506dd84cd8"
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    network: "ws"
+    ws-opts:
+      path: "/socks5=888:888@hkip.1d.mom:1080fp=chromesecurity=tls"
+      headers:
+        Host: "vlso5.1d.mom"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #3"
+    type: "vless"
+    server: "156.246.88.125"
+    port: 26518
+    udp: true
+    uuid: "e01fcb68-3112-49da-b85d-dffb799cfc9b"
     tls: true
-    servername: "fuji.etherhub.cc"
+    servername: "github.com"
   - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #4"
     type: "vless"
-    server: "103.75.118.228"
-    port: 12683
+    server: "104.18.42.98"
+    port: 443
     udp: true
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     tls: true
-    servername: "www.apple.com"
+    servername: "jp3.yohototo.top"
+    network: "ws"
+    ws-opts:
+      path: "/tyxywsfp=chrome"
+      headers:
+        Host: "jp3.yohototo.top"
   - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #5"
     type: "vless"
-    server: "3.114.220.22"
-    port: 19645
+    server: "103.75.118.228"
+    port: 11452
     udp: true
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     tls: true
     servername: "www.apple.com"
   - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #6"
     type: "vless"
-    server: "152.69.195.67"
-    port: 47878
+    server: "3.114.220.22"
+    port: 10583
     udp: true
-    uuid: "eb8613e3-8393-4cff-a3ad-6501fd4adc63"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #7"
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
     type: "vless"
     server: "188.114.97.6"
     port: 443
@@ -599,35 +650,24 @@ proxies:
       path: "/138.2.74.219-28616fp=unsafe"
       headers:
         Host: "nautica-cff.kloningstrife002.workers.dev"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
-    type: "vless"
-    server: "104.21.221.158"
+  - name: "🇯🇵[www.v2nodes.com] trojan-JP-..."
+    type: "trojan"
+    server: "167.179.108.225"
     port: 443
     udp: true
-    uuid: "d342d11e-d224-4463-b982-532309285094"
-    network: "ws"
-    ws-opts:
-      path: "/fp=unsafefp=unsafesecurity=tls"
-      headers:
-        Host: "ccc.010304.xyz"
-  - name: "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
-    type: "vless"
-    server: "188.114.99.0"
-    port: 8080
+    password: "0ab6c98dae3b48e8b9c4a776b6c9c19a"
+  - name: "🇯🇵 日本 | JPN #2"
+    type: "trojan"
+    server: "160.21.74.183"
+    port: 8443
     udp: true
-    uuid: "e5cc16a6-ea42-46b2-82ae-ad2157e1641b"
-    network: "ws"
-    ws-opts:
-      path: "/sg-melbi"
-      headers:
-        Host: "hhlfy.twiladaphne.ndjp.net"
-  - name: "🇯🇵 日本 | JPN #1"
-    type: "ss"
-    server: "154.36.158.197"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "BeaUf9c0AEWH40Pu"
+    password: "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh"
+  - name: "🇯🇵 日本 | JPN"
+    type: "trojan"
+    server: "160.21.74.183"
+    port: 8443
     udp: true
+    password: "ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh"
   - name: "JP 🇯🇵 | @Raydikalx | E6D44D"
     type: "vmess"
     server: "140.238.55.84"
@@ -642,7 +682,7 @@ proxies:
     ws-opts:
       path: "/or3"
       headers:
-  - name: "JP 🇯🇵 | @Raydikalx | 69CF0D"
+  - name: "JP 🇯🇵 | @Raydikalx | 75C7ED"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -654,7 +694,7 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
-  - name: "JP 🇯🇵 | @Raydikalx | A940D6"
+  - name: "JP 🇯🇵 | @Raydikalx | 74A719"
     type: "vmess"
     server: "168.138.43.75"
     port: 80
@@ -666,22 +706,6 @@ proxies:
     ws-opts:
       path: "/cctv13.m3u8"
       headers:
-        Host: "168.138.43.75"
-  - name: "JP 🇯🇵 | @Raydikalx | DDA3E3"
-    type: "vmess"
-    server: "210.138.37.53"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "DrBKg16eGf3FZlM3.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "DrBKg16eGf3FZlM3.v.3dns.vip"
   - name: "JP 🇯🇵 | @Raydikalx | 102B75"
     type: "vmess"
     server: "140.83.57.20"
@@ -697,6 +721,19 @@ proxies:
       path: "/"
       headers:
         Host: "sg.11160321.de5.net"
+  - name: "JP 🇯🇵 | @Raydikalx | 1E1C14"
+    type: "vmess"
+    server: "168.138.43.75"
+    port: 80
+    uuid: "11c3627f-31e8-4695-dfbd-34076e2f1f5d"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "jp01.a0a.xyz"
   - name: "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
     type: "vmess"
     server: "168.138.43.75"
@@ -721,16 +758,16 @@ proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "JP VLESS-29 | free-nodes"
       - "🇯🇵JP日本丨yoyapai.com"
       - "🇯🇵JP日本丨yoyapai.com"
       - "JP日本丨yoyapai.com"
       - "🇯🇵JP日本丨yoyapai.com"
       - "🇯🇵JP日本丨yoyapai.com"
       - "🇯🇵JP日本丨yoyapai.com"
-      - "日本+V2CROSS.COM"
+      - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - "JP1@ripaojiedian"
       - "JP2@ripaojiedian"
-      - "🇯🇵[www.v2nodes.com] vless-JP"
       - "🇯🇵[www.v2nodes.com] vless-JP-1..."
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #1"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #2"
@@ -739,56 +776,62 @@ proxy-groups:
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #5"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #6"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #7"
-      - "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
       - "🇯🇵[www.v2nodes.com] vless-JP-4..."
-      - "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
+      - "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
       - "🇯🇵[www.v2nodes.com] ss-JP-1599..."
       - "🇯🇵[www.v2nodes.com] ss-JP-1544..."
       - "🇯🇵[www.v2nodes.com] ss-JP-5141..."
       - "🇯🇵[www.v2nodes.com] ss-JP-1291..."
       - "🇯🇵[www.v2nodes.com] ss-JP-9223..."
+      - "🇯🇵[www.v2nodes.com] trojan-JP-..."
+      - "🇯🇵[www.v2nodes.com] trojan-JP-... #1"
       - "JP1@ripaojiedian"
       - "JP2@ripaojiedian"
-      - "🇯🇵JP-149.22.87.204-0236"
-      - "🇯🇵JP-149.22.87.240-0232"
-      - "🇯🇵JP-149.22.87.241-0227"
-      - "🇯🇵JP-84.247.155.196-0278"
-      - "🇯🇵JP-84.247.155.196-0288"
-      - "🇯🇵JP-154.36.158.197-0291"
-      - "🇯🇵JP-168.138.43.75-0326"
-      - "🇯🇵JP-154.31.114.10-0775"
-      - "🇯🇵JP-172.104.120.92-0844"
-      - "🇯🇵JP-172.104.86.229-0845"
-      - "🇯🇵JP-156.246.91.9-0846"
-      - "🇯🇵JP-172.104.81.253-0907"
-      - "🇯🇵JP-172.104.80.248-0912"
-      - "🇯🇵JP-150.230.212.247-0914"
-      - "🇯🇵JP-124.156.208.160-0915"
-      - "🇯🇵JP-172.237.13.221-0916"
-      - "🇯🇵JP-133.18.140.38-0919"
-      - "🇯🇵JP-45.77.129.86-0920"
-      - "🇯🇵JP-198.13.60.163-0943"
-      - "🇯🇵JP-149.28.21.106-0956"
-      - "🇯🇵JP-96.126.130.217-0979"
-      - "🇯🇵JP-168.138.212.80-1064"
-      - "🇯🇵JP-172.104.78.98-2167"
-      - "🇯🇵JP-43.206.225.188-5280"
-      - "🇯🇵JP-54.65.177.190-5327"
-      - "🇯🇵JP-167.179.108.225-5328"
-      - "🇯🇵JP-18.179.31.199-5329"
+      - "🇯🇵 日本 | JPN #1"
+      - "🇯🇵 日本 | JPN #2"
+      - "🇯🇵JP-84.247.155.196-0265"
+      - "🇯🇵JP-84.247.155.196-0276"
+      - "🇯🇵JP-149.22.87.204-0208"
+      - "🇯🇵JP-149.22.87.240-0205"
+      - "🇯🇵JP-149.22.87.241-0204"
+      - "🇯🇵JP-154.36.158.197-0471"
+      - "🇯🇵JP-154.31.114.10-0754"
+      - "🇯🇵JP-172.104.120.92-0823"
+      - "🇯🇵JP-172.104.86.229-0824"
+      - "🇯🇵JP-156.246.91.9-0825"
+      - "🇯🇵JP-172.104.81.253-0886"
+      - "🇯🇵JP-172.104.80.248-0891"
+      - "🇯🇵JP-150.230.212.247-0893"
+      - "🇯🇵JP-124.156.208.160-0894"
+      - "🇯🇵JP-172.237.13.221-0895"
+      - "🇯🇵JP-133.18.140.38-0898"
+      - "🇯🇵JP-45.77.129.86-0899"
+      - "🇯🇵JP-198.13.60.163-0922"
+      - "🇯🇵JP-149.28.21.106-0935"
+      - "🇯🇵JP-96.126.130.217-0958"
+      - "🇯🇵JP-168.138.212.80-1043"
+      - "🇯🇵JP-168.138.43.75-1763"
+      - "🇯🇵JP-172.104.78.98-2574"
+      - "🇯🇵JP-167.179.108.225-2916"
+      - "🇯🇵JP-160.21.74.183-2933"
+      - "🇯🇵JP-43.206.225.188-5704"
+      - "🇯🇵JP-54.65.177.190-5762"
+      - "🇯🇵JP-18.179.31.199-5766"
+      - "🇯🇵_JP_日本_IPV4"
+      - "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #3"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #4"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #5"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #6"
-      - "🇯🇵[www.v2nodes.com] vless-JP-1... #7"
       - "🇯🇵[www.v2nodes.com] vless-JP-1... #8"
-      - "🇯🇵[www.v2nodes.com] vless-JP-1... #9"
-      - "🇯🇵 日本 | JPN #1"
+      - "🇯🇵[www.v2nodes.com] trojan-JP-..."
+      - "🇯🇵 日本 | JPN #2"
+      - "🇯🇵 日本 | JPN"
       - "JP 🇯🇵 | @Raydikalx | E6D44D"
-      - "JP 🇯🇵 | @Raydikalx | 69CF0D"
-      - "JP 🇯🇵 | @Raydikalx | A940D6"
-      - "JP 🇯🇵 | @Raydikalx | DDA3E3"
+      - "JP 🇯🇵 | @Raydikalx | 75C7ED"
+      - "JP 🇯🇵 | @Raydikalx | 74A719"
       - "JP 🇯🇵 | @Raydikalx | 102B75"
+      - "JP 🇯🇵 | @Raydikalx | 1E1C14"
       - "🇯🇵 Join+Telegram:@Farah_VPN 🇯🇵"
       - ">>@V2rayNG3::JP"
 rules:
