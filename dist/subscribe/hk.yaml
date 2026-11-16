@@ -3,6 +3,263 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "🇭🇰216578 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "156.245.232.239"
+    port: 35043
+    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰216540 | ⚡️Telegram = t.me/SOSkeyNET"
+    type: "vmess"
+    server: "206.237.11.17"
+    port: 50376
+    uuid: "9091fd64-7e8e-4b7a-8ae7-84474f234926"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇭🇰[www.v2nodes.com] vless-HK-1... #2"
+    type: "vless"
+    server: "23.156.153.40"
+    port: 443
+    udp: true
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chromesecurity=tls"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇭🇰[www.v2nodes.com] vless-HK-1... #3"
+    type: "vless"
+    server: "38.207.177.204"
+    port: 443
+    udp: true
+    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
+    tls: true
+    servername: "fs.qicai99.com"
+    network: "ws"
+    ws-opts:
+      path: "/fp=chromefp=chrome"
+      headers:
+        Host: "fs.qicai99.com"
+  - name: "🇭🇰[www.v2nodes.com] ss-HK-1621... #1"
+    type: "ss"
+    server: "209.248.57.105"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "AMok40FfaM+Ikwre16psBpVk6JHxsQZw"
+    udp: true
+  - name: "🇭🇰 香港 | HKG #1"
+    type: "vmess"
+    server: "47.242.81.94"
+    port: 52080
+    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇭🇰 香港 | HKG #2"
+    type: "vless"
+    server: "62.60.232.226"
+    port: 8443
+    udp: true
+    uuid: "0025b3da-a92e-45b4-ab2d-de0f3ef3bf23"
+    tls: true
+    servername: "nova-house.justext.space"
+  - name: "🇭🇰HK-213.176.92.148-0303"
+    type: "ss"
+    server: "213.176.92.148"
+    port: 40647
+    cipher: "aes-256-gcm"
+    password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
+    udp: true
+  - name: "🇭🇰HK-47.244.120.197-5910"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-47.244.120.197-5909"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki?ed=2048"
+      headers:
+  - name: "🇭🇰HK-156.245.232.239-0357"
+    type: "vmess"
+    server: "156.245.232.239"
+    port: 35043
+    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-47.244.120.197-1155"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 23026
+    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki"
+      headers:
+        Host: "47.244.120.197"
+  - name: "🇭🇰HK-47.244.120.197-0348"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-47.244.120.197-0351"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-104.253.175.99-0359"
+    type: "trojan"
+    server: "104.253.175.99"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "tjsp.hhxaf.cc.cd"
+  - name: "🇭🇰HK-47.242.81.94-0633"
+    type: "vmess"
+    server: "47.242.81.94"
+    port: 52080
+    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+  - name: "🇭🇰HK-216.236.38.234-1066"
+    type: "trojan"
+    server: "216.236.38.234"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-119.246.1.143-1113"
+    type: "trojan"
+    server: "119.246.1.143"
+    port: 443
+    udp: true
+    password: "BxceQaOe"
+    tls: true
+    servername: "t.me/ripaojiedian"
+  - name: "🇭🇰HK-45.38.60.139-1140"
+    type: "trojan"
+    server: "45.38.60.139"
+    port: 443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "hhcm.hhxaf.cc.cd"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "🇭🇰HK-159.100.206.88-1244"
+    type: "vmess"
+    server: "159.100.206.88"
+    port: 443
+    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "lg30.cfcdn3.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/ray"
+      headers:
+        Host: "lg30.cfcdn3.xyz"
+  - name: "🇭🇰HK-20.187.85.198-5313"
+    type: "trojan"
+    server: "20.187.85.198"
+    port: 443
+    udp: true
+    password: "b26e31e5-eac1-45b0-9069-83830bd69521"
+    tls: true
+    servername: "hkt.iamnotagoodman.com"
+  - name: "🇭🇰HK-83.229.121.78-5837"
+    type: "trojan"
+    server: "83.229.121.78"
+    port: 8443
+    udp: true
+    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
+    tls: true
+    servername: "83.229.121.78"
+  - name: "🇭🇰HK-219.76.13.181-7640"
+    type: "trojan"
+    server: "219.76.13.181"
+    port: 443
+    udp: true
+    password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
+    tls: true
+    servername: "arbettp.freetrade.link"
+  - name: "HK4"
+    type: "vmess"
+    server: "47.243.92.155"
+    port: 443
+    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "mTCKUNDiGePwU3uP.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "mTCKUNDiGePwU3uP.v.3dns.vip"
+  - name: "HK8 1.4KB/s"
+    type: "vmess"
+    server: "47.242.81.94"
+    port: 52080
+    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
+    alterId: 0
+    cipher: "auto"
+    udp: true
   - name: "🇭🇰[www.v2nodes.com] vless-HK-1... #4"
     type: "vless"
     server: "23.156.153.40"
@@ -29,19 +286,6 @@ proxies:
         Host: "fs.qicai99.com"
   - name: "🇭🇰[www.v2nodes.com] vless-HK-1... #6"
     type: "vless"
-    server: "23.156.153.40"
-    port: 443
-    udp: true
-    uuid: "99c5b713-dedf-4a10-8070-916ff3f49b0e"
-    tls: true
-    servername: "fs.qicai99.com"
-    network: "ws"
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "fs.qicai99.com"
-  - name: "🇭🇰[www.v2nodes.com] vless-HK-1... #8"
-    type: "vless"
     server: "68.64.182.205"
     port: 443
     udp: true
@@ -51,37 +295,6 @@ proxies:
       path: "/fp=chromesecurity=tls"
       headers:
         Host: "fs.qicai99.com"
-  - name: "🇭🇰[www.v2nodes.com] ss-HK-1621... #1"
-    type: "ss"
-    server: "209.248.57.105"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "AMok40FfaM+Ikwre16psBpVk6JHxsQZw"
-    udp: true
-  - name: "香港|@ripaojiedian"
-    type: "vless"
-    server: "66.90.115.123"
-    port: 2083
-    udp: true
-    uuid: "3b8896fd-ba38-4da7-b365-d0f01f37aa40"
-    tls: true
-    servername: "www.apple.com"
-  - name: "香港2|@ripaojiedian"
-    type: "vless"
-    server: "66.90.115.133"
-    port: 2053
-    udp: true
-    uuid: "3b8896fd-ba38-4da7-b365-d0f01f37aa40"
-    tls: true
-    servername: "www.apple.com"
-  - name: "香港3|@ripaojiedian"
-    type: "vless"
-    server: "66.90.115.133"
-    port: 2083
-    udp: true
-    uuid: "3b8896fd-ba38-4da7-b365-d0f01f37aa40"
-    tls: true
-    servername: "www.apple.com"
   - name: "🇭🇰 香港 | HKG #1"
     type: "vless"
     server: "8.217.1.203"
@@ -90,253 +303,111 @@ proxies:
     uuid: "8b17beac-b143-447d-aa68-14cbb121a602"
     tls: true
     servername: "www.apple.com"
-  - name: "🇭🇰HK-213.176.92.148-0256"
-    type: "ss"
-    server: "213.176.92.148"
-    port: 40647
-    cipher: "aes-256-gcm"
-    password: "DgMywXKqojHXeuXY8hOJaYGPFcjweCIJeD5cdg/cUUY="
-    udp: true
-  - name: "🇭🇰HK-47.244.120.197-5453"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0254"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0255"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-156.245.232.239-0258"
-    type: "vmess"
-    server: "156.245.232.239"
-    port: 35043
-    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-159.100.206.88-0017"
-    type: "vmess"
-    server: "159.100.206.88"
-    port: 443
-    uuid: "91646f9a-b4e9-4aca-bfe3-8892b3e58fe7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lg30.cfcdn3.xyz"
-    network: "ws"
-    ws-opts:
-      path: "/ray"
-      headers:
-        Host: "lg30.cfcdn3.xyz"
-  - name: "🇭🇰HK-47.244.120.197-0640"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0641"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 36703
-    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki"
-      headers:
-  - name: "🇭🇰HK-47.244.120.197-0642"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 23026
-    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki"
-      headers:
-  - name: "🇭🇰HK-47.242.81.94-0643"
-    type: "vmess"
-    server: "47.242.81.94"
-    port: 52080
-    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "🇭🇰HK-216.236.38.234-1044"
-    type: "trojan"
-    server: "216.236.38.234"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-104.253.175.99-1062"
-    type: "trojan"
-    server: "104.253.175.99"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "tjsp.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-119.246.1.143-1092"
-    type: "trojan"
-    server: "119.246.1.143"
-    port: 443
-    udp: true
-    password: "BxceQaOe"
-    tls: true
-    servername: "t.me/ripaojiedian"
-  - name: "🇭🇰HK-45.38.60.139-1119"
-    type: "trojan"
-    server: "45.38.60.139"
-    port: 443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "hhcm.hhxaf.cc.cd"
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-  - name: "🇭🇰HK-20.187.85.198-4867"
-    type: "trojan"
-    server: "20.187.85.198"
-    port: 443
-    udp: true
-    password: "b26e31e5-eac1-45b0-9069-83830bd69521"
-    tls: true
-    servername: "hkt.iamnotagoodman.com"
-  - name: "🇭🇰HK-83.229.121.78-5383"
-    type: "trojan"
-    server: "83.229.121.78"
-    port: 8443
-    udp: true
-    password: "eeb6823c-b926-4ea2-866a-5542edd26e59"
-    tls: true
-    servername: "83.229.121.78"
-  - name: "🇭🇰HK-219.76.13.181-7173"
-    type: "trojan"
-    server: "219.76.13.181"
-    port: 443
-    udp: true
-    password: "SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ"
-    tls: true
-    servername: "arbettp.freetrade.link"
-  - name: "HK2"
-    type: "vmess"
-    server: "47.243.65.243"
-    port: 443
-    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lcv8v9l7oyamxxfz.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-  - name: "🇭🇰 香港 | HKG #1"
-    type: "vmess"
-    server: "47.242.81.94"
-    port: 52080
-    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
-    alterId: 0
-    cipher: "auto"
-    udp: true
   - name: "🇭🇰 香港 | HKG #2"
-    type: "vless"
-    server: "45.192.194.104"
-    port: 35600
-    udp: true
-    uuid: "d34c4e7c-3eac-4a26-adb9-9004b6981ad8"
-    tls: true
-    servername: "www.iij.ad.jp"
-  - name: "🇭🇰 香港 | HKG"
-    type: "vless"
-    server: "8.217.1.203"
-    port: 8443
-    udp: true
-    uuid: "8b17beac-b143-447d-aa68-14cbb121a602"
-    network: "tcp"
-  - name: "HK 🇭🇰 | @Raydikalx | 570F14"
     type: "vmess"
-    server: "156.245.232.239"
-    port: 35043
-    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    server: "47.242.81.94"
+    port: 52080
+    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
     alterId: 0
     cipher: "auto"
     udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "www.pubgmobile.com"
-  - name: "HK 🇭🇰 | @Raydikalx | D755F0"
+  - name: "HK 🇭🇰 | @Raydikalx | 4641D1"
     type: "vmess"
-    server: "47.243.65.243"
+    server: "8.217.254.88"
     port: 443
     uuid: "f23bb427c1f94373876c2f43e9f790f3"
     alterId: 0
     cipher: "auto"
     udp: true
     tls: true
-    servername: "lcv8v9l7OyamxxfZ.v.3dns.vip"
+    servername: "2b9hwy8ocx7q74nm.v.3dns.vip"
     network: "ws"
     ws-opts:
       path: "/ws-vmess"
       headers:
-        Host: "lcv8v9l7OyamxxfZ.v.3dns.vip"
+        Host: "2b9hwY8oCx7Q74NM.v.3dns.vip"
+  - name: "HK 🇭🇰 | @Raydikalx | 40BF1F"
+    type: "vmess"
+    server: "47.76.57.83"
+    port: 443
+    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "vah4urdzl3jdx5r2.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "vah4urdzl3jdx5r2.v.3dns.vip"
+  - name: "HK 🇭🇰 | @Raydikalx | ACC2C3"
+    type: "vmess"
+    server: "47.244.120.197"
+    port: 36703
+    uuid: "45b83519-9c4f-4052-a11b-02e017b636d4"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/arki"
+      headers:
+  - name: "HK 🇭🇰 | @Raydikalx | 692BEC"
+    type: "vmess"
+    server: "8.217.13.103"
+    port: 443
+    uuid: "f23bb427c1f94373876c2f43e9f790f3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "qtkdr8jxe3wefxjm.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "qtkdr8jxe3wefxjm.v.3dns.vip"
+  - name: "HK 🇭🇰 | @Raydikalx | 6E1CF2"
+    type: "vmess"
+    server: "47.243.92.155"
+    port: 443
+    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "mTCKUNDiGePwU3uP.v.3dns.vip"
+    network: "ws"
+    ws-opts:
+      path: "/ws-vmess"
+      headers:
+        Host: "mTCKUNDiGePwU3uP.v.3dns.vip"
+  - name: "HK 🇭🇰 | @Raydikalx | 6A0ADC"
+    type: "vmess"
+    server: "156.239.224.107"
+    port: 57278
+    uuid: "1270bed5-f908-4ecc-f1c8-de246033b186"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+  - name: "HK 🇭🇰 | @Raydikalx | F125F6"
+    type: "vmess"
+    server: "156.245.232.239"
+    port: 35043
+    uuid: "b15e481d-17e4-41a8-84c2-23d4f0514d9a"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "156.245.232.239"
   - name: "HK 🇭🇰 | @Raydikalx | 3539F5"
     type: "vmess"
     server: "47.243.65.243"
@@ -367,155 +438,6 @@ proxies:
       path: "/ws-vmess"
       headers:
         Host: "nycqg19zkwacpm1b.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | 037F5D"
-    type: "vmess"
-    server: "47.76.57.83"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "vah4urdzl3jdx5r2.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-  - name: "HK 🇭🇰 | @Raydikalx | B0DE3B"
-    type: "vmess"
-    server: "47.243.194.125"
-    port: 443
-    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "nycqg19zkwacpm1b.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "nycqg19zkwacpm1b.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | 812E02"
-    type: "vmess"
-    server: "47.243.194.125"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "nycqg19zkwacpm1b.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "nycqg19zkwacpm1b.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | 3693A6"
-    type: "vmess"
-    server: "103.240.197.112"
-    port: 55314
-    uuid: "bdb68629-1c6a-4eed-8083-7d4379a2dd52"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "HK 🇭🇰 | @Raydikalx | E57D3C"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki"
-      headers:
-        Host: "47.244.120.197"
-  - name: "HK 🇭🇰 | @Raydikalx | 190171"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 23026
-    uuid: "b9de1bc9-baa7-41ac-86f7-ccd59695cb21"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki"
-      headers:
-        Host: "47.244.120.197"
-  - name: "HK 🇭🇰 | @Raydikalx | 692BEC"
-    type: "vmess"
-    server: "8.217.13.103"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "qtkdr8jxe3wefxjm.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "qtkdr8jxe3wefxjm.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | AE47A5"
-    type: "vmess"
-    server: "47.244.120.197"
-    port: 44867
-    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/arki?ed=2048"
-      headers:
-  - name: "HK 🇭🇰 | @Raydikalx | 7B0191"
-    type: "vmess"
-    server: "47.243.65.243"
-    port: 443
-    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "lcv8v9l7oyamxxfz.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-  - name: "HK 🇭🇰 | @Raydikalx | 5B1771"
-    type: "vmess"
-    server: "8.217.13.103"
-    port: 443
-    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "qtkdr8jxe3wefxjm.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "qtkdr8jxe3wefxjm.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | 6E1CF2"
-    type: "vmess"
-    server: "47.243.92.155"
-    port: 443
-    uuid: "f23bb427-c1f9-4373-876c-2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "mTCKUNDiGePwU3uP.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "mTCKUNDiGePwU3uP.v.3dns.vip"
   - name: "HK 🇭🇰 | @Raydikalx | 3F4AEA"
     type: "vmess"
     server: "47.244.120.197"
@@ -529,44 +451,19 @@ proxies:
       path: "/arki"
       headers:
         Host: "google.com"
-  - name: "HK 🇭🇰 | @Raydikalx | 8E5095"
+  - name: "HK 🇭🇰 | @Raydikalx | E3A9A7"
     type: "vmess"
-    server: "47.242.81.94"
-    port: 52080
-    uuid: "e47b9f77-60e4-4738-8d53-772b6002e146"
+    server: "47.244.120.197"
+    port: 44867
+    uuid: "845e6b08-2919-4290-ade0-5dc7dcea59ca"
     alterId: 0
     cipher: "auto"
     udp: true
-  - name: "HK 🇭🇰 | @Raydikalx | 28C12C"
-    type: "vmess"
-    server: "8.217.254.88"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "2b9hwy8ocx7q74nm.v.3dns.vip"
     network: "ws"
     ws-opts:
-      path: "/ws-vmess"
+      path: "/arki"
       headers:
-  - name: "HK 🇭🇰 | @Raydikalx | 3F1EE8"
-    type: "vmess"
-    server: "47.76.57.83"
-    port: 443
-    uuid: "f23bb427c1f94373876c2f43e9f790f3"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    tls: true
-    servername: "VAH4URdZL3jDX5r2.v.3dns.vip"
-    network: "ws"
-    ws-opts:
-      path: "/ws-vmess"
-      headers:
-        Host: "VAH4URdZL3jDX5r2.v.3dns.vip"
-  - name: "HK 🇭🇰 | @Raydikalx | B84950"
+  - name: "HK 🇭🇰 | @Raydikalx | 570F14"
     type: "vmess"
     server: "156.245.232.239"
     port: 35043
@@ -578,59 +475,52 @@ proxies:
     ws-opts:
       path: "/"
       headers:
+        Host: "www.pubgmobile.com"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇭🇰216578 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇭🇰216540 | ⚡️Telegram = t.me/SOSkeyNET"
+      - "🇭🇰[www.v2nodes.com] vless-HK-1... #2"
+      - "🇭🇰[www.v2nodes.com] vless-HK-1... #3"
+      - "🇭🇰[www.v2nodes.com] ss-HK-1621... #1"
+      - "🇭🇰 香港 | HKG #1"
+      - "🇭🇰 香港 | HKG #2"
+      - "🇭🇰HK-213.176.92.148-0303"
+      - "🇭🇰HK-47.244.120.197-5910"
+      - "🇭🇰HK-47.244.120.197-5909"
+      - "🇭🇰HK-156.245.232.239-0357"
+      - "🇭🇰HK-47.244.120.197-1155"
+      - "🇭🇰HK-47.244.120.197-0348"
+      - "🇭🇰HK-47.244.120.197-0351"
+      - "🇭🇰HK-104.253.175.99-0359"
+      - "🇭🇰HK-47.242.81.94-0633"
+      - "🇭🇰HK-216.236.38.234-1066"
+      - "🇭🇰HK-119.246.1.143-1113"
+      - "🇭🇰HK-45.38.60.139-1140"
+      - "🇭🇰HK-159.100.206.88-1244"
+      - "🇭🇰HK-20.187.85.198-5313"
+      - "🇭🇰HK-83.229.121.78-5837"
+      - "🇭🇰HK-219.76.13.181-7640"
+      - "HK4"
+      - "HK8 1.4KB/s"
       - "🇭🇰[www.v2nodes.com] vless-HK-1... #4"
       - "🇭🇰[www.v2nodes.com] vless-HK-1... #5"
       - "🇭🇰[www.v2nodes.com] vless-HK-1... #6"
-      - "🇭🇰[www.v2nodes.com] vless-HK-1... #8"
-      - "🇭🇰[www.v2nodes.com] ss-HK-1621... #1"
-      - "香港|@ripaojiedian"
-      - "香港2|@ripaojiedian"
-      - "香港3|@ripaojiedian"
-      - "🇭🇰 香港 | HKG #1"
-      - "🇭🇰HK-213.176.92.148-0256"
-      - "🇭🇰HK-47.244.120.197-5453"
-      - "🇭🇰HK-47.244.120.197-0254"
-      - "🇭🇰HK-47.244.120.197-0255"
-      - "🇭🇰HK-156.245.232.239-0258"
-      - "🇭🇰HK-159.100.206.88-0017"
-      - "🇭🇰HK-47.244.120.197-0640"
-      - "🇭🇰HK-47.244.120.197-0641"
-      - "🇭🇰HK-47.244.120.197-0642"
-      - "🇭🇰HK-47.242.81.94-0643"
-      - "🇭🇰HK-216.236.38.234-1044"
-      - "🇭🇰HK-104.253.175.99-1062"
-      - "🇭🇰HK-119.246.1.143-1092"
-      - "🇭🇰HK-45.38.60.139-1119"
-      - "🇭🇰HK-20.187.85.198-4867"
-      - "🇭🇰HK-83.229.121.78-5383"
-      - "🇭🇰HK-219.76.13.181-7173"
-      - "HK2"
       - "🇭🇰 香港 | HKG #1"
       - "🇭🇰 香港 | HKG #2"
-      - "🇭🇰 香港 | HKG"
-      - "HK 🇭🇰 | @Raydikalx | 570F14"
-      - "HK 🇭🇰 | @Raydikalx | D755F0"
+      - "HK 🇭🇰 | @Raydikalx | 4641D1"
+      - "HK 🇭🇰 | @Raydikalx | 40BF1F"
+      - "HK 🇭🇰 | @Raydikalx | ACC2C3"
+      - "HK 🇭🇰 | @Raydikalx | 692BEC"
+      - "HK 🇭🇰 | @Raydikalx | 6E1CF2"
+      - "HK 🇭🇰 | @Raydikalx | 6A0ADC"
+      - "HK 🇭🇰 | @Raydikalx | F125F6"
       - "HK 🇭🇰 | @Raydikalx | 3539F5"
       - "HK 🇭🇰 | @Raydikalx | 315EEB"
-      - "HK 🇭🇰 | @Raydikalx | 037F5D"
-      - "HK 🇭🇰 | @Raydikalx | B0DE3B"
-      - "HK 🇭🇰 | @Raydikalx | 812E02"
-      - "HK 🇭🇰 | @Raydikalx | 3693A6"
-      - "HK 🇭🇰 | @Raydikalx | E57D3C"
-      - "HK 🇭🇰 | @Raydikalx | 190171"
-      - "HK 🇭🇰 | @Raydikalx | 692BEC"
-      - "HK 🇭🇰 | @Raydikalx | AE47A5"
-      - "HK 🇭🇰 | @Raydikalx | 7B0191"
-      - "HK 🇭🇰 | @Raydikalx | 5B1771"
-      - "HK 🇭🇰 | @Raydikalx | 6E1CF2"
       - "HK 🇭🇰 | @Raydikalx | 3F4AEA"
-      - "HK 🇭🇰 | @Raydikalx | 8E5095"
-      - "HK 🇭🇰 | @Raydikalx | 28C12C"
-      - "HK 🇭🇰 | @Raydikalx | 3F1EE8"
-      - "HK 🇭🇰 | @Raydikalx | B84950"
+      - "HK 🇭🇰 | @Raydikalx | E3A9A7"
+      - "HK 🇭🇰 | @Raydikalx | 570F14"
 rules:
   - "MATCH,Proxy Select"
