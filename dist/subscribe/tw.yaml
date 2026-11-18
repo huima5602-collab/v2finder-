@@ -3,13 +3,13 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼217403 | ⚡️Telegram = t.me/LonUp_M"
+  - name: "🇹🇼218090 | ⚡️Telegram = t.me/SOSkeyNET"
     type: "vless"
-    server: "114.37.105.51"
-    port: 443
+    server: "212.115.55.89"
+    port: 8443
     udp: true
-    uuid: "8197b9b9-8945-460f-99c9-325ef8a8a7c3"
-    network: "tcp"
+    uuid: "ab53f3b6-7962-4bc1-90f6-8420767b22a8"
+    network: "xhttp"
   - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
     type: "vless"
     server: "60.248.219.53"
@@ -23,29 +23,11 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "TW"
-    type: "vmess"
-    server: "103.160.180.26"
-    port: 22222
-    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-  - name: "TW 🇹🇼 | @Raydikalx | 353960"
-    type: "vmess"
-    server: "103.160.180.26"
-    port: 22222
-    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
-    alterId: 0
-    cipher: "auto"
-    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼217403 | ⚡️Telegram = t.me/LonUp_M"
+      - "🇹🇼218090 | ⚡️Telegram = t.me/SOSkeyNET"
       - "🇹🇼[www.v2nodes.com] vless-TW-1..."
-      - "TW"
-      - "TW 🇹🇼 | @Raydikalx | 353960"
 rules:
   - "MATCH,Proxy Select"
