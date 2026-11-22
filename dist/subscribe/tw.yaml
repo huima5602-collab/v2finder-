@@ -3,6 +3,13 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "台湾|@ripaojiedian"
+    type: "vless"
+    server: "116.213.43.43"
+    port: 11102
+    udp: true
+    uuid: "530d31fc-2690-49e4-bfc9-3f991e145008"
+    network: "tcp"
   - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
     type: "vless"
     server: "60.248.219.53"
@@ -16,10 +23,36 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
+  - name: "台湾|@ripaojiedian"
+    type: "vless"
+    server: "116.213.43.43"
+    port: 11102
+    udp: true
+    uuid: "530d31fc-2690-49e4-bfc9-3f991e145008"
+    tls: true
+    servername: "www.apple.com"
+  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    type: "ss"
+    server: "60.248.221.27"
+    port: 2377
+    cipher: "chacha20-ietf-poly1305"
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    udp: true
+  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+    type: "ss"
+    server: "60.248.221.27"
+    port: 2377
+    cipher: "chacha20-ietf-poly1305"
+    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+    udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "台湾|@ripaojiedian"
       - "🇹🇼[www.v2nodes.com] vless-TW-1..."
+      - "台湾|@ripaojiedian"
+      - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "🇹🇼 🇨🇳 台湾 | TWN"
 rules:
   - "MATCH,Proxy Select"
