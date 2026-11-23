@@ -10,6 +10,19 @@ proxies:
     udp: true
     uuid: "530d31fc-2690-49e4-bfc9-3f991e145008"
     network: "tcp"
+  - name: "台湾3|@ripaojiedian"
+    type: "vless"
+    server: "154.40.61.186"
+    port: 8443
+    udp: true
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    tls: true
+    servername: "senflarelink-node-wj1gsa.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "senflarelink-node-wj1gsa.pages.dev"
   - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
     type: "vless"
     server: "60.248.219.53"
@@ -31,28 +44,44 @@ proxies:
     uuid: "530d31fc-2690-49e4-bfc9-3f991e145008"
     tls: true
     servername: "www.apple.com"
-  - name: "🇹🇼 🇨🇳 台湾 | TWN"
+  - name: "台湾3|@ripaojiedian"
+    type: "vless"
+    server: "154.40.61.186"
+    port: 8443
+    udp: true
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    tls: true
+    servername: "senflarelink-node-wj1gsa.pages.dev"
+    network: "ws"
+    ws-opts:
+      path: "/flow="
+      headers:
+        Host: "senflarelink-node-wj1gsa.pages.dev"
+  - name: "🇹🇼TW-60.248.221.27-0562"
     type: "ss"
     server: "60.248.221.27"
     port: 2377
     cipher: "chacha20-ietf-poly1305"
     password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
     udp: true
-  - name: "🇹🇼 🇨🇳 台湾 | TWN"
-    type: "ss"
-    server: "60.248.221.27"
-    port: 2377
-    cipher: "chacha20-ietf-poly1305"
-    password: "t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv"
+  - name: "TW3"
+    type: "vmess"
+    server: "103.160.180.26"
+    port: 22222
+    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
+    alterId: 0
+    cipher: "auto"
     udp: true
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
       - "台湾|@ripaojiedian"
+      - "台湾3|@ripaojiedian"
       - "🇹🇼[www.v2nodes.com] vless-TW-1..."
       - "台湾|@ripaojiedian"
-      - "🇹🇼 🇨🇳 台湾 | TWN"
-      - "🇹🇼 🇨🇳 台湾 | TWN"
+      - "台湾3|@ripaojiedian"
+      - "🇹🇼TW-60.248.221.27-0562"
+      - "TW3"
 rules:
   - "MATCH,Proxy Select"
