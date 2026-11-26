@@ -16,33 +16,19 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "台湾|@ripaojiedian"
-    type: "vless"
-    server: "116.213.43.43"
-    port: 11102
+  - name: "TW 🇹🇼 | @Raydikalx | 353960"
+    type: "vmess"
+    server: "103.160.180.26"
+    port: 22222
+    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "530d31fc-2690-49e4-bfc9-3f991e145008"
-    tls: true
-    servername: "www.apple.com"
-  - name: "台湾3|@ripaojiedian"
-    type: "vless"
-    server: "154.40.61.186"
-    port: 8443
-    udp: true
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
-    tls: true
-    servername: "senflarelink-node-wj1gsa.pages.dev"
-    network: "ws"
-    ws-opts:
-      path: "/flow="
-      headers:
-        Host: "senflarelink-node-wj1gsa.pages.dev"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
       - "🇹🇼[www.v2nodes.com] vless-TW-1..."
-      - "台湾|@ripaojiedian"
-      - "台湾3|@ripaojiedian"
+      - "TW 🇹🇼 | @Raydikalx | 353960"
 rules:
   - "MATCH,Proxy Select"

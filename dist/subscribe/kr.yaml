@@ -3,6 +3,26 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
+  - name: "🇰🇷 South Korea Seoul | ⏱1289ms | ⚡296KB/s | @NamazVPN"
+    type: "vless"
+    server: "8.220.198.29"
+    port: 443
+    udp: true
+    uuid: "91d2a8f3-6eb0-4b6a-a8f7-0beabcf06fb7"
+    network: "tcp"
+  - name: "Channel id: @ConfigV2RayNG 🇰🇷|||14050904|configshub|V2rayCh"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "null"
   - name: "韩国|@ripaojiedian"
     type: "vless"
     server: "14.44.19.57"
@@ -16,7 +36,20 @@ proxies:
       path: "/"
       headers:
         Host: "senflarelink-node-nwz76h.pages.dev"
-  - name: "🇰🇷[www.v2nodes.com] vless-KR-1..."
+  - name: "🇰🇷[www.v2nodes.com] vless-KR-1... #1"
+    type: "vless"
+    server: "104.25.128.15"
+    port: 443
+    udp: true
+    uuid: "db906786-8c49-4b17-9182-cea680ef954d"
+    tls: true
+    servername: "krc.80782636.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/kw7x2mq9fp=chrome"
+      headers:
+        Host: "krc.80782636.xyz"
+  - name: "🇰🇷[www.v2nodes.com] vless-KR-1... #2"
     type: "vless"
     server: "152.69.226.63"
     port: 25555
@@ -26,7 +59,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷[www.v2nodes.com] vless-KR-1... #1"
+  - name: "🇰🇷[www.v2nodes.com] vless-KR-1... #3"
     type: "vless"
     server: "47.80.19.173"
     port: 2053
@@ -47,14 +80,40 @@ proxies:
       path: "/flow="
       headers:
         Host: "senflarelink-node-nwz76h.pages.dev"
-  - name: "🇰🇷KR-211.178.105.134-5850"
+  - name: "🇰🇷KR-211.178.105.134-0187"
     type: "ss"
     server: "211.178.105.134"
     port: 6123
     cipher: "aes-256-cfb"
     password: "qwerREWQ@@"
     udp: true
-  - name: "🇰🇷KR-138.2.122.225-0041"
+  - name: "🇰🇷KR-132.145.80.230-1038"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "🇰🇷KR-132.145.80.230-0182"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kr02.a0a.xyz"
+  - name: "🇰🇷KR-138.2.122.225-0029"
     type: "vmess"
     server: "138.2.122.225"
     port: 443
@@ -69,20 +128,7 @@ proxies:
       path: "/ray"
       headers:
         Host: "lg30.cfcdn3.xyz"
-  - name: "🇰🇷KR-132.145.80.230-0290"
-    type: "vmess"
-    server: "132.145.80.230"
-    port: 80
-    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
-    alterId: 0
-    cipher: "auto"
-    udp: true
-    network: "ws"
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "kr02.a0a.xyz"
-  - name: "🇰🇷KR-118.218.10.159-1002"
+  - name: "🇰🇷KR-118.218.10.159-0926"
     type: "trojan"
     server: "118.218.10.159"
     port: 443
@@ -94,7 +140,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-150.230.249.88-1012"
+  - name: "🇰🇷KR-150.230.249.88-0936"
     type: "trojan"
     server: "150.230.249.88"
     port: 443
@@ -106,7 +152,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-103.133.240.115-1015"
+  - name: "🇰🇷KR-103.133.240.115-0939"
     type: "trojan"
     server: "103.133.240.115"
     port: 443
@@ -118,7 +164,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-158.180.71.69-1019"
+  - name: "🇰🇷KR-158.180.71.69-0943"
     type: "trojan"
     server: "158.180.71.69"
     port: 443
@@ -130,7 +176,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-158.247.199.106-1023"
+  - name: "🇰🇷KR-158.247.199.106-0947"
     type: "trojan"
     server: "158.247.199.106"
     port: 443
@@ -142,7 +188,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-64.110.70.64-1026"
+  - name: "🇰🇷KR-64.110.70.64-0951"
     type: "trojan"
     server: "64.110.70.64"
     port: 443
@@ -154,7 +200,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-146.56.187.1-1038"
+  - name: "🇰🇷KR-146.56.187.1-0963"
     type: "trojan"
     server: "146.56.187.1"
     port: 8443
@@ -166,7 +212,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-54.180.151.15-1062"
+  - name: "🇰🇷KR-54.180.151.15-0987"
     type: "trojan"
     server: "54.180.151.15"
     port: 443
@@ -178,7 +224,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-132.226.23.185-1099"
+  - name: "🇰🇷KR-132.226.23.185-1024"
     type: "trojan"
     server: "132.226.23.185"
     port: 443
@@ -190,7 +236,7 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-  - name: "🇰🇷KR-104.37.215.102-1437"
+  - name: "🇰🇷KR-104.37.215.102-1304"
     type: "vmess"
     server: "104.37.215.102"
     port: 443
@@ -205,7 +251,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.31733109.xyz"
-  - name: "🇰🇷KR-104.37.215.83-1463"
+  - name: "🇰🇷KR-104.37.215.83-1330"
     type: "vmess"
     server: "104.37.215.83"
     port: 30000
@@ -220,7 +266,7 @@ proxies:
       path: "/path/191019072927"
       headers:
         Host: "www.19289243.xyz"
-  - name: "🇰🇷KR-144.24.72.126-3727"
+  - name: "🇰🇷KR-144.24.72.126-3202"
     type: "trojan"
     server: "144.24.72.126"
     port: 443
@@ -228,7 +274,7 @@ proxies:
     password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
     tls: true
     servername: "144.24.72.126"
-  - name: "🇰🇷KR-3.34.6.217-4786"
+  - name: "🇰🇷KR-3.34.6.217-4261"
     type: "trojan"
     server: "3.34.6.217"
     port: 443
@@ -236,27 +282,45 @@ proxies:
     password: "xxoo"
     tls: true
     servername: "3.34.6.217"
-  - name: "韩国2|@ripaojiedian"
+  - name: "🇰🇷[www.v2nodes.com] vless-KR-1... #1"
     type: "vless"
-    server: "14.44.19.57"
-    port: 12101
+    server: "47.80.19.173"
+    port: 2053
     udp: true
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
+    uuid: "319d5ffb-57e8-4bbd-ac0c-5d55d0c253de"
     tls: true
-    servername: "senflarelink-node-nwz76h.pages.dev"
-    network: "ws"
-    ws-opts:
-      path: "/flow="
-      headers:
-        Host: "senflarelink-node-nwz76h.pages.dev"
-  - name: "KR 🇰🇷 | @Raydikalx | ED5343"
+    servername: "gateway.icloud.com"
+  - name: "🇰🇷 韩国 | KOR #6"
+    type: "vless"
+    server: "8.220.198.29"
+    port: 443
+    udp: true
+    uuid: "91d2a8f3-6eb0-4b6a-a8f7-0beabcf06fb7"
+    tls: true
+    servername: "www.cloudflare.com"
+  - name: "🇰🇷[openproxylist.com] vmess-KR"
     type: "vmess"
-    server: "146.56.112.110"
-    port: 8888
-    uuid: "e7c302f3-90d6-42dd-9d7d-94a3683a3707"
+    server: "129.154.61.196"
+    port: 800
+    uuid: "a915b1d6-cf28-4dc8-e4b4-e09c48c37ec0"
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "KR 🇰🇷 | @Raydikalx | 9F13DD"
+    type: "vmess"
+    server: "107.148.70.79"
+    port: 30002
+    uuid: "418048af-a293-4b99-9b0c-98ca3580dd24"
+    alterId: 64
+    cipher: "auto"
+    udp: true
+    tls: true
+    servername: "www.91397592.xyz"
+    network: "ws"
+    ws-opts:
+      path: "/path/351212081517"
+      headers:
+        Host: "www.91397592.xyz"
   - name: "KR 🇰🇷 | @Raydikalx | 7E8798"
     type: "vmess"
     server: "129.154.61.196"
@@ -265,6 +329,18 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "KR 🇰🇷 | @Raydikalx | D518F1"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
   - name: "KR 🇰🇷 | @Raydikalx | 168118"
     type: "vmess"
     server: "217.142.138.61"
@@ -273,33 +349,54 @@ proxies:
     alterId: 0
     cipher: "auto"
     udp: true
+  - name: "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
+    type: "vmess"
+    server: "132.145.80.230"
+    port: 80
+    uuid: "5155860e-d07d-46c3-9128-3afbd84626c7"
+    alterId: 0
+    cipher: "auto"
+    udp: true
+    network: "ws"
+    ws-opts:
+      path: "/cctv13.m3u8"
+      headers:
+        Host: "kr02.a0a.xyz"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
+      - "🇰🇷 South Korea Seoul | ⏱1289ms | ⚡296KB/s | @NamazVPN"
+      - "Channel id: @ConfigV2RayNG 🇰🇷|||14050904|configshub|V2rayCh"
       - "韩国|@ripaojiedian"
-      - "🇰🇷[www.v2nodes.com] vless-KR-1..."
       - "🇰🇷[www.v2nodes.com] vless-KR-1... #1"
+      - "🇰🇷[www.v2nodes.com] vless-KR-1... #2"
+      - "🇰🇷[www.v2nodes.com] vless-KR-1... #3"
       - "韩国|@ripaojiedian"
-      - "🇰🇷KR-211.178.105.134-5850"
-      - "🇰🇷KR-138.2.122.225-0041"
-      - "🇰🇷KR-132.145.80.230-0290"
-      - "🇰🇷KR-118.218.10.159-1002"
-      - "🇰🇷KR-150.230.249.88-1012"
-      - "🇰🇷KR-103.133.240.115-1015"
-      - "🇰🇷KR-158.180.71.69-1019"
-      - "🇰🇷KR-158.247.199.106-1023"
-      - "🇰🇷KR-64.110.70.64-1026"
-      - "🇰🇷KR-146.56.187.1-1038"
-      - "🇰🇷KR-54.180.151.15-1062"
-      - "🇰🇷KR-132.226.23.185-1099"
-      - "🇰🇷KR-104.37.215.102-1437"
-      - "🇰🇷KR-104.37.215.83-1463"
-      - "🇰🇷KR-144.24.72.126-3727"
-      - "🇰🇷KR-3.34.6.217-4786"
-      - "韩国2|@ripaojiedian"
-      - "KR 🇰🇷 | @Raydikalx | ED5343"
+      - "🇰🇷KR-211.178.105.134-0187"
+      - "🇰🇷KR-132.145.80.230-1038"
+      - "🇰🇷KR-132.145.80.230-0182"
+      - "🇰🇷KR-138.2.122.225-0029"
+      - "🇰🇷KR-118.218.10.159-0926"
+      - "🇰🇷KR-150.230.249.88-0936"
+      - "🇰🇷KR-103.133.240.115-0939"
+      - "🇰🇷KR-158.180.71.69-0943"
+      - "🇰🇷KR-158.247.199.106-0947"
+      - "🇰🇷KR-64.110.70.64-0951"
+      - "🇰🇷KR-146.56.187.1-0963"
+      - "🇰🇷KR-54.180.151.15-0987"
+      - "🇰🇷KR-132.226.23.185-1024"
+      - "🇰🇷KR-104.37.215.102-1304"
+      - "🇰🇷KR-104.37.215.83-1330"
+      - "🇰🇷KR-144.24.72.126-3202"
+      - "🇰🇷KR-3.34.6.217-4261"
+      - "🇰🇷[www.v2nodes.com] vless-KR-1... #1"
+      - "🇰🇷 韩国 | KOR #6"
+      - "🇰🇷[openproxylist.com] vmess-KR"
+      - "KR 🇰🇷 | @Raydikalx | 9F13DD"
       - "KR 🇰🇷 | @Raydikalx | 7E8798"
+      - "KR 🇰🇷 | @Raydikalx | D518F1"
       - "KR 🇰🇷 | @Raydikalx | 168118"
+      - "🇰🇷 Join+Telegram:@Farah_VPN 🇰🇷"
 rules:
   - "MATCH,Proxy Select"
