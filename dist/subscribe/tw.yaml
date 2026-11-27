@@ -3,32 +3,63 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇹🇼[www.v2nodes.com] vless-TW-1..."
+  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
     type: "vless"
-    server: "60.248.219.53"
+    server: "188.225.35.83"
     port: 443
     udp: true
-    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
+    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
+    network: "tcp"
+  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
+    type: "vless"
+    server: "188.225.35.83"
+    port: 443
+    udp: true
+    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
+    network: "tcp"
+  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
+    type: "vless"
+    server: "188.225.45.237"
+    port: 443
+    udp: true
+    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
+    network: "tcp"
+  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
+    type: "vless"
+    server: "188.225.45.237"
+    port: 443
+    udp: true
+    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
+    network: "tcp"
+  - name: "🇹🇼 TW | dl.google.com | VLESS [5680] | @ScDevNetwork"
+    type: "vless"
+    server: "85.237.207.221"
+    port: 443
+    udp: true
+    uuid: "b59bcb5b-5150-4c6b-9227-681886197014"
+    network: "tcp"
+  - name: "台湾  YouTube@小青科学网_3"
+    type: "vless"
+    server: "154.40.61.186"
+    port: 8443
+    udp: true
+    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
     tls: true
-    servername: "ty986gfazs.cainiaohub.xyz"
+    servername: "senflarelink-node-wj1gsa.pages.dev"
     network: "ws"
     ws-opts:
-      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530fp=chrome"
+      path: "/flow=fp=chrome"
       headers:
-        Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "TW 🇹🇼 | @Raydikalx | 353960"
-    type: "vmess"
-    server: "103.160.180.26"
-    port: 22222
-    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
-    alterId: 0
-    cipher: "auto"
-    udp: true
+        Host: "senflarelink-node-wj1gsa.pages.dev"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇹🇼[www.v2nodes.com] vless-TW-1..."
-      - "TW 🇹🇼 | @Raydikalx | 353960"
+      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
+      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
+      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
+      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
+      - "🇹🇼 TW | dl.google.com | VLESS [5680] | @ScDevNetwork"
+      - "台湾  YouTube@小青科学网_3"
 rules:
   - "MATCH,Proxy Select"
