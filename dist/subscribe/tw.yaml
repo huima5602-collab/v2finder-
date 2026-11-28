@@ -3,63 +3,18 @@ allow-lan: false
 mode: "rule"
 log-level: "info"
 proxies:
-  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
-    type: "vless"
-    server: "188.225.35.83"
-    port: 443
+  - name: "TW 🇹🇼 | @Raydikalx | 353960"
+    type: "vmess"
+    server: "103.160.180.26"
+    port: 22222
+    uuid: "a5206a55-d5bd-41b9-92a5-bd27a90355ff"
+    alterId: 0
+    cipher: "auto"
     udp: true
-    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
-    network: "tcp"
-  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
-    type: "vless"
-    server: "188.225.35.83"
-    port: 443
-    udp: true
-    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
-    network: "tcp"
-  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
-    type: "vless"
-    server: "188.225.45.237"
-    port: 443
-    udp: true
-    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
-    network: "tcp"
-  - name: "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
-    type: "vless"
-    server: "188.225.45.237"
-    port: 443
-    udp: true
-    uuid: "34899740-16ab-4f8a-bc13-051cf6f62a86"
-    network: "tcp"
-  - name: "🇹🇼 TW | dl.google.com | VLESS [5680] | @ScDevNetwork"
-    type: "vless"
-    server: "85.237.207.221"
-    port: 443
-    udp: true
-    uuid: "b59bcb5b-5150-4c6b-9227-681886197014"
-    network: "tcp"
-  - name: "台湾  YouTube@小青科学网_3"
-    type: "vless"
-    server: "154.40.61.186"
-    port: 8443
-    udp: true
-    uuid: "b69cf773-da16-486e-afce-a45b94f998b3"
-    tls: true
-    servername: "senflarelink-node-wj1gsa.pages.dev"
-    network: "ws"
-    ws-opts:
-      path: "/flow=fp=chrome"
-      headers:
-        Host: "senflarelink-node-wj1gsa.pages.dev"
 proxy-groups:
   - name: "Proxy Select"
     type: "select"
     proxies:
-      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
-      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [A384] | @ScDevNetwork"
-      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
-      - "🇷🇺 RU | wl.tw.daugava-analytics.com | VLESS [ABE3] | @ScDevNetwork"
-      - "🇹🇼 TW | dl.google.com | VLESS [5680] | @ScDevNetwork"
-      - "台湾  YouTube@小青科学网_3"
+      - "TW 🇹🇼 | @Raydikalx | 353960"
 rules:
   - "MATCH,Proxy Select"
